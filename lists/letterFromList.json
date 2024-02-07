@@ -99,7 +99,7 @@
                 "hrefColumn": "",
                 "hrefParam": "",
                 "label": "Create",
-                "href": "letter_from",
+                "href": "form_letter_from",
                 "confirmation": "",
                 "datalist_type": "action",
                 "target": "_self"
