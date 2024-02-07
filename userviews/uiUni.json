@@ -40,7 +40,7 @@
                         "userviewCacheDuration": "20",
                         "cacheListAction": "",
                         "userviewCacheScope": "",
-                        "rowCount": "",
+                        "rowCount": "true",
                         "id": "50AE28214D49431D7D21DC797ABF0129"
                     }
                 },
