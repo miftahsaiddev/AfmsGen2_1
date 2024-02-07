@@ -1,7 +1,18 @@
 {
     "elements": [{
         "elements": [{
-            "elements": [],
+            "elements": [{
+                "className": "org.joget.apps.form.lib.TextArea",
+                "properties": {
+                    "requiredSanitize": "true",
+                    "readonly": "False",
+                    "label": "Text Area",
+                    "id": "field1",
+                    "rows": "5",
+                    "cols": "20",
+                    "readonlyLabel": "False"
+                }
+            }],
             "className": "org.joget.apps.form.model.Column",
             "properties": {"width": "100%"}
         }],
