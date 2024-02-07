@@ -77,7 +77,7 @@
             "properties": {
                 "defaultValue": "",
                 "filterSelection": "",
-                "searchFields": ""
+                "searchFields": "letter_from;type_of_mail"
             }
         },
         "datalist_type": "filter",
