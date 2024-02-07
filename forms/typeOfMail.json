@@ -9,7 +9,7 @@
                         "format": "LM-???",
                         "workflowVariable": "",
                         "envVariable": "counter",
-                        "isDistributedGeneration": "true",
+                        "isDistributedGeneration": "",
                         "label": "Type of Mail ID",
                         "id": "type_of_mail_id"
                     }
