@@ -13,6 +13,7 @@
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>patent</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -112,6 +113,7 @@
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>not_approved</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -131,16 +133,7 @@
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>merek</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>I0001IncomingMailCient::edit_and_submit_mail</string>
-               <packageActivityForm>
-                  <processDefId>I0001IncomingMailCient</processDefId>
-                  <activityDefId>edit_and_submit_mail</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -151,6 +144,17 @@
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>disitrbute_email</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>I0001IncomingMailCient::edit_and_submit_mail</string>
+               <packageActivityForm>
+                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>edit_and_submit_mail</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -170,6 +174,7 @@
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -213,7 +218,7 @@
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>send_email</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.EmailTool&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;dannynovanh@gmail.com&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;tes&quot;,&quot;retryCount&quot;:&quot;&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;tes&quot;,&quot;p12&quot;:&quot;&quot;,&quot;security&quot;:&quot;SSL&quot;,&quot;password&quot;:&quot;mikumiku01&quot;,&quot;storepass&quot;:&quot;&quot;,&quot;port&quot;:&quot;465&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;alias&quot;:&quot;&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;danny.nov@ambadar.co.id&quot;,&quot;retryInterval&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;danny.nov@ambadar.co.id&quot;}}]}</pluginProperties>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.EmailTool&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;dannynovanh@gmail.com&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;tes&quot;,&quot;retryCount&quot;:&quot;&quot;,&quot;formDefId&quot;:&quot;replyMail&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;tes&quot;,&quot;p12&quot;:&quot;&quot;,&quot;security&quot;:&quot;SSL&quot;,&quot;password&quot;:&quot;mikumiku01&quot;,&quot;storepass&quot;:&quot;&quot;,&quot;port&quot;:&quot;465&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;alias&quot;:&quot;&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;danny.nov@ambadar.co.id&quot;,&quot;retryInterval&quot;:&quot;&quot;,&quot;fields&quot;:[{&quot;field&quot;:&quot;file_upload&quot;,&quot;embed&quot;:&quot;true&quot;}],&quot;username&quot;:&quot;danny.nov@ambadar.co.id&quot;}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
             <entry>
