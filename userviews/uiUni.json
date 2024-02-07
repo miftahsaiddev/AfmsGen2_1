@@ -55,7 +55,7 @@
                         "enableOffline": "",
                         "customId": "list_letter_from",
                         "buttonPosition": "topLeft",
-                        "datalistId": "letterTypeList",
+                        "datalistId": "letterFromList",
                         "checkboxPosition": "left",
                         "selectionType": "multiple",
                         "userviewCacheDuration": "20",
