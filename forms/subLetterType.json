@@ -30,7 +30,7 @@
                                 "extraCondition": "",
                                 "cacheInterval": "",
                                 "emptyLabel": "",
-                                "idColumn": "code_type"
+                                "idColumn": "letter_type_id"
                             }
                         },
                         "multiple": "",
