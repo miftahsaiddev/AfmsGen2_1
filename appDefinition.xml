@@ -9,21 +9,40 @@
          <name>Afms Generation 2</name>
          <packageActivityFormMap>
             <entry>
-               <string>tes_incoming_2::patent</string>
+               <string>I0001IncomingMailCient_danny::reply_mail</string>
                <packageActivityForm>
-                  <processDefId>tes_incoming_2</processDefId>
-                  <activityDefId>patent</activityDefId>
+                  <processDefId>I0001IncomingMailCient_danny</processDefId>
+                  <activityDefId>reply_mail</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>tes_incoming_2::incoming_mail</string>
+               <string>process2::runProcess</string>
                <packageActivityForm>
-                  <processDefId>tes_incoming_2</processDefId>
-                  <activityDefId>incoming_mail</activityDefId>
+                  <processDefId>process2</processDefId>
+                  <activityDefId>runProcess</activityDefId>
                   <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>I0001IncomingMailCient_danny::return_rejected_mail</string>
+               <packageActivityForm>
+                  <processDefId>I0001IncomingMailCient_danny</processDefId>
+                  <activityDefId>return_rejected_mail</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process1::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>runProcess</activityDefId>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
@@ -42,6 +61,16 @@
                <string>I0001IncomingMailCient::approve_reject_mail</string>
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>approve_reject_mail</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>I0001IncomingMailCient_danny::approve_reject_mail</string>
+               <packageActivityForm>
+                  <processDefId>I0001IncomingMailCient_danny</processDefId>
                   <activityDefId>approve_reject_mail</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
@@ -79,6 +108,16 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>I0001IncomingMailCient_danny::submit_mail</string>
+               <packageActivityForm>
+                  <processDefId>I0001IncomingMailCient_danny</processDefId>
+                  <activityDefId>submit_mail</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>I0001IncomingMailCient::reply_mail</string>
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
@@ -89,9 +128,9 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>tes_incoming::runProcess</string>
+               <string>I0001IncomingMailCient_danny::runProcess</string>
                <packageActivityForm>
-                  <processDefId>tes_incoming</processDefId>
+                  <processDefId>I0001IncomingMailCient_danny</processDefId>
                   <activityDefId>runProcess</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
@@ -99,30 +138,20 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>tes_incoming::incoming_mail</string>
+               <string>I0001IncomingMailCient_danny::approval_reply_mail</string>
                <packageActivityForm>
-                  <processDefId>tes_incoming</processDefId>
-                  <activityDefId>incoming_mail</activityDefId>
+                  <processDefId>I0001IncomingMailCient_danny</processDefId>
+                  <activityDefId>approval_reply_mail</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>tes_incoming_2::not_approved</string>
+               <string>I0001IncomingMailCient_danny::make_order_number</string>
                <packageActivityForm>
-                  <processDefId>tes_incoming_2</processDefId>
-                  <activityDefId>not_approved</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>tes_incoming_2::merek</string>
-               <packageActivityForm>
-                  <processDefId>tes_incoming_2</processDefId>
-                  <activityDefId>merek</activityDefId>
+                  <processDefId>I0001IncomingMailCient_danny</processDefId>
+                  <activityDefId>make_order_number</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -139,36 +168,6 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>tes_incoming_2::disitrbute_email</string>
-               <packageActivityForm>
-                  <processDefId>tes_incoming_2</processDefId>
-                  <activityDefId>disitrbute_email</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>tes_incoming::patent</string>
-               <packageActivityForm>
-                  <processDefId>tes_incoming</processDefId>
-                  <activityDefId>patent</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>tes_incoming_2::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>tes_incoming_2</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>I0001IncomingMailCient::runProcess</string>
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
@@ -179,69 +178,31 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>tes_incoming::merek</string>
+               <string>I0001IncomingMailCient_danny::edit_and_submit_mail</string>
                <packageActivityForm>
-                  <processDefId>tes_incoming</processDefId>
-                  <activityDefId>merek</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>tes_incoming_2::reply_email</string>
-               <packageActivityForm>
-                  <processDefId>tes_incoming_2</processDefId>
-                  <activityDefId>reply_email</activityDefId>
+                  <processDefId>I0001IncomingMailCient_danny</processDefId>
+                  <activityDefId>edit_and_submit_mail</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
          </packageActivityFormMap>
-         <packageActivityPluginMap>
-            <entry>
-               <string>tes_incoming_2::lettertype</string>
-               <packageActivityPlugin>
-                  <processDefId>tes_incoming_2</processDefId>
-                  <activityDefId>lettertype</activityDefId>
-                  <pluginName>org.joget.apps.app.lib.RulesDecisionPlugin</pluginName>
-                  <pluginProperties>{&quot;rules&quot;:{&quot;ifrules&quot;:[{&quot;andOr&quot;:&quot;and&quot;,&quot;revert&quot;:false,&quot;conditions&quot;:[{&quot;variable&quot;:&quot;lettertype&quot;,&quot;revert&quot;:false,&quot;operation&quot;:&quot;==&quot;,&quot;value&quot;:&quot;patent&quot;}],&quot;actions&quot;:[{&quot;name&quot;:&quot;transition3&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}],&quot;else&quot;:[{&quot;name&quot;:&quot;transition4&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}}</pluginProperties>
-               </packageActivityPlugin>
-            </entry>
-         </packageActivityPluginMap>
+         <packageActivityPluginMap/>
          <packageParticipantMap>
             <entry>
-               <string>tes_incoming_2::tes_incoming_2_entry_data</string>
+               <string>process1::processStartWhiteList</string>
                <packageParticipant>
-                  <processDefId>tes_incoming_2</processDefId>
-                  <participantId>tes_incoming_2_entry_data</participantId>
-                  <type>requester</type>
-                  <value>incoming_mail</value>
-               </packageParticipant>
-            </entry>
-            <entry>
-               <string>tes_incoming::entry_data</string>
-               <packageParticipant>
-                  <processDefId>tes_incoming</processDefId>
-                  <participantId>entry_data</participantId>
-                  <type>requester</type>
-                  <value>incoming_mail</value>
-               </packageParticipant>
-            </entry>
-            <entry>
-               <string>tes_incoming_2::processStartWhiteList</string>
-               <packageParticipant>
-                  <processDefId>tes_incoming_2</processDefId>
+                  <processDefId>process1</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
                </packageParticipant>
             </entry>
             <entry>
-               <string>tes_incoming::processStartWhiteList</string>
+               <string>process2::processStartWhiteList</string>
                <packageParticipant>
-                  <processDefId>tes_incoming</processDefId>
+                  <processDefId>process2</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
