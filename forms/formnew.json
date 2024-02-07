@@ -34,6 +34,26 @@
                         "cols": "20",
                         "readonlyLabel": "False"
                     }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "readonly": "False",
+                        "multiple": "False",
+                        "label": "Select Box",
+                        "id": "field3",
+                        "readonlyLabel": "False"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CheckBox",
+                    "properties": {
+                        "fullWidth": "False",
+                        "readonly": "False",
+                        "label": "Check Box",
+                        "id": "field4",
+                        "readonlyLabel": "False"
+                    }
                 }
             ],
             "className": "org.joget.apps.form.model.Column",
