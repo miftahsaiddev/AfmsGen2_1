@@ -21,7 +21,6 @@
                             "properties": {}
                         },
                         "label": "ID",
-                        "style-display": "none",
                         "readonly": "true",
                         "size": "",
                         "workflowVariable": "",
