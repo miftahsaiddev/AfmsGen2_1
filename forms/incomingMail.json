@@ -208,16 +208,20 @@
                         {
                             "className": "org.joget.apps.form.lib.SelectBox",
                             "properties": {
-                                "controlField": "",
+                                "controlField": "letter_type",
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
-                                    "className": "org.joget.tutorial.JdbcOptionsBinder",
+                                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
                                     "properties": {
-                                        "useAjax": "",
-                                        "addEmpty": "",
-                                        "jdbcDatasource": "default",
-                                        "sql": "select c_sub_letter_type from app_fd_afms_sublettertype\n;"
+                                        "addEmptyOption": "true",
+                                        "groupingColumn": "letter_type",
+                                        "formDefId": "subLetterType",
+                                        "labelColumn": "sub_letter_type",
+                                        "extraCondition": "",
+                                        "cacheInterval": "",
+                                        "emptyLabel": "",
+                                        "idColumn": "id"
                                     }
                                 },
                                 "multiple": "",
@@ -229,7 +233,7 @@
                                 "workflowVariable": "",
                                 "label": "Sub Letter Type",
                                 "id": "sub_letter_type",
-                                "value": "",
+                                "value": "#form.afms_lettertype.code_type#",
                                 "readonlyLabel": ""
                             }
                         },
