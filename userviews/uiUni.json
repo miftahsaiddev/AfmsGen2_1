@@ -134,7 +134,7 @@
                         "formId": "letterFrom",
                         "customHeader": "",
                         "fieldPassoverMethod": "append",
-                        "redirectTargetOnComplete": "top",
+                        "redirectTargetOnComplete": "parent",
                         "keyName": "",
                         "label": "Form Letter From",
                         "userviewCacheDuration": "20",
