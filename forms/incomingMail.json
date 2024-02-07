@@ -208,7 +208,7 @@
                         {
                             "className": "org.joget.apps.form.lib.SelectBox",
                             "properties": {
-                                "controlField": "letter_type",
+                                "controlField": "",
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
@@ -221,7 +221,7 @@
                                         "extraCondition": "",
                                         "cacheInterval": "",
                                         "emptyLabel": "",
-                                        "idColumn": ""
+                                        "idColumn": "code_type"
                                     }
                                 },
                                 "multiple": "",
