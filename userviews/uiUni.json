@@ -124,7 +124,7 @@
                         "enableOffline": "",
                         "afterSavedReloadTarget": "true",
                         "customId": "form_letter_from",
-                        "showInPopupDialog": "",
+                        "showInPopupDialog": "Yes",
                         "readonly": "",
                         "cancelButtonLabel": "Back",
                         "actionAfterSaved": "",
