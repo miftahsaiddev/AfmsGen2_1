@@ -53,6 +53,20 @@
                 "label": "<i class=\"fas fa-database\"><\/i> Master Data",
                 "id": "category-A1486521BF64461D5B8C2506717BF798"
             }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [],
+            "properties": {
+                "hide": "yes",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "label": "Hide Form",
+                "id": "category-98721097CA3843819437084626A7972D"
+            }
         }
     ],
     "properties": {
