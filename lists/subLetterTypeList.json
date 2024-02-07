@@ -73,15 +73,6 @@
             "style": "",
             "id": "column_2",
             "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "set_active",
-            "id": "column_3",
-            "label": "Set Active",
-            "sortable": "false",
-            "datalist_type": "column"
         }
     ],
     "draggabletable": "",
