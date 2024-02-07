@@ -183,7 +183,7 @@
                                     "className": "org.joget.apps.form.lib.FormOptionsBinder",
                                     "properties": {
                                         "addEmptyOption": "",
-                                        "groupingColumn": "",
+                                        "groupingColumn": "code_type",
                                         "formDefId": "letterType",
                                         "labelColumn": "letter_type",
                                         "extraCondition": "",
@@ -221,7 +221,7 @@
                                         "extraCondition": "",
                                         "cacheInterval": "",
                                         "emptyLabel": "",
-                                        "idColumn": "id"
+                                        "idColumn": ""
                                     }
                                 },
                                 "multiple": "",
@@ -233,7 +233,7 @@
                                 "workflowVariable": "",
                                 "label": "Sub Letter Type",
                                 "id": "sub_letter_type",
-                                "value": "#form.afms_lettertype.code_type#",
+                                "value": "",
                                 "readonlyLabel": ""
                             }
                         },
