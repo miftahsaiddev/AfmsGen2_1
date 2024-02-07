@@ -403,8 +403,13 @@
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
+                                    "className": "org.joget.tutorial.JdbcOptionsBinder",
+                                    "properties": {
+                                        "useAjax": "true",
+                                        "addEmpty": "",
+                                        "jdbcDatasource": "default",
+                                        "sql": "select * from dir_department where id like 'Dep-%';"
+                                    }
                                 },
                                 "multiple": "",
                                 "options": [],
