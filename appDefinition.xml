@@ -58,6 +58,15 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>tes_incoming_2::activity6</string>
+               <packageActivityForm>
+                  <processDefId>tes_incoming_2</processDefId>
+                  <activityDefId>activity6</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>I0001IncomingMailCient::approve_reject_mail</string>
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
@@ -158,10 +167,10 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>I0001IncomingMailCient::edit_and_submit_mail</string>
+               <string>tes_incoming_2::merek</string>
                <packageActivityForm>
-                  <processDefId>I0001IncomingMailCient</processDefId>
-                  <activityDefId>edit_and_submit_mail</activityDefId>
+                  <processDefId>tes_incoming_2</processDefId>
+                  <activityDefId>merek</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>

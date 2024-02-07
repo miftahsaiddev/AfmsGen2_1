@@ -1,0 +1,20 @@
+{
+    "rowActions": [],
+    "columns": [],
+    "name": "outgoingmail",
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "id": "outgoing_mail",
+    "filters": [],
+    "binder": {
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "properties": {
+            "formDefId": "replyMail",
+            "extraCondition": ""
+        }
+    },
+    "actions": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "order": ""
+}
