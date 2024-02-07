@@ -3,28 +3,15 @@
         "elements": [{
             "elements": [
                 {
-                    "className": "org.joget.apps.form.lib.TextField",
+                    "className": "org.joget.apps.form.lib.IdGeneratorField",
                     "properties": {
-                        "requiredSanitize": "true",
-                        "maxlength": "",
-                        "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "type": "",
-                                "message": "",
-                                "mandatory": "true"
-                            }
-                        },
-                        "label": "Code From",
-                        "readonly": "",
-                        "size": "",
+                        "hidden": "",
+                        "format": "??????",
                         "workflowVariable": "",
-                        "style": "",
-                        "id": "code_from",
-                        "placeholder": "",
-                        "value": "",
-                        "readonlyLabel": "",
-                        "storeNumeric": ""
+                        "envVariable": "counter",
+                        "isDistributedGeneration": "true",
+                        "label": "Letter From ID",
+                        "id": "letter_from_id"
                     }
                 },
                 {
