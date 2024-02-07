@@ -92,7 +92,7 @@
                         "enableOffline": "",
                         "afterSavedReloadTarget": "true",
                         "customId": "form_type_of_mail",
-                        "showInPopupDialog": "",
+                        "showInPopupDialog": "Yes",
                         "readonly": "",
                         "cancelButtonLabel": "Back",
                         "actionAfterSaved": "",
@@ -106,7 +106,7 @@
                         "keyName": "",
                         "label": "Form Type of Mail",
                         "userviewCacheDuration": "20",
-                        "messageShowAfterComplete": "Data Berhasil Ditambahkan/Diupdate",
+                        "messageShowAfterComplete": "",
                         "submitButtonLabel": "",
                         "userviewCacheScope": "",
                         "readonlyLabel": "true"
