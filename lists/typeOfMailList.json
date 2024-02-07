@@ -36,7 +36,7 @@
                 "properties": {
                     "hrefColumn": "id",
                     "hrefParam": "id",
-                    "href": "type_of_mail",
+                    "href": "form_type_of_mail",
                     "confirmation": "",
                     "target": "_self"
                 }
