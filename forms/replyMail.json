@@ -29,19 +29,6 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.HiddenField",
-                    "properties": {
-                        "useDefaultWhenEmpty": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "workflowVariable": "",
-                        "id": "test",
-                        "value": "#form.afms_agent.email#"
-                    }
-                },
-                {
                     "className": "org.joget.apps.form.lib.FileUpload",
                     "properties": {
                         "resizeMethod": "",
