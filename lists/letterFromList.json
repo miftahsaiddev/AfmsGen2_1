@@ -36,7 +36,7 @@
                 "properties": {
                     "hrefColumn": "id",
                     "hrefParam": "id",
-                    "href": "form_letter_from",
+                    "href": "form_letter_from/?embed=true",
                     "confirmation": "",
                     "target": "popup"
                 }
