@@ -99,10 +99,10 @@
                 "hrefColumn": "",
                 "hrefParam": "",
                 "label": "Create",
-                "href": "letter_type",
+                "href": "form_letter_type?embed=true",
                 "confirmation": "",
                 "datalist_type": "action",
-                "target": "_self"
+                "target": "popup"
             }
         }
     ],
