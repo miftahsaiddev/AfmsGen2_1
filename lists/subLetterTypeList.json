@@ -11,11 +11,10 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "code_type",
+            "name": "sub_letter_type_id",
             "id": "column_0",
-            "label": "Code Type",
-            "sortable": "false",
-            "datalist_type": "column"
+            "label": "Sub Letter Type ID",
+            "sortable": "false"
         },
         {
             "filterable": true,
@@ -112,12 +111,14 @@
             "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
             "id": "action_0",
             "properties": {
-                "deleteFiles": "false",
-                "deleteGridData": "false",
-                "deleteSubformData": "false",
+                "deleteFiles": "",
+                "deleteGridData": "",
+                "formDefId": "subLetterType",
+                "deleteSubformData": "",
                 "label": "Delete",
+                "confirmation": "",
                 "datalist_type": "action",
-                "abortRelatedRunningProcesses": "false"
+                "abortRelatedRunningProcesses": ""
             }
         },
         {
