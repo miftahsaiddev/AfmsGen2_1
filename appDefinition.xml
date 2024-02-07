@@ -64,6 +64,28 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>tes_incoming_2::incoming_mail</string>
+               <packageActivityForm>
+                  <processDefId>tes_incoming_2</processDefId>
+                  <activityDefId>incoming_mail</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>tes_incoming_2::patent</string>
+               <packageActivityForm>
+                  <processDefId>tes_incoming_2</processDefId>
+                  <activityDefId>patent</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>I0001IncomingMailCient::make_order_number</string>
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
@@ -141,6 +163,39 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>tes_incoming::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>tes_incoming</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>tes_incoming::incoming_mail</string>
+               <packageActivityForm>
+                  <processDefId>tes_incoming</processDefId>
+                  <activityDefId>incoming_mail</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>tes_incoming_2::merek</string>
+               <packageActivityForm>
+                  <processDefId>tes_incoming_2</processDefId>
+                  <activityDefId>merek</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>I0001IncomingMailCient::edit_and_submit_mail</string>
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
@@ -152,10 +207,43 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>tes_incoming::patent</string>
+               <packageActivityForm>
+                  <processDefId>tes_incoming</processDefId>
+                  <activityDefId>patent</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>I0001IncomingMailCient::runProcess</string>
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
                   <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>tes_incoming_2::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>tes_incoming_2</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>tes_incoming::merek</string>
+               <packageActivityForm>
+                  <processDefId>tes_incoming</processDefId>
+                  <activityDefId>merek</activityDefId>
                   <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
@@ -175,9 +263,45 @@
                </packageParticipant>
             </entry>
             <entry>
+               <string>tes_incoming_2::tes_incoming_2_entry_data</string>
+               <packageParticipant>
+                  <processDefId>tes_incoming_2</processDefId>
+                  <participantId>tes_incoming_2_entry_data</participantId>
+                  <type>requester</type>
+                  <value>incoming_mail</value>
+               </packageParticipant>
+            </entry>
+            <entry>
                <string>process4::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>process4</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>tes_incoming::entry_data</string>
+               <packageParticipant>
+                  <processDefId>tes_incoming</processDefId>
+                  <participantId>entry_data</participantId>
+                  <type>requester</type>
+                  <value>incoming_mail</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>tes_incoming_2::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>tes_incoming_2</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>tes_incoming::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>tes_incoming</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
