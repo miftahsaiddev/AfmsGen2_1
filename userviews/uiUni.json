@@ -64,6 +64,27 @@
                         "rowCount": "true",
                         "id": "DC008917AAA34A7BBFAF203C43316F4F"
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Letter Type",
+                        "enableOffline": "",
+                        "customId": "list_letter_type",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "letterTypeList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "410C35EF8CBA4B4265FFB24C475DBD90"
+                    }
                 }
             ],
             "properties": {
