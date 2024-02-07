@@ -129,7 +129,7 @@
                         "cancelButtonLabel": "Back",
                         "actionAfterSaved": "",
                         "id": "C8E6EAAF56534ADE619EC810792E9D78",
-                        "redirectUrlAfterComplete": "",
+                        "redirectUrlAfterComplete": "list_letter_from",
                         "fieldPassover": "",
                         "formId": "letterFrom",
                         "customHeader": "",
