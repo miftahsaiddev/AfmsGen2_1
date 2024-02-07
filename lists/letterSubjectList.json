@@ -1,12 +1,28 @@
 {
+    "template": {
+        "className": "",
+        "properties": {}
+    },
+    "considerFilterWhenGetTotal": "",
+    "useSession": "",
+    "responsiveMode": "",
     "rowActions": [],
     "columns": [],
-    "name": "List Letter Subject",
+    "draggabletable": "",
+    "cardCollapsible": "",
     "pageSize": "0",
-    "orderBy": "",
+    "orderBy": "letter_subject_id",
     "description": "",
-    "id": "letterSubjectList",
     "filters": [],
+    "showDataWhenFilterSet": "",
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "hidePageSize": "",
+    "disableResponsive": "",
+    "cardCollapseByDefault": "",
+    "name": "List Letter Subject",
+    "rowActionsMode": "",
+    "showhidecolumns": "",
+    "id": "letterSubjectList",
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
@@ -15,6 +31,5 @@
         }
     },
     "actions": [],
-    "pageSizeSelectorOptions": "10,20,30,40,50,100",
     "order": ""
 }
