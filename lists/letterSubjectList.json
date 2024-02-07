@@ -76,8 +76,8 @@
             "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
             "properties": {
                 "defaultValue": "",
-                "filterSelection": "Number;String",
-                "searchFields": "letter_from;type_of_mail"
+                "filterSelection": "",
+                "searchFields": ""
             }
         },
         "datalist_type": "filter",
