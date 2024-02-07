@@ -99,7 +99,7 @@
                 "hrefColumn": "",
                 "hrefParam": "",
                 "label": "Create",
-                "href": "type_of_mail",
+                "href": "form_type_of_mail",
                 "confirmation": "",
                 "datalist_type": "action",
                 "target": "_self"
