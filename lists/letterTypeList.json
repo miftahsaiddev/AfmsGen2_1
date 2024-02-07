@@ -11,9 +11,9 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "code_type",
+            "name": "letter_type_id",
             "id": "column_0",
-            "label": "Code Type",
+            "label": "Letter Type ID",
             "sortable": "false"
         },
         {
@@ -57,7 +57,7 @@
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
-    "orderBy": "code_type",
+    "orderBy": "letter_type_id",
     "description": "",
     "filters": [],
     "showDataWhenFilterSet": "",
