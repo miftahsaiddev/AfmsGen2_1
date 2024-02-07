@@ -120,7 +120,7 @@
                         "actionOnCancel": "closepopup",
                         "redirectTargetOnCancel": "top",
                         "customFooter": "",
-                        "paramName": "list_letter_from",
+                        "paramName": "",
                         "enableOffline": "",
                         "afterSavedReloadTarget": "true",
                         "customId": "form_letter_from",
