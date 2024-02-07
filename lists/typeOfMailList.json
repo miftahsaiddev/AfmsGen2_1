@@ -36,9 +36,9 @@
                 "properties": {
                     "hrefColumn": "id",
                     "hrefParam": "id",
-                    "href": "form_type_of_mail",
+                    "href": "form_type_of_mail?embed=true",
                     "confirmation": "",
-                    "target": "_self"
+                    "target": "popup"
                 }
             },
             "style": "",
