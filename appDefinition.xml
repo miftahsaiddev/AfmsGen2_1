@@ -2,7 +2,16 @@
    <id>AfmsGen2</id>
    <version></version>
    <name>Afms Generation 2</name>
-   <packageDefinitionList/>
+   <packageDefinitionList>
+      <packageDefinition>
+         <appId>AfmsGen2</appId>
+         <id>AfmsGen2</id>
+         <name>Afms Generation 2</name>
+         <packageActivityFormMap/>
+         <packageActivityPluginMap/>
+         <packageParticipantMap/>
+      </packageDefinition>
+   </packageDefinitionList>
    <formDefinitionList/>
    <userviewDefinitionList/>
    <datalistDefinitionList/>
