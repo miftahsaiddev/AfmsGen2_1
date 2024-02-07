@@ -371,314 +371,38 @@
             }
         },
         {
-            "elements": [
-                {
-                    "elements": [
-                        {
-                            "className": "org.joget.apps.form.lib.SelectBox",
-                            "properties": {
-                                "controlField": "",
-                                "readonly": "",
-                                "size": "",
-                                "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "multiple": "",
-                                "options": [],
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "workflowVariable": "",
-                                "label": "Department",
-                                "id": "department",
-                                "value": "",
-                                "readonlyLabel": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.SelectBox",
-                            "properties": {
-                                "controlField": "",
-                                "readonly": "",
-                                "size": "",
-                                "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "multiple": "",
-                                "options": [],
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "workflowVariable": "",
-                                "label": "Division",
-                                "id": "field13",
-                                "value": "",
-                                "readonlyLabel": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.SelectBox",
-                            "properties": {
-                                "controlField": "",
-                                "readonly": "",
-                                "size": "",
-                                "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "multiple": "",
-                                "options": [],
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "workflowVariable": "",
-                                "label": "Attention To",
-                                "id": "attention_to",
-                                "value": "",
-                                "readonlyLabel": ""
-                            }
-                        }
-                    ],
-                    "className": "org.joget.apps.form.model.Column",
-                    "properties": {"width": "50%"}
-                },
-                {
-                    "elements": [
-                        {
-                            "className": "org.joget.apps.form.lib.SelectBox",
-                            "properties": {
-                                "controlField": "",
-                                "readonly": "",
-                                "size": "",
-                                "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "multiple": "",
-                                "options": [],
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "workflowVariable": "",
-                                "label": "Mail Subject",
-                                "id": "mail_subject",
-                                "value": "",
-                                "readonlyLabel": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.TextArea",
-                            "properties": {
-                                "requiredSanitize": "true",
-                                "readonly": "",
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "workflowVariable": "",
-                                "label": "Description",
-                                "id": "description",
-                                "placeholder": "",
-                                "rows": "5",
-                                "cols": "20",
-                                "value": "",
-                                "readonlyLabel": ""
-                            }
-                        }
-                    ],
-                    "className": "org.joget.apps.form.model.Column",
-                    "properties": {"width": "50%"}
-                }
-            ],
-            "className": "org.joget.apps.form.model.Section",
-            "properties": {
-                "visibilityControl": "",
-                "permissionReadonly": "",
-                "permission": {
-                    "className": "",
-                    "properties": {}
-                },
-                "label": "Another Data",
-                "reverse": "",
-                "storeBinder": {
-                    "className": "",
-                    "properties": {}
-                },
-                "visibilityValue": "",
-                "regex": "",
-                "readonly": "",
-                "loadBinder": {
-                    "className": "",
-                    "properties": {}
-                },
-                "comment": "",
-                "id": "another_data",
-                "join": "",
-                "readonlyLabel": ""
-            }
-        },
-        {
-            "elements": [
-                {
-                    "elements": [
-                        {
-                            "className": "org.joget.apps.form.lib.FileUpload",
-                            "properties": {
-                                "resizeMethod": "",
-                                "permissionType": "",
-                                "padding": "",
-                                "maxSizeMsg": "File size limit exceeded",
-                                "resizeWidth": "",
-                                "multiple": "",
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "maxSize": "20000",
-                                "label": "File Upload",
-                                "resizeQuality": "0.8",
-                                "removeFile": "",
-                                "readonly": "",
-                                "attachment": "true",
-                                "size": "",
-                                "fileTypeMsg": "Invalid file type",
-                                "id": "field17",
-                                "resizeHeight": "",
-                                "fileType": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.Grid",
-                            "properties": {
-                                "validateMaxRow": "",
-                                "readonly": "",
-                                "loadBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "validateMinRow": "",
-                                "errorMessage": "Invalid number of rows",
-                                "options": [
-                                    {
-                                        "label": "Ref No",
-                                        "value": "ref_no"
-                                    },
-                                    {
-                                        "label": "document",
-                                        "value": "Document"
-                                    }
-                                ],
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "label": "",
-                                "id": "field18",
-                                "storeBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                }
-                            }
-                        }
-                    ],
-                    "className": "org.joget.apps.form.model.Column",
-                    "properties": {"width": "50%"}
-                },
-                {
-                    "elements": [
-                        {
-                            "className": "org.joget.apps.form.lib.TextArea",
-                            "properties": {
-                                "requiredSanitize": "true",
-                                "readonly": "",
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "workflowVariable": "",
-                                "label": "",
-                                "id": "field20",
-                                "placeholder": "",
-                                "rows": "5",
-                                "cols": "20",
-                                "value": "",
-                                "readonlyLabel": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.CheckBox",
-                            "properties": {
-                                "fullWidth": "",
-                                "controlField": "",
-                                "readonly": "",
-                                "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "options": [{
-                                    "label": "urgent",
-                                    "value": "urgent",
-                                    "grouping": ""
-                                }],
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "workflowVariable": "",
-                                "label": "",
-                                "id": "urgent",
-                                "value": "",
-                                "readonlyLabel": ""
-                            }
-                        }
-                    ],
-                    "className": "org.joget.apps.form.model.Column",
-                    "properties": {"width": "50%"}
-                }
-            ],
-            "className": "org.joget.apps.form.model.Section",
-            "properties": {
-                "visibilityControl": "",
-                "permissionReadonly": "",
-                "permission": {
-                    "className": "",
-                    "properties": {}
-                },
-                "label": "Upload File",
-                "reverse": "",
-                "storeBinder": {
-                    "className": "",
-                    "properties": {}
-                },
-                "visibilityValue": "",
-                "regex": "",
-                "readonly": "",
-                "loadBinder": {
-                    "className": "",
-                    "properties": {}
-                },
-                "comment": "",
-                "id": "upload_file",
-                "join": "",
-                "readonlyLabel": ""
-            }
-        },
-        {
             "elements": [{
-                "elements": [{
-                    "className": "org.joget.plugin.SectionTabs",
-                    "properties": {
-                        "id": "field21",
-                        "sections": "main_data,another_data,upload_file",
-                        "load_all": ""
+                "elements": [
+                    {
+                        "className": "org.joget.plugin.SectionTabs",
+                        "properties": {
+                            "id": "field21",
+                            "sections": "main_data,another_data,upload_file",
+                            "load_all": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.SubForm",
+                        "properties": {
+                            "parentSubFormId": "",
+                            "readonly": "",
+                            "loadBinder": {
+                                "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                                "properties": {}
+                            },
+                            "noframe": "",
+                            "formDefId": "replyMail",
+                            "subFormParentId": "",
+                            "id": "reply_mail1",
+                            "label": "",
+                            "storeBinder": {
+                                "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                                "properties": {}
+                            },
+                            "readonlyLabel": ""
+                        }
                     }
-                }],
+                ],
                 "className": "org.joget.apps.form.model.Column",
                 "properties": {"width": "100%"}
             }],
