@@ -67,7 +67,7 @@
                                     "extraCondition": "",
                                     "cacheInterval": "",
                                     "emptyLabel": "",
-                                    "idColumn": "code_from"
+                                    "idColumn": "letter_from_id"
                                 }
                             },
                             "multiple": "",
