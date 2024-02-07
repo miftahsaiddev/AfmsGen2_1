@@ -87,7 +87,7 @@
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
-    "orderBy": "code_type",
+    "orderBy": "sub_letter_type_id",
     "description": "",
     "filters": [],
     "showDataWhenFilterSet": "",
