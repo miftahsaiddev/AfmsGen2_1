@@ -46,7 +46,7 @@
         <Participant Id="tes_incoming_2_entry_data" Name="Admin">
             <ParticipantType Type="ROLE"/>
         </Participant>
-        <Participant Id="tes_incoming_2_process4_participant2" Name="Approver">
+        <Participant Id="email_recipient" Name="Email Recipient">
             <ParticipantType Type="ROLE"/>
         </Participant>
     </Participants>
@@ -632,36 +632,85 @@
                     </TransitionRestrictions>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="tes_incoming_2_entry_data"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="409.328125,34"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="655.328125,34"/>
                     </ExtendedAttributes>
                 </Activity>
-                <Activity Id="patent" Name="Patent">
+                <Activity Id="patent" Name="Surat Patent">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>email_recipient</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="email_recipient"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="1121.671875,44"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="merek" Name="Surat Merek">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>email_recipient</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="email_recipient"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="634.671875,35"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="rejectapproved" Name="Reject or Approved">
+                    <Route/>
+                    <Performer>email_recipient</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                            <Split Type="XOR">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition8"/>
+                                    <TransitionRef Id="transition12"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="email_recipient"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="801.328125,165"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="reply_email" Name="Reply Email">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>email_recipient</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="email_recipient"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="777.671875,258"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="not_approved" Name="Not Approved">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>email_recipient</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="email_recipient"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="350.671875,149"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="disitrbute_email" Name="Disitrbute Email">
                     <Implementation>
                         <No/>
                     </Implementation>
                     <Performer>tes_incoming_2_entry_data</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="tes_incoming_2_entry_data"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="544.671875,27"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="merek" Name="Merek">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>tes_incoming_2_entry_data</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="tes_incoming_2_entry_data"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="388.671875,181"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="347.09375,26"/>
                     </ExtendedAttributes>
                 </Activity>
             </Activities>
             <Transitions>
-                <Transition From="incoming_mail" Id="transition2" To="lettertype">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
                 <Transition From="lettertype" Id="transition3" To="patent">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
@@ -672,12 +721,47 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
                 </Transition>
+                <Transition From="merek" Id="transition5" To="rejectapproved">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="patent" Id="transition6" To="rejectapproved">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="rejectapproved" Id="transition8" To="not_approved">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="incoming_mail" Id="transition9" To="disitrbute_email">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="disitrbute_email" Id="transition10" To="lettertype">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="not_approved" Id="transition11" To="disitrbute_email">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="rejectapproved" Id="transition12" To="reply_email">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
             </Transitions>
             <ExtendedAttributes>
-                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="tes_incoming_2_entry_data;tes_incoming_2_process4_participant2"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="tes_incoming_2_entry_data;email_recipient"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=tes_incoming_2_entry_data,CONNECTING_ACTIVITY_ID=incoming_mail,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=tes_incoming_2_entry_data,CONNECTING_ACTIVITY_ID=patent,X_OFFSET=704.328125,Y_OFFSET=74,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=tes_incoming_2_entry_data,CONNECTING_ACTIVITY_ID=merek,X_OFFSET=566.328125,Y_OFFSET=229,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=email_recipient,CONNECTING_ACTIVITY_ID=reply_email,X_OFFSET=712.328125,Y_OFFSET=284,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
     </WorkflowProcesses>
