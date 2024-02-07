@@ -72,7 +72,7 @@
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
-            "formDefId": "incoming_email",
+            "formDefId": "incomingMail",
             "extraCondition": ""
         }
     },
