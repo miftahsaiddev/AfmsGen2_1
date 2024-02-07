@@ -3,8 +3,65 @@
         "className": "",
         "properties": {}
     },
-    "rowActions": [],
-    "columns": [],
+    "rowActions": [{
+        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+        "id": "rowAction_0",
+        "properties": {
+            "hrefColumn": "id",
+            "hrefParam": "id",
+            "rules": [],
+            "label": "Reply",
+            "href": "reply_mail",
+            "confirmation": "",
+            "link-css-display-type": "btn btn-sm btn-primary",
+            "datalist_type": "row_action",
+            "target": "_self",
+            "header_label": ""
+        }
+    }],
+    "columns": [
+        {
+            "className": "org.joget.apps.datalist.lib.RowNumberColumn",
+            "id": "column_0",
+            "properties": {
+                "label": "Row Number",
+                "id": "column_0"
+            }
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "received_date",
+            "id": "column_1",
+            "label": "Received Date",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "mail_subject",
+            "id": "column_2",
+            "label": "Mail Subject",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "mail_no",
+            "id": "column_3",
+            "label": "Mail No",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "letter_type",
+            "id": "column_4",
+            "label": "Letter Type",
+            "sortable": "false",
+            "datalist_type": "column"
+        }
+    ],
     "pageSize": "0",
     "orderBy": "",
     "description": "",
