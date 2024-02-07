@@ -36,6 +36,22 @@
                     }
                 },
                 {
+                    "className": "org.joget.apps.form.lib.FileUpload",
+                    "properties": {
+                        "resizeMethod": "",
+                        "permissionType": "",
+                        "maxSizeMsg": "File size limit exceeded",
+                        "removeFile": "false",
+                        "readonly": "False",
+                        "attachment": "true",
+                        "fileTypeMsg": "Invalid file type",
+                        "multiple": "False",
+                        "label": "File Upload",
+                        "id": "field5",
+                        "resizeQuality": "0.8"
+                    }
+                },
+                {
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
                         "readonly": "False",
