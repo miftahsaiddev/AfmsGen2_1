@@ -85,7 +85,7 @@
                     "properties": {
                         "loadDataWithKey": "",
                         "redirectUrlOnCancel": "list_type_of_mail",
-                        "actionOnCancel": "",
+                        "actionOnCancel": "closepopup",
                         "redirectTargetOnCancel": "top",
                         "customFooter": "",
                         "paramName": "",
