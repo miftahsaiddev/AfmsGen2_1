@@ -605,6 +605,11 @@
                         <No/>
                     </Implementation>
                     <Performer>tes_incoming_2_entry_data</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="tes_incoming_2_entry_data"/>
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="347.09375,26"/>
@@ -615,11 +620,6 @@
                         <Tool Id="default_application"/>
                     </Implementation>
                     <Performer>email_recipient</Performer>
-                    <TransitionRestrictions>
-                        <TransitionRestriction>
-                            <Join Type="XOR"/>
-                        </TransitionRestriction>
-                    </TransitionRestrictions>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="email_recipient"/>
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="973.328125,308"/>
@@ -673,7 +673,7 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
                 </Transition>
-                <Transition From="incoming_mail" Id="transition15" To="send_email">
+                <Transition From="incoming_mail" Id="transition14" To="disitrbute_email">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>

@@ -24,7 +24,7 @@
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>incoming_mail</activityDefId>
-                  <formId>replyMail</formId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
