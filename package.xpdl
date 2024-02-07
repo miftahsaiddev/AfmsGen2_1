@@ -587,7 +587,7 @@
                     <Performer>email_recipient</Performer>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="email_recipient"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="780.671875,309"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="777.671875,306"/>
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="not_approved" Name="Not Approved">
@@ -613,6 +613,16 @@
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="tes_incoming_2_entry_data"/>
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="347.09375,26"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="send_email" Name="Send Email">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>email_recipient</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="email_recipient"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="973.328125,308"/>
                     </ExtendedAttributes>
                 </Activity>
             </Activities>
@@ -663,11 +673,16 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
                 </Transition>
+                <Transition From="reply_email" Id="transition13" To="send_email">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
             </Transitions>
             <ExtendedAttributes>
                 <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="tes_incoming_2_entry_data;email_recipient"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=tes_incoming_2_entry_data,CONNECTING_ACTIVITY_ID=incoming_mail,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=email_recipient,CONNECTING_ACTIVITY_ID=reply_email,X_OFFSET=983.328125,Y_OFFSET=377,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=email_recipient,CONNECTING_ACTIVITY_ID=send_email,X_OFFSET=1137.671875,Y_OFFSET=332,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
     </WorkflowProcesses>
