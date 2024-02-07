@@ -520,7 +520,7 @@
                     <Performer>tes_incoming_2_entry_data</Performer>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="tes_incoming_2_entry_data"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="214,25"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="157,29"/>
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="lettertype" Name="Letter type">
@@ -585,6 +585,11 @@
                         <No/>
                     </Implementation>
                     <Performer>email_recipient</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="email_recipient"/>
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="777.671875,306"/>
@@ -605,11 +610,6 @@
                         <No/>
                     </Implementation>
                     <Performer>tes_incoming_2_entry_data</Performer>
-                    <TransitionRestrictions>
-                        <TransitionRestriction>
-                            <Join Type="XOR"/>
-                        </TransitionRestriction>
-                    </TransitionRestrictions>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="tes_incoming_2_entry_data"/>
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="347.09375,26"/>
@@ -653,11 +653,6 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
                 </Transition>
-                <Transition From="incoming_mail" Id="transition9" To="disitrbute_email">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
                 <Transition From="disitrbute_email" Id="transition10" To="lettertype">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
@@ -674,6 +669,11 @@
                     </ExtendedAttributes>
                 </Transition>
                 <Transition From="reply_email" Id="transition13" To="send_email">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="incoming_mail" Id="transition14" To="reply_email">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
