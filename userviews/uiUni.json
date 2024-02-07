@@ -117,7 +117,7 @@
                     "properties": {
                         "loadDataWithKey": "",
                         "redirectUrlOnCancel": "list_letter_from",
-                        "actionOnCancel": "",
+                        "actionOnCancel": "closepopup",
                         "redirectTargetOnCancel": "top",
                         "customFooter": "",
                         "paramName": "",
