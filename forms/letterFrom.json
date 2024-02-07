@@ -6,7 +6,7 @@
                     "className": "org.joget.apps.form.lib.IdGeneratorField",
                     "properties": {
                         "hidden": "",
-                        "format": "??????",
+                        "format": "Q-??????",
                         "workflowVariable": "",
                         "envVariable": "counter",
                         "isDistributedGeneration": "",
