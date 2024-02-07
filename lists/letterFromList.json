@@ -102,7 +102,7 @@
                 "href": "form_letter_from",
                 "confirmation": "",
                 "datalist_type": "action",
-                "target": "_self"
+                "target": "popup"
             }
         }
     ],
