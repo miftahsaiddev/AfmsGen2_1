@@ -67,7 +67,22 @@
     "pageSize": "0",
     "orderBy": "letter_subject_id",
     "description": "",
-    "filters": [],
+    "filters": [{
+        "hidden": "",
+        "name": "subject_name",
+        "id": "filter_0",
+        "label": "Subject Name",
+        "type": {
+            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+            "properties": {
+                "defaultValue": "",
+                "filterSelection": "",
+                "searchFields": ""
+            }
+        },
+        "datalist_type": "filter",
+        "filterParamName": "d-1577598-fn_subject_name"
+    }],
     "showDataWhenFilterSet": "",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
     "hidePageSize": "",
