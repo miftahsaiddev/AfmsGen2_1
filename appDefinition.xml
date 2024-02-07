@@ -9,46 +9,6 @@
          <name>Afms Generation 2</name>
          <packageActivityFormMap>
             <entry>
-               <string>I0001IncomingMailCient::make_order_number</string>
-               <packageActivityForm>
-                  <processDefId>I0001IncomingMailCient</processDefId>
-                  <activityDefId>make_order_number</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>I0001IncomingMailCient::approve_reject_mail</string>
-               <packageActivityForm>
-                  <processDefId>I0001IncomingMailCient</processDefId>
-                  <activityDefId>approve_reject_mail</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>I0001IncomingMailCient::approval_reply_mail</string>
-               <packageActivityForm>
-                  <processDefId>I0001IncomingMailCient</processDefId>
-                  <activityDefId>approval_reply_mail</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>I0001IncomingMailCient::return_rejected_mail</string>
-               <packageActivityForm>
-                  <processDefId>I0001IncomingMailCient</processDefId>
-                  <activityDefId>return_rejected_mail</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>I0001IncomingMailCient::submit_mail</string>
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
@@ -69,6 +29,26 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>I0001IncomingMailCient::make_order_number</string>
+               <packageActivityForm>
+                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>make_order_number</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>I0001IncomingMailCient::approve_reject_mail</string>
+               <packageActivityForm>
+                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>approve_reject_mail</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>I0001IncomingMailCient::edit_and_submit_mail</string>
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
@@ -79,10 +59,30 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>I0001IncomingMailCient::approval_reply_mail</string>
+               <packageActivityForm>
+                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>approval_reply_mail</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>I0001IncomingMailCient::runProcess</string>
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
                   <activityDefId>runProcess</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>I0001IncomingMailCient::return_rejected_mail</string>
+               <packageActivityForm>
+                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>return_rejected_mail</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
