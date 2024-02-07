@@ -22,7 +22,19 @@
         },
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [],
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.DataListMenu",
+                "properties": {
+                    "checkboxPosition": "left",
+                    "selectionType": "multiple",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": "",
+                    "label": "List",
+                    "rowCount": "false",
+                    "id": "50AE28214D49431D7D21DC797ABF0129",
+                    "buttonPosition": "bothLeft"
+                }
+            }],
             "properties": {
                 "hide": "",
                 "permission": {
