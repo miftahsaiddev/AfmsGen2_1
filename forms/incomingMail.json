@@ -180,27 +180,20 @@
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
+                                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                                    "properties": {
+                                        "addEmptyOption": "",
+                                        "groupingColumn": "",
+                                        "formDefId": "letterType",
+                                        "labelColumn": "letter_type",
+                                        "extraCondition": "",
+                                        "cacheInterval": "",
+                                        "emptyLabel": "",
+                                        "idColumn": ""
+                                    }
                                 },
                                 "multiple": "",
-                                "options": [
-                                    {
-                                        "label": "satu",
-                                        "value": "satu",
-                                        "grouping": ""
-                                    },
-                                    {
-                                        "label": "dua",
-                                        "value": "dua",
-                                        "grouping": ""
-                                    },
-                                    {
-                                        "label": "tiga",
-                                        "value": "tiga",
-                                        "grouping": ""
-                                    }
-                                ],
+                                "options": [],
                                 "validator": {
                                     "className": "",
                                     "properties": {}
@@ -215,17 +208,16 @@
                         {
                             "className": "org.joget.apps.form.lib.SelectBox",
                             "properties": {
-                                "controlField": "",
+                                "controlField": "#form.afms_lettertypesub.id#",
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
                                     "className": "org.joget.tutorial.JdbcOptionsBinder",
                                     "properties": {
-                                        "useAjax": "true",
-                                        "addEmpty": "true",
+                                        "useAjax": "",
+                                        "addEmpty": "",
                                         "jdbcDatasource": "default",
-                                        "emptyLabel": "silahkan pilih",
-                                        "sql": "select * from dir_department;"
+                                        "sql": "select c_sub_letter_type from app_fd_afms_sublettertype\n;"
                                     }
                                 },
                                 "multiple": "",
@@ -445,6 +437,15 @@
                                 "id": "field13",
                                 "value": "",
                                 "readonlyLabel": ""
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.CustomHTML",
+                            "properties": {
+                                "requiredSanitize": "true",
+                                "autoPopulate": "False",
+                                "label": "",
+                                "id": "field24"
                             }
                         },
                         {
