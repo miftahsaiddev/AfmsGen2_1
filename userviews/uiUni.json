@@ -117,7 +117,7 @@
                     "properties": {
                         "loadDataWithKey": "",
                         "redirectUrlOnCancel": "list_letter_from",
-                        "actionOnCancel": "",
+                        "actionOnCancel": "closepopup",
                         "redirectTargetOnCancel": "top",
                         "customFooter": "",
                         "paramName": "",
@@ -127,7 +127,7 @@
                         "showInPopupDialog": "Yes",
                         "readonly": "",
                         "cancelButtonLabel": "Back",
-                        "actionAfterSaved": "",
+                        "actionAfterSaved": "reload",
                         "id": "C8E6EAAF56534ADE619EC810792E9D78",
                         "redirectUrlAfterComplete": "list_letter_from",
                         "fieldPassover": "",
