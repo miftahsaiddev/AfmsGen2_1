@@ -13,6 +13,7 @@
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>patent</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -23,6 +24,7 @@
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>incoming_mail</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -33,6 +35,17 @@
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
                   <activityDefId>make_order_number</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>tes_incoming_2::activity6</string>
+               <packageActivityForm>
+                  <processDefId>tes_incoming_2</processDefId>
+                  <activityDefId>activity6</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -79,16 +92,6 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>tes_incoming::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>tes_incoming</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>I0001IncomingMailCient::reply_mail</string>
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
@@ -99,11 +102,10 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>tes_incoming::incoming_mail</string>
+               <string>tes_incoming::runProcess</string>
                <packageActivityForm>
                   <processDefId>tes_incoming</processDefId>
-                  <activityDefId>incoming_mail</activityDefId>
-                  <type>SINGLE</type>
+                  <activityDefId>runProcess</activityDefId>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
@@ -113,7 +115,17 @@
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>not_approved</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>tes_incoming::incoming_mail</string>
+               <packageActivityForm>
+                  <processDefId>tes_incoming</processDefId>
+                  <activityDefId>incoming_mail</activityDefId>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
@@ -123,6 +135,7 @@
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>merek</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -143,6 +156,7 @@
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>disitrbute_email</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -153,7 +167,6 @@
                <packageActivityForm>
                   <processDefId>tes_incoming</processDefId>
                   <activityDefId>patent</activityDefId>
-                  <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
@@ -163,6 +176,7 @@
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -179,21 +193,21 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>tes_incoming::merek</string>
+               <string>tes_incoming_2::reply_email</string>
                <packageActivityForm>
-                  <processDefId>tes_incoming</processDefId>
-                  <activityDefId>merek</activityDefId>
+                  <processDefId>tes_incoming_2</processDefId>
+                  <activityDefId>reply_email</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>tes_incoming_2::reply_email</string>
+               <string>tes_incoming::merek</string>
                <packageActivityForm>
-                  <processDefId>tes_incoming_2</processDefId>
-                  <activityDefId>reply_email</activityDefId>
-                  <type>SINGLE</type>
+                  <processDefId>tes_incoming</processDefId>
+                  <activityDefId>merek</activityDefId>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
@@ -216,15 +230,6 @@
                <packageParticipant>
                   <processDefId>tes_incoming_2</processDefId>
                   <participantId>tes_incoming_2_entry_data</participantId>
-                  <type>requester</type>
-                  <value>incoming_mail</value>
-               </packageParticipant>
-            </entry>
-            <entry>
-               <string>tes_incoming::entry_data</string>
-               <packageParticipant>
-                  <processDefId>tes_incoming</processDefId>
-                  <participantId>entry_data</participantId>
                   <type>requester</type>
                   <value>incoming_mail</value>
                </packageParticipant>
