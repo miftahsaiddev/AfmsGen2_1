@@ -11,9 +11,9 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "code_mail",
+            "name": "type_of_mail_id",
             "id": "column_0",
-            "label": "Code Mail",
+            "label": "Type of Mail ID",
             "sortable": "false"
         },
         {
@@ -36,28 +36,20 @@
                 "properties": {
                     "hrefColumn": "id",
                     "hrefParam": "id",
-                    "href": "type_of_mail",
+                    "href": "form_type_of_mail?embed=true",
                     "confirmation": "",
-                    "target": "_self"
+                    "target": "popup"
                 }
             },
             "style": "",
             "id": "column_1",
             "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "set_active",
-            "id": "column_2",
-            "label": "Set Active",
-            "sortable": "false"
         }
     ],
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
-    "orderBy": "code_mail",
+    "orderBy": "type_of_mail_id",
     "description": "",
     "filters": [],
     "showDataWhenFilterSet": "",
@@ -81,12 +73,14 @@
             "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
             "id": "action_0",
             "properties": {
-                "deleteFiles": "false",
-                "deleteGridData": "false",
-                "deleteSubformData": "false",
+                "deleteFiles": "",
+                "deleteGridData": "",
+                "formDefId": "typeOfMail",
+                "deleteSubformData": "",
                 "label": "Delete",
+                "confirmation": "",
                 "datalist_type": "action",
-                "abortRelatedRunningProcesses": "false"
+                "abortRelatedRunningProcesses": ""
             }
         },
         {
@@ -97,10 +91,10 @@
                 "hrefColumn": "",
                 "hrefParam": "",
                 "label": "Create",
-                "href": "type_of_mail",
+                "href": "form_type_of_mail?embed=true",
                 "confirmation": "",
                 "datalist_type": "action",
-                "target": "_self"
+                "target": "popup"
             }
         }
     ],

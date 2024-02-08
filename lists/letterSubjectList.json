@@ -11,9 +11,17 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "sub_letter_type_id",
+            "name": "letter_subject_id",
             "id": "column_0",
-            "label": "Sub Letter Type ID",
+            "label": "Letter Subject ID",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "type_of_mail",
+            "id": "column_2",
+            "label": "Type of Mail",
             "sortable": "false"
         },
         {
@@ -24,11 +32,11 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Letter Type",
+            "label": "Letter From",
             "sortable": "false",
             "datalist_type": "column",
             "exclude_export": "",
-            "name": "letter_type",
+            "name": "letter_from",
             "width": "",
             "headerAlignment": "",
             "action": {
@@ -36,9 +44,9 @@
                 "properties": {
                     "hrefColumn": "id",
                     "hrefParam": "id",
-                    "href": "letter_type",
+                    "href": "form_letter_subject?embed=true",
                     "confirmation": "",
-                    "target": "_self"
+                    "target": "popup"
                 }
             },
             "style": "",
@@ -48,52 +56,46 @@
         {
             "filterable": true,
             "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Sub Letter Type",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "sub_letter_type",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-                "properties": {
-                    "hrefColumn": "id",
-                    "hrefParam": "id",
-                    "href": "form_sub_letter_type?embed=true",
-                    "confirmation": "",
-                    "target": "popup"
-                }
-            },
-            "style": "",
-            "id": "column_2",
-            "alignment": ""
+            "name": "subject_name",
+            "id": "column_3",
+            "label": "Subject Name",
+            "sortable": "false"
         }
     ],
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
-    "orderBy": "sub_letter_type_id",
+    "orderBy": "letter_subject_id",
     "description": "",
-    "filters": [],
+    "filters": [{
+        "hidden": "",
+        "name": "subject_name",
+        "id": "filter_0",
+        "label": "Subject Name",
+        "type": {
+            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+            "properties": {
+                "defaultValue": "",
+                "filterSelection": "",
+                "searchFields": ""
+            }
+        },
+        "datalist_type": "filter",
+        "filterParamName": "d-1577598-fn_subject_name"
+    }],
     "showDataWhenFilterSet": "",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
     "hidePageSize": "",
     "disableResponsive": "",
     "cardCollapseByDefault": "",
-    "name": "List Sub Letter Type",
+    "name": "List Letter Subject",
     "rowActionsMode": "",
     "showhidecolumns": "",
-    "id": "subLetterTypeList",
+    "id": "letterSubjectList",
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
-            "formDefId": "subLetterType",
+            "formDefId": "letterSubject",
             "extraCondition": ""
         }
     },
@@ -104,7 +106,7 @@
             "properties": {
                 "deleteFiles": "",
                 "deleteGridData": "",
-                "formDefId": "subLetterType",
+                "formDefId": "letterSubject",
                 "deleteSubformData": "",
                 "label": "Delete",
                 "confirmation": "",
@@ -114,13 +116,13 @@
         },
         {
             "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-            "id": "action_2",
+            "id": "action_1",
             "properties": {
                 "visible": "true",
                 "hrefColumn": "",
                 "hrefParam": "",
                 "label": "Create",
-                "href": "form_sub_letter_type?embed=true",
+                "href": "form_letter_subject?embed=true",
                 "confirmation": "",
                 "datalist_type": "action",
                 "target": "popup"
