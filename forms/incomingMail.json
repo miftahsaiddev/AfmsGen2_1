@@ -189,7 +189,7 @@
                                         "extraCondition": "",
                                         "cacheInterval": "",
                                         "emptyLabel": "",
-                                        "idColumn": ""
+                                        "idColumn": "code_type"
                                     }
                                 },
                                 "multiple": "",
@@ -267,7 +267,7 @@
                                 "autoPopulate": "",
                                 "label": "",
                                 "id": "helper",
-                                "value": "<select id=\"sltb\"><\/select>\n<script>\n    $(\"#sltb\").html($(\"[name='sub_letter_type']\").html())\n<\/script>"
+                                "value": "<select id=\"sltb\"><\/select>\n<script>\n    $(\"#sltb\").html($(\"[name='sub_letter_type']\").html().replaceAll(\"\\\" grouping=\\\"\", \"_\"))\n    $(\"[name='sub_letter_type']\").empty()\n    $(\"[name='letter_type']\").change(function(){\n        alert(this.value)\n        for(i=0;i<$(\"#sltb option\").length;i++){\n            attr_val = $(\"#sltb option\").get(i).value.split(\"_\")\n            alert(this.grouping +\"_\"+ attr_val[1])\n            if (this.value == attr_val[1])\n                $(\"[name='sub_letter_type']\").append(\"<option value=\"+attr_val[0]+\">\"+$(\"#sltb option\").get(i).text+\"<\/option>\")\n        }\n    })\n<\/script>"
                             }
                         }
                     ],
