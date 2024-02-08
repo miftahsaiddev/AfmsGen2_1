@@ -259,6 +259,16 @@
                                 "value": "",
                                 "readonlyLabel": ""
                             }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.CustomHTML",
+                            "properties": {
+                                "requiredSanitize": "true",
+                                "autoPopulate": "",
+                                "label": "",
+                                "id": "helper",
+                                "value": "<select id=\"sltb\"><\/select>\n<script>\n    $(\"#sltb\").html($(\"[name='sub_letter_type']\").html())\n<\/script>"
+                            }
                         }
                     ],
                     "className": "org.joget.apps.form.model.Column",
