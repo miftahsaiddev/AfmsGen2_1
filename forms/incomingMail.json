@@ -464,7 +464,7 @@
                                 "workflowVariable": "",
                                 "label": "Division",
                                 "id": "division",
-                                "value": "'Dep-010'",
+                                "value": "",
                                 "readonlyLabel": ""
                             }
                         },
