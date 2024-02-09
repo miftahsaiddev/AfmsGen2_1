@@ -443,7 +443,7 @@
                         {
                             "className": "org.joget.apps.form.lib.SelectBox",
                             "properties": {
-                                "controlField": "department2",
+                                "controlField": "department",
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
