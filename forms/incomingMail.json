@@ -414,13 +414,13 @@
                         {
                             "className": "org.joget.apps.form.lib.SelectBox",
                             "properties": {
-                                "controlField": "",
+                                "controlField": "organizationid",
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
                                     "className": "org.joget.tutorial.JdbcOptionsBinder",
                                     "properties": {
-                                        "useAjax": "",
+                                        "useAjax": "true",
                                         "addEmpty": "true",
                                         "jdbcDatasource": "default",
                                         "emptyLabel": "Pilih Department",
@@ -453,7 +453,7 @@
                                         "addEmpty": "true",
                                         "jdbcDatasource": "default",
                                         "emptyLabel": "Pilih Department Dulu",
-                                        "sql": "select * from dir_department where id like 'Div-%'\nand parentId=?;"
+                                        "sql": "select id,name from dir_department where id like 'Div-%';"
                                     }
                                 },
                                 "multiple": "",
@@ -473,9 +473,10 @@
                             "className": "org.joget.apps.form.lib.CustomHTML",
                             "properties": {
                                 "requiredSanitize": "true",
-                                "autoPopulate": "False",
+                                "autoPopulate": "",
                                 "label": "",
-                                "id": "field24"
+                                "id": "field24",
+                                "value": "<select id=\"sltc\"><\/select>\n<script>\n    $(\"#sltc\").html($(\"[name='division']\").html().replaceAll(\"\\\" grouping=\\\"\", \"_\"))\n    $(\"[name='department']\").change(function(){\n        $(\"[name='division']\").empty()\n        for(i=0;i<$(\"#sltc option\").length;i++){\n            attr_val = $(\"#sltc option\").get(i).value.split(\"_\")\n            if (this.value == attr_val[1])\n                $(\"[name='division']\").append(\"<option value=\"+attr_val[0]+\">\"+$(\"#sltc option\").get(i).text+\"<\/option>\")\n        }\n    })\n<\/script>"
                             }
                         },
                         {
