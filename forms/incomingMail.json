@@ -450,9 +450,8 @@
                                     "className": "org.joget.tutorial.JdbcOptionsBinder",
                                     "properties": {
                                         "useAjax": "true",
-                                        "addEmpty": "true",
+                                        "addEmpty": "",
                                         "jdbcDatasource": "default",
-                                        "emptyLabel": "Pilih Department Dulu",
                                         "sql": "select id,name from dir_department where id like 'Div-%';"
                                     }
                                 },
@@ -465,7 +464,7 @@
                                 "workflowVariable": "",
                                 "label": "Division",
                                 "id": "division",
-                                "value": "",
+                                "value": "'Dep-010'",
                                 "readonlyLabel": ""
                             }
                         },
