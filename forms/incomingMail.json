@@ -244,8 +244,17 @@
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
+                                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                                    "properties": {
+                                        "addEmptyOption": "true",
+                                        "groupingColumn": "",
+                                        "formDefId": "subSubLetterType",
+                                        "labelColumn": "id",
+                                        "extraCondition": "",
+                                        "cacheInterval": "",
+                                        "emptyLabel": "",
+                                        "idColumn": "id"
+                                    }
                                 },
                                 "multiple": "",
                                 "options": [],
@@ -411,10 +420,11 @@
                                 "optionsBinder": {
                                     "className": "org.joget.tutorial.JdbcOptionsBinder",
                                     "properties": {
-                                        "useAjax": "true",
-                                        "addEmpty": "",
+                                        "useAjax": "",
+                                        "addEmpty": "true",
                                         "jdbcDatasource": "default",
-                                        "sql": "select * from dir_department where id like 'Dep-%';"
+                                        "emptyLabel": "Pilih Department",
+                                        "sql": "select id,name from dir_department where id like 'Dep-%';"
                                     }
                                 },
                                 "multiple": "",
@@ -433,12 +443,18 @@
                         {
                             "className": "org.joget.apps.form.lib.SelectBox",
                             "properties": {
-                                "controlField": "",
+                                "controlField": "department",
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
+                                    "className": "org.joget.tutorial.JdbcOptionsBinder",
+                                    "properties": {
+                                        "useAjax": "true",
+                                        "addEmpty": "true",
+                                        "jdbcDatasource": "default",
+                                        "emptyLabel": "Pilih Department Dulu",
+                                        "sql": "select * from dir_department where id like 'Div-%'\nand parentId=?;"
+                                    }
                                 },
                                 "multiple": "",
                                 "options": [],
@@ -448,7 +464,7 @@
                                 },
                                 "workflowVariable": "",
                                 "label": "Division",
-                                "id": "field13",
+                                "id": "division",
                                 "value": "",
                                 "readonlyLabel": ""
                             }
