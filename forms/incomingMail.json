@@ -414,13 +414,13 @@
                         {
                             "className": "org.joget.apps.form.lib.SelectBox",
                             "properties": {
-                                "controlField": "organizationid",
+                                "controlField": "",
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
                                     "className": "org.joget.tutorial.JdbcOptionsBinder",
                                     "properties": {
-                                        "useAjax": "true",
+                                        "useAjax": "",
                                         "addEmpty": "true",
                                         "jdbcDatasource": "default",
                                         "emptyLabel": "Pilih Department",
