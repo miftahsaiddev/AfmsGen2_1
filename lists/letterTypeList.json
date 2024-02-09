@@ -11,9 +11,9 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "code_type",
+            "name": "letter_type_id",
             "id": "column_0",
-            "label": "Code Type",
+            "label": "Letter Type ID",
             "sortable": "false"
         },
         {
@@ -36,28 +36,20 @@
                 "properties": {
                     "hrefColumn": "id",
                     "hrefParam": "id",
-                    "href": "letter_type",
+                    "href": "form_letter_type?embed=true",
                     "confirmation": "",
-                    "target": "_self"
+                    "target": "popup"
                 }
             },
             "style": "",
             "id": "column_1",
             "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "set_active",
-            "id": "column_2",
-            "label": "Set Active",
-            "sortable": "false"
         }
     ],
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
-    "orderBy": "code_type",
+    "orderBy": "letter_type_id",
     "description": "",
     "filters": [],
     "showDataWhenFilterSet": "",
@@ -81,11 +73,14 @@
             "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
             "id": "action_0",
             "properties": {
-                "deleteFiles": "false",
-                "deleteGridData": "false",
-                "deleteSubformData": "false",
+                "deleteFiles": "",
+                "deleteGridData": "",
+                "formDefId": "letterType",
+                "deleteSubformData": "",
                 "label": "Delete",
-                "abortRelatedRunningProcesses": "false"
+                "confirmation": "",
+                "datalist_type": "action",
+                "abortRelatedRunningProcesses": ""
             }
         },
         {
@@ -96,10 +91,10 @@
                 "hrefColumn": "",
                 "hrefParam": "",
                 "label": "Create",
-                "href": "letter_type",
+                "href": "form_letter_type?embed=true",
                 "confirmation": "",
                 "datalist_type": "action",
-                "target": "_self"
+                "target": "popup"
             }
         }
     ],

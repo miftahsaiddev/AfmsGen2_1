@@ -11,10 +11,25 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "code_from",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Letter From ID",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "letter_from_id",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
             "id": "column_0",
-            "label": "Code From",
-            "sortable": "false"
+            "alignment": ""
         },
         {
             "filterable": true,
@@ -36,22 +51,14 @@
                 "properties": {
                     "hrefColumn": "id",
                     "hrefParam": "id",
-                    "href": "letter_from",
+                    "href": "form_letter_from?embed=true",
                     "confirmation": "",
-                    "target": "_self"
+                    "target": "popup"
                 }
             },
             "style": "",
             "id": "column_1",
             "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "set_active",
-            "id": "column_2",
-            "label": "Set Active",
-            "sortable": "false"
         }
     ],
     "draggabletable": "",
@@ -81,12 +88,14 @@
             "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
             "id": "action_0",
             "properties": {
-                "deleteFiles": "false",
-                "deleteGridData": "false",
-                "deleteSubformData": "false",
+                "deleteFiles": "",
+                "deleteGridData": "",
+                "formDefId": "letterFrom",
+                "deleteSubformData": "",
                 "label": "Delete",
+                "confirmation": "",
                 "datalist_type": "action",
-                "abortRelatedRunningProcesses": "false"
+                "abortRelatedRunningProcesses": ""
             }
         },
         {
@@ -97,10 +106,10 @@
                 "hrefColumn": "",
                 "hrefParam": "",
                 "label": "Create",
-                "href": "letter_from",
+                "href": "form_letter_from?embed=true",
                 "confirmation": "",
                 "datalist_type": "action",
-                "target": "_self"
+                "target": "popup"
             }
         }
     ],

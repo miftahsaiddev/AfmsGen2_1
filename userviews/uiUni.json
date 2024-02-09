@@ -1,24 +1,318 @@
 {
     "className": "org.joget.apps.userview.model.Userview",
-    "categories": [{
-        "className": "org.joget.apps.userview.model.UserviewCategory",
-        "menus": [{
-            "className": "org.joget.apps.userview.lib.HtmlPage",
+    "categories": [
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.HtmlPage",
+                "properties": {
+                    "userviewCacheDuration": "",
+                    "userviewCacheScope": "",
+                    "id": "88f03303-8a51-4a4a-8df7-cc36d7879d60",
+                    "label": "Welcome",
+                    "enableOffline": "",
+                    "customId": "welcome",
+                    "content": "<div class=\"ui-welcome\">\n<h1>Apps and Workflow Made Simple<\/h1>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"/jw/images/icon_idea.png\" alt=\"Build apps\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Build apps, not just processes!<\/h3>\n<p>Create full-fledged apps with support for data records management.<\/p>\n<\/div>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"/jw/images/icon_rocket.png\" alt=\"Increased efficiency\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Increased Efficiency and Productivity<\/h3>\n<p>Faster and more consistent completion of manual processes, and with minimal errors.<\/p>\n<\/div>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"/jw/images/icon_cost.png\" alt=\"Lowered cost\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Lowered Cost<\/h3>\n<p>Employees can be guided through complex procedures, hence reducing the cost of training.<\/p>\n<\/div>\n<\/div>"
+                }
+            }],
             "properties": {
-                "userviewCacheDuration": "",
-                "userviewCacheScope": "",
-                "id": "88f03303-8a51-4a4a-8df7-cc36d7879d60",
-                "label": "Welcome",
-                "enableOffline": "",
-                "customId": "welcome",
-                "content": "<div class=\"ui-welcome\">\n<h1>Apps and Workflow Made Simple<\/h1>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"/jw/images/icon_idea.png\" alt=\"Build apps\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Build apps, not just processes!<\/h3>\n<p>Create full-fledged apps with support for data records management.<\/p>\n<\/div>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"/jw/images/icon_rocket.png\" alt=\"Increased efficiency\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Increased Efficiency and Productivity<\/h3>\n<p>Faster and more consistent completion of manual processes, and with minimal errors.<\/p>\n<\/div>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"/jw/images/icon_cost.png\" alt=\"Lowered cost\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Lowered Cost<\/h3>\n<p>Employees can be guided through complex procedures, hence reducing the cost of training.<\/p>\n<\/div>\n<\/div>"
+                "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
+                "label": "<i class='fa fa-home'><\/i> Home"
             }
-        }],
-        "properties": {
-            "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
-            "label": "<i class='fa fa-home'><\/i> Home"
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Type of Mail",
+                        "enableOffline": "",
+                        "customId": "list_type_of_mail",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "typeOfMailList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "50AE28214D49431D7D21DC797ABF0129"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Letter From",
+                        "enableOffline": "",
+                        "customId": "list_letter_from",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "letterFromList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "DC008917AAA34A7BBFAF203C43316F4F"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Letter Type",
+                        "enableOffline": "",
+                        "customId": "list_letter_type",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "letterTypeList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "410C35EF8CBA4B4265FFB24C475DBD90"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Sub Letter Type",
+                        "enableOffline": "",
+                        "customId": "list_sub_letter_type",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "subLetterTypeList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "64593DA3C3874CC74C808253B216A3EA"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Letter Subject",
+                        "enableOffline": "",
+                        "customId": "list_letter_subject",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "letterSubjectList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "51A2A3836A47444951048423CBC29624"
+                    }
+                }
+            ],
+            "properties": {
+                "hide": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "label": "<i class=\"fas fa-database\"><\/i> Master Data",
+                "id": "category-A1486521BF64461D5B8C2506717BF798"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
+                {
+                    "className": "org.joget.apps.userview.lib.FormMenu",
+                    "properties": {
+                        "loadDataWithKey": "",
+                        "redirectUrlOnCancel": "list_type_of_mail",
+                        "actionOnCancel": "closepopup",
+                        "redirectTargetOnCancel": "top",
+                        "customFooter": "",
+                        "paramName": "",
+                        "enableOffline": "",
+                        "afterSavedReloadTarget": "true",
+                        "customId": "form_type_of_mail",
+                        "showInPopupDialog": "Yes",
+                        "readonly": "",
+                        "cancelButtonLabel": "Back",
+                        "actionAfterSaved": "",
+                        "id": "9BC0C7AAD4204596E73284D3B118D7E1",
+                        "redirectUrlAfterComplete": "list_type_of_mail",
+                        "fieldPassover": "",
+                        "formId": "typeOfMail",
+                        "customHeader": "",
+                        "fieldPassoverMethod": "append",
+                        "redirectTargetOnComplete": "",
+                        "keyName": "",
+                        "label": "Form Type of Mail",
+                        "userviewCacheDuration": "20",
+                        "messageShowAfterComplete": "",
+                        "submitButtonLabel": "",
+                        "userviewCacheScope": "",
+                        "readonlyLabel": "true"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.FormMenu",
+                    "properties": {
+                        "loadDataWithKey": "",
+                        "redirectUrlOnCancel": "list_letter_from",
+                        "actionOnCancel": "closepopup",
+                        "redirectTargetOnCancel": "top",
+                        "customFooter": "",
+                        "paramName": "",
+                        "enableOffline": "",
+                        "afterSavedReloadTarget": "true",
+                        "customId": "form_letter_from",
+                        "showInPopupDialog": "Yes",
+                        "readonly": "",
+                        "cancelButtonLabel": "Back",
+                        "actionAfterSaved": "",
+                        "id": "C8E6EAAF56534ADE619EC810792E9D78",
+                        "redirectUrlAfterComplete": "list_letter_from",
+                        "fieldPassover": "",
+                        "formId": "letterFrom",
+                        "customHeader": "",
+                        "fieldPassoverMethod": "append",
+                        "redirectTargetOnComplete": "",
+                        "keyName": "",
+                        "label": "Form Letter From",
+                        "userviewCacheDuration": "20",
+                        "messageShowAfterComplete": "",
+                        "submitButtonLabel": "",
+                        "userviewCacheScope": "",
+                        "readonlyLabel": "true"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.FormMenu",
+                    "properties": {
+                        "loadDataWithKey": "",
+                        "actionOnCancel": "closepopup",
+                        "redirectTargetOnCancel": "top",
+                        "customFooter": "",
+                        "paramName": "",
+                        "enableOffline": "",
+                        "afterSavedReloadTarget": "true",
+                        "customId": "form_letter_type",
+                        "showInPopupDialog": "Yes",
+                        "readonly": "",
+                        "cancelButtonLabel": "Back",
+                        "actionAfterSaved": "",
+                        "id": "7866990BC0534EA68C41C80953902A08",
+                        "redirectUrlAfterComplete": "list_letter_type",
+                        "fieldPassover": "",
+                        "formId": "letterType",
+                        "customHeader": "",
+                        "fieldPassoverMethod": "append",
+                        "redirectTargetOnComplete": "",
+                        "keyName": "",
+                        "label": "Form Letter Type",
+                        "userviewCacheDuration": "20",
+                        "messageShowAfterComplete": "",
+                        "submitButtonLabel": "",
+                        "userviewCacheScope": "",
+                        "readonlyLabel": "true"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.FormMenu",
+                    "properties": {
+                        "loadDataWithKey": "",
+                        "actionOnCancel": "closepopup",
+                        "redirectTargetOnCancel": "top",
+                        "customFooter": "",
+                        "paramName": "",
+                        "enableOffline": "",
+                        "afterSavedReloadTarget": "true",
+                        "customId": "form_sub_letter_type",
+                        "showInPopupDialog": "Yes",
+                        "readonly": "",
+                        "cancelButtonLabel": "Back",
+                        "actionAfterSaved": "",
+                        "id": "BA034601D1604E7920F2D49416BF4784",
+                        "redirectUrlAfterComplete": "list_sub_letter_type",
+                        "fieldPassover": "",
+                        "formId": "subLetterType",
+                        "customHeader": "",
+                        "fieldPassoverMethod": "append",
+                        "redirectTargetOnComplete": "",
+                        "keyName": "",
+                        "label": "Form Sub Letter Type",
+                        "userviewCacheDuration": "20",
+                        "messageShowAfterComplete": "",
+                        "submitButtonLabel": "",
+                        "userviewCacheScope": "",
+                        "readonlyLabel": "true"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.FormMenu",
+                    "properties": {
+                        "loadDataWithKey": "",
+                        "actionOnCancel": "closepopup",
+                        "redirectTargetOnCancel": "top",
+                        "customFooter": "",
+                        "paramName": "",
+                        "enableOffline": "",
+                        "afterSavedReloadTarget": "true",
+                        "customId": "form_letter_subject",
+                        "showInPopupDialog": "Yes",
+                        "readonly": "",
+                        "cancelButtonLabel": "Back",
+                        "actionAfterSaved": "",
+                        "id": "F7BBF242D2894585278405D36A670CD6",
+                        "redirectUrlAfterComplete": "list_letter_subject",
+                        "fieldPassover": "",
+                        "formId": "letterSubject",
+                        "customHeader": "",
+                        "fieldPassoverMethod": "append",
+                        "redirectTargetOnComplete": "",
+                        "keyName": "",
+                        "label": "Form Letter Subject",
+                        "userviewCacheDuration": "20",
+                        "messageShowAfterComplete": "",
+                        "submitButtonLabel": "",
+                        "userviewCacheScope": "",
+                        "readonlyLabel": "true"
+                    }
+                }
+            ],
+            "properties": {
+                "hide": "yes",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "label": "Hide Form",
+                "id": "category-98721097CA3843819437084626A7972D"
+            }
         }
-    }],
+    ],
     "properties": {
         "logoutText": "Logout",
         "welcomeMessage": "#date.EEE, d MMM yyyy#",

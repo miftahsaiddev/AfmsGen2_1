@@ -4,6 +4,18 @@
             "elements": [{
                 "elements": [
                     {
+                        "className": "org.joget.apps.form.lib.IdGeneratorField",
+                        "properties": {
+                            "hidden": "",
+                            "format": "LS-??????",
+                            "workflowVariable": "",
+                            "envVariable": "counter",
+                            "isDistributedGeneration": "",
+                            "label": "Letter Subject ID",
+                            "id": "letter_subject_id"
+                        }
+                    },
+                    {
                         "className": "org.joget.apps.form.lib.SelectBox",
                         "properties": {
                             "controlField": "",
@@ -19,7 +31,7 @@
                                     "extraCondition": "",
                                     "cacheInterval": "",
                                     "emptyLabel": "",
-                                    "idColumn": "code_mail"
+                                    "idColumn": "type_of_mail_id"
                                 }
                             },
                             "multiple": "",
@@ -55,7 +67,7 @@
                                     "extraCondition": "",
                                     "cacheInterval": "",
                                     "emptyLabel": "",
-                                    "idColumn": "code_from"
+                                    "idColumn": "letter_from_id"
                                 }
                             },
                             "multiple": "",
