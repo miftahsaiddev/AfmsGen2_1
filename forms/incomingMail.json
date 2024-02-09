@@ -452,7 +452,7 @@
                                         "useAjax": "true",
                                         "addEmpty": "",
                                         "jdbcDatasource": "default",
-                                        "sql": "select id,name from dir_department where id like 'Div-%';"
+                                        "sql": "select id,name,parentId from dir_department where id like 'Div-%';"
                                     }
                                 },
                                 "multiple": "",
