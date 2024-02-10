@@ -733,7 +733,7 @@
                     "className": "",
                     "properties": {}
                 },
-                "label": "Incoming Mail",
+                "label": "Incoming Mail Agent",
                 "reverse": "",
                 "storeBinder": {
                     "className": "",
