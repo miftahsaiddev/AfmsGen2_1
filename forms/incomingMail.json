@@ -340,29 +340,6 @@
                                 "readonlyLabel": "",
                                 "storeNumeric": ""
                             }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.SelectBox",
-                            "properties": {
-                                "controlField": "",
-                                "readonly": "",
-                                "size": "",
-                                "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "multiple": "",
-                                "options": [],
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "workflowVariable": "",
-                                "label": "Government",
-                                "id": "government",
-                                "value": "",
-                                "readonlyLabel": ""
-                            }
                         }
                     ],
                     "className": "org.joget.apps.form.model.Column",

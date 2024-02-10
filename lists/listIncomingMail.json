@@ -8,6 +8,22 @@
         {
             "filterable": true,
             "hidden": "false",
+            "name": "mail_no",
+            "id": "column_4",
+            "label": "Mail No",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "agent",
+            "id": "column_5",
+            "label": "Agent",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "name": "client_ref",
             "id": "column_3",
             "label": "Client Ref",
