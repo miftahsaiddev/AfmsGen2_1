@@ -278,6 +278,16 @@
                                 "id": "helper",
                                 "value": "<select id=\"sltb\"><\/select>\n<script>\n    $(\"#sltb\").html($(\"[name='sub_letter_type']\").html().replaceAll(\"\\\" grouping=\\\"\", \"_\"))\n    $(\"[name='letter_type']\").change(function(){\n        $(\"[name='sub_letter_type']\").empty()\n        for(i=0;i<$(\"#sltb option\").length;i++){\n            attr_val = $(\"#sltb option\").get(i).value.split(\"_\")\n            if (this.value == attr_val[1])\n                $(\"[name='sub_letter_type']\").append(\"<option value=\"+attr_val[0]+\">\"+$(\"#sltb option\").get(i).text+\"<\/option>\")\n        }\n    })\n<\/script>"
                             }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.CustomHTML",
+                            "properties": {
+                                "requiredSanitize": "true",
+                                "autoPopulate": "",
+                                "label": "",
+                                "id": "field25",
+                                "value": "<script>\n$(\"[name='letter_type']\").change(function(){\n    \n}\n<\/script>"
+                            }
                         }
                     ],
                     "className": "org.joget.apps.form.model.Column",
@@ -472,12 +482,18 @@
                         {
                             "className": "org.joget.apps.form.lib.SelectBox",
                             "properties": {
-                                "controlField": "",
+                                "controlField": "division",
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
+                                    "className": "org.joget.tutorial.JdbcOptionsBinder",
+                                    "properties": {
+                                        "useAjax": "true",
+                                        "addEmpty": "true",
+                                        "jdbcDatasource": "default",
+                                        "emptyLabel": "Pilih Divisi Dulu",
+                                        "sql": "select id,userid, departmentid from dir_employment where \nemployeecode like 'Amb-%';"
+                                    }
                                 },
                                 "multiple": "",
                                 "options": [],
