@@ -39,11 +39,11 @@
                                 "optionsBinder": {
                                     "className": "org.joget.apps.form.lib.FormOptionsBinder",
                                     "properties": {
-                                        "addEmptyOption": "true",
+                                        "addEmptyOption": "",
                                         "groupingColumn": "",
                                         "formDefId": "letterFrom",
                                         "labelColumn": "letter_from",
-                                        "extraCondition": "",
+                                        "extraCondition": "c_code_from like '4'",
                                         "cacheInterval": "",
                                         "emptyLabel": "Pilih Letter From",
                                         "idColumn": "code_from"
