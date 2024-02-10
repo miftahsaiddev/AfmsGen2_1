@@ -139,6 +139,26 @@
                         "rowCount": "",
                         "id": "A56915DF6E7C43B2709A98AB3D28F07C"
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.InboxMenu",
+                    "properties": {
+                        "appFilter": "all",
+                        "list-customFooter": "",
+                        "cacheAllLinks": "",
+                        "assignment-customHeader": "",
+                        "assignment-customFooter": "",
+                        "label": "Inbox Incoming Mail",
+                        "enableOffline": "",
+                        "customId": "inbox_incoming_mail",
+                        "buttonPosition": "bothLeft",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": "",
+                        "showPopup": "",
+                        "rowCount": "",
+                        "id": "E475E3F39E0142338610C34E216F3019",
+                        "list-customHeader": ""
+                    }
                 }
             ],
             "properties": {
