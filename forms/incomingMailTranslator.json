@@ -733,7 +733,7 @@
                     "className": "",
                     "properties": {}
                 },
-                "label": "Incoming Mail",
+                "label": "Incoming Mail Translator",
                 "reverse": "",
                 "storeBinder": {
                     "className": "",
@@ -747,7 +747,7 @@
                     "properties": {}
                 },
                 "comment": "",
-                "id": "incoming_mail",
+                "id": "incoming_mail_translator",
                 "join": "",
                 "readonlyLabel": ""
             }
