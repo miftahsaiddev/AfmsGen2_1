@@ -33,30 +33,31 @@
                         {
                             "className": "org.joget.apps.form.lib.SelectBox",
                             "properties": {
+                                "permissionHidden": "",
                                 "controlField": "",
-                                "readonly": "",
+                                "multiple": "",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "label": "Letter From",
+                                "readonly": "true",
                                 "size": "",
                                 "optionsBinder": {
                                     "className": "org.joget.apps.form.lib.FormOptionsBinder",
                                     "properties": {
-                                        "addEmptyOption": "true",
-                                        "groupingColumn": "",
+                                        "addEmptyOption": "",
+                                        "groupingColumn": "code_from",
                                         "formDefId": "letterFrom",
                                         "labelColumn": "letter_from",
-                                        "extraCondition": "",
+                                        "extraCondition": "c_code_from like '1'",
                                         "cacheInterval": "",
                                         "emptyLabel": "Pilih Letter From",
                                         "idColumn": "code_from"
                                     }
                                 },
-                                "multiple": "",
                                 "options": [],
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
                                 "workflowVariable": "",
-                                "label": "Letter From",
                                 "id": "letter_from",
                                 "value": "",
                                 "readonlyLabel": ""
