@@ -33,31 +33,30 @@
                         {
                             "className": "org.joget.apps.form.lib.SelectBox",
                             "properties": {
-                                "permissionHidden": "",
                                 "controlField": "",
-                                "multiple": "",
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "label": "Letter From",
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
                                     "className": "org.joget.apps.form.lib.FormOptionsBinder",
                                     "properties": {
                                         "addEmptyOption": "",
-                                        "groupingColumn": "code_from",
+                                        "groupingColumn": "",
                                         "formDefId": "letterFrom",
                                         "labelColumn": "letter_from",
-                                        "extraCondition": "c_code_from like '1'",
+                                        "extraCondition": "c_code_from like '4'",
                                         "cacheInterval": "",
                                         "emptyLabel": "Pilih Letter From",
                                         "idColumn": "code_from"
                                     }
                                 },
+                                "multiple": "",
                                 "options": [],
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
                                 "workflowVariable": "",
+                                "label": "Letter From",
                                 "id": "letter_from",
                                 "value": "",
                                 "readonlyLabel": ""
@@ -734,7 +733,7 @@
                     "className": "",
                     "properties": {}
                 },
-                "label": "Incoming Mail Agent",
+                "label": "Incoming Mail Translator",
                 "reverse": "",
                 "storeBinder": {
                     "className": "",
@@ -748,7 +747,7 @@
                     "properties": {}
                 },
                 "comment": "",
-                "id": "incoming_mail_agent",
+                "id": "incoming_mail_translator",
                 "join": "",
                 "readonlyLabel": ""
             }
@@ -761,14 +760,14 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "name": "Incoming Mail",
+        "name": "Incoming Mail Translator",
         "description": "",
         "postProcessorRunOn": "create",
         "permission": {
             "className": "",
             "properties": {}
         },
-        "id": "incomingMail",
+        "id": "incomingMailTranslator",
         "postProcessor": {
             "className": "",
             "properties": {}

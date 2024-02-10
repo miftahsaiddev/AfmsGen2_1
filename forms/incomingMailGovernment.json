@@ -47,12 +47,12 @@
                                     "className": "org.joget.apps.form.lib.FormOptionsBinder",
                                     "properties": {
                                         "addEmptyOption": "",
-                                        "groupingColumn": "code_from",
+                                        "groupingColumn": "",
                                         "formDefId": "letterFrom",
                                         "labelColumn": "letter_from",
-                                        "extraCondition": "c_code_from like '1'",
+                                        "extraCondition": "c_code_from like '2'",
                                         "cacheInterval": "",
-                                        "emptyLabel": "Pilih Letter From",
+                                        "emptyLabel": "",
                                         "idColumn": "code_from"
                                     }
                                 },
@@ -169,17 +169,8 @@
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
-                                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                                    "properties": {
-                                        "addEmptyOption": "",
-                                        "groupingColumn": "code_type",
-                                        "formDefId": "letterType",
-                                        "labelColumn": "letter_type",
-                                        "extraCondition": "",
-                                        "cacheInterval": "",
-                                        "emptyLabel": "",
-                                        "idColumn": "code_type"
-                                    }
+                                    "className": "",
+                                    "properties": {}
                                 },
                                 "multiple": "",
                                 "options": [],
@@ -201,17 +192,8 @@
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
-                                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                                    "properties": {
-                                        "addEmptyOption": "true",
-                                        "groupingColumn": "letter_type",
-                                        "formDefId": "subLetterType",
-                                        "labelColumn": "sub_letter_type",
-                                        "extraCondition": "",
-                                        "cacheInterval": "",
-                                        "emptyLabel": "",
-                                        "idColumn": "code_type"
-                                    }
+                                    "className": "",
+                                    "properties": {}
                                 },
                                 "multiple": "",
                                 "options": [],
@@ -233,17 +215,8 @@
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
-                                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                                    "properties": {
-                                        "addEmptyOption": "true",
-                                        "groupingColumn": "",
-                                        "formDefId": "subSubLetterType",
-                                        "labelColumn": "id",
-                                        "extraCondition": "",
-                                        "cacheInterval": "",
-                                        "emptyLabel": "",
-                                        "idColumn": "id"
-                                    }
+                                    "className": "",
+                                    "properties": {}
                                 },
                                 "multiple": "",
                                 "options": [],
@@ -256,16 +229,6 @@
                                 "id": "sub_sub_letter_type",
                                 "value": "",
                                 "readonlyLabel": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.CustomHTML",
-                            "properties": {
-                                "requiredSanitize": "true",
-                                "autoPopulate": "",
-                                "label": "",
-                                "id": "helper",
-                                "value": "<select id=\"sltb\" hidden><\/select>\n<script>\n    $(\"#sltb\").html($(\"[name='sub_letter_type']\").html().replaceAll(\"\\\" grouping=\\\"\", \"_\"))\n    $(\"[name='letter_type']\").change(function(){\n        $(\"[name='sub_letter_type']\").empty()\n        for(i=0;i<$(\"#sltb option\").length;i++){\n            attr_val = $(\"#sltb option\").get(i).value.split(\"_\")\n            if (this.value == attr_val[1])\n                $(\"[name='sub_letter_type']\").append(\"<option value=\"+attr_val[0]+\">\"+$(\"#sltb option\").get(i).text+\"<\/option>\")\n        }\n    })\n    \n    $(\"[name='letter_from']\").change(function(){\n      $nilai=this.value;\n      alert($nilai);\n      $(\"[name='government']\").style.visibility ='hidden';\n      \n    });\n    $(\"[name='government']\").style.visibility ='hidden';\n<\/script>"
                             }
                         }
                     ],
@@ -407,14 +370,8 @@
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
-                                    "className": "org.joget.tutorial.JdbcOptionsBinder",
-                                    "properties": {
-                                        "useAjax": "",
-                                        "addEmpty": "true",
-                                        "jdbcDatasource": "default",
-                                        "emptyLabel": "Pilih Department",
-                                        "sql": "select id,name from dir_department where id like 'Dep-%';"
-                                    }
+                                    "className": "",
+                                    "properties": {}
                                 },
                                 "multiple": "",
                                 "options": [],
@@ -432,18 +389,12 @@
                         {
                             "className": "org.joget.apps.form.lib.SelectBox",
                             "properties": {
-                                "controlField": "department",
+                                "controlField": "",
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
-                                    "className": "org.joget.tutorial.JdbcOptionsBinder",
-                                    "properties": {
-                                        "useAjax": "true",
-                                        "addEmpty": "true",
-                                        "jdbcDatasource": "default",
-                                        "emptyLabel": "Pilih Department Dulu",
-                                        "sql": "select id,name,parentId from dir_department where id like 'Div-%';"
-                                    }
+                                    "className": "",
+                                    "properties": {}
                                 },
                                 "multiple": "",
                                 "options": [],
@@ -453,7 +404,7 @@
                                 },
                                 "workflowVariable": "",
                                 "label": "Division",
-                                "id": "division",
+                                "id": "field13",
                                 "value": "",
                                 "readonlyLabel": ""
                             }
@@ -461,18 +412,12 @@
                         {
                             "className": "org.joget.apps.form.lib.SelectBox",
                             "properties": {
-                                "controlField": "division",
+                                "controlField": "",
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
-                                    "className": "org.joget.tutorial.JdbcOptionsBinder",
-                                    "properties": {
-                                        "useAjax": "true",
-                                        "addEmpty": "true",
-                                        "jdbcDatasource": "default",
-                                        "emptyLabel": "Pilih Divisi Dulu",
-                                        "sql": "select id,userid, departmentid from dir_employment where \nemployeecode like 'Amb-%';"
-                                    }
+                                    "className": "",
+                                    "properties": {}
                                 },
                                 "multiple": "",
                                 "options": [],
@@ -734,7 +679,7 @@
                     "className": "",
                     "properties": {}
                 },
-                "label": "Incoming Mail Agent",
+                "label": "Incoming Mail Government",
                 "reverse": "",
                 "storeBinder": {
                     "className": "",
@@ -748,7 +693,7 @@
                     "properties": {}
                 },
                 "comment": "",
-                "id": "incoming_mail_agent",
+                "id": "incoming_mail_government",
                 "join": "",
                 "readonlyLabel": ""
             }
@@ -761,14 +706,14 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "name": "Incoming Mail",
+        "name": "Incoming Mail Government",
         "description": "",
         "postProcessorRunOn": "create",
         "permission": {
             "className": "",
             "properties": {}
         },
-        "id": "incomingMail",
+        "id": "incomingMailGovernment",
         "postProcessor": {
             "className": "",
             "properties": {}
