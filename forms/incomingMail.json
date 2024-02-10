@@ -747,7 +747,7 @@
                     "properties": {}
                 },
                 "comment": "",
-                "id": "incoming_mail",
+                "id": "incoming_mail_agent",
                 "join": "",
                 "readonlyLabel": ""
             }
