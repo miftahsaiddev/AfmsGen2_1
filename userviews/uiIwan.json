@@ -155,7 +155,7 @@
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": "",
                         "showPopup": "",
-                        "rowCount": "",
+                        "rowCount": "true",
                         "id": "E475E3F39E0142338610C34E216F3019",
                         "list-customHeader": ""
                     }
