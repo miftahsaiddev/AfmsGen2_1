@@ -33,42 +33,31 @@
                         {
                             "className": "org.joget.apps.form.lib.SelectBox",
                             "properties": {
+                                "permissionHidden": "",
                                 "controlField": "",
-                                "readonly": "",
-                                "size": "",
-                                "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                },
                                 "multiple": "",
-                                "options": [
-                                    {
-                                        "label": "Please Select",
-                                        "value": "0",
-                                        "grouping": ""
-                                    },
-                                    {
-                                        "label": "Agent",
-                                        "value": "1",
-                                        "grouping": ""
-                                    },
-                                    {
-                                        "label": "Government",
-                                        "value": "2",
-                                        "grouping": ""
-                                    },
-                                    {
-                                        "label": "Translator",
-                                        "value": "4",
-                                        "grouping": ""
-                                    }
-                                ],
                                 "validator": {
                                     "className": "",
                                     "properties": {}
                                 },
-                                "workflowVariable": "",
                                 "label": "Letter From",
+                                "readonly": "",
+                                "size": "",
+                                "optionsBinder": {
+                                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                                    "properties": {
+                                        "addEmptyOption": "",
+                                        "groupingColumn": "",
+                                        "formDefId": "letterFrom",
+                                        "labelColumn": "letter_from",
+                                        "extraCondition": "c_code_from like '2'",
+                                        "cacheInterval": "",
+                                        "emptyLabel": "",
+                                        "idColumn": "code_from"
+                                    }
+                                },
+                                "options": [],
+                                "workflowVariable": "",
                                 "id": "letter_from",
                                 "value": "",
                                 "readonlyLabel": ""
