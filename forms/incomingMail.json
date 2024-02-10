@@ -37,32 +37,20 @@
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
+                                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                                    "properties": {
+                                        "addEmptyOption": "true",
+                                        "groupingColumn": "",
+                                        "formDefId": "letterFrom",
+                                        "labelColumn": "letter_from",
+                                        "extraCondition": "",
+                                        "cacheInterval": "",
+                                        "emptyLabel": "Pilih Letter From",
+                                        "idColumn": "code_from"
+                                    }
                                 },
                                 "multiple": "",
-                                "options": [
-                                    {
-                                        "label": "Please Select",
-                                        "value": "0",
-                                        "grouping": ""
-                                    },
-                                    {
-                                        "label": "Agent",
-                                        "value": "1",
-                                        "grouping": ""
-                                    },
-                                    {
-                                        "label": "Government",
-                                        "value": "2",
-                                        "grouping": ""
-                                    },
-                                    {
-                                        "label": "Translator",
-                                        "value": "4",
-                                        "grouping": ""
-                                    }
-                                ],
+                                "options": [],
                                 "validator": {
                                     "className": "",
                                     "properties": {}
@@ -276,17 +264,7 @@
                                 "autoPopulate": "",
                                 "label": "",
                                 "id": "helper",
-                                "value": "<select id=\"sltb\"><\/select>\n<script>\n    $(\"#sltb\").html($(\"[name='sub_letter_type']\").html().replaceAll(\"\\\" grouping=\\\"\", \"_\"))\n    $(\"[name='letter_type']\").change(function(){\n        $(\"[name='sub_letter_type']\").empty()\n        for(i=0;i<$(\"#sltb option\").length;i++){\n            attr_val = $(\"#sltb option\").get(i).value.split(\"_\")\n            if (this.value == attr_val[1])\n                $(\"[name='sub_letter_type']\").append(\"<option value=\"+attr_val[0]+\">\"+$(\"#sltb option\").get(i).text+\"<\/option>\")\n        }\n    })\n<\/script>"
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.CustomHTML",
-                            "properties": {
-                                "requiredSanitize": "true",
-                                "autoPopulate": "",
-                                "label": "",
-                                "id": "field25",
-                                "value": "<script>\n$(\"[name='letter_type']\").change(function(){\n    \n}\n<\/script>"
+                                "value": "<select id=\"sltb\"><\/select>\n<script>\n    $(\"#sltb\").html($(\"[name='sub_letter_type']\").html().replaceAll(\"\\\" grouping=\\\"\", \"_\"))\n    $(\"[name='letter_type']\").change(function(){\n        $(\"[name='sub_letter_type']\").empty()\n        for(i=0;i<$(\"#sltb option\").length;i++){\n            attr_val = $(\"#sltb option\").get(i).value.split(\"_\")\n            if (this.value == attr_val[1])\n                $(\"[name='sub_letter_type']\").append(\"<option value=\"+attr_val[0]+\">\"+$(\"#sltb option\").get(i).text+\"<\/option>\")\n        }\n    })\n    \n    $(\"[name='letter_from']\").change(function(){\n      alert(this.value);\n      \n    });\n    document.addEventListener('DOMContentLoaded', function() {\n      var letterFrom = document.getElementById('letter_from');\n      var agentInput = document.getElementById('agent');\n      var agentAddressInput = document.getElementById('agent_address');\n      var governmentInput = document.getElementById('government');\n      governmentInput.style.display = 'none';\n\n      function updateVisibility() {\n        var selectedOption = letterFrom.value;\n\n        // Hide all inputs by default\n        agentInput.style.display = 'none';\n        agentAddressInput.style.display = 'none';\n        governmentInput.style.display = 'none';\n\n        // Show inputs based on selected option\n        if (selectedOption === '1') {\n          agentInput.style.display = 'block';\n          agentAddressInput.style.display = 'block';\n        } else if (selectedOption === '2') {\n          governmentInput.style.display = 'block';\n        }\n        // For 'translator', no input is shown\n      }\n\n      // Initial setup\n      updateVisibility();\n\n      // Add event listener to 'letter_from' select input\n      letterFrom.addEventListener('change', updateVisibility);\n    });\n<\/script>"
                             }
                         }
                     ],
