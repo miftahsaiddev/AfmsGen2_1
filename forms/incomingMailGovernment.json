@@ -690,7 +690,7 @@
                     "className": "",
                     "properties": {}
                 },
-                "label": "Incoming Mail",
+                "label": "Incoming Mail Government",
                 "reverse": "",
                 "storeBinder": {
                     "className": "",
@@ -704,7 +704,7 @@
                     "properties": {}
                 },
                 "comment": "",
-                "id": "incoming_mail",
+                "id": "incoming_mail_government",
                 "join": "",
                 "readonlyLabel": ""
             }
