@@ -16,6 +16,14 @@
         {
             "filterable": true,
             "hidden": "false",
+            "name": "agent",
+            "id": "column_5",
+            "label": "Agent",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "name": "client_ref",
             "id": "column_3",
             "label": "Client Ref",
