@@ -121,7 +121,7 @@
                         "paramName": "",
                         "enableOffline": "",
                         "afterSavedReloadTarget": "true",
-                        "customId": "incoming_mail_translator",
+                        "customId": "form_incoming_mail_translator",
                         "showInPopupDialog": "",
                         "readonly": "",
                         "cancelButtonLabel": "",
@@ -149,7 +149,7 @@
                         "customHeader": "",
                         "keyName": "",
                         "customFooter": "",
-                        "label": "List Incoming Mail Agent",
+                        "label": "Incoming Mail Agent",
                         "enableOffline": "",
                         "customId": "list_incoming_mail_agent",
                         "buttonPosition": "bottomLeft",
@@ -161,6 +161,40 @@
                         "userviewCacheScope": "",
                         "rowCount": "",
                         "id": "A56915DF6E7C43B2709A98AB3D28F07C"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "Incoming Mail Government",
+                        "enableOffline": "",
+                        "customId": "list_incoming_mail_government",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "listIncomingMailGovernment",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "E4CAB5C6A5A1442B2E7AB28659343E7C"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": "",
+                        "label": "List",
+                        "rowCount": "false",
+                        "id": "6EB52919AE83494798F6DC28BA820EE5",
+                        "buttonPosition": "bothLeft"
                     }
                 },
                 {
