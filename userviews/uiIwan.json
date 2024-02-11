@@ -152,7 +152,7 @@
                         "label": "List Incoming Mail",
                         "enableOffline": "",
                         "customId": "list_incoming_mail",
-                        "buttonPosition": "bothLeft",
+                        "buttonPosition": "bottomLeft",
                         "datalistId": "listIncomingMail",
                         "checkboxPosition": "left",
                         "selectionType": "multiple",
