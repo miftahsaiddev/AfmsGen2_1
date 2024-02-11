@@ -1,18 +1,24 @@
 {
-    "rowActions": [],
-    "columns": [],
-    "name": "My Incoming List",
-    "pageSize": "0",
-    "orderBy": "",
-    "description": "",
-    "id": "myIncomingList",
-    "filters": [],
-    "binder": {
-        "name": "",
+    "template": {
         "className": "",
         "properties": {}
     },
-    "actions": [],
+    "rowActions": [],
+    "columns": [],
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "filters": [],
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "name": "My Incoming List",
+    "id": "myIncomingList",
+    "binder": {
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "properties": {
+            "formDefId": "incomingMail",
+            "extraCondition": "createdby='#currentUser.username#'"
+        }
+    },
+    "actions": [],
     "order": ""
 }
