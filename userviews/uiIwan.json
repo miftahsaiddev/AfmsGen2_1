@@ -113,7 +113,7 @@
                         "customHeader": "",
                         "keyName": "",
                         "customFooter": "",
-                        "label": "Incoming Mail Agent",
+                        "label": "Incoming Mail Client",
                         "enableOffline": "",
                         "customId": "list_incoming_mail_agent",
                         "buttonPosition": "bottomLeft",
