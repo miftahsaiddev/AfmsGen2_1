@@ -3,8 +3,56 @@
         "className": "",
         "properties": {}
     },
-    "rowActions": [],
-    "columns": [],
+    "rowActions": [{
+        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+        "id": "rowAction_0",
+        "properties": {
+            "hrefColumn": "",
+            "hrefParam": "",
+            "rules": [],
+            "label": "Edit",
+            "href": "form_incoming_mail_agent",
+            "confirmation": "",
+            "link-css-display-type": "btn btn-sm btn-secondary",
+            "datalist_type": "row_action",
+            "target": "_self",
+            "header_label": ""
+        }
+    }],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "agent",
+            "id": "column_6",
+            "label": "Agent",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "dateCreated",
+            "id": "column_5",
+            "label": "Date Created",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "no_project",
+            "id": "column_4",
+            "label": "No Project",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "mail_no",
+            "id": "column_3",
+            "label": "Mail No",
+            "sortable": "false"
+        }
+    ],
     "pageSize": "0",
     "orderBy": "",
     "description": "",
