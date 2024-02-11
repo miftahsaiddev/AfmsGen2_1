@@ -115,7 +115,7 @@
                     "label": "Incoming Mail Client",
                     "enableOffline": "",
                     "customId": "list_incoming_mail_agent",
-                    "buttonPosition": "bottomLeft",
+                    "buttonPosition": "topLeft",
                     "datalistId": "listIncomingMailGovernment",
                     "checkboxPosition": "left",
                     "selectionType": "multiple",
