@@ -89,7 +89,7 @@
                         "paramName": "",
                         "enableOffline": "",
                         "afterSavedReloadTarget": "true",
-                        "customId": "incoming_mail_government",
+                        "customId": "form_incoming_mail_government",
                         "showInPopupDialog": "",
                         "readonly": "",
                         "cancelButtonLabel": "",
