@@ -297,7 +297,7 @@
                     "properties": {}
                 },
                 "comment": "",
-                "label": "My Incoming Mail",
+                "label": "<i class=\"zmdi zmdi-email-open\"><\/i> My Incoming Mail",
                 "id": "category-21BB2C1EFDB4413BACF19110054F9A45"
             }
         }
