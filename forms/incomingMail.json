@@ -266,8 +266,8 @@
                                 "workflowVariable": "",
                                 "envVariable": "counter",
                                 "isDistributedGeneration": "true",
-                                "label": "ID Generator",
-                                "id": "field23"
+                                "label": "No Project",
+                                "id": "no_project"
                             }
                         }
                     ],
