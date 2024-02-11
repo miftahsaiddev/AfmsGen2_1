@@ -35,72 +35,10 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "client_ref",
-            "id": "column_3",
-            "label": "Client Ref",
-            "sortable": "false",
-            "datalist_type": "column"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "letter_from",
-            "id": "column_2",
-            "label": "Letter From",
-            "sortable": "false",
-            "datalist_type": "column"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Letter Type",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "letter_type",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
-            "id": "column_1",
-            "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Mail No",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "mail_no",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-                "properties": {
-                    "hrefColumn": "id",
-                    "hrefParam": "id",
-                    "href": "incoming",
-                    "confirmation": "",
-                    "target": "_self"
-                }
-            },
-            "style": "",
-            "id": "column_0",
-            "alignment": ""
+            "name": "translator",
+            "id": "column_7",
+            "label": "translator",
+            "sortable": "false"
         }
     ],
     "pageSize": "0",
