@@ -187,14 +187,22 @@
                 {
                     "className": "org.joget.apps.userview.lib.DataListMenu",
                     "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "Incoming Mail Translator",
+                        "enableOffline": "",
+                        "customId": "list_incoming_mail_translator",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "listIncomingMailTranslator",
                         "checkboxPosition": "left",
                         "selectionType": "multiple",
                         "userviewCacheDuration": "20",
+                        "cacheListAction": "",
                         "userviewCacheScope": "",
-                        "label": "List",
-                        "rowCount": "false",
-                        "id": "6EB52919AE83494798F6DC28BA820EE5",
-                        "buttonPosition": "bothLeft"
+                        "rowCount": "",
+                        "id": "6EB52919AE83494798F6DC28BA820EE5"
                     }
                 },
                 {
