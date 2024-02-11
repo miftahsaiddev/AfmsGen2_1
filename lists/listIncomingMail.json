@@ -3,6 +3,9 @@
         "className": "",
         "properties": {}
     },
+    "considerFilterWhenGetTotal": "",
+    "useSession": "",
+    "responsiveMode": "",
     "rowActions": [{
         "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
         "id": "rowAction_0",
@@ -54,12 +57,20 @@
             "sortable": "false"
         }
     ],
+    "draggabletable": "",
+    "cardCollapsible": "",
     "pageSize": "0",
     "orderBy": "",
     "description": "",
     "filters": [],
+    "showDataWhenFilterSet": "",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
-    "name": "List Incoming mail",
+    "hidePageSize": "",
+    "disableResponsive": "",
+    "cardCollapseByDefault": "",
+    "name": "Incoming mail Client",
+    "rowActionsMode": "",
+    "showhidecolumns": "",
     "id": "listIncomingMail",
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
