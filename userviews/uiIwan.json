@@ -5,48 +5,6 @@
             "className": "org.joget.apps.userview.model.UserviewCategory",
             "menus": [
                 {
-                    "className": "org.joget.apps.userview.lib.HtmlPage",
-                    "properties": {
-                        "userviewCacheDuration": "",
-                        "userviewCacheScope": "",
-                        "id": "eb3ee855-643b-4861-a575-e5e0c3791c9a",
-                        "label": "Welcome",
-                        "enableOffline": "",
-                        "customId": "welcome",
-                        "content": "<div class=\"ui-welcome\">\n<h1>Apps and Workflow Made Simple<\/h1>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"/jw/images/icon_idea.png\" alt=\"Build apps\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Build apps, not just processes!<\/h3>\n<p>Create full-fledged apps with support for data records management.<\/p>\n<\/div>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"/jw/images/icon_rocket.png\" alt=\"Increased efficiency\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Increased Efficiency and Productivity<\/h3>\n<p>Faster and more consistent completion of manual processes, and with minimal errors.<\/p>\n<\/div>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"/jw/images/icon_cost.png\" alt=\"Lowered cost\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Lowered Cost<\/h3>\n<p>Employees can be guided through complex procedures, hence reducing the cost of training.<\/p>\n<\/div>\n<\/div>"
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "cacheAllLinks": "",
-                        "customHeader": "",
-                        "keyName": "",
-                        "customFooter": "",
-                        "label": "List Incoming Mail Agent",
-                        "enableOffline": "",
-                        "customId": "list_incoming_mail_agent",
-                        "buttonPosition": "topLeft",
-                        "datalistId": "listIncomingMail",
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "rowCount": "",
-                        "id": "C96558F806514745AE1D9A19B14153D2"
-                    }
-                }
-            ],
-            "properties": {
-                "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
-                "label": "<i class='fa fa-home'><\/i> Home"
-            }
-        },
-        {
-            "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [
-                {
                     "className": "org.joget.apps.userview.lib.FormMenu",
                     "properties": {
                         "loadDataWithKey": "",
@@ -71,7 +29,7 @@
                         "fieldPassoverMethod": "append",
                         "redirectTargetOnComplete": "",
                         "keyName": "",
-                        "label": "Incoming Mail Agent",
+                        "label": "Incoming Mail Client",
                         "userviewCacheDuration": "20",
                         "messageShowAfterComplete": "",
                         "submitButtonLabel": "",
@@ -219,7 +177,7 @@
                         "cacheAllLinks": "",
                         "assignment-customHeader": "",
                         "assignment-customFooter": "",
-                        "label": "Inbox Incoming Mail",
+                        "label": "My Incoming List",
                         "enableOffline": "",
                         "customId": "inbox_incoming_mail",
                         "buttonPosition": "bothLeft",
@@ -239,8 +197,50 @@
                     "properties": {}
                 },
                 "comment": "",
-                "label": "<i class=\"zmdi zmdi-email\"><\/i> Mail",
+                "label": "<i class=\"zmdi zmdi-email\"><\/i> Incoming Mail",
                 "id": "category-2E0CFBA2FDA94D0EA0505AD6E898FBCC"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
+                {
+                    "className": "org.joget.apps.userview.lib.HtmlPage",
+                    "properties": {
+                        "userviewCacheDuration": "",
+                        "userviewCacheScope": "",
+                        "id": "eb3ee855-643b-4861-a575-e5e0c3791c9a",
+                        "label": "Welcome",
+                        "enableOffline": "",
+                        "customId": "welcome",
+                        "content": "<div class=\"ui-welcome\">\n<h1>Apps and Workflow Made Simple<\/h1>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"/jw/images/icon_idea.png\" alt=\"Build apps\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Build apps, not just processes!<\/h3>\n<p>Create full-fledged apps with support for data records management.<\/p>\n<\/div>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"/jw/images/icon_rocket.png\" alt=\"Increased efficiency\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Increased Efficiency and Productivity<\/h3>\n<p>Faster and more consistent completion of manual processes, and with minimal errors.<\/p>\n<\/div>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"/jw/images/icon_cost.png\" alt=\"Lowered cost\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Lowered Cost<\/h3>\n<p>Employees can be guided through complex procedures, hence reducing the cost of training.<\/p>\n<\/div>\n<\/div>"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Incoming Mail Agent",
+                        "enableOffline": "",
+                        "customId": "list_incoming_mail_agent",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "listIncomingMail",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "C96558F806514745AE1D9A19B14153D2"
+                    }
+                }
+            ],
+            "properties": {
+                "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
+                "label": "<i class='fa fa-home'><\/i> Home"
             }
         }
     ],
