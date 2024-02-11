@@ -110,7 +110,22 @@
     "pageSize": "0",
     "orderBy": "",
     "description": "",
-    "filters": [],
+    "filters": [{
+        "hidden": "",
+        "name": "mail_no",
+        "id": "filter_0",
+        "label": "Mail No",
+        "type": {
+            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+            "properties": {
+                "defaultValue": "",
+                "filterSelection": "Number;String",
+                "searchFields": ""
+            }
+        },
+        "datalist_type": "filter",
+        "filterParamName": "d-1815546-fn_mail_no"
+    }],
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
     "name": "My Incoming List",
     "id": "myIncomingList",
