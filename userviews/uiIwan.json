@@ -116,7 +116,7 @@
                     "enableOffline": "",
                     "customId": "list_incoming_mail_agent",
                     "buttonPosition": "topLeft",
-                    "datalistId": "listIncomingMailGovernment",
+                    "datalistId": "listIncomingMail",
                     "checkboxPosition": "left",
                     "selectionType": "multiple",
                     "userviewCacheDuration": "20",
