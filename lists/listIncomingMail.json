@@ -15,6 +15,7 @@
             "deleteSubformData": "false",
             "label": "Delete",
             "link-css-display-type": "btn btn-sm btn-danger",
+            "datalist_type": "row_action",
             "abortRelatedRunningProcesses": "false"
         }
     }],
@@ -79,32 +80,19 @@
             "extraCondition": ""
         }
     },
-    "actions": [
-        {
-            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-            "id": "action_0",
-            "properties": {
-                "visible": "true",
-                "hrefColumn": "",
-                "hrefParam": "",
-                "label": "Create New",
-                "href": "form_incoming_mail_agent",
-                "confirmation": "",
-                "datalist_type": "action",
-                "target": "_self"
-            }
-        },
-        {
-            "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
-            "id": "action_1",
-            "properties": {
-                "deleteFiles": "false",
-                "deleteGridData": "false",
-                "deleteSubformData": "false",
-                "label": "Delete",
-                "abortRelatedRunningProcesses": "false"
-            }
+    "actions": [{
+        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+        "id": "action_0",
+        "properties": {
+            "visible": "true",
+            "hrefColumn": "",
+            "hrefParam": "",
+            "label": "Create With New Number",
+            "href": "form_incoming_mail_agent",
+            "confirmation": "",
+            "datalist_type": "action",
+            "target": "_self"
         }
-    ],
+    }],
     "order": ""
 }
