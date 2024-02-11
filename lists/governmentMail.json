@@ -101,9 +101,9 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "agent",
-            "id": "column_6",
-            "label": "Agent",
+            "name": "government",
+            "id": "column_0",
+            "label": "government",
             "sortable": "false"
         }
     ],
