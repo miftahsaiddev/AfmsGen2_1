@@ -64,7 +64,7 @@
                 "hrefColumn": "",
                 "hrefParam": "",
                 "label": "Create New",
-                "href": "incoming_mail_agent",
+                "href": "form_incoming_mail_agent",
                 "confirmation": "",
                 "datalist_type": "action",
                 "target": "_self"
