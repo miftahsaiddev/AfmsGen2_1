@@ -136,7 +136,7 @@
                     "label": "Incoming Mail Government",
                     "enableOffline": "",
                     "customId": "list_incoming_mail_government",
-                    "buttonPosition": "bottomLeft",
+                    "buttonPosition": "topLeft",
                     "datalistId": "incomingMailGovernment",
                     "checkboxPosition": "left",
                     "selectionType": "multiple",
