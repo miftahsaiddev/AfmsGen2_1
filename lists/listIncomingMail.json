@@ -27,10 +27,16 @@
             "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
             "id": "rowAction_1",
             "properties": {
-                "label": "Hyperlink",
-                "link-css-display-type": "btn btn-sm btn-primary",
+                "hrefColumn": "id",
+                "hrefParam": "id",
+                "rules": [],
+                "label": "Edit",
+                "href": "form_incoming_mail_client",
+                "confirmation": "",
+                "link-css-display-type": "btn btn-sm btn-secondary",
                 "datalist_type": "row_action",
-                "target": "_self"
+                "target": "popup",
+                "header_label": ""
             }
         }
     ],
