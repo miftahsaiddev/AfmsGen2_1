@@ -158,7 +158,7 @@
                     "enableOffline": "",
                     "customId": "list_incoming_mail_translator",
                     "buttonPosition": "bottomLeft",
-                    "datalistId": "listIncomingMailTranslator",
+                    "datalistId": "incomingMailTranslator",
                     "checkboxPosition": "left",
                     "selectionType": "multiple",
                     "userviewCacheDuration": "20",
