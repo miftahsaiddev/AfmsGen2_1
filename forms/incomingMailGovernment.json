@@ -220,6 +220,18 @@
                                 "value": "",
                                 "readonlyLabel": ""
                             }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.IdGeneratorField",
+                            "properties": {
+                                "hidden": "",
+                                "format": "ID-??????-",
+                                "workflowVariable": "",
+                                "envVariable": "counter",
+                                "isDistributedGeneration": "",
+                                "label": "No Project",
+                                "id": "no_project"
+                            }
                         }
                     ],
                     "className": "org.joget.apps.form.model.Column",
