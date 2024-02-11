@@ -6,19 +6,7 @@
     "considerFilterWhenGetTotal": "",
     "useSession": "",
     "responsiveMode": "",
-    "rowActions": [{
-        "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
-        "id": "rowAction_0",
-        "properties": {
-            "deleteFiles": "false",
-            "deleteGridData": "false",
-            "deleteSubformData": "false",
-            "label": "Delete",
-            "link-css-display-type": "btn btn-sm btn-danger",
-            "datalist_type": "row_action",
-            "abortRelatedRunningProcesses": "false"
-        }
-    }],
+    "rowActions": [],
     "columns": [
         {
             "filterable": true,
