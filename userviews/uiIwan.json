@@ -167,6 +167,18 @@
                     "rowCount": "",
                     "id": "6EB52919AE83494798F6DC28BA820EE5"
                 }
+            },
+            {
+                "className": "org.joget.apps.userview.lib.HtmlPage",
+                "properties": {
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": "",
+                    "label": "My Incoming List",
+                    "id": "8C456228EC6C4639AC6533502E567D4F",
+                    "enableOffline": "",
+                    "customId": "my_incoming_list",
+                    "content": "<p>My Incoming List<\/p>"
+                }
             }
         ],
         "properties": {
