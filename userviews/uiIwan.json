@@ -157,7 +157,7 @@
                     "label": "Incoming Mail Translator",
                     "enableOffline": "",
                     "customId": "list_incoming_mail_translator",
-                    "buttonPosition": "bottomLeft",
+                    "buttonPosition": "topLeft",
                     "datalistId": "incomingMailTranslator",
                     "checkboxPosition": "left",
                     "selectionType": "multiple",
