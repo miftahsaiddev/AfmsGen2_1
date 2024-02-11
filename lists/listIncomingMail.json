@@ -3,7 +3,18 @@
         "className": "",
         "properties": {}
     },
-    "rowActions": [],
+    "rowActions": [{
+        "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
+        "id": "rowAction_0",
+        "properties": {
+            "deleteFiles": "false",
+            "deleteGridData": "false",
+            "deleteSubformData": "false",
+            "label": "Delete",
+            "link-css-display-type": "btn btn-sm btn-danger",
+            "abortRelatedRunningProcesses": "false"
+        }
+    }],
     "columns": [
         {
             "filterable": true,
@@ -106,6 +117,32 @@
             "extraCondition": ""
         }
     },
-    "actions": [],
+    "actions": [
+        {
+            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+            "id": "action_0",
+            "properties": {
+                "visible": "true",
+                "hrefColumn": "",
+                "hrefParam": "",
+                "label": "Create New",
+                "href": "incoming_mail_agent",
+                "confirmation": "",
+                "datalist_type": "action",
+                "target": "_self"
+            }
+        },
+        {
+            "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
+            "id": "action_1",
+            "properties": {
+                "deleteFiles": "false",
+                "deleteGridData": "false",
+                "deleteSubformData": "false",
+                "label": "Delete",
+                "abortRelatedRunningProcesses": "false"
+            }
+        }
+    ],
     "order": ""
 }
