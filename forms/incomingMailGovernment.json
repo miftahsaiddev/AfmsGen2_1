@@ -224,11 +224,11 @@
                         {
                             "className": "org.joget.apps.form.lib.IdGeneratorField",
                             "properties": {
-                                "hidden": "",
-                                "format": "ID-??????-",
+                                "hidden": "true",
+                                "format": "ID-??????-#date.MM-yy#",
                                 "workflowVariable": "",
                                 "envVariable": "counter",
-                                "isDistributedGeneration": "",
+                                "isDistributedGeneration": "true",
                                 "label": "No Project",
                                 "id": "no_project"
                             }
