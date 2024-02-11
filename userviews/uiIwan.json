@@ -5,126 +5,6 @@
             "className": "org.joget.apps.userview.model.UserviewCategory",
             "menus": [
                 {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "cacheAllLinks": "",
-                        "customHeader": "",
-                        "keyName": "",
-                        "customFooter": "",
-                        "label": "Client Mail",
-                        "enableOffline": "",
-                        "customId": "",
-                        "buttonPosition": "topLeft",
-                        "datalistId": "myIncomingList",
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "rowCount": "true",
-                        "id": "51934B6191F444D75C1B63F55A3C24F5"
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "cacheAllLinks": "",
-                        "customHeader": "",
-                        "keyName": "",
-                        "customFooter": "",
-                        "label": "Urgent Mail",
-                        "enableOffline": "",
-                        "customId": "",
-                        "buttonPosition": "topLeft",
-                        "datalistId": "urgentMail",
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "rowCount": "true",
-                        "id": "9C20F26C9E5C47FCEEAC62915FA47095"
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "cacheAllLinks": "",
-                        "customHeader": "",
-                        "keyName": "",
-                        "customFooter": "",
-                        "label": "Government Mail",
-                        "enableOffline": "",
-                        "customId": "",
-                        "buttonPosition": "topLeft",
-                        "datalistId": "governmentMail",
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "rowCount": "true",
-                        "id": "98EDE2E0699E49620026FD5B0B93922F"
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "cacheAllLinks": "",
-                        "customHeader": "",
-                        "keyName": "",
-                        "customFooter": "",
-                        "label": "Translator Mail",
-                        "enableOffline": "",
-                        "customId": "",
-                        "buttonPosition": "topLeft",
-                        "datalistId": "translatorMail",
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "rowCount": "true",
-                        "id": "CFF8AB9B95A7453BBB8B166F40EE9BEB"
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "cacheAllLinks": "",
-                        "customHeader": "",
-                        "keyName": "",
-                        "customFooter": "",
-                        "label": "Not Approval Mail",
-                        "enableOffline": "",
-                        "customId": "",
-                        "buttonPosition": "topLeft",
-                        "datalistId": "notApprovalMail",
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "rowCount": "true",
-                        "id": "CCA298180A6E44DB6AE98C269E75042D"
-                    }
-                }
-            ],
-            "properties": {
-                "hide": "",
-                "permission": {
-                    "className": "",
-                    "properties": {}
-                },
-                "comment": "",
-                "label": "My Incoming Mail",
-                "id": "category-21BB2C1EFDB4413BACF19110054F9A45"
-            }
-        },
-        {
-            "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [
-                {
                     "className": "org.joget.apps.userview.lib.FormMenu",
                     "properties": {
                         "loadDataWithKey": "",
@@ -299,6 +179,126 @@
                 "comment": "",
                 "label": "<i class=\"zmdi zmdi-email\"><\/i> Incoming Mail",
                 "id": "category-2E0CFBA2FDA94D0EA0505AD6E898FBCC"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "Client Mail",
+                        "enableOffline": "",
+                        "customId": "",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "myIncomingList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "51934B6191F444D75C1B63F55A3C24F5"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "Urgent Mail",
+                        "enableOffline": "",
+                        "customId": "",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "urgentMail",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "9C20F26C9E5C47FCEEAC62915FA47095"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "Government Mail",
+                        "enableOffline": "",
+                        "customId": "",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "governmentMail",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "98EDE2E0699E49620026FD5B0B93922F"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "Translator Mail",
+                        "enableOffline": "",
+                        "customId": "",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "translatorMail",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "CFF8AB9B95A7453BBB8B166F40EE9BEB"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "Not Approval Mail",
+                        "enableOffline": "",
+                        "customId": "",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "notApprovalMail",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "CCA298180A6E44DB6AE98C269E75042D"
+                    }
+                }
+            ],
+            "properties": {
+                "hide": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "label": "My Incoming Mail",
+                "id": "category-21BB2C1EFDB4413BACF19110054F9A45"
             }
         }
     ],
