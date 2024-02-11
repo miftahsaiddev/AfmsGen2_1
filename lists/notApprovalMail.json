@@ -1,0 +1,141 @@
+{
+    "template": {
+        "className": "",
+        "properties": {}
+    },
+    "rowActions": [{
+        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+        "id": "rowAction_0",
+        "properties": {
+            "hrefColumn": "",
+            "hrefParam": "",
+            "rules": [],
+            "label": "Edit",
+            "href": "form_incoming_mail_agent",
+            "confirmation": "",
+            "link-css-display-type": "btn btn-sm btn-secondary",
+            "datalist_type": "row_action",
+            "target": "_self",
+            "header_label": ""
+        }
+    }],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Mail No",
+            "sortable": "true",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "mail_no",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_3",
+            "alignment": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Project No",
+            "sortable": "true",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "no_project",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_4",
+            "alignment": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Distribution Date",
+            "sortable": "true",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "dateCreated",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_5",
+            "alignment": ""
+        },
+        {
+            "className": "org.joget.apps.datalist.lib.BeanShellColumn",
+            "id": "column_0",
+            "properties": {
+                "label": "Deadline Date",
+                "id": "deadline_date",
+                "script": "<script>\n<\/script>"
+            }
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "agent",
+            "id": "column_6",
+            "label": "Agent",
+            "sortable": "false"
+        }
+    ],
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "filters": [{
+        "hidden": "",
+        "name": "mail_no",
+        "id": "filter_0",
+        "label": "Mail No",
+        "type": {
+            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+            "properties": {
+                "defaultValue": "",
+                "filterSelection": "Number;String",
+                "searchFields": ""
+            }
+        },
+        "datalist_type": "filter",
+        "filterParamName": "d-1815546-fn_mail_no"
+    }],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "name": "Not Approval Mail",
+    "id": "notApprovalMail",
+    "binder": {
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "properties": {
+            "formDefId": "incomingMail",
+            "extraCondition": "createdby='#currentUser.username#'"
+        }
+    },
+    "actions": [],
+    "order": ""
+}
