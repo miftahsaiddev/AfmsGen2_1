@@ -272,29 +272,63 @@
                     "properties": {"width": "33%"}
                 },
                 {
-                    "elements": [{
-                        "className": "org.joget.apps.form.lib.SelectBox",
-                        "properties": {
-                            "controlField": "",
-                            "readonly": "",
-                            "size": "",
-                            "optionsBinder": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "multiple": "",
-                            "options": [],
-                            "validator": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "workflowVariable": "",
-                            "label": "Receipt Via",
-                            "id": "receipt_via",
-                            "value": "",
-                            "readonlyLabel": ""
+                    "elements": [
+                        {
+                            "className": "org.joget.apps.form.lib.SelectBox",
+                            "properties": {
+                                "controlField": "",
+                                "readonly": "",
+                                "size": "",
+                                "optionsBinder": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "multiple": "",
+                                "options": [],
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "workflowVariable": "",
+                                "label": "Receipt Via",
+                                "id": "receipt_via",
+                                "value": "",
+                                "readonlyLabel": ""
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.SelectBox",
+                            "properties": {
+                                "controlField": "",
+                                "readonly": "",
+                                "size": "",
+                                "optionsBinder": {
+                                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                                    "properties": {
+                                        "addEmptyOption": "true",
+                                        "groupingColumn": "",
+                                        "formDefId": "translator",
+                                        "labelColumn": "long_name",
+                                        "extraCondition": "",
+                                        "cacheInterval": "",
+                                        "emptyLabel": "Pilih Translator",
+                                        "idColumn": "id"
+                                    }
+                                },
+                                "multiple": "",
+                                "options": [],
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "workflowVariable": "",
+                                "label": "Translator",
+                                "id": "translator",
+                                "value": "",
+                                "readonlyLabel": ""
+                            }
                         }
-                    }],
+                    ],
                     "className": "org.joget.apps.form.model.Column",
                     "properties": {"width": "33%"}
                 }
