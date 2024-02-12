@@ -3,6 +3,9 @@
         "className": "",
         "properties": {}
     },
+    "considerFilterWhenGetTotal": "",
+    "useSession": "",
+    "responsiveMode": "",
     "rowActions": [],
     "columns": [
         {
@@ -45,12 +48,20 @@
             "alignment": ""
         }
     ],
+    "draggabletable": "",
+    "cardCollapsible": "",
     "pageSize": "0",
-    "orderBy": "",
+    "orderBy": "id",
     "description": "",
     "filters": [],
+    "showDataWhenFilterSet": "",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "hidePageSize": "",
+    "disableResponsive": "",
+    "cardCollapseByDefault": "",
     "name": "List Sub Sub Letter Type",
+    "rowActionsMode": "",
+    "showhidecolumns": "",
     "id": "subSubLetterTypeList",
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
