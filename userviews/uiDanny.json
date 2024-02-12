@@ -97,7 +97,7 @@
                         "label": "Inbox",
                         "enableOffline": "",
                         "customId": "",
-                        "buttonPosition": "bothLeft",
+                        "buttonPosition": "topLeft",
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": "",
                         "showPopup": "",
@@ -215,6 +215,27 @@
                         "submitButtonLabel": "",
                         "userviewCacheScope": "",
                         "readonlyLabel": "true"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List",
+                        "enableOffline": "",
+                        "customId": "",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "list_history_client",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "84D43F377E1A4A949DE5E3F3D5FB5952"
                     }
                 }
             ],
