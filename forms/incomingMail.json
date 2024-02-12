@@ -187,8 +187,14 @@
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
+                                    "className": "org.joget.tutorial.JdbcOptionsBinder",
+                                    "properties": {
+                                        "useAjax": "true",
+                                        "addEmpty": "true",
+                                        "jdbcDatasource": "default",
+                                        "emptyLabel": "",
+                                        "sql": "select id,c_sub_letter_type,c_letter_type from\r\napp_fd_afms_sublettertype;"
+                                    }
                                 },
                                 "multiple": "",
                                 "options": [],
