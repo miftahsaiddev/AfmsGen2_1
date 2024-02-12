@@ -111,7 +111,7 @@
                         },
                         "workflowVariable": "",
                         "id": "letter_type_name",
-                        "value": ""
+                        "value": "#form.afms_lettertype.letter_type#"
                     }
                 }
             ],
