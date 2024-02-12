@@ -43,7 +43,10 @@
         <Participant Id="email_recipient" Name="Email Recipient">
             <ParticipantType Type="ROLE"/>
         </Participant>
-        <Participant Id="process5_participant13" Name="Participant">
+        <Participant Id="administrator" Name="Administrator">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
+        <Participant Id="specialist" Name="Specialist">
             <ParticipantType Type="ROLE"/>
         </Participant>
     </Participants>
@@ -707,17 +710,17 @@
                     <Implementation>
                         <No/>
                     </Implementation>
-                    <Performer>process5_participant13</Performer>
+                    <Performer>specialist</Performer>
                     <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process5_participant13"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="257,51"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="specialist"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="204,33"/>
                     </ExtendedAttributes>
                 </Activity>
             </Activities>
             <ExtendedAttributes>
-                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="process5_participant13"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process5_participant13,CONNECTING_ACTIVITY_ID=activity1,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process5_participant13,CONNECTING_ACTIVITY_ID=activity1,X_OFFSET=578,Y_OFFSET=98,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="administrator;specialist"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=administrator,CONNECTING_ACTIVITY_ID=activity1,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=specialist,CONNECTING_ACTIVITY_ID=activity1,X_OFFSET=555,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
     </WorkflowProcesses>
