@@ -8,7 +8,7 @@
                         "hidden": "",
                         "format": "LTS-???",
                         "workflowVariable": "",
-                        "envVariable": "counter",
+                        "envVariable": "counter_lts",
                         "isDistributedGeneration": "",
                         "label": "Sub Letter Type ID",
                         "id": "id"
