@@ -222,6 +222,6 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "tableName": "afms_outgoingmail"
+        "tableName": "afms_incomingmail"
     }
 }
