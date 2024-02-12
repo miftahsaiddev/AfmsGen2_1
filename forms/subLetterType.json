@@ -100,19 +100,6 @@
                         "value": "",
                         "readonlyLabel": ""
                     }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.HiddenField",
-                    "properties": {
-                        "useDefaultWhenEmpty": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "workflowVariable": "",
-                        "id": "letter_type_name",
-                        "value": ""
-                    }
                 }
             ],
             "className": "org.joget.apps.form.model.Column",
