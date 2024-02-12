@@ -11,9 +11,9 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "letter_type_id",
+            "name": "id",
             "id": "column_0",
-            "label": "Letter Type ID",
+            "label": "ID",
             "sortable": "false"
         },
         {
