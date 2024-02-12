@@ -37,7 +37,7 @@
                             "properties": {}
                         },
                         "workflowVariable": "",
-                        "id": "test",
+                        "id": "goverment_id",
                         "value": "#form.afms_incomingmail.government#"
                     }
                 },
