@@ -65,7 +65,7 @@
                                 "idColumn": "id"
                             }
                         },
-                        "multiple": "",
+                        "multiple": "true",
                         "options": [],
                         "validator": {
                             "className": "",
