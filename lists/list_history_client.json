@@ -10,7 +10,7 @@
             "hrefColumn": "",
             "hrefParam": "",
             "rules": [],
-            "label": "Hyperlink",
+            "label": "Reply",
             "href": "form_reply_mail_client",
             "confirmation": "",
             "link-css-display-type": "btn btn-sm btn-primary",
