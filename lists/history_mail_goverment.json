@@ -39,10 +39,25 @@
         {
             "filterable": true,
             "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Project Number",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
             "name": "project_number",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
             "id": "column_2",
-            "label": "project_number",
-            "sortable": "false"
+            "alignment": ""
         },
         {
             "filterable": true,
@@ -55,10 +70,25 @@
         {
             "filterable": true,
             "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Government",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
             "name": "government",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
             "id": "column_4",
-            "label": "government",
-            "sortable": "false"
+            "alignment": ""
         }
     ],
     "pageSize": "0",
