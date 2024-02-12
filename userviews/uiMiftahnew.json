@@ -121,7 +121,7 @@
                         "enableOffline": "",
                         "customId": "list_incoming_mail",
                         "buttonPosition": "bothLeft",
-                        "datalistId": "incoming_email",
+                        "datalistId": "listIncomingMail",
                         "checkboxPosition": "left",
                         "selectionType": "multiple",
                         "userviewCacheDuration": "20",
