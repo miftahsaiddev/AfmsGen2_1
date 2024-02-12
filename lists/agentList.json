@@ -24,11 +24,11 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Letter From",
+            "label": "Name",
             "sortable": "false",
             "datalist_type": "column",
             "exclude_export": "",
-            "name": "letter_from",
+            "name": "name",
             "width": "",
             "headerAlignment": "",
             "action": {
@@ -36,7 +36,7 @@
                 "properties": {
                     "hrefColumn": "id",
                     "hrefParam": "id",
-                    "href": "form_letter_from?embed=true",
+                    "href": "form_agent?embed=true",
                     "confirmation": "",
                     "target": "popup"
                 }
@@ -44,6 +44,14 @@
             "style": "",
             "id": "column_1",
             "alignment": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "address",
+            "id": "column_2",
+            "label": "Address",
+            "sortable": "false"
         }
     ],
     "draggabletable": "",
@@ -57,14 +65,14 @@
     "hidePageSize": "",
     "disableResponsive": "",
     "cardCollapseByDefault": "",
-    "name": "List Letter From",
+    "name": "List Agent",
     "rowActionsMode": "",
     "showhidecolumns": "",
-    "id": "letterFromList",
+    "id": "agentList",
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
-            "formDefId": "letterFrom",
+            "formDefId": "agent",
             "extraCondition": ""
         }
     },
@@ -75,7 +83,7 @@
             "properties": {
                 "deleteFiles": "",
                 "deleteGridData": "",
-                "formDefId": "letterFrom",
+                "formDefId": "agent",
                 "deleteSubformData": "",
                 "label": "Delete",
                 "confirmation": "",
@@ -91,7 +99,7 @@
                 "hrefColumn": "",
                 "hrefParam": "",
                 "label": "Create",
-                "href": "form_letter_from?embed=true",
+                "href": "form_agent?embed=true",
                 "confirmation": "",
                 "datalist_type": "action",
                 "target": "popup"
