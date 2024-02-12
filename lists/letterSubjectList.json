@@ -11,9 +11,9 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "letter_subject_id",
+            "name": "id",
             "id": "column_0",
-            "label": "Letter Subject ID",
+            "label": "ID",
             "sortable": "false"
         },
         {
@@ -65,7 +65,7 @@
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
-    "orderBy": "letter_subject_id",
+    "orderBy": "id",
     "description": "",
     "filters": [{
         "hidden": "",
