@@ -3,41 +3,31 @@
         "className": "",
         "properties": {}
     },
-    "rowActions": [
+    "rowActions": [{
+        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+        "id": "rowAction_0",
+        "properties": {
+            "hrefColumn": "id",
+            "hrefParam": "id",
+            "rules": [],
+            "label": "Reply",
+            "href": "form_reply_mail_client",
+            "confirmation": "",
+            "link-css-display-type": "btn btn-sm btn-primary",
+            "datalist_type": "row_action",
+            "target": "_self",
+            "header_label": ""
+        }
+    }],
+    "columns": [
         {
-            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-            "id": "rowAction_0",
+            "className": "org.joget.apps.datalist.lib.RowNumberColumn",
+            "id": "column_4",
             "properties": {
-                "hrefColumn": "id",
-                "hrefParam": "id",
-                "rules": [],
-                "label": "Reply",
-                "href": "form_reply_mail_client",
-                "confirmation": "",
-                "link-css-display-type": "btn btn-sm btn-primary",
-                "datalist_type": "row_action",
-                "target": "_self",
-                "header_label": ""
+                "label": "Row Number",
+                "id": "column_4"
             }
         },
-        {
-            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-            "id": "rowAction_0",
-            "properties": {
-                "hrefColumn": "",
-                "hrefParam": "",
-                "rules": [],
-                "label": "Reply",
-                "href": "",
-                "confirmation": "",
-                "link-css-display-type": "btn btn-sm btn-primary",
-                "datalist_type": "row_action",
-                "target": "_self",
-                "header_label": ""
-            }
-        }
-    ],
-    "columns": [
         {
             "filterable": true,
             "hidden": "false",
