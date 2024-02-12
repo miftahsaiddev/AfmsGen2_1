@@ -4,6 +4,18 @@
             "elements": [{
                 "elements": [
                     {
+                        "className": "org.joget.apps.form.lib.IdGeneratorField",
+                        "properties": {
+                            "hidden": "",
+                            "format": "TRL-??????",
+                            "workflowVariable": "",
+                            "envVariable": "counter_trl",
+                            "isDistributedGeneration": "",
+                            "label": "ID Generator",
+                            "id": "id"
+                        }
+                    },
+                    {
                         "className": "org.joget.apps.form.lib.TextField",
                         "properties": {
                             "requiredSanitize": "true",
