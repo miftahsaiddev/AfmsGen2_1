@@ -42,8 +42,8 @@
             "action": {
                 "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
                 "properties": {
-                    "hrefColumn": "id",
-                    "hrefParam": "id",
+                    "hrefColumn": "",
+                    "hrefParam": "",
                     "href": "form_letter_subject?embed=true",
                     "confirmation": "",
                     "target": "popup"
