@@ -43,7 +43,7 @@
                         "readonly": "true",
                         "allowManual": "",
                         "workflowVariable": "",
-                        "id": "field6",
+                        "id": "replied_date",
                         "placeholder": "",
                         "disableWeekends": "true",
                         "value": "#date.yyyy-MM-dd#",
