@@ -8,7 +8,7 @@
                         "hidden": "",
                         "format": "LM-???",
                         "workflowVariable": "",
-                        "envVariable": "counter",
+                        "envVariable": "counter_lm",
                         "isDistributedGeneration": "",
                         "label": "Type of Mail ID",
                         "id": "id"
