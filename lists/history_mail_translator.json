@@ -7,11 +7,11 @@
         "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
         "id": "rowAction_0",
         "properties": {
-            "hrefColumn": "id",
-            "hrefParam": "id",
+            "hrefColumn": "",
+            "hrefParam": "",
             "rules": [],
             "label": "Reply",
-            "href": "form_reply_client",
+            "href": "",
             "confirmation": "",
             "link-css-display-type": "btn btn-sm btn-primary",
             "datalist_type": "row_action",
@@ -22,17 +22,17 @@
     "columns": [
         {
             "className": "org.joget.apps.datalist.lib.RowNumberColumn",
-            "id": "column_4",
+            "id": "column_0",
             "properties": {
                 "label": "Row Number",
-                "id": "column_4"
+                "id": "column_0"
             }
         },
         {
             "filterable": true,
             "hidden": "false",
             "name": "mail_no",
-            "id": "column_0",
+            "id": "column_3",
             "label": "Mail No",
             "sortable": "false"
         },
@@ -40,24 +40,24 @@
             "filterable": true,
             "hidden": "false",
             "name": "no_project",
-            "id": "column_1",
+            "id": "column_2",
             "label": "No Project",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "name": "agent",
-            "id": "column_2",
-            "label": "Agent",
+            "name": "received_date",
+            "id": "column_4",
+            "label": "Received Date",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "name": "received_date",
-            "id": "column_3",
-            "label": "Received Date",
+            "name": "translator",
+            "id": "column_1",
+            "label": "translator",
             "sortable": "false"
         }
     ],
@@ -66,8 +66,8 @@
     "description": "",
     "filters": [],
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
-    "name": "History Mail Client",
-    "id": "list_history_client",
+    "name": "History Mail Translator",
+    "id": "history_mail_translator",
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
