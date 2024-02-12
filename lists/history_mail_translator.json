@@ -11,7 +11,7 @@
             "hrefParam": "",
             "rules": [],
             "label": "Reply",
-            "href": "",
+            "href": "form_reply_translator",
             "confirmation": "",
             "link-css-display-type": "btn btn-sm btn-primary",
             "datalist_type": "row_action",
@@ -55,10 +55,25 @@
         {
             "filterable": true,
             "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Translator",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
             "name": "translator",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
             "id": "column_1",
-            "label": "translator",
-            "sortable": "false"
+            "alignment": ""
         }
     ],
     "pageSize": "0",

@@ -6,12 +6,12 @@
                     "className": "org.joget.apps.form.lib.IdGeneratorField",
                     "properties": {
                         "hidden": "",
-                        "format": "GV-??????",
+                        "format": "GOV-??????",
                         "workflowVariable": "",
-                        "envVariable": "counter",
+                        "envVariable": "counter_gov",
                         "isDistributedGeneration": "",
                         "label": "Government ID",
-                        "id": "government_id"
+                        "id": "id"
                     }
                 },
                 {

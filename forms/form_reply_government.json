@@ -120,7 +120,7 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Reply Client",
+            "label": "Reply Govenrment",
             "reverse": "",
             "storeBinder": {
                 "className": "",
@@ -146,14 +146,14 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "name": "Form Reply Client",
+        "name": "Form Reply Government",
         "description": "",
         "postProcessorRunOn": "create",
         "permission": {
             "className": "",
             "properties": {}
         },
-        "id": "reply_mail_client",
+        "id": "form_reply_government",
         "postProcessor": {
             "className": "",
             "properties": {}

@@ -8,10 +8,10 @@
                         "hidden": "",
                         "format": "LTS-???",
                         "workflowVariable": "",
-                        "envVariable": "counter",
+                        "envVariable": "counter_lts",
                         "isDistributedGeneration": "",
                         "label": "Sub Letter Type ID",
-                        "id": "sub_letter_type_id"
+                        "id": "id"
                     }
                 },
                 {
@@ -30,7 +30,7 @@
                                 "extraCondition": "",
                                 "cacheInterval": "",
                                 "emptyLabel": "",
-                                "idColumn": "letter_type_id"
+                                "idColumn": "id"
                             }
                         },
                         "multiple": "",
