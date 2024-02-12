@@ -95,7 +95,6 @@
     },
     "setting": {"properties": {
         "__": "",
-        "tempDisablePermissionChecking": "",
         "userviewDescription": "",
         "userviewId": "afmsUi",
         "hideThisUserviewInAppCenter": "",
@@ -130,7 +129,7 @@
                 "disablePwa": "",
                 "dx8contentbackground": "",
                 "loginPageBottom": "",
-                "dx8backgroundImage": "#appResource.DSCF7998.JPG#",
+                "dx8backgroundImage": "",
                 "dx8navBadgeText": "",
                 "dx8background": "",
                 "dx8headerColor": "",
