@@ -11,25 +11,10 @@
         {
             "filterable": true,
             "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Letter From ID",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "letter_from_id",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
+            "name": "id",
             "id": "column_0",
-            "alignment": ""
+            "label": "ID",
+            "sortable": "false"
         },
         {
             "filterable": true,
