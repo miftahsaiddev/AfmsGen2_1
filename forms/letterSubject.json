@@ -195,6 +195,18 @@
                 {
                     "elements": [
                         {
+                            "className": "org.joget.apps.form.lib.TextField",
+                            "properties": {
+                                "requiredSanitize": "true",
+                                "readonly": "False",
+                                "style": "",
+                                "label": "Text Field",
+                                "id": "field25",
+                                "readonlyLabel": "False",
+                                "storeNumeric": "False"
+                            }
+                        },
+                        {
                             "className": "org.joget.plugin.SectionTabs",
                             "properties": {
                                 "id": "patent",
