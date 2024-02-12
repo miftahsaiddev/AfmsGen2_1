@@ -90,7 +90,7 @@
         "welcomeMessage": "#date.EEE, d MMM yyyy#",
         "name": "Afms UI",
         "description": "",
-        "footerMessage": "©adyromadhon",
+        "footerMessage": "© Copyright - adyromadhon",
         "id": "afmsUi"
     },
     "setting": {"properties": {
