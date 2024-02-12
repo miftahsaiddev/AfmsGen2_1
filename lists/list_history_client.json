@@ -1,18 +1,24 @@
 {
-    "rowActions": [],
-    "columns": [],
-    "name": "History Mail Client",
-    "pageSize": "0",
-    "orderBy": "",
-    "description": "",
-    "id": "list_history_client",
-    "filters": [],
-    "binder": {
-        "name": "",
+    "template": {
         "className": "",
         "properties": {}
     },
-    "actions": [],
+    "rowActions": [],
+    "columns": [],
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "filters": [],
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "name": "History Mail Client",
+    "id": "list_history_client",
+    "binder": {
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "properties": {
+            "formDefId": "incomingMail",
+            "extraCondition": ""
+        }
+    },
+    "actions": [],
     "order": ""
 }
