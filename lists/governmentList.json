@@ -74,8 +74,8 @@
             "id": "action_1",
             "properties": {
                 "visible": "",
-                "hrefColumn": "id",
-                "hrefParam": "id",
+                "hrefColumn": "",
+                "hrefParam": "",
                 "label": "Create",
                 "href": "form_government",
                 "confirmation": "",
