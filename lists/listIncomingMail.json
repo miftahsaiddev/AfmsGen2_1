@@ -61,7 +61,7 @@
                 "properties": {
                     "hrefColumn": "id",
                     "hrefParam": "id",
-                    "href": "form_incoming_mail_agent",
+                    "href": "form_reply",
                     "confirmation": "",
                     "target": "_self"
                 }

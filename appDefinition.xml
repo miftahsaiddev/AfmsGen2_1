@@ -9,20 +9,33 @@
          <name>Afms Generation 2</name>
          <packageActivityFormMap>
             <entry>
-               <string>I0001IncomingMailCient::submit_mail</string>
+               <string>incomingMailProcess::activity2</string>
                <packageActivityForm>
-                  <processDefId>I0001IncomingMailCient</processDefId>
-                  <activityDefId>submit_mail</activityDefId>
+                  <processDefId>incomingMailProcess</processDefId>
+                  <activityDefId>activity2</activityDefId>
+                  <formId>replyMail</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>I0001IncomingMailCient::reply_mail</string>
+               <string>tes_incoming_2::incoming_mail</string>
                <packageActivityForm>
-                  <processDefId>I0001IncomingMailCient</processDefId>
-                  <activityDefId>reply_mail</activityDefId>
+                  <processDefId>tes_incoming_2</processDefId>
+                  <activityDefId>incoming_mail</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>tes_incoming_2::patent</string>
+               <packageActivityForm>
+                  <processDefId>tes_incoming_2</processDefId>
+                  <activityDefId>patent</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -33,16 +46,7 @@
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
                   <activityDefId>make_order_number</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>tes_incoming_2::merek</string>
-               <packageActivityForm>
-                  <processDefId>tes_incoming_2</processDefId>
-                  <activityDefId>merek</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -53,6 +57,7 @@
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
                   <activityDefId>approve_reject_mail</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -63,16 +68,18 @@
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
                   <activityDefId>approval_reply_mail</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>I0001IncomingMailCient::runProcess</string>
+               <string>incomingMailProcess::runProcess</string>
                <packageActivityForm>
-                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <processDefId>incomingMailProcess</processDefId>
                   <activityDefId>runProcess</activityDefId>
+                  <formId>incomingMail</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -83,14 +90,172 @@
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
                   <activityDefId>return_rejected_mail</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>I0001IncomingMailCient::submit_mail</string>
+               <packageActivityForm>
+                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>submit_mail</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>I0001IncomingMailCient::reply_mail</string>
+               <packageActivityForm>
+                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>reply_mail</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>tes_incoming_2::not_approved</string>
+               <packageActivityForm>
+                  <processDefId>tes_incoming_2</processDefId>
+                  <activityDefId>not_approved</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>tes_incoming_2::merek</string>
+               <packageActivityForm>
+                  <processDefId>tes_incoming_2</processDefId>
+                  <activityDefId>merek</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>tes_incoming_2::disitrbute_email</string>
+               <packageActivityForm>
+                  <processDefId>tes_incoming_2</processDefId>
+                  <activityDefId>disitrbute_email</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>I0001IncomingMailCient::edit_and_submit_mail</string>
+               <packageActivityForm>
+                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>edit_and_submit_mail</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process5::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>process5</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>I0001IncomingMailCient::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>tes_incoming_2::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>tes_incoming_2</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>tes_incoming_2::reply_email</string>
+               <packageActivityForm>
+                  <processDefId>tes_incoming_2</processDefId>
+                  <activityDefId>reply_email</activityDefId>
+                  <formId>reply_mail_client</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
          </packageActivityFormMap>
-         <packageActivityPluginMap/>
-         <packageParticipantMap/>
+         <packageActivityPluginMap>
+            <entry>
+               <string>tes_incoming_2::send_email</string>
+               <packageActivityPlugin>
+                  <processDefId>tes_incoming_2</processDefId>
+                  <activityDefId>send_email</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+         </packageActivityPluginMap>
+         <packageParticipantMap>
+            <entry>
+               <string>process5::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>process5</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>incomingMailProcess::administrator</string>
+               <packageParticipant>
+                  <processDefId>incomingMailProcess</processDefId>
+                  <participantId>administrator</participantId>
+                  <type>requester</type>
+                  <value>runProcess</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>incomingMailProcess::specialist</string>
+               <packageParticipant>
+                  <processDefId>incomingMailProcess</processDefId>
+                  <participantId>specialist</participantId>
+                  <type>workflowVariable</type>
+                  <value>attention_to,user</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>incomingMailProcess::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>incomingMailProcess</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>loggedInUser</value>
+               </packageParticipant>
+            </entry>
+         </packageParticipantMap>
       </packageDefinition>
    </packageDefinitionList>
    <formDefinitionList/>
