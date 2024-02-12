@@ -12,7 +12,7 @@
                             "envVariable": "counter_ls",
                             "isDistributedGeneration": "",
                             "label": "Letter Subject ID",
-                            "id": "letter_subject_id"
+                            "id": "id"
                         }
                     },
                     {
