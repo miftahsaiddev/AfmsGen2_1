@@ -109,6 +109,14 @@
          <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
       </appResource>
       <appResource>
+         <id>AmBadar-Logo_lingkaran_putih.png</id>
+         <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
+         <filesize>37489</filesize>
+         <permissionClass></permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
+      <appResource>
          <id>BG_1.JPG</id>
          <appId>AfmsGen2</appId>
          <appVersion>1</appVersion>
