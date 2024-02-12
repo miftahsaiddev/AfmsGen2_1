@@ -8,7 +8,7 @@
                         "hidden": "",
                         "format": "GOV-??????",
                         "workflowVariable": "",
-                        "envVariable": "counter",
+                        "envVariable": "counter_gov",
                         "isDistributedGeneration": "",
                         "label": "Government ID",
                         "id": "id"
