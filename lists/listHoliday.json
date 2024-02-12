@@ -44,7 +44,7 @@
             "hrefColumn": "",
             "hrefParam": "",
             "label": "Add",
-            "href": "",
+            "href": "formHoliday",
             "confirmation": "",
             "datalist_type": "action",
             "target": "_self"
