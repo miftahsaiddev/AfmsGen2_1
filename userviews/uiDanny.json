@@ -39,7 +39,7 @@
                         "selectionType": "multiple",
                         "userviewCacheDuration": "20",
                         "cacheListAction": "",
-                        "userviewCacheScope": "",
+                        "userviewCacheScope": "application",
                         "rowCount": "",
                         "id": "D6AB75BB1172469223467985B3B80E30"
                     }
