@@ -7,7 +7,32 @@
     "useSession": "",
     "responsiveMode": "",
     "rowActions": [],
-    "columns": [],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "id",
+            "id": "column_0",
+            "label": "ID",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "name",
+            "id": "column_1",
+            "label": "Name",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "address",
+            "id": "column_2",
+            "label": "Address",
+            "sortable": "false"
+        }
+    ],
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
@@ -30,6 +55,19 @@
             "extraCondition": ""
         }
     },
-    "actions": [],
+    "actions": [{
+        "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
+        "id": "action_0",
+        "properties": {
+            "deleteFiles": "",
+            "deleteGridData": "",
+            "formDefId": "agent",
+            "deleteSubformData": "",
+            "label": "Delete",
+            "confirmation": "",
+            "datalist_type": "action",
+            "abortRelatedRunningProcesses": ""
+        }
+    }],
     "order": ""
 }
