@@ -84,7 +84,7 @@
                         "attachment": "true",
                         "size": "",
                         "fileTypeMsg": "Invalid file type",
-                        "id": "file_upload",
+                        "id": "document",
                         "resizeHeight": "",
                         "fileType": ""
                     }
