@@ -62,11 +62,14 @@
             "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
             "id": "action_0",
             "properties": {
-                "deleteFiles": "false",
-                "deleteGridData": "false",
-                "deleteSubformData": "false",
+                "deleteFiles": "",
+                "deleteGridData": "",
+                "formDefId": "government",
+                "deleteSubformData": "",
                 "label": "Delete",
-                "abortRelatedRunningProcesses": "false"
+                "confirmation": "",
+                "datalist_type": "action",
+                "abortRelatedRunningProcesses": ""
             }
         },
         {
