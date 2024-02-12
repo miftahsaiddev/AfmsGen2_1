@@ -77,7 +77,7 @@
                 "hrefColumn": "",
                 "hrefParam": "",
                 "label": "Create",
-                "href": "form_government",
+                "href": "form_government?embed=true",
                 "confirmation": "",
                 "datalist_type": "action",
                 "target": "popup"
