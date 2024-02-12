@@ -7,49 +7,11 @@
     "useSession": "",
     "responsiveMode": "",
     "rowActions": [],
-    "columns": [
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "letter_type_id",
-            "id": "column_0",
-            "label": "Letter Type ID",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Letter Type",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "letter_type",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-                "properties": {
-                    "hrefColumn": "id",
-                    "hrefParam": "id",
-                    "href": "form_letter_type?embed=true",
-                    "confirmation": "",
-                    "target": "popup"
-                }
-            },
-            "style": "",
-            "id": "column_1",
-            "alignment": ""
-        }
-    ],
+    "columns": [],
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
-    "orderBy": "letter_type_id",
+    "orderBy": "",
     "description": "",
     "filters": [],
     "showDataWhenFilterSet": "",
