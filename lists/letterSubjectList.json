@@ -60,6 +60,14 @@
             "id": "column_3",
             "label": "Subject Name",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "limit_day",
+            "id": "column_4",
+            "label": "Limit Day",
+            "sortable": "false"
         }
     ],
     "draggabletable": "",
