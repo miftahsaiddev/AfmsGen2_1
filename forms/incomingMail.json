@@ -159,17 +159,8 @@
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
-                                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                                    "properties": {
-                                        "addEmptyOption": "",
-                                        "groupingColumn": "code_type",
-                                        "formDefId": "letterType",
-                                        "labelColumn": "letter_type",
-                                        "extraCondition": "",
-                                        "cacheInterval": "",
-                                        "emptyLabel": "",
-                                        "idColumn": "code_type"
-                                    }
+                                    "className": "",
+                                    "properties": {}
                                 },
                                 "multiple": "",
                                 "options": [],
