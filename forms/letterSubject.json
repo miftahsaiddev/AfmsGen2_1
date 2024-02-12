@@ -195,6 +195,14 @@
                 {
                     "elements": [
                         {
+                            "className": "org.joget.plugin.SectionTabs",
+                            "properties": {
+                                "id": "patent",
+                                "sections": "patent letter type",
+                                "load_all": "true"
+                            }
+                        },
+                        {
                             "className": "org.joget.apps.form.lib.TextField",
                             "properties": {
                                 "requiredSanitize": "true",
@@ -204,14 +212,6 @@
                                 "id": "field25",
                                 "readonlyLabel": "False",
                                 "storeNumeric": "False"
-                            }
-                        },
-                        {
-                            "className": "org.joget.plugin.SectionTabs",
-                            "properties": {
-                                "id": "patent",
-                                "sections": "patent letter type",
-                                "load_all": "true"
                             }
                         },
                         {
