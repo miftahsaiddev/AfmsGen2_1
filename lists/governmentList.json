@@ -56,7 +56,7 @@
                 "visible": "",
                 "hrefColumn": "id",
                 "hrefParam": "id",
-                "label": "Hyperlink",
+                "label": "Create",
                 "href": "form_government",
                 "confirmation": "",
                 "datalist_type": "action",
