@@ -125,7 +125,7 @@
                         "fieldPassoverMethod": "append",
                         "redirectTargetOnComplete": "",
                         "keyName": "",
-                        "label": "Form reply client",
+                        "label": "Form Reply Client",
                         "userviewCacheDuration": "20",
                         "messageShowAfterComplete": "",
                         "submitButtonLabel": "",
