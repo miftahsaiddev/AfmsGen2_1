@@ -50,7 +50,7 @@
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
-    "orderBy": "",
+    "orderBy": "type_of_mail_id",
     "description": "",
     "filters": [],
     "showDataWhenFilterSet": "",
