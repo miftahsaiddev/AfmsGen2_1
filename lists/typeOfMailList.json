@@ -11,9 +11,9 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "type_of_mail_id",
+            "name": "id",
             "id": "column_0",
-            "label": "Type of Mail ID",
+            "label": "ID",
             "sortable": "false"
         },
         {
@@ -49,7 +49,7 @@
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
-    "orderBy": "type_of_mail_id",
+    "orderBy": "",
     "description": "",
     "filters": [],
     "showDataWhenFilterSet": "",

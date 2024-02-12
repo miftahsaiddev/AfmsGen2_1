@@ -3,6 +3,18 @@
         "elements": [{
             "elements": [
                 {
+                    "className": "org.joget.apps.form.lib.IdGeneratorField",
+                    "properties": {
+                        "hidden": "",
+                        "format": "GV-??????",
+                        "workflowVariable": "",
+                        "envVariable": "counter",
+                        "isDistributedGeneration": "",
+                        "label": "Government ID",
+                        "id": "government_id"
+                    }
+                },
+                {
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
                         "requiredSanitize": "true",
@@ -56,13 +68,17 @@
                             "className": "",
                             "properties": {}
                         },
-                        "options": [],
+                        "options": [{
+                            "label": "",
+                            "value": "1",
+                            "grouping": ""
+                        }],
                         "validator": {
                             "className": "",
                             "properties": {}
                         },
                         "workflowVariable": "",
-                        "label": "set_active",
+                        "label": "Set Active",
                         "id": "set_active",
                         "value": "",
                         "readonlyLabel": ""

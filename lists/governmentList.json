@@ -3,17 +3,14 @@
         "className": "",
         "properties": {}
     },
-    "considerFilterWhenGetTotal": "",
-    "useSession": "",
-    "responsiveMode": "",
     "rowActions": [],
     "columns": [
         {
             "filterable": true,
             "hidden": "false",
-            "name": "letter_type_id",
+            "name": "government_id",
             "id": "column_0",
-            "label": "Letter Type ID",
+            "label": "Government ID",
             "sortable": "false"
         },
         {
@@ -24,11 +21,11 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Letter Type",
+            "label": "Name",
             "sortable": "false",
             "datalist_type": "column",
             "exclude_export": "",
-            "name": "letter_type",
+            "name": "name",
             "width": "",
             "headerAlignment": "",
             "action": {
@@ -36,7 +33,7 @@
                 "properties": {
                     "hrefColumn": "id",
                     "hrefParam": "id",
-                    "href": "form_letter_type?embed=true",
+                    "href": "form_government?embed=true",
                     "confirmation": "",
                     "target": "popup"
                 }
@@ -46,25 +43,17 @@
             "alignment": ""
         }
     ],
-    "draggabletable": "",
-    "cardCollapsible": "",
     "pageSize": "0",
     "orderBy": "",
     "description": "",
     "filters": [],
-    "showDataWhenFilterSet": "",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
-    "hidePageSize": "",
-    "disableResponsive": "",
-    "cardCollapseByDefault": "",
-    "name": "List Letter Type",
-    "rowActionsMode": "",
-    "showhidecolumns": "",
-    "id": "letterTypeList",
+    "name": "List Government",
+    "id": "governmentList",
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
-            "formDefId": "letterType",
+            "formDefId": "government",
             "extraCondition": ""
         }
     },
@@ -75,7 +64,7 @@
             "properties": {
                 "deleteFiles": "",
                 "deleteGridData": "",
-                "formDefId": "letterType",
+                "formDefId": "government",
                 "deleteSubformData": "",
                 "label": "Delete",
                 "confirmation": "",
@@ -91,7 +80,7 @@
                 "hrefColumn": "",
                 "hrefParam": "",
                 "label": "Create",
-                "href": "form_letter_type?embed=true",
+                "href": "form_government?embed=true",
                 "confirmation": "",
                 "datalist_type": "action",
                 "target": "popup"
