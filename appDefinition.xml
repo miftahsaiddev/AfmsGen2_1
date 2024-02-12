@@ -102,17 +102,10 @@
    <messageList/>
    <resourceList>
       <appResource>
-         <id>AmBadar-Logo_lingkaran.png</id>
+         <id>BG.jpg</id>
          <appId>AfmsGen2</appId>
          <appVersion>1</appVersion>
-         <filesize>20660</filesize>
-         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
-      </appResource>
-      <appResource>
-         <id>DSCF7998.JPG</id>
-         <appId>AfmsGen2</appId>
-         <appVersion>1</appVersion>
-         <filesize>1756991</filesize>
+         <filesize>400025</filesize>
          <permissionClass></permissionClass>
          <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
       </appResource>
