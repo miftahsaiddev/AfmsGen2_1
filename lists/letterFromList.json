@@ -7,60 +7,35 @@
     "useSession": "",
     "responsiveMode": "",
     "rowActions": [],
-    "columns": [
-        {
-            "filterable": true,
-            "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Letter From ID",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "letter_from_id",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
-            "id": "column_0",
-            "alignment": ""
+    "columns": [{
+        "filterable": true,
+        "hidden": "false",
+        "renderHtml": "",
+        "format": {
+            "className": "",
+            "properties": {}
         },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Letter From",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "letter_from",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-                "properties": {
-                    "hrefColumn": "id",
-                    "hrefParam": "id",
-                    "href": "form_letter_from?embed=true",
-                    "confirmation": "",
-                    "target": "popup"
-                }
-            },
-            "style": "",
-            "id": "column_1",
-            "alignment": ""
-        }
-    ],
+        "label": "Letter From",
+        "sortable": "false",
+        "datalist_type": "column",
+        "exclude_export": "",
+        "name": "letter_from",
+        "width": "",
+        "headerAlignment": "",
+        "action": {
+            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+            "properties": {
+                "hrefColumn": "id",
+                "hrefParam": "id",
+                "href": "form_letter_from?embed=true",
+                "confirmation": "",
+                "target": "popup"
+            }
+        },
+        "style": "",
+        "id": "column_1",
+        "alignment": ""
+    }],
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
