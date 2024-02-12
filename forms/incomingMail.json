@@ -400,7 +400,7 @@
                                         "useAjax": "true",
                                         "addEmpty": "",
                                         "jdbcDatasource": "default",
-                                        "sql": "select dir_user.id, dir_employment.departmentid from dir_employment \r\nleft join dir_user on dir_employment.userid=dir_user.id  where \r\ndir_employment.employeecode like 'Amb-%';"
+                                        "sql": "select dir_user.id,dir_user.username, dir_employment.departmentid from dir_employment \r\nleft join dir_user on dir_employment.userid=dir_user.id  where \r\ndir_employment.employeecode like 'Amb-%';"
                                     }
                                 },
                                 "multiple": "",
