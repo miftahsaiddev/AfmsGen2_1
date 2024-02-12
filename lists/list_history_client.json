@@ -11,7 +11,7 @@
             "hrefParam": "id",
             "rules": [],
             "label": "Reply",
-            "href": "form_reply_mail_client",
+            "href": "form_reply_client",
             "confirmation": "",
             "link-css-display-type": "btn btn-sm btn-primary",
             "datalist_type": "row_action",
