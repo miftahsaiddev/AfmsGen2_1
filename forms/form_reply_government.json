@@ -114,8 +114,29 @@
         }],
         "className": "org.joget.apps.form.model.Section",
         "properties": {
-            "label": "Section",
-            "id": "section1"
+            "visibilityControl": "",
+            "permissionReadonly": "",
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Reply Govenrment",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityValue": "",
+            "regex": "",
+            "readonly": "",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "comment": "",
+            "id": "section1",
+            "join": "",
+            "readonlyLabel": ""
         }
     }],
     "className": "org.joget.apps.form.model.Form",
