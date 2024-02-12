@@ -114,6 +114,27 @@
                         "customHeader": "",
                         "keyName": "",
                         "customFooter": "",
+                        "label": "List Sub Sub Letter Type",
+                        "enableOffline": "",
+                        "customId": "list_sub_sub_letter_type",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "subSubLetterTypeList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "FAE8B6C87688497A1A5D0A50C6132693"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
                         "label": "List Letter Subject",
                         "enableOffline": "",
                         "customId": "list_letter_subject",
