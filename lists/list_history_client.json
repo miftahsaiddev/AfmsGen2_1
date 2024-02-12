@@ -21,6 +21,14 @@
     }],
     "columns": [
         {
+            "className": "org.joget.apps.datalist.lib.RowNumberColumn",
+            "id": "column_4",
+            "properties": {
+                "label": "Row Number",
+                "id": "column_4"
+            }
+        },
+        {
             "filterable": true,
             "hidden": "false",
             "name": "mail_no",
