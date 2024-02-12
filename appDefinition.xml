@@ -53,6 +53,17 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>incomingMailProcess::reply_email</string>
+               <packageActivityForm>
+                  <processDefId>incomingMailProcess</processDefId>
+                  <activityDefId>reply_email</activityDefId>
+                  <formId>reply_mail_client</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>I0001IncomingMailCient::approve_reject_mail</string>
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
