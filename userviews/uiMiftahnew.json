@@ -81,7 +81,7 @@
                 "className": "org.joget.apps.userview.lib.FormMenu",
                 "properties": {
                     "loadDataWithKey": "",
-                    "redirectUrlOnCancel": "",
+                    "redirectUrlOnCancel": "holiday",
                     "actionOnCancel": "",
                     "redirectTargetOnCancel": "top",
                     "customFooter": "",
@@ -94,7 +94,7 @@
                     "cancelButtonLabel": "",
                     "actionAfterSaved": "",
                     "id": "897030165201463D8D5C3F90FA1221F5",
-                    "redirectUrlAfterComplete": "",
+                    "redirectUrlAfterComplete": "holiday",
                     "fieldPassover": "",
                     "formId": "holiday",
                     "customHeader": "",
