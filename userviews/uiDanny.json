@@ -22,61 +22,27 @@
         },
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "cacheAllLinks": "",
-                        "customHeader": "",
-                        "keyName": "",
-                        "customFooter": "",
-                        "label": "History Mail Client",
-                        "enableOffline": "",
-                        "customId": "history_mail_client",
-                        "buttonPosition": "bothLeft",
-                        "datalistId": "list_history_client",
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "rowCount": "",
-                        "id": "A27B66C6DCE345B09B0AF7417E16D539"
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.FormMenu",
-                    "properties": {
-                        "loadDataWithKey": "",
-                        "redirectUrlOnCancel": "history_mail_client",
-                        "actionOnCancel": "",
-                        "redirectTargetOnCancel": "top",
-                        "customFooter": "",
-                        "paramName": "",
-                        "enableOffline": "",
-                        "afterSavedReloadTarget": "true",
-                        "customId": "form_reply_mail_client",
-                        "showInPopupDialog": "",
-                        "readonly": "",
-                        "cancelButtonLabel": "Cancel",
-                        "actionAfterSaved": "",
-                        "id": "A0BF429D6A6247B84B4A1DA367C0C615",
-                        "redirectUrlAfterComplete": "",
-                        "fieldPassover": "",
-                        "formId": "reply_mail_client",
-                        "customHeader": "",
-                        "fieldPassoverMethod": "append",
-                        "redirectTargetOnComplete": "",
-                        "keyName": "",
-                        "label": "Form Reply Mail Client",
-                        "userviewCacheDuration": "20",
-                        "messageShowAfterComplete": "",
-                        "submitButtonLabel": "",
-                        "userviewCacheScope": "",
-                        "readonlyLabel": "true"
-                    }
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.DataListMenu",
+                "properties": {
+                    "cacheAllLinks": "",
+                    "customHeader": "",
+                    "keyName": "",
+                    "customFooter": "",
+                    "label": "History Mail Client",
+                    "enableOffline": "",
+                    "customId": "history_mail_client",
+                    "buttonPosition": "bothLeft",
+                    "datalistId": "listIncomingMail",
+                    "checkboxPosition": "left",
+                    "selectionType": "multiple",
+                    "userviewCacheDuration": "20",
+                    "cacheListAction": "",
+                    "userviewCacheScope": "",
+                    "rowCount": "",
+                    "id": "A27B66C6DCE345B09B0AF7417E16D539"
                 }
-            ],
+            }],
             "properties": {
                 "hide": "",
                 "permission": {
@@ -86,6 +52,51 @@
                 "comment": "",
                 "label": "Incoming Mail",
                 "id": "category-88F79F54919C425DBB0C7327E59AFE4C"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.FormMenu",
+                "properties": {
+                    "loadDataWithKey": "",
+                    "redirectUrlOnCancel": "history_mail_client",
+                    "actionOnCancel": "",
+                    "redirectTargetOnCancel": "top",
+                    "customFooter": "",
+                    "paramName": "",
+                    "enableOffline": "",
+                    "afterSavedReloadTarget": "true",
+                    "customId": "form_reply_mail_client",
+                    "showInPopupDialog": "",
+                    "readonly": "",
+                    "cancelButtonLabel": "Cancel",
+                    "actionAfterSaved": "",
+                    "id": "A0BF429D6A6247B84B4A1DA367C0C615",
+                    "redirectUrlAfterComplete": "",
+                    "fieldPassover": "",
+                    "formId": "reply_mail_client",
+                    "customHeader": "",
+                    "fieldPassoverMethod": "append",
+                    "redirectTargetOnComplete": "",
+                    "keyName": "",
+                    "label": "Form Reply Mail Client",
+                    "userviewCacheDuration": "20",
+                    "messageShowAfterComplete": "",
+                    "submitButtonLabel": "",
+                    "userviewCacheScope": "",
+                    "readonlyLabel": "true"
+                }
+            }],
+            "properties": {
+                "hide": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "label": "Form Reply",
+                "id": "category-41FF5694E77046A4EE4924C7514E4803"
             }
         }
     ],
