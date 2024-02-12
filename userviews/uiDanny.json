@@ -1,94 +1,21 @@
 {
     "className": "org.joget.apps.userview.model.Userview",
-    "categories": [
-        {
-            "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [{
-                "className": "org.joget.apps.userview.lib.HtmlPage",
-                "properties": {
-                    "userviewCacheDuration": "",
-                    "userviewCacheScope": "",
-                    "id": "e8b2dfa1-9caf-4e30-8431-f8600944d8d5",
-                    "label": "Welcome",
-                    "enableOffline": "",
-                    "customId": "welcome",
-                    "content": "<div class=\"ui-welcome\">\n<h1>Apps and Workflow Made Simple<\/h1>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"/jw/images/icon_idea.png\" alt=\"Build apps\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Build apps, not just processes!<\/h3>\n<p>Create full-fledged apps with support for data records management.<\/p>\n<\/div>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"/jw/images/icon_rocket.png\" alt=\"Increased efficiency\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Increased Efficiency and Productivity<\/h3>\n<p>Faster and more consistent completion of manual processes, and with minimal errors.<\/p>\n<\/div>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"/jw/images/icon_cost.png\" alt=\"Lowered cost\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Lowered Cost<\/h3>\n<p>Employees can be guided through complex procedures, hence reducing the cost of training.<\/p>\n<\/div>\n<\/div>"
-                }
-            }],
+    "categories": [{
+        "className": "org.joget.apps.userview.model.UserviewCategory",
+        "menus": [{
+            "className": "org.joget.apps.userview.lib.HtmlPage",
             "properties": {
-                "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
-                "label": "<i class='fa fa-home'><\/i> Home"
+                "id": "e8b2dfa1-9caf-4e30-8431-f8600944d8d5",
+                "label": "Welcome",
+                "customId": "welcome",
+                "content": "<div class=\"ui-welcome\"><h1>Apps and Workflow Made Simple<\/h1><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_idea.png\" alt=\"Build apps\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Build apps, not just processes!<\/h3><p>Create full-fledged apps with support for data records management.<\/p><\/div><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_rocket.png\" alt=\"Increased efficiency\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Increased Efficiency and Productivity<\/h3><p>Faster and more consistent completion of manual processes, and with minimal errors.<\/p><\/div><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_cost.png\" alt=\"Lowered cost\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Lowered Cost<\/h3><p>Employees can be guided through complex procedures, hence reducing the cost of training.<\/p><\/div><\/div>"
             }
-        },
-        {
-            "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "cacheAllLinks": "",
-                        "customHeader": "",
-                        "keyName": "",
-                        "customFooter": "",
-                        "label": "Incoming Mail",
-                        "enableOffline": "",
-                        "customId": "outgoingmail",
-                        "buttonPosition": "bothLeft",
-                        "datalistId": "outgoing_mail",
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "rowCount": "",
-                        "id": "84EFADBFF26A4E5F179DBE2B867D2C76"
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.FormMenu",
-                    "properties": {
-                        "loadDataWithKey": "",
-                        "redirectUrlOnCancel": "outgoingmail",
-                        "actionOnCancel": "",
-                        "redirectTargetOnCancel": "top",
-                        "customFooter": "",
-                        "paramName": "",
-                        "enableOffline": "",
-                        "afterSavedReloadTarget": "true",
-                        "customId": "reply_mail",
-                        "showInPopupDialog": "",
-                        "readonly": "",
-                        "cancelButtonLabel": "",
-                        "actionAfterSaved": "",
-                        "id": "F04482A794564271926C5F201D75D2EB",
-                        "redirectUrlAfterComplete": "",
-                        "fieldPassover": "",
-                        "formId": "testreplymail",
-                        "customHeader": "",
-                        "fieldPassoverMethod": "append",
-                        "redirectTargetOnComplete": "",
-                        "keyName": "",
-                        "label": "Reply Mail",
-                        "userviewCacheDuration": "20",
-                        "messageShowAfterComplete": "",
-                        "submitButtonLabel": "",
-                        "userviewCacheScope": "",
-                        "readonlyLabel": "true"
-                    }
-                }
-            ],
-            "properties": {
-                "hide": "",
-                "permission": {
-                    "className": "",
-                    "properties": {}
-                },
-                "comment": "",
-                "label": "Incoming Mail",
-                "id": "category-602FFF855F484507DE76EEA19CB2C191"
-            }
+        }],
+        "properties": {
+            "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
+            "label": "<i class='fa fa-home'><\/i> Home"
         }
-    ],
+    }],
     "properties": {
         "logoutText": "Logout",
         "welcomeMessage": "#date.EEE, d MMM yyyy#",
