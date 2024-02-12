@@ -106,7 +106,6 @@
          <appId>AfmsGen2</appId>
          <appVersion>1</appVersion>
          <filesize>20660</filesize>
-         <permissionClass></permissionClass>
          <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
       </appResource>
       <appResource>
@@ -114,6 +113,14 @@
          <appId>AfmsGen2</appId>
          <appVersion>1</appVersion>
          <filesize>400025</filesize>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
+      <appResource>
+         <id>DSCF7998.JPG</id>
+         <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
+         <filesize>1756991</filesize>
+         <permissionClass></permissionClass>
          <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
       </appResource>
    </resourceList>
