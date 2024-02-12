@@ -11,7 +11,7 @@
                             "workflowVariable": "",
                             "envVariable": "counter_trl",
                             "isDistributedGeneration": "",
-                            "label": "ID Generator",
+                            "label": "Translator ID",
                             "id": "id"
                         }
                     },
