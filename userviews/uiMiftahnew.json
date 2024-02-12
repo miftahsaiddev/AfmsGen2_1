@@ -130,6 +130,39 @@
                         "rowCount": "",
                         "id": "8E879824D6D54BF27A624815A8BC83A1"
                     }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.UniversalInboxMenu",
+                    "properties": {
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": "",
+                        "showPopup": "false",
+                        "label": "Universal Inbox",
+                        "rowCount": "false",
+                        "id": "A1373C2FE83845B8A7D94D569E6FA6C7",
+                        "buttonPosition": "bothLeft"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.InboxMenu",
+                    "properties": {
+                        "appFilter": "process",
+                        "list-customFooter": "",
+                        "cacheAllLinks": "",
+                        "assignment-customHeader": "",
+                        "assignment-customFooter": "",
+                        "label": "Inbox",
+                        "enableOffline": "",
+                        "customId": "",
+                        "buttonPosition": "bothLeft",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": "",
+                        "processId": "incomingMailProcess",
+                        "showPopup": "",
+                        "rowCount": "",
+                        "id": "01354884ABBF4A4F74E384060DB12A3B",
+                        "list-customHeader": ""
+                    }
                 }
             ],
             "properties": {
