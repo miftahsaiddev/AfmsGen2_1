@@ -7,8 +7,8 @@
         "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
         "id": "rowAction_0",
         "properties": {
-            "hrefColumn": "",
-            "hrefParam": "",
+            "hrefColumn": "id",
+            "hrefParam": "id",
             "rules": [],
             "label": "Reply",
             "href": "form_reply_mail_client",
