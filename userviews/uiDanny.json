@@ -33,7 +33,7 @@
                     "enableOffline": "",
                     "customId": "history_mail_client",
                     "buttonPosition": "bothLeft",
-                    "datalistId": "list_history_client",
+                    "datalistId": "listIncomingMail",
                     "checkboxPosition": "left",
                     "selectionType": "multiple",
                     "userviewCacheDuration": "20",
