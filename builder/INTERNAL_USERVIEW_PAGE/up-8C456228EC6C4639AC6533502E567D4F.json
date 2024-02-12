@@ -1,0 +1,49 @@
+{
+    "elements": [
+        {"className": "menu-component"},
+        {
+            "className": "org.joget.apps.userview.lib.DataListMenu",
+            "properties": {
+                "cacheAllLinks": "",
+                "customHeader": "",
+                "keyName": "",
+                "customFooter": "",
+                "label": "List Client Mail",
+                "enableOffline": "",
+                "customId": "list_client_mail",
+                "buttonPosition": "bothLeft",
+                "datalistId": "myIncomingList",
+                "checkboxPosition": "left",
+                "selectionType": "multiple",
+                "userviewCacheDuration": "20",
+                "cacheListAction": "",
+                "userviewCacheScope": "",
+                "rowCount": "true",
+                "id": "8CCAD2B4E22F41681A4E6887EB158533"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.lib.DataListMenu",
+            "properties": {
+                "cacheAllLinks": "",
+                "customHeader": "",
+                "keyName": "",
+                "customFooter": "",
+                "label": "Urgent Mail",
+                "enableOffline": "",
+                "customId": "",
+                "buttonPosition": "bothLeft",
+                "datalistId": "myIncomingList",
+                "checkboxPosition": "left",
+                "selectionType": "multiple",
+                "userviewCacheDuration": "20",
+                "cacheListAction": "",
+                "userviewCacheScope": "",
+                "rowCount": "true",
+                "id": "06972D604CBB4D55555D4BE5DA52A056"
+            }
+        }
+    ],
+    "className": "org.joget.apps.userview.model.UserviewPage",
+    "properties": {"id": "up-8C456228EC6C4639AC6533502E567D4F"}
+}

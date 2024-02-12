@@ -119,9 +119,9 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "agent",
-            "id": "column_5",
-            "label": "Agent",
+            "name": "government",
+            "id": "column_2",
+            "label": "government",
             "sortable": "false"
         }
     ],
@@ -151,10 +151,10 @@
     "hidePageSize": "",
     "disableResponsive": "",
     "cardCollapseByDefault": "",
-    "name": "Incoming Mail Client",
+    "name": "Incoming Mail Government",
     "rowActionsMode": "",
     "showhidecolumns": "",
-    "id": "listIncomingMail",
+    "id": "incomingMailGovernment",
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {

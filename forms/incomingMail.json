@@ -122,16 +122,6 @@
                             }
                         },
                         {
-                            "className": "org.joget.apps.form.lib.CustomHTML",
-                            "properties": {
-                                "requiredSanitize": "true",
-                                "autoPopulate": "",
-                                "label": "",
-                                "id": "field22",
-                                "value": "<script>\n    // Function to generate a random number with a specific length and a prefix\n    function generateId(length, prefix) {\n      var randomNumber = Math.floor(Math.pow(10, length-1) + Math.random() * 9 * Math.pow(10, length-1));\n      return prefix + randomNumber;\n    }\n\n    // Get the input element by its ID\n    var dynamicInput = document.getElementById('mail_no');\n\n    // Generate a random number with length 11 and prefix \"ID-\"\n    dynamicInput.value = generateId(11, 'ID-');\n\n    // Set the input to readonly\n    dynamicInput.readOnly = true;\n    <\/script>\n    "
-                            }
-                        },
-                        {
                             "className": "org.joget.apps.form.lib.TextField",
                             "properties": {
                                 "requiredSanitize": "true",
@@ -266,6 +256,18 @@
                                 "label": "",
                                 "id": "helper",
                                 "value": "<select id=\"sltb\" hidden><\/select>\n<script>\n    $(\"#sltb\").html($(\"[name='sub_letter_type']\").html().replaceAll(\"\\\" grouping=\\\"\", \"_\"))\n    $(\"[name='letter_type']\").change(function(){\n        $(\"[name='sub_letter_type']\").empty()\n        for(i=0;i<$(\"#sltb option\").length;i++){\n            attr_val = $(\"#sltb option\").get(i).value.split(\"_\")\n            if (this.value == attr_val[1])\n                $(\"[name='sub_letter_type']\").append(\"<option value=\"+attr_val[0]+\">\"+$(\"#sltb option\").get(i).text+\"<\/option>\")\n        }\n    })\n    \n    $(\"[name='letter_from']\").change(function(){\n      $nilai=this.value;\n      alert($nilai);\n      $(\"[name='government']\").style.visibility ='hidden';\n      \n    });\n    $(\"[name='government']\").style.visibility ='hidden';\n<\/script>"
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.IdGeneratorField",
+                            "properties": {
+                                "hidden": "true",
+                                "format": "ID-??????-#date.MM-yy#",
+                                "workflowVariable": "",
+                                "envVariable": "counter",
+                                "isDistributedGeneration": "true",
+                                "label": "No Project",
+                                "id": "no_project"
                             }
                         }
                     ],
