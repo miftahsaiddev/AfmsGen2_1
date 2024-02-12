@@ -148,6 +148,27 @@
                         "rowCount": "true",
                         "id": "7A76B1E017FA46B2A12AA717FC8E5246"
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Translator",
+                        "enableOffline": "",
+                        "customId": "list_translator",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "translatorList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "5ECD4DCB3D26460A465F8DE567456842"
+                    }
                 }
             ],
             "properties": {
