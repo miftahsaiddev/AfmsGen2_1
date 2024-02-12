@@ -92,8 +92,12 @@
                         "requiredSanitize": "true",
                         "maxlength": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
                         },
                         "label": "Sub Sub Letter Type",
                         "readonly": "",
