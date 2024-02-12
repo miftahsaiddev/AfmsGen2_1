@@ -9,10 +9,22 @@
          <name>Afms Generation 2</name>
          <packageActivityFormMap>
             <entry>
+               <string>incomingMailProcess::activity1</string>
+               <packageActivityForm>
+                  <processDefId>incomingMailProcess</processDefId>
+                  <activityDefId>activity1</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>I0001IncomingMailCient::submit_mail</string>
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
                   <activityDefId>submit_mail</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -23,6 +35,7 @@
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
                   <activityDefId>reply_mail</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -33,6 +46,7 @@
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
                   <activityDefId>make_order_number</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -53,6 +67,18 @@
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
                   <activityDefId>approve_reject_mail</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>I0001IncomingMailCient::edit_and_submit_mail</string>
+               <packageActivityForm>
+                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>edit_and_submit_mail</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -63,6 +89,18 @@
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
                   <activityDefId>approval_reply_mail</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process5::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>process5</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -73,6 +111,18 @@
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
                   <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>incomingMailProcess::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>incomingMailProcess</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -83,6 +133,7 @@
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
                   <activityDefId>return_rejected_mail</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -90,7 +141,26 @@
             </entry>
          </packageActivityFormMap>
          <packageActivityPluginMap/>
-         <packageParticipantMap/>
+         <packageParticipantMap>
+            <entry>
+               <string>process5::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>process5</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>incomingMailProcess::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>incomingMailProcess</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+         </packageParticipantMap>
       </packageDefinition>
    </packageDefinitionList>
    <formDefinitionList/>

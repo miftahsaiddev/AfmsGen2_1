@@ -43,6 +43,9 @@
         <Participant Id="email_recipient" Name="Email Recipient">
             <ParticipantType Type="ROLE"/>
         </Participant>
+        <Participant Id="process5_participant13" Name="Participant">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
     </Participants>
     <Applications>
         <Application Id="default_application"/>
@@ -683,6 +686,38 @@
                 <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="tes_incoming_2_entry_data;email_recipient"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=tes_incoming_2_entry_data,CONNECTING_ACTIVITY_ID=incoming_mail,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=email_recipient,CONNECTING_ACTIVITY_ID=send_email,X_OFFSET=1137.671875,Y_OFFSET=332,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+            </ExtendedAttributes>
+        </WorkflowProcess>
+        <WorkflowProcess Id="incomingMailProcess" Name="Incoming Mail Process">
+            <ProcessHeader DurationUnit="h"/>
+            <DataFields>
+                <DataField Id="status" IsArray="FALSE">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </DataField>
+                <DataField Id="attention_to" IsArray="FALSE">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </DataField>
+            </DataFields>
+            <Activities>
+                <Activity Id="activity1" Name="Activity 1">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>process5_participant13</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process5_participant13"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="257,51"/>
+                    </ExtendedAttributes>
+                </Activity>
+            </Activities>
+            <ExtendedAttributes>
+                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="process5_participant13"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process5_participant13,CONNECTING_ACTIVITY_ID=activity1,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process5_participant13,CONNECTING_ACTIVITY_ID=activity1,X_OFFSET=578,Y_OFFSET=98,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
     </WorkflowProcesses>

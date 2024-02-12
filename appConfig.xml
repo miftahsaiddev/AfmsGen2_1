@@ -37,6 +37,13 @@
          <value>2</value>
          <remarks>Used for plugin: Id Generator Field</remarks>
       </environmentVariable>
+      <environmentVariable>
+         <id>counter_trl</id>
+         <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
+         <value>2</value>
+         <remarks>Used for plugin: Id Generator Field</remarks>
+      </environmentVariable>
    </environmentVariableList>
    <messageList/>
    <resourceList/>
