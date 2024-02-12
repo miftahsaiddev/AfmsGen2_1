@@ -25,7 +25,7 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "type_of_mail",
+            "label": "Type of Mail",
             "sortable": "false",
             "datalist_type": "column",
             "exclude_export": "",
@@ -35,11 +35,11 @@
             "action": {
                 "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
                 "properties": {
-                    "hrefColumn": "",
-                    "hrefParam": "",
-                    "href": "",
+                    "hrefColumn": "id",
+                    "hrefParam": "id",
+                    "href": "form_type_of_mail?embed=true",
                     "confirmation": "",
-                    "target": "_self"
+                    "target": "popup"
                 }
             },
             "style": "",
