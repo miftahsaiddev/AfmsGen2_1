@@ -410,7 +410,7 @@
                                     "className": "",
                                     "properties": {}
                                 },
-                                "workflowVariable": "",
+                                "workflowVariable": "attention_to",
                                 "label": "Attention To",
                                 "id": "attention_to",
                                 "value": "",
