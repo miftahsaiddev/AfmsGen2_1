@@ -164,6 +164,38 @@
                         "userviewCacheScope": "",
                         "readonlyLabel": "true"
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.FormMenu",
+                    "properties": {
+                        "loadDataWithKey": "",
+                        "redirectUrlOnCancel": "",
+                        "actionOnCancel": "",
+                        "redirectTargetOnCancel": "top",
+                        "customFooter": "",
+                        "paramName": "",
+                        "enableOffline": "",
+                        "afterSavedReloadTarget": "true",
+                        "customId": "form_reply_translator",
+                        "showInPopupDialog": "",
+                        "readonly": "",
+                        "cancelButtonLabel": "",
+                        "actionAfterSaved": "",
+                        "id": "019D5BE3FE8B46FFBBEF8CEF94D5341E",
+                        "redirectUrlAfterComplete": "",
+                        "fieldPassover": "",
+                        "formId": "form_reply_translator",
+                        "customHeader": "",
+                        "fieldPassoverMethod": "append",
+                        "redirectTargetOnComplete": "",
+                        "keyName": "",
+                        "label": "Form Reply Translator",
+                        "userviewCacheDuration": "20",
+                        "messageShowAfterComplete": "",
+                        "submitButtonLabel": "",
+                        "userviewCacheScope": "",
+                        "readonlyLabel": "true"
+                    }
                 }
             ],
             "properties": {
