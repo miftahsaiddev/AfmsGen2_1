@@ -1,0 +1,57 @@
+{
+    "template": {
+        "className": "",
+        "properties": {}
+    },
+    "rowActions": [],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "mail_no",
+            "id": "column_0",
+            "label": "Mail No",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "no_project",
+            "id": "column_1",
+            "label": "No Project",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "agent",
+            "id": "column_2",
+            "label": "Agent",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "received_date",
+            "id": "column_3",
+            "label": "Received Date",
+            "sortable": "false"
+        }
+    ],
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "filters": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "name": "History Mail Client",
+    "id": "list_history_client",
+    "binder": {
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "properties": {
+            "formDefId": "incomingMail",
+            "extraCondition": ""
+        }
+    },
+    "actions": [],
+    "order": ""
+}

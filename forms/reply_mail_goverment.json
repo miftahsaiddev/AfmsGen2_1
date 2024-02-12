@@ -29,6 +29,19 @@
                     }
                 },
                 {
+                    "className": "org.joget.apps.form.lib.HiddenField",
+                    "properties": {
+                        "useDefaultWhenEmpty": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "id": "goverment_id",
+                        "value": "#form.afms_incomingmail.government#"
+                    }
+                },
+                {
                     "className": "org.joget.apps.form.lib.FileUpload",
                     "properties": {
                         "resizeMethod": "",
@@ -111,14 +124,14 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "name": "Reply Mail",
+        "name": "Incoming Reply Goverment",
         "description": "",
         "postProcessorRunOn": "create",
         "permission": {
             "className": "",
             "properties": {}
         },
-        "id": "replyMail",
+        "id": "reply_mail_goverment",
         "postProcessor": {
             "className": "org.joget.apps.app.lib.EmailTool",
             "properties": {
@@ -151,6 +164,6 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "tableName": "afms_outgoingmail"
+        "tableName": "afms_incomingmail"
     }
 }
