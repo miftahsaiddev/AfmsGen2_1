@@ -99,7 +99,7 @@
         "userviewDescription": "",
         "userviewId": "afmsUi",
         "hideThisUserviewInAppCenter": "",
-        "userview_thumbnail": "",
+        "userview_thumbnail": "#appResource.AmBadar-Logo_lingkaran.png#",
         "userview_category": "",
         "theme": {
             "className": "org.joget.plugin.enterprise.Dx8ColorAdminTheme",
