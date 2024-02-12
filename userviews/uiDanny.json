@@ -48,7 +48,7 @@
                     "className": "org.joget.apps.userview.lib.FormMenu",
                     "properties": {
                         "loadDataWithKey": "",
-                        "redirectUrlOnCancel": "",
+                        "redirectUrlOnCancel": "history_mail_client",
                         "actionOnCancel": "",
                         "redirectTargetOnCancel": "top",
                         "customFooter": "",
@@ -58,7 +58,7 @@
                         "customId": "form_reply_mail_client",
                         "showInPopupDialog": "",
                         "readonly": "",
-                        "cancelButtonLabel": "",
+                        "cancelButtonLabel": "Cancel",
                         "actionAfterSaved": "",
                         "id": "A0BF429D6A6247B84B4A1DA367C0C615",
                         "redirectUrlAfterComplete": "",
