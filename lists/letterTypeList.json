@@ -7,7 +7,24 @@
     "useSession": "",
     "responsiveMode": "",
     "rowActions": [],
-    "columns": [],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "letter_type",
+            "id": "column_1",
+            "label": "Letter Type",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "letter_type_id",
+            "id": "column_0",
+            "label": "Letter Type ID",
+            "sortable": "false"
+        }
+    ],
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
