@@ -42,14 +42,6 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "letter_type_name",
-            "id": "column_3",
-            "label": "letter_type_name",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
             "renderHtml": "",
             "format": {
                 "className": "",
