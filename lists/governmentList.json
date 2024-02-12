@@ -8,9 +8,9 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "government_id",
+            "name": "id",
             "id": "column_0",
-            "label": "Government ID",
+            "label": "ID",
             "sortable": "false"
         },
         {
