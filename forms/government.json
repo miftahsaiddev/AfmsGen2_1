@@ -68,13 +68,17 @@
                             "className": "",
                             "properties": {}
                         },
-                        "options": [],
+                        "options": [{
+                            "label": "",
+                            "value": "1",
+                            "grouping": ""
+                        }],
                         "validator": {
                             "className": "",
                             "properties": {}
                         },
                         "workflowVariable": "",
-                        "label": "set_active",
+                        "label": "Set Active",
                         "id": "set_active",
                         "value": "",
                         "readonlyLabel": ""
