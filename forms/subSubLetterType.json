@@ -49,7 +49,7 @@
                 {
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
-                        "controlField": "",
+                        "controlField": "letter_type",
                         "readonly": "",
                         "size": "",
                         "optionsBinder": {
