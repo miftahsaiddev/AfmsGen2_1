@@ -159,16 +159,12 @@
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
-                                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                                    "className": "org.joget.tutorial.JdbcOptionsBinder",
                                     "properties": {
-                                        "addEmptyOption": "true",
-                                        "groupingColumn": "",
-                                        "formDefId": "letterType",
-                                        "labelColumn": "letter_type",
-                                        "extraCondition": "",
-                                        "cacheInterval": "",
-                                        "emptyLabel": "",
-                                        "idColumn": ""
+                                        "useAjax": "true",
+                                        "addEmpty": "",
+                                        "jdbcDatasource": "default",
+                                        "sql": "select id,c_letter_type from app_fd_afms_lettertype;"
                                     }
                                 },
                                 "multiple": "",
@@ -187,7 +183,7 @@
                         {
                             "className": "org.joget.apps.form.lib.SelectBox",
                             "properties": {
-                                "controlField": "",
+                                "controlField": "letter_type",
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
