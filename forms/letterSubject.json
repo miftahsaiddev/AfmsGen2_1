@@ -67,7 +67,7 @@
                                     "extraCondition": "",
                                     "cacheInterval": "",
                                     "emptyLabel": "",
-                                    "idColumn": "letter_from_id"
+                                    "idColumn": "id"
                                 }
                             },
                             "multiple": "",
