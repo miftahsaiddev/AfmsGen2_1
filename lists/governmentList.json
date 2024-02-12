@@ -1,12 +1,35 @@
 {
+    "template": {
+        "className": "",
+        "properties": {}
+    },
     "rowActions": [],
-    "columns": [],
-    "name": "List Government",
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "government_id",
+            "id": "column_0",
+            "label": "Government ID",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "name",
+            "id": "column_1",
+            "label": "Name",
+            "sortable": "false",
+            "datalist_type": "column"
+        }
+    ],
     "pageSize": "0",
     "orderBy": "",
     "description": "",
-    "id": "governmentList",
     "filters": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "name": "List Government",
+    "id": "governmentList",
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
@@ -14,7 +37,26 @@
             "extraCondition": ""
         }
     },
-    "actions": [],
-    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "actions": [
+        {
+            "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
+            "id": "action_0",
+            "properties": {
+                "deleteFiles": "false",
+                "deleteGridData": "false",
+                "deleteSubformData": "false",
+                "label": "Delete",
+                "abortRelatedRunningProcesses": "false"
+            }
+        },
+        {
+            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+            "id": "action_1",
+            "properties": {
+                "label": "Hyperlink",
+                "target": "_self"
+            }
+        }
+    ],
     "order": ""
 }
