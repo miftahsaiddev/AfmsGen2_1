@@ -30,20 +30,20 @@
                         "permissionHidden": "",
                         "yearRange": "c-10:c+10",
                         "dataFormat": "yyyy-MM-dd",
-                        "startDateFieldId": "field6",
+                        "startDateFieldId": "",
                         "validator": {
                             "className": "",
                             "properties": {}
                         },
                         "format": "dd-mm-yy",
-                        "label": "Date Picker",
+                        "label": "Replied Date",
                         "datePickerType": "",
                         "currentDateAs": "minDate",
-                        "endDateFieldId": "field6",
+                        "endDateFieldId": "",
                         "readonly": "true",
                         "allowManual": "",
                         "workflowVariable": "",
-                        "id": "field6",
+                        "id": "replied_date",
                         "placeholder": "",
                         "disableWeekends": "true",
                         "value": "#date.yyyy-MM-dd#",
@@ -84,7 +84,7 @@
                         "attachment": "true",
                         "size": "",
                         "fileTypeMsg": "Invalid file type",
-                        "id": "file_upload",
+                        "id": "document",
                         "resizeHeight": "",
                         "fileType": ""
                     }

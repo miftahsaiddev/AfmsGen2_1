@@ -11,9 +11,9 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "letter_subject_id",
+            "name": "id",
             "id": "column_0",
-            "label": "Letter Subject ID",
+            "label": "ID",
             "sortable": "false"
         },
         {
@@ -42,8 +42,8 @@
             "action": {
                 "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
                 "properties": {
-                    "hrefColumn": "id",
-                    "hrefParam": "id",
+                    "hrefColumn": "",
+                    "hrefParam": "",
                     "href": "form_letter_subject?embed=true",
                     "confirmation": "",
                     "target": "popup"
@@ -56,16 +56,45 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "subject_name",
-            "id": "column_3",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "Subject Name",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "subject_name",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+                "properties": {
+                    "hrefColumn": "id",
+                    "hrefParam": "id",
+                    "href": "form_letter_subject?embed=true",
+                    "confirmation": "",
+                    "target": "popup"
+                }
+            },
+            "style": "",
+            "id": "column_3",
+            "alignment": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "limit_day",
+            "id": "column_4",
+            "label": "Limit Day",
             "sortable": "false"
         }
     ],
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
-    "orderBy": "letter_subject_id",
+    "orderBy": "id",
     "description": "",
     "filters": [{
         "hidden": "",

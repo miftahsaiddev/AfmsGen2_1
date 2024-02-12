@@ -39,8 +39,8 @@
                         "selectionType": "multiple",
                         "userviewCacheDuration": "20",
                         "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "rowCount": "",
+                        "userviewCacheScope": "application",
+                        "rowCount": "true",
                         "id": "D6AB75BB1172469223467985B3B80E30"
                     }
                 },
@@ -61,7 +61,7 @@
                         "userviewCacheDuration": "20",
                         "cacheListAction": "",
                         "userviewCacheScope": "",
-                        "rowCount": "",
+                        "rowCount": "true",
                         "id": "581E7615008F4339586C37D04F0F1A0A"
                     }
                 },
@@ -82,7 +82,7 @@
                         "userviewCacheDuration": "20",
                         "cacheListAction": "",
                         "userviewCacheScope": "",
-                        "rowCount": "",
+                        "rowCount": "true",
                         "id": "B9413FA8CA894D5CDB361AF942B0CC5A"
                     }
                 }
@@ -105,7 +105,7 @@
                     "className": "org.joget.apps.userview.lib.FormMenu",
                     "properties": {
                         "loadDataWithKey": "",
-                        "redirectUrlOnCancel": "",
+                        "redirectUrlOnCancel": "history_mail_client",
                         "actionOnCancel": "",
                         "redirectTargetOnCancel": "top",
                         "customFooter": "",
@@ -115,7 +115,7 @@
                         "customId": "form_reply_client",
                         "showInPopupDialog": "",
                         "readonly": "",
-                        "cancelButtonLabel": "",
+                        "cancelButtonLabel": "Cancel",
                         "actionAfterSaved": "",
                         "id": "FE66BAF15A8A45A5AAC6CD917630EBCF",
                         "redirectUrlAfterComplete": "",
@@ -199,7 +199,7 @@
                 }
             ],
             "properties": {
-                "hide": "",
+                "hide": "yes",
                 "permission": {
                     "className": "",
                     "properties": {}
@@ -219,15 +219,70 @@
         "id": "uiDanny"
     },
     "setting": {"properties": {
+        "tempDisablePermissionChecking": "",
         "userviewDescription": "",
         "userviewId": "uiDanny",
+        "hideThisUserviewInAppCenter": "",
+        "userview_thumbnail": "",
+        "userview_category": "",
         "theme": {
             "className": "org.joget.apps.userview.lib.AjaxUniversalTheme",
             "properties": {
+                "dx8navBadge": "",
+                "css": "",
+                "loginBackground": "",
+                "dx8navLinkColor": "",
+                "disablePush": "",
+                "removeAssignmentTitle": "",
+                "shortcutLinkLabel": "",
+                "disableHelpGuide": "",
+                "logo": "",
+                "enableResponsiveSwitch": "",
+                "dx8headerFontColor": "",
+                "fav_icon": "",
                 "mobileViewDisabled": "",
+                "dx8navLinkIcon": "",
+                "horizontal_menu": "",
+                "profile": "",
+                "homeAttractBanner": "",
+                "dx8headingBgColor": "",
+                "dx8linkColor": "",
+                "homeUrl": "",
+                "dx8linkActiveColor": "",
+                "dx8footerColor": "",
+                "subheader": "",
+                "disablePwa": "",
+                "dx8contentbackground": "",
+                "loginPageBottom": "",
+                "dx8backgroundImage": "",
+                "dx8navBadgeText": "",
+                "dx8background": "",
+                "dx8headerColor": "",
+                "dx8colorScheme": "rgb(233, 233, 233);rgb(255, 255, 255);rgb(174, 202, 199);rgb(44, 101, 98);rgb(25, 118, 210);rgb(0, 75, 160)",
+                "dx8navBackground": "",
+                "js": "",
+                "dx8navActiveIconColor": "",
+                "dx8navScrollbarThumb": "",
+                "userMenu": [],
+                "urlsToCache": "",
+                "loginPageTop": "",
                 "userImage": "no",
-                "dx8colorScheme": "#e9e9e9;#FFFFFF;#AECAC7;#2C6562;#1976d2;#004ba0",
-                "mobileCacheEnabled": ""
+                "dx8buttonColor": "",
+                "shortcut": [],
+                "fontControl": "",
+                "dx8navActiveLinkBackground": "",
+                "dx8fontColor": "",
+                "dx8navLinkBackground": "",
+                "dx8buttonBackground": "",
+                "dx8contentFontColor": "",
+                "subfooter": "",
+                "mobileCacheEnabled": "",
+                "dx8footerBackground": "",
+                "dx8headingFontColor": "",
+                "dx8primaryColor": "",
+                "darkMode": "",
+                "dx8navActiveLinkColor": "",
+                "inbox": ""
             }
         },
         "permission": {
