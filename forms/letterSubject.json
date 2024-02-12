@@ -193,54 +193,32 @@
         {
             "elements": [
                 {
-                    "elements": [
-                        {
-                            "className": "org.joget.plugin.SectionTabs",
-                            "properties": {
-                                "id": "patent",
-                                "sections": "patent letter type",
-                                "load_all": "true"
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.TextField",
-                            "properties": {
-                                "requiredSanitize": "true",
-                                "readonly": "False",
-                                "style": "",
-                                "label": "Text Field",
-                                "id": "field25",
-                                "readonlyLabel": "False",
-                                "storeNumeric": "False"
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.CheckBox",
-                            "properties": {
-                                "fullWidth": "",
-                                "controlField": "",
-                                "readonly": "",
-                                "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "options": [{
-                                    "label": "Order",
-                                    "value": "1",
-                                    "grouping": ""
-                                }],
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "workflowVariable": "",
-                                "label": "",
-                                "id": "patrent_order",
-                                "value": "",
-                                "readonlyLabel": ""
-                            }
+                    "elements": [{
+                        "className": "org.joget.apps.form.lib.CheckBox",
+                        "properties": {
+                            "fullWidth": "",
+                            "controlField": "",
+                            "readonly": "",
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "options": [{
+                                "label": "Order",
+                                "value": "1",
+                                "grouping": ""
+                            }],
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "workflowVariable": "",
+                            "label": "",
+                            "id": "patrent_order",
+                            "value": "",
+                            "readonlyLabel": ""
                         }
-                    ],
+                    }],
                     "className": "org.joget.apps.form.model.Column",
                     "properties": {"width": "33%"}
                 },
