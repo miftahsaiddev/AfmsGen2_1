@@ -9,17 +9,6 @@
          <name>Afms Generation 2</name>
          <packageActivityFormMap>
             <entry>
-               <string>incomingMailProcess::activity1</string>
-               <packageActivityForm>
-                  <processDefId>incomingMailProcess</processDefId>
-                  <activityDefId>activity1</activityDefId>
-                  <formId>incomingMail</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>incomingMailProcess::activity2</string>
                <packageActivityForm>
                   <processDefId>incomingMailProcess</processDefId>
@@ -90,7 +79,7 @@
                <packageActivityForm>
                   <processDefId>incomingMailProcess</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
+                  <formId>incomingMail</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>

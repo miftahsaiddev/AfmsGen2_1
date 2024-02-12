@@ -48,7 +48,7 @@
          <id>counter_ltss</id>
          <appId>AfmsGen2</appId>
          <appVersion>1</appVersion>
-         <value>9</value>
+         <value>13</value>
          <remarks>Used for plugin: Id Generator Field</remarks>
       </environmentVariable>
    </environmentVariableList>
