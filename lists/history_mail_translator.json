@@ -22,17 +22,17 @@
     "columns": [
         {
             "className": "org.joget.apps.datalist.lib.RowNumberColumn",
-            "id": "column_1",
+            "id": "column_0",
             "properties": {
                 "label": "Row Number",
-                "id": "column_1"
+                "id": "column_0"
             }
         },
         {
             "filterable": true,
             "hidden": "false",
             "name": "mail_no",
-            "id": "column_2",
+            "id": "column_3",
             "label": "Mail No",
             "sortable": "false"
         },
@@ -40,17 +40,40 @@
             "filterable": true,
             "hidden": "false",
             "name": "no_project",
-            "id": "column_3",
+            "id": "column_2",
             "label": "No Project",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "name": "translator",
-            "id": "column_0",
-            "label": "translator",
+            "name": "received_date",
+            "id": "column_4",
+            "label": "Received Date",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Translator",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "translator",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_1",
+            "alignment": ""
         }
     ],
     "pageSize": "0",
