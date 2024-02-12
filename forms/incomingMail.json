@@ -387,35 +387,6 @@
                                 "value": "",
                                 "readonlyLabel": ""
                             }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.SelectBox",
-                            "properties": {
-                                "controlField": "division",
-                                "readonly": "",
-                                "size": "",
-                                "optionsBinder": {
-                                    "className": "org.joget.tutorial.JdbcOptionsBinder",
-                                    "properties": {
-                                        "useAjax": "true",
-                                        "addEmpty": "true",
-                                        "jdbcDatasource": "default",
-                                        "emptyLabel": "Pilih Divisi Dulu",
-                                        "sql": "select id,userid, departmentid from dir_employment where \nemployeecode like 'Amb-%';"
-                                    }
-                                },
-                                "multiple": "",
-                                "options": [],
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "workflowVariable": "attention_to",
-                                "label": "Attention To",
-                                "id": "attention_to",
-                                "value": "",
-                                "readonlyLabel": ""
-                            }
                         }
                     ],
                     "className": "org.joget.apps.form.model.Column",
