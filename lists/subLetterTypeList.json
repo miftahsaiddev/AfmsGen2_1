@@ -11,9 +11,9 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "sub_letter_type_id",
+            "name": "id",
             "id": "column_0",
-            "label": "Sub Letter Type ID",
+            "label": "ID",
             "sortable": "false"
         },
         {
@@ -78,7 +78,7 @@
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
-    "orderBy": "sub_letter_type_id",
+    "orderBy": "",
     "description": "",
     "filters": [],
     "showDataWhenFilterSet": "",
