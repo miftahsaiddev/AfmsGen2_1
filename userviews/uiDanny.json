@@ -64,6 +64,27 @@
                         "rowCount": "",
                         "id": "581E7615008F4339586C37D04F0F1A0A"
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "History Mail Translator",
+                        "enableOffline": "",
+                        "customId": "history_mail_translator",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "history_mail_translator",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "FEB8D60410924785F5AA0EF410FFAC9D"
+                    }
                 }
             ],
             "properties": {
