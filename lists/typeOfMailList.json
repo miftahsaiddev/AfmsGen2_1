@@ -7,49 +7,11 @@
     "useSession": "",
     "responsiveMode": "",
     "rowActions": [],
-    "columns": [
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "type_of_mail_id",
-            "id": "column_0",
-            "label": "Type of Mail ID",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Type of Mail",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "type_of_mail",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-                "properties": {
-                    "hrefColumn": "id",
-                    "hrefParam": "id",
-                    "href": "form_type_of_mail?embed=true",
-                    "confirmation": "",
-                    "target": "popup"
-                }
-            },
-            "style": "",
-            "id": "column_1",
-            "alignment": ""
-        }
-    ],
+    "columns": [],
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
-    "orderBy": "type_of_mail_id",
+    "orderBy": "",
     "description": "",
     "filters": [],
     "showDataWhenFilterSet": "",
