@@ -8,9 +8,11 @@
     "id": "history_mail_translator",
     "filters": [],
     "binder": {
-        "name": "",
-        "className": "",
-        "properties": {}
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "properties": {
+            "formDefId": "incomingMail",
+            "extraCondition": ""
+        }
     },
     "actions": [],
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
