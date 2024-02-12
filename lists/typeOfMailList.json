@@ -20,11 +20,31 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "type_of_mail",
-            "id": "column_1",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "type_of_mail",
             "sortable": "false",
-            "datalist_type": "column"
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "type_of_mail",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+                "properties": {
+                    "hrefColumn": "",
+                    "hrefParam": "",
+                    "href": "",
+                    "confirmation": "",
+                    "target": "_self"
+                }
+            },
+            "style": "",
+            "id": "column_1",
+            "alignment": ""
         }
     ],
     "draggabletable": "",
