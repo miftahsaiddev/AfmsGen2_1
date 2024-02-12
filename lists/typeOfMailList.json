@@ -7,7 +7,26 @@
     "useSession": "",
     "responsiveMode": "",
     "rowActions": [],
-    "columns": [],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "type_of_mail_id",
+            "id": "column_0",
+            "label": "Type of Mail ID",
+            "sortable": "false",
+            "datalist_type": "column"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "type_of_mail",
+            "id": "column_1",
+            "label": "type_of_mail",
+            "sortable": "false",
+            "datalist_type": "column"
+        }
+    ],
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
