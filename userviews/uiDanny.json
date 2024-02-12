@@ -96,6 +96,38 @@
                         "rowCount": "",
                         "id": "F44AE72E5EDC46B0158B828DB831534B"
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.FormMenu",
+                    "properties": {
+                        "loadDataWithKey": "",
+                        "redirectUrlOnCancel": "",
+                        "actionOnCancel": "",
+                        "redirectTargetOnCancel": "top",
+                        "customFooter": "",
+                        "paramName": "",
+                        "enableOffline": "",
+                        "afterSavedReloadTarget": "true",
+                        "customId": "incoming_reply_goverment",
+                        "showInPopupDialog": "",
+                        "readonly": "",
+                        "cancelButtonLabel": "",
+                        "actionAfterSaved": "",
+                        "id": "B01B055CF059468608A726272AC1874B",
+                        "redirectUrlAfterComplete": "",
+                        "fieldPassover": "",
+                        "formId": "reply_mail_goverment",
+                        "customHeader": "",
+                        "fieldPassoverMethod": "append",
+                        "redirectTargetOnComplete": "",
+                        "keyName": "",
+                        "label": "Incoming Reply Goverment",
+                        "userviewCacheDuration": "20",
+                        "messageShowAfterComplete": "",
+                        "submitButtonLabel": "",
+                        "userviewCacheScope": "",
+                        "readonlyLabel": "true"
+                    }
                 }
             ],
             "properties": {
