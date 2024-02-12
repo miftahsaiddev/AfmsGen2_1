@@ -11,7 +11,7 @@
                         "envVariable": "counter",
                         "isDistributedGeneration": "",
                         "label": "Type of Mail ID",
-                        "id": "type_of_mail_id"
+                        "id": "id"
                     }
                 },
                 {
