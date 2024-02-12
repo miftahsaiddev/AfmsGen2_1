@@ -127,6 +127,27 @@
                         "rowCount": "true",
                         "id": "51A2A3836A47444951048423CBC29624"
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Government",
+                        "enableOffline": "",
+                        "customId": "list_government",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "governmentList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "7A76B1E017FA46B2A12AA717FC8E5246"
+                    }
                 }
             ],
             "properties": {
