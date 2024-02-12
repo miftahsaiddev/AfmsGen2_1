@@ -22,42 +22,27 @@
         },
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "cacheAllLinks": "",
-                        "customHeader": "",
-                        "keyName": "",
-                        "customFooter": "",
-                        "label": "History Mail Client",
-                        "enableOffline": "",
-                        "customId": "history_mail_client",
-                        "buttonPosition": "bothLeft",
-                        "datalistId": "list_history_client",
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "rowCount": "",
-                        "id": "D6AB75BB1172469223467985B3B80E30"
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": "",
-                        "label": "List",
-                        "rowCount": "false",
-                        "id": "581E7615008F4339586C37D04F0F1A0A",
-                        "buttonPosition": "bothLeft"
-                    }
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.DataListMenu",
+                "properties": {
+                    "cacheAllLinks": "",
+                    "customHeader": "",
+                    "keyName": "",
+                    "customFooter": "",
+                    "label": "History Mail Client",
+                    "enableOffline": "",
+                    "customId": "history_mail_client",
+                    "buttonPosition": "bothLeft",
+                    "datalistId": "list_history_client",
+                    "checkboxPosition": "left",
+                    "selectionType": "multiple",
+                    "userviewCacheDuration": "20",
+                    "cacheListAction": "",
+                    "userviewCacheScope": "",
+                    "rowCount": "",
+                    "id": "D6AB75BB1172469223467985B3B80E30"
                 }
-            ],
+            }],
             "properties": {
                 "hide": "",
                 "permission": {
