@@ -1,12 +1,28 @@
 {
+    "template": {
+        "className": "",
+        "properties": {}
+    },
+    "considerFilterWhenGetTotal": "",
+    "useSession": "",
+    "responsiveMode": "",
     "rowActions": [],
     "columns": [],
-    "name": "List Translator",
+    "draggabletable": "",
+    "cardCollapsible": "",
     "pageSize": "0",
-    "orderBy": "",
+    "orderBy": "id",
     "description": "",
-    "id": "translatorList",
     "filters": [],
+    "showDataWhenFilterSet": "",
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "hidePageSize": "",
+    "disableResponsive": "",
+    "cardCollapseByDefault": "",
+    "name": "List Translator",
+    "rowActionsMode": "",
+    "showhidecolumns": "",
+    "id": "translatorList",
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
@@ -15,6 +31,5 @@
         }
     },
     "actions": [],
-    "pageSizeSelectorOptions": "10,20,30,40,50,100",
     "order": ""
 }
