@@ -8,9 +8,11 @@
     "id": "translatorList",
     "filters": [],
     "binder": {
-        "name": "",
-        "className": "",
-        "properties": {}
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "properties": {
+            "formDefId": "translator",
+            "extraCondition": ""
+        }
     },
     "actions": [],
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
