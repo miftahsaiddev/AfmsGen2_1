@@ -40,7 +40,7 @@
                         "userviewCacheDuration": "20",
                         "cacheListAction": "",
                         "userviewCacheScope": "application",
-                        "rowCount": "",
+                        "rowCount": "true",
                         "id": "D6AB75BB1172469223467985B3B80E30"
                     }
                 },
@@ -61,7 +61,7 @@
                         "userviewCacheDuration": "20",
                         "cacheListAction": "",
                         "userviewCacheScope": "",
-                        "rowCount": "",
+                        "rowCount": "true",
                         "id": "581E7615008F4339586C37D04F0F1A0A"
                     }
                 },
@@ -82,28 +82,8 @@
                         "userviewCacheDuration": "20",
                         "cacheListAction": "",
                         "userviewCacheScope": "",
-                        "rowCount": "",
-                        "id": "B9413FA8CA894D5CDB361AF942B0CC5A"
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.InboxMenu",
-                    "properties": {
-                        "appFilter": "all",
-                        "list-customFooter": "",
-                        "cacheAllLinks": "",
-                        "assignment-customHeader": "",
-                        "assignment-customFooter": "",
-                        "label": "Inbox",
-                        "enableOffline": "",
-                        "customId": "",
-                        "buttonPosition": "topLeft",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": "",
-                        "showPopup": "",
                         "rowCount": "true",
-                        "id": "D8F336F878B3457D4038B159011953E8",
-                        "list-customHeader": ""
+                        "id": "B9413FA8CA894D5CDB361AF942B0CC5A"
                     }
                 }
             ],
@@ -215,27 +195,6 @@
                         "submitButtonLabel": "",
                         "userviewCacheScope": "",
                         "readonlyLabel": "true"
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "cacheAllLinks": "",
-                        "customHeader": "",
-                        "keyName": "",
-                        "customFooter": "",
-                        "label": "List",
-                        "enableOffline": "",
-                        "customId": "",
-                        "buttonPosition": "bothLeft",
-                        "datalistId": "list_history_client",
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "rowCount": "true",
-                        "id": "84D43F377E1A4A949DE5E3F3D5FB5952"
                     }
                 }
             ],
