@@ -61,7 +61,7 @@
                 "properties": {
                     "hrefColumn": "id",
                     "hrefParam": "id",
-                    "href": "",
+                    "href": "form_incoming",
                     "confirmation": "",
                     "target": "_self"
                 }
