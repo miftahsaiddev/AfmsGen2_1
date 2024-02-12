@@ -135,6 +135,27 @@
                         "customHeader": "",
                         "keyName": "",
                         "customFooter": "",
+                        "label": "List Agent",
+                        "enableOffline": "",
+                        "customId": "list_agent",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "agentList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "0F46AFD72A664237FE6A6E5CCC016A33"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
                         "label": "List Government",
                         "enableOffline": "",
                         "customId": "list_government",
