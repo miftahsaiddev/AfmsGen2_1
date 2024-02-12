@@ -141,10 +141,10 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>I0001IncomingMailCient::edit_and_submit_mail</string>
+               <string>tes_incoming_2::disitrbute_email</string>
                <packageActivityForm>
-                  <processDefId>I0001IncomingMailCient</processDefId>
-                  <activityDefId>edit_and_submit_mail</activityDefId>
+                  <processDefId>tes_incoming_2</processDefId>
+                  <activityDefId>disitrbute_email</activityDefId>
                   <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
@@ -152,10 +152,10 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>tes_incoming_2::disitrbute_email</string>
+               <string>I0001IncomingMailCient::edit_and_submit_mail</string>
                <packageActivityForm>
-                  <processDefId>tes_incoming_2</processDefId>
-                  <activityDefId>disitrbute_email</activityDefId>
+                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>edit_and_submit_mail</activityDefId>
                   <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
