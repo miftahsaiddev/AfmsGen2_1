@@ -46,6 +46,27 @@
                     "userviewCacheScope": "",
                     "readonlyLabel": "true"
                 }
+            },
+            {
+                "className": "org.joget.apps.userview.lib.DataListMenu",
+                "properties": {
+                    "cacheAllLinks": "",
+                    "customHeader": "",
+                    "keyName": "",
+                    "customFooter": "",
+                    "label": "Holiday",
+                    "enableOffline": "",
+                    "customId": "",
+                    "buttonPosition": "bottomLeft",
+                    "datalistId": "listHoliday",
+                    "checkboxPosition": "left",
+                    "selectionType": "multiple",
+                    "userviewCacheDuration": "20",
+                    "cacheListAction": "",
+                    "userviewCacheScope": "",
+                    "rowCount": "",
+                    "id": "9294F6D79F6F4BB6EE1A3AA378B1D661"
+                }
             }
         ],
         "properties": {
