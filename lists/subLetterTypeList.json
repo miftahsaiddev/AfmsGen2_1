@@ -78,7 +78,7 @@
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
-    "orderBy": "",
+    "orderBy": "id",
     "description": "",
     "filters": [],
     "showDataWhenFilterSet": "",
