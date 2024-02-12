@@ -1,7 +1,18 @@
 {
     "elements": [{
         "elements": [{
-            "elements": [],
+            "elements": [{
+                "className": "org.joget.apps.form.lib.IdGeneratorField",
+                "properties": {
+                    "hidden": "",
+                    "format": "LTSS-???",
+                    "workflowVariable": "",
+                    "envVariable": "counter_ltss",
+                    "isDistributedGeneration": "",
+                    "label": "Sub Sub Letter Type",
+                    "id": "id"
+                }
+            }],
             "className": "org.joget.apps.form.model.Column",
             "properties": {"width": "100%"}
         }],
