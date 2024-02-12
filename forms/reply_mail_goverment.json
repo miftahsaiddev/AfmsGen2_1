@@ -124,7 +124,7 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "name": "Incomingreplygoverment",
+        "name": "Incoming Reply Goverment",
         "description": "",
         "postProcessorRunOn": "create",
         "permission": {
