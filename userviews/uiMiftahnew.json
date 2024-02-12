@@ -57,7 +57,7 @@
                         "customFooter": "",
                         "label": "Holiday",
                         "enableOffline": "",
-                        "customId": "",
+                        "customId": "holiday",
                         "buttonPosition": "bottomLeft",
                         "datalistId": "listHoliday",
                         "checkboxPosition": "left",
@@ -77,7 +77,38 @@
         },
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [],
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.FormMenu",
+                "properties": {
+                    "loadDataWithKey": "",
+                    "redirectUrlOnCancel": "",
+                    "actionOnCancel": "",
+                    "redirectTargetOnCancel": "top",
+                    "customFooter": "",
+                    "paramName": "",
+                    "enableOffline": "",
+                    "afterSavedReloadTarget": "true",
+                    "customId": "",
+                    "showInPopupDialog": "",
+                    "readonly": "",
+                    "cancelButtonLabel": "",
+                    "actionAfterSaved": "",
+                    "id": "897030165201463D8D5C3F90FA1221F5",
+                    "redirectUrlAfterComplete": "",
+                    "fieldPassover": "",
+                    "formId": "holiday",
+                    "customHeader": "",
+                    "fieldPassoverMethod": "append",
+                    "redirectTargetOnComplete": "",
+                    "keyName": "",
+                    "label": "Form Holiday",
+                    "userviewCacheDuration": "20",
+                    "messageShowAfterComplete": "",
+                    "submitButtonLabel": "",
+                    "userviewCacheScope": "",
+                    "readonlyLabel": "true"
+                }
+            }],
             "properties": {
                 "hide": "yes",
                 "permission": {
