@@ -34,7 +34,7 @@
                         "enableOffline": "",
                         "customId": "history_mail_client",
                         "buttonPosition": "bottomLeft",
-                        "datalistId": "incoming_email",
+                        "datalistId": "list_history_client",
                         "checkboxPosition": "left",
                         "selectionType": "multiple",
                         "userviewCacheDuration": "20",
@@ -47,14 +47,22 @@
                 {
                     "className": "org.joget.apps.userview.lib.DataListMenu",
                     "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "History Mail Government",
+                        "enableOffline": "",
+                        "customId": "history_mail_government",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "history_mail_goverment",
                         "checkboxPosition": "left",
                         "selectionType": "multiple",
                         "userviewCacheDuration": "20",
+                        "cacheListAction": "",
                         "userviewCacheScope": "",
-                        "label": "List",
-                        "rowCount": "false",
-                        "id": "581E7615008F4339586C37D04F0F1A0A",
-                        "buttonPosition": "bothLeft"
+                        "rowCount": "",
+                        "id": "581E7615008F4339586C37D04F0F1A0A"
                     }
                 }
             ],
