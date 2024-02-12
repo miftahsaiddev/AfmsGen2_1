@@ -90,7 +90,7 @@
         "welcomeMessage": "#date.EEE, d MMM yyyy#",
         "name": "Afms UI",
         "description": "",
-        "footerMessage": "Powered by Joget",
+        "footerMessage": "©adyromadhon",
         "id": "afmsUi"
     },
     "setting": {"properties": {
