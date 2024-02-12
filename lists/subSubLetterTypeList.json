@@ -1,12 +1,57 @@
 {
+    "template": {
+        "className": "",
+        "properties": {}
+    },
     "rowActions": [],
-    "columns": [],
-    "name": "List Sub Sub Letter Type",
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "id",
+            "id": "column_0",
+            "label": "ID",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "sub_letter_type",
+            "id": "column_1",
+            "label": "Sub Letter Type",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Sub Sub Letter Type",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "sub_sub_letter_type",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_2",
+            "alignment": ""
+        }
+    ],
     "pageSize": "0",
     "orderBy": "",
     "description": "",
-    "id": "subSubLetterTypeList",
     "filters": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "name": "List Sub Sub Letter Type",
+    "id": "subSubLetterTypeList",
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
@@ -15,6 +60,5 @@
         }
     },
     "actions": [],
-    "pageSizeSelectorOptions": "10,20,30,40,50,100",
     "order": ""
 }
