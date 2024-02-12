@@ -13,7 +13,18 @@
                <packageActivityForm>
                   <processDefId>incomingMailProcess</processDefId>
                   <activityDefId>activity1</activityDefId>
-                  <formId></formId>
+                  <formId>incomingMail</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>incomingMailProcess::activity2</string>
+               <packageActivityForm>
+                  <processDefId>incomingMailProcess</processDefId>
+                  <activityDefId>activity2</activityDefId>
+                  <formId>replyMail</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -53,17 +64,6 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>incomingMailProcess::reply_email</string>
-               <packageActivityForm>
-                  <processDefId>incomingMailProcess</processDefId>
-                  <activityDefId>reply_email</activityDefId>
-                  <formId>reply_mail_client</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>I0001IncomingMailCient::approve_reject_mail</string>
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
@@ -90,7 +90,7 @@
                <packageActivityForm>
                   <processDefId>incomingMailProcess</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <formId>incomingMail</formId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
