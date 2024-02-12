@@ -133,7 +133,7 @@
                 "dx8backgroundImage": "#appResource.BG_1.JPG#",
                 "dx8navBadgeText": "#FFFFFF",
                 "dx8background": "#DEE2E6",
-                "dx8headerColor": "#000000",
+                "dx8headerColor": "#2D353C",
                 "dx8colorScheme": "rgb(233, 233, 233);rgb(255, 255, 255);rgb(164, 190, 184);rgb(0, 102, 81);rgb(84, 110, 122);rgb(41, 67, 78)",
                 "dx8navBackground": "#2D353C",
                 "js": "",
