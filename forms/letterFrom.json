@@ -11,7 +11,7 @@
                         "envVariable": "counter",
                         "isDistributedGeneration": "",
                         "label": "Letter From ID",
-                        "id": "letter_from_id"
+                        "id": "id"
                     }
                 },
                 {
