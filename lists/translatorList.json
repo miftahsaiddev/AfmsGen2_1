@@ -11,25 +11,10 @@
         {
             "filterable": true,
             "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Letter From ID",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "letter_from_id",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
+            "name": "id",
             "id": "column_0",
-            "alignment": ""
+            "label": "ID",
+            "sortable": "false"
         },
         {
             "filterable": true,
@@ -39,11 +24,11 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Letter From",
+            "label": "Name",
             "sortable": "false",
             "datalist_type": "column",
             "exclude_export": "",
-            "name": "letter_from",
+            "name": "name",
             "width": "",
             "headerAlignment": "",
             "action": {
@@ -51,7 +36,7 @@
                 "properties": {
                     "hrefColumn": "id",
                     "hrefParam": "id",
-                    "href": "form_letter_from?embed=true",
+                    "href": "form_translator?embed=true",
                     "confirmation": "",
                     "target": "popup"
                 }
@@ -72,14 +57,14 @@
     "hidePageSize": "",
     "disableResponsive": "",
     "cardCollapseByDefault": "",
-    "name": "List Letter From",
+    "name": "List Translator",
     "rowActionsMode": "",
     "showhidecolumns": "",
-    "id": "letterFromList",
+    "id": "translatorList",
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
-            "formDefId": "letterFrom",
+            "formDefId": "translator",
             "extraCondition": ""
         }
     },
@@ -90,7 +75,7 @@
             "properties": {
                 "deleteFiles": "",
                 "deleteGridData": "",
-                "formDefId": "letterFrom",
+                "formDefId": "translator",
                 "deleteSubformData": "",
                 "label": "Delete",
                 "confirmation": "",
@@ -106,7 +91,7 @@
                 "hrefColumn": "",
                 "hrefParam": "",
                 "label": "Create",
-                "href": "form_letter_from?embed=true",
+                "href": "form_translator?embed=true",
                 "confirmation": "",
                 "datalist_type": "action",
                 "target": "popup"

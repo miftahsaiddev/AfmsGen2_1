@@ -13,7 +13,7 @@
          <id>counter</id>
          <appId>AfmsGen2</appId>
          <appVersion>1</appVersion>
-         <value>11</value>
+         <value>4</value>
          <remarks>Used for plugin: Id Generator Field</remarks>
       </environmentVariable>
    </environmentVariableList>

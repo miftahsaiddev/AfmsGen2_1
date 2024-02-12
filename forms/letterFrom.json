@@ -8,7 +8,7 @@
                         "hidden": "",
                         "format": "LF-???",
                         "workflowVariable": "",
-                        "envVariable": "counter",
+                        "envVariable": "counter_lf",
                         "isDistributedGeneration": "",
                         "label": "Letter From ID",
                         "id": "letter_from_id"

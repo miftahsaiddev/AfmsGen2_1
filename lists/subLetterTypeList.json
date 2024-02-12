@@ -11,9 +11,9 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "sub_letter_type_id",
+            "name": "id",
             "id": "column_0",
-            "label": "Sub Letter Type ID",
+            "label": "ID",
             "sortable": "false"
         },
         {
@@ -32,14 +32,8 @@
             "width": "",
             "headerAlignment": "",
             "action": {
-                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-                "properties": {
-                    "hrefColumn": "id",
-                    "hrefParam": "id",
-                    "href": "letter_type",
-                    "confirmation": "",
-                    "target": "_self"
-                }
+                "className": "",
+                "properties": {}
             },
             "style": "",
             "id": "column_1",
@@ -78,7 +72,7 @@
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
-    "orderBy": "sub_letter_type_id",
+    "orderBy": "id",
     "description": "",
     "filters": [],
     "showDataWhenFilterSet": "",

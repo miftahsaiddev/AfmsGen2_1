@@ -148,6 +148,27 @@
                         "rowCount": "true",
                         "id": "7A76B1E017FA46B2A12AA717FC8E5246"
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Translator",
+                        "enableOffline": "",
+                        "customId": "list_translator",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "translatorList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "5ECD4DCB3D26460A465F8DE567456842"
+                    }
                 }
             ],
             "properties": {
@@ -346,6 +367,37 @@
                         "redirectTargetOnComplete": "",
                         "keyName": "",
                         "label": "Form Government",
+                        "userviewCacheDuration": "20",
+                        "messageShowAfterComplete": "",
+                        "submitButtonLabel": "",
+                        "userviewCacheScope": "",
+                        "readonlyLabel": "true"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.FormMenu",
+                    "properties": {
+                        "loadDataWithKey": "",
+                        "actionOnCancel": "closepopup",
+                        "redirectTargetOnCancel": "top",
+                        "customFooter": "",
+                        "paramName": "",
+                        "enableOffline": "",
+                        "afterSavedReloadTarget": "true",
+                        "customId": "form_translator",
+                        "showInPopupDialog": "Yes",
+                        "readonly": "",
+                        "cancelButtonLabel": "Back",
+                        "actionAfterSaved": "",
+                        "id": "2ED9E6C5ADE6459F8E0E6FFF6589088F",
+                        "redirectUrlAfterComplete": "list_translator",
+                        "fieldPassover": "",
+                        "formId": "translator",
+                        "customHeader": "",
+                        "fieldPassoverMethod": "append",
+                        "redirectTargetOnComplete": "",
+                        "keyName": "",
+                        "label": "Form Translator",
                         "userviewCacheDuration": "20",
                         "messageShowAfterComplete": "",
                         "submitButtonLabel": "",
