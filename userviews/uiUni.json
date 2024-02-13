@@ -99,11 +99,11 @@
                         "buttonPosition": "topLeft",
                         "datalistId": "subLetterTypeList",
                         "checkboxPosition": "left",
-                        "selectionType": "single",
+                        "selectionType": "multiple",
                         "userviewCacheDuration": "20",
                         "cacheListAction": "",
                         "userviewCacheScope": "",
-                        "rowCount": "",
+                        "rowCount": "true",
                         "id": "64593DA3C3874CC74C808253B216A3EA"
                     }
                 },
