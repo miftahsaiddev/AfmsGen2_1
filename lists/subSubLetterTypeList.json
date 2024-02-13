@@ -85,7 +85,7 @@
             "properties": {
                 "defaultValue": "",
                 "filterSelection": "",
-                "searchFields": "c_sub_letter_type"
+                "searchFields": ""
             }
         },
         "datalist_type": "filter",
