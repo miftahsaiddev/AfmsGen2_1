@@ -27,12 +27,12 @@
                                 "mandatory": "true"
                             }
                         },
-                        "label": "Letter Type",
+                        "label": "Via",
                         "readonly": "",
                         "size": "",
                         "workflowVariable": "",
                         "style": "",
-                        "id": "letter_type",
+                        "id": "via",
                         "placeholder": "",
                         "value": "",
                         "readonlyLabel": "",
