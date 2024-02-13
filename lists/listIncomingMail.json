@@ -11,8 +11,8 @@
             "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
             "id": "rowAction_0",
             "properties": {
-                "hrefColumn": "",
-                "hrefParam": "",
+                "hrefColumn": "true",
+                "hrefParam": "embed",
                 "rules": [],
                 "label": "Create",
                 "href": "form_incoming_mail_agent",
