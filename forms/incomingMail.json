@@ -218,16 +218,6 @@
                                 "label": "No Project PT",
                                 "id": "field22"
                             }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.CustomHTML",
-                            "properties": {
-                                "requiredSanitize": "true",
-                                "autoPopulate": "",
-                                "label": "",
-                                "id": "field23",
-                                "value": "\r\n<script src=\"https://code.jquery.com/jquery-3.6.4.min.js\"><\/script>\r\n<script>\r\nconst options = [\"Option 1\", \"Option 2\", \"Option 3\", \"Option 4\", \"Option 5\"];\r\n\r\nfunction initializeSearchableSelect() {\r\n    const uniqueId = \"searchableSelect_\" + new Date().getTime();\r\n    \r\n    const dropdownHtml = `<div>\r\n                             <label for=\"${uniqueId}\">Select Item:<\/label>\r\n                             <select id=\"${uniqueId}\" onchange=\"handleSelection('${uniqueId}')\">\r\n                               <!-- Options will be dynamically populated -->\r\n                             <\/select>\r\n                           <\/div>`;\r\n\r\n    $(\"#formContainer\").append(dropdownHtml);\r\n\r\n    const selectDropdown = $(\"#\" + uniqueId);\r\n    options.forEach(option => {\r\n        selectDropdown.append(`<option value=\"${option}\">${option}<\/option>`);\r\n    });\r\n}\r\n\r\nfunction handleSelection(uniqueId) {\r\n    const selectDropdown = $(\"#\" + uniqueId);\r\n    const searchTerm = selectDropdown.val().toLowerCase();\r\n\r\n    const filteredOptions = options.filter(option =>\r\n        option.toLowerCase().includes(searchTerm)\r\n    );\r\n\r\n    selectDropdown.empty();\r\n    filteredOptions.forEach(option => {\r\n        selectDropdown.append(`<option value=\"${option}\">${option}<\/option>`);\r\n    });\r\n}\r\n\r\ninitializeSearchableSelect();\r\ninitializeSearchableSelect();\r\n<\/script>"
-                            }
                         }
                     ],
                     "className": "org.joget.apps.form.model.Column",
