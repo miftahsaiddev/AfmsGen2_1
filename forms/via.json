@@ -77,7 +77,7 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Letter Type",
+            "label": "Via",
             "reverse": "",
             "storeBinder": {
                 "className": "",
@@ -91,7 +91,7 @@
                 "properties": {}
             },
             "comment": "",
-            "id": "section1",
+            "id": "via",
             "join": "",
             "readonlyLabel": ""
         }
