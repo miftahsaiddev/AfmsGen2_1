@@ -13,7 +13,7 @@
                                 "envVariable": "counter_in",
                                 "isDistributedGeneration": "",
                                 "label": "Mail No",
-                                "id": "mail_no"
+                                "id": "id"
                             }
                         },
                         {
@@ -202,7 +202,7 @@
                                 "format": "ID-??????-#date.MM-yy#",
                                 "workflowVariable": "",
                                 "envVariable": "counter",
-                                "isDistributedGeneration": "true",
+                                "isDistributedGeneration": "",
                                 "label": "No Project",
                                 "id": "no_project"
                             }
@@ -537,39 +537,6 @@
                                 "id": "field17",
                                 "resizeHeight": "",
                                 "fileType": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.Grid",
-                            "properties": {
-                                "validateMaxRow": "",
-                                "readonly": "",
-                                "loadBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "validateMinRow": "",
-                                "errorMessage": "Invalid number of rows",
-                                "options": [
-                                    {
-                                        "label": "Ref No",
-                                        "value": "ref_no"
-                                    },
-                                    {
-                                        "label": "document",
-                                        "value": "Document"
-                                    }
-                                ],
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "label": "",
-                                "id": "field18",
-                                "storeBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                }
                             }
                         }
                     ],
