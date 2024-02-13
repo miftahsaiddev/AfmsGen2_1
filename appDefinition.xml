@@ -212,6 +212,15 @@
                </packageParticipant>
             </entry>
             <entry>
+               <string>incomingMailProcess::administrator</string>
+               <packageParticipant>
+                  <processDefId>incomingMailProcess</processDefId>
+                  <participantId>administrator</participantId>
+                  <type>requester</type>
+                  <value>runProcess</value>
+               </packageParticipant>
+            </entry>
+            <entry>
                <string>tes_incoming_2::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>tes_incoming_2</processDefId>
@@ -227,15 +236,6 @@
                   <participantId>specialist</participantId>
                   <type>workflowVariable</type>
                   <value>attention_to,user</value>
-               </packageParticipant>
-            </entry>
-            <entry>
-               <string>incomingMailProcess::administrator</string>
-               <packageParticipant>
-                  <processDefId>incomingMailProcess</processDefId>
-                  <participantId>administrator</participantId>
-                  <type>requester</type>
-                  <value>runProcess</value>
                </packageParticipant>
             </entry>
          </packageParticipantMap>
