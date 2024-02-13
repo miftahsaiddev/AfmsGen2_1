@@ -501,7 +501,7 @@
                                     "properties": {}
                                 },
                                 "maxSize": "20000",
-                                "label": "File Upload",
+                                "label": "Attachment File",
                                 "resizeQuality": "0.8",
                                 "removeFile": "",
                                 "readonly": "",
