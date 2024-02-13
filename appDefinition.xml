@@ -13,7 +13,7 @@
                <packageActivityForm>
                   <processDefId>incomingMailProcess</processDefId>
                   <activityDefId>activity2</activityDefId>
-                  <formId></formId>
+                  <formId>reply_mail_client</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
