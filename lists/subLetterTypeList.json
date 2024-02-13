@@ -27,10 +27,31 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "c_sub_letter_type",
-            "id": "column_2",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "c_sub_letter_type",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "c_sub_letter_type",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+                "properties": {
+                    "hrefColumn": "id",
+                    "hrefParam": "id",
+                    "href": "form_sub_letter_type?embed=true",
+                    "confirmation": "",
+                    "target": "popup"
+                }
+            },
+            "style": "",
+            "id": "column_2",
+            "alignment": ""
         }
     ],
     "draggabletable": "",
