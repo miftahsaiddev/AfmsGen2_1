@@ -12,7 +12,7 @@
             "id": "rowAction_0",
             "properties": {
                 "hrefColumn": "",
-                "hrefParam": "",
+                "hrefParam": "embed=true",
                 "rules": [],
                 "label": "Create",
                 "href": "form_incoming_mail_government",
