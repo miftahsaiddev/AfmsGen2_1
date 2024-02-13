@@ -7,14 +7,45 @@
     "useSession": "",
     "responsiveMode": "",
     "rowActions": [],
-    "columns": [{
-        "filterable": true,
-        "hidden": "false",
-        "name": "id",
-        "id": "column_0",
-        "label": "ID",
-        "sortable": "false"
-    }],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "id",
+            "id": "column_0",
+            "label": "ID",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Via",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "via",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+                "properties": {
+                    "hrefColumn": "id",
+                    "hrefParam": "id",
+                    "href": "form_via?embed=true",
+                    "confirmation": "",
+                    "target": "popup"
+                }
+            },
+            "style": "",
+            "id": "column_1",
+            "alignment": ""
+        }
+    ],
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
