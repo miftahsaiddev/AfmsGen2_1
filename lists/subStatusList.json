@@ -43,7 +43,7 @@
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
-            "formDefId": "lastStatus",
+            "formDefId": "subStatus",
             "extraCondition": ""
         }
     },
