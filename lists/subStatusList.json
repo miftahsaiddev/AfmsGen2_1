@@ -1,0 +1,81 @@
+{
+    "template": {
+        "className": "",
+        "properties": {}
+    },
+    "considerFilterWhenGetTotal": "",
+    "useSession": "",
+    "responsiveMode": "",
+    "rowActions": [],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "id",
+            "id": "column_0",
+            "label": "ID",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "last_status",
+            "id": "column_1",
+            "label": "Last Status",
+            "sortable": "false"
+        }
+    ],
+    "draggabletable": "",
+    "cardCollapsible": "",
+    "pageSize": "0",
+    "orderBy": "id",
+    "description": "",
+    "filters": [],
+    "showDataWhenFilterSet": "",
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "hidePageSize": "",
+    "disableResponsive": "",
+    "cardCollapseByDefault": "",
+    "name": "List Sub Status",
+    "rowActionsMode": "",
+    "showhidecolumns": "",
+    "id": "subStatusList",
+    "binder": {
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "properties": {
+            "formDefId": "lastStatus",
+            "extraCondition": ""
+        }
+    },
+    "actions": [
+        {
+            "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
+            "id": "action_0",
+            "properties": {
+                "deleteFiles": "",
+                "deleteGridData": "",
+                "formDefId": "lastStatus",
+                "deleteSubformData": "",
+                "label": "Delete",
+                "confirmation": "",
+                "datalist_type": "action",
+                "abortRelatedRunningProcesses": ""
+            }
+        },
+        {
+            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+            "id": "action_1",
+            "properties": {
+                "visible": "true",
+                "hrefColumn": "",
+                "hrefParam": "",
+                "label": "Create",
+                "href": "form_last_status?embed=true",
+                "confirmation": "",
+                "datalist_type": "action",
+                "target": "popup"
+            }
+        }
+    ],
+    "order": ""
+}
