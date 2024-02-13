@@ -233,18 +233,6 @@
                             "className": "org.joget.apps.form.lib.IdGeneratorField",
                             "properties": {
                                 "hidden": "",
-                                "format": "TM-??????-#date.MM-yy#",
-                                "workflowVariable": "",
-                                "envVariable": "counterInTm",
-                                "isDistributedGeneration": "",
-                                "label": "No Project TM",
-                                "id": "no_project"
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.IdGeneratorField",
-                            "properties": {
-                                "hidden": "",
                                 "format": "PT-??????",
                                 "workflowVariable": "",
                                 "envVariable": "counterInPt",
