@@ -79,13 +79,13 @@
         "hidden": "",
         "name": "c_sub_sub_letter_type",
         "id": "filter_0",
-        "label": "search",
+        "label": "c_sub_sub_letter_type",
         "type": {
             "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
             "properties": {
                 "defaultValue": "",
                 "filterSelection": "",
-                "searchFields": ""
+                "searchFields": "c_sub_letter_type"
             }
         },
         "datalist_type": "filter",
