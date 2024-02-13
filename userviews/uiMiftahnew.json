@@ -130,7 +130,7 @@
                     "properties": {}
                 },
                 "comment": "",
-                "label": "Mail",
+                "label": "<i class=\"fas fa-mail-bulk\"><\/i> Mail",
                 "id": "category-3B41847F5ACC4AD0BCCE453AAE816FDD"
             }
         },
