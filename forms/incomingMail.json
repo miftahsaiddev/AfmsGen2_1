@@ -213,7 +213,7 @@
                                 "hidden": "",
                                 "format": "PT-??????",
                                 "workflowVariable": "",
-                                "envVariable": "counter",
+                                "envVariable": "counterInPt",
                                 "isDistributedGeneration": "",
                                 "label": "No Project PT",
                                 "id": "field22"
