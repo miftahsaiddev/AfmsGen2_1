@@ -62,7 +62,7 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "c_sub_letter_type",
+            "label": "Sub Letter Type",
             "sortable": "false",
             "datalist_type": "column",
             "exclude_export": "",
