@@ -162,10 +162,25 @@
                     {
                         "className": "org.joget.apps.form.lib.Grid",
                         "properties": {
-                            "readonly": "False",
+                            "validateMaxRow": "",
+                            "readonly": "",
+                            "loadBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "validateMinRow": "",
                             "errorMessage": "Invalid number of rows",
-                            "label": "Grid",
-                            "id": "field24"
+                            "options": [],
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "label": "Letter Type",
+                            "id": "letter_type",
+                            "storeBinder": {
+                                "className": "",
+                                "properties": {}
+                            }
                         }
                     }
                 ],
