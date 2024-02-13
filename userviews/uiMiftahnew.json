@@ -94,7 +94,7 @@
                         "userviewCacheScope": "",
                         "processId": "incomingMailProcess",
                         "showPopup": "",
-                        "rowCount": "",
+                        "rowCount": "true",
                         "id": "01354884ABBF4A4F74E384060DB12A3B",
                         "list-customHeader": ""
                     }
