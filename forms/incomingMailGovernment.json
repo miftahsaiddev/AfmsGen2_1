@@ -555,11 +555,11 @@
                                 "options": [
                                     {
                                         "label": "Ref No",
-                                        "value": "ref_no"
+                                        "value": "mail_no"
                                     },
                                     {
                                         "label": "document",
-                                        "value": "Document"
+                                        "value": "field17"
                                     }
                                 ],
                                 "validator": {
@@ -567,7 +567,7 @@
                                     "properties": {}
                                 },
                                 "label": "",
-                                "id": "field18",
+                                "id": "apaya",
                                 "storeBinder": {
                                     "className": "",
                                     "properties": {}
