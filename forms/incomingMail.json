@@ -47,13 +47,13 @@
                                     "className": "org.joget.apps.form.lib.FormOptionsBinder",
                                     "properties": {
                                         "addEmptyOption": "",
-                                        "groupingColumn": "code_from",
+                                        "groupingColumn": "",
                                         "formDefId": "letterFrom",
                                         "labelColumn": "letter_from",
-                                        "extraCondition": "c_code_from like '1'",
+                                        "extraCondition": "id='LF-001'",
                                         "cacheInterval": "",
                                         "emptyLabel": "Pilih Letter From",
-                                        "idColumn": "code_from"
+                                        "idColumn": ""
                                     }
                                 },
                                 "options": [],
@@ -509,7 +509,7 @@
                                 "padding": "",
                                 "maxSizeMsg": "File size limit exceeded",
                                 "resizeWidth": "",
-                                "multiple": "",
+                                "multiple": "true",
                                 "validator": {
                                     "className": "",
                                     "properties": {}
