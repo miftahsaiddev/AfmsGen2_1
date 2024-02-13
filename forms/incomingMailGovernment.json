@@ -403,7 +403,7 @@
                         {
                             "className": "org.joget.apps.form.lib.SelectBox",
                             "properties": {
-                                "controlField": "department",
+                                "controlField": "division",
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
