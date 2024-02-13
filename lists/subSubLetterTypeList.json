@@ -75,22 +75,7 @@
     "pageSize": "0",
     "orderBy": "id",
     "description": "",
-    "filters": [{
-        "hidden": "",
-        "name": "c_sub_sub_letter_type",
-        "id": "filter_0",
-        "label": "c_sub_sub_letter_type",
-        "type": {
-            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-            "properties": {
-                "defaultValue": "",
-                "filterSelection": "",
-                "searchFields": ""
-            }
-        },
-        "datalist_type": "filter",
-        "filterParamName": "d-6737404-fn_c_sub_sub_letter_type"
-    }],
+    "filters": [],
     "showDataWhenFilterSet": "",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
     "hidePageSize": "",
