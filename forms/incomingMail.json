@@ -198,7 +198,7 @@
                         {
                             "className": "org.joget.apps.form.lib.IdGeneratorField",
                             "properties": {
-                                "hidden": "true",
+                                "hidden": "",
                                 "format": "TM-??????-#date.MM-yy#",
                                 "workflowVariable": "",
                                 "envVariable": "counter",
