@@ -170,7 +170,7 @@
             "hrefColumn": "",
             "hrefParam": "",
             "label": "Create With New Number",
-            "href": "form_incoming_mail_agent",
+            "href": "form_incoming_mail_translator",
             "confirmation": "",
             "datalist_type": "action",
             "target": "_self"
