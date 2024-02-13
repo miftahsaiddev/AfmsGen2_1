@@ -10,7 +10,7 @@
                         "workflowVariable": "",
                         "envVariable": "counter_ssl",
                         "isDistributedGeneration": "",
-                        "label": "Sub Last Status ID",
+                        "label": "Sub Status ID",
                         "id": "id"
                     }
                 },
