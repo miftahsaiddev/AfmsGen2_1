@@ -24,6 +24,7 @@
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>patent</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -34,6 +35,7 @@
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>incoming_mail</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -115,6 +117,29 @@
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>not_approved</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>incomingMailProcess_2::activity2</string>
+               <packageActivityForm>
+                  <processDefId>incomingMailProcess_2</processDefId>
+                  <activityDefId>activity2</activityDefId>
+                  <formId>reply_mail_client</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>incomingMailProcess_2::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>incomingMailProcess_2</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId>incomingMailGovernment</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -125,6 +150,7 @@
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>merek</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -145,6 +171,7 @@
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>disitrbute_email</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -165,6 +192,7 @@
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -175,6 +203,7 @@
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>reply_email</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -182,6 +211,33 @@
             </entry>
          </packageActivityFormMap>
          <packageActivityPluginMap>
+            <entry>
+               <string>incomingMailProcess_2::tool1</string>
+               <packageActivityPlugin>
+                  <processDefId>incomingMailProcess_2</processDefId>
+                  <activityDefId>tool1</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>tes_incoming_2::send_email</string>
+               <packageActivityPlugin>
+                  <processDefId>tes_incoming_2</processDefId>
+                  <activityDefId>send_email</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>incomingMailProcess::tool1</string>
+               <packageActivityPlugin>
+                  <processDefId>incomingMailProcess</processDefId>
+                  <activityDefId>tool1</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
             <entry>
                <string>tes_incoming_2::lettertype</string>
                <packageActivityPlugin>
@@ -200,6 +256,33 @@
                   <participantId>tes_incoming_2_entry_data</participantId>
                   <type>requester</type>
                   <value>incoming_mail</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>incomingMailProcess_2::incomingMailProcess_2_specialist</string>
+               <packageParticipant>
+                  <processDefId>incomingMailProcess_2</processDefId>
+                  <participantId>incomingMailProcess_2_specialist</participantId>
+                  <type>workflowVariable</type>
+                  <value>attention_to,user</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>incomingMailProcess_2::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>incomingMailProcess_2</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>loggedInUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>incomingMailProcess_2::incomingMailProcess_2_administrator</string>
+               <packageParticipant>
+                  <processDefId>incomingMailProcess_2</processDefId>
+                  <participantId>incomingMailProcess_2_administrator</participantId>
+                  <type>requester</type>
+                  <value>runProcess</value>
                </packageParticipant>
             </entry>
             <entry>
