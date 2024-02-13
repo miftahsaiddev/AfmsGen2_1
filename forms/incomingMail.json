@@ -230,18 +230,6 @@
                             }
                         },
                         {
-                            "className": "org.joget.apps.form.lib.IdGeneratorField",
-                            "properties": {
-                                "hidden": "",
-                                "format": "PT-??????",
-                                "workflowVariable": "",
-                                "envVariable": "counterInPt",
-                                "isDistributedGeneration": "",
-                                "label": "No Project PT",
-                                "id": "field22"
-                            }
-                        },
-                        {
                             "className": "org.joget.apps.form.lib.CustomHTML",
                             "properties": {
                                 "requiredSanitize": "true",
