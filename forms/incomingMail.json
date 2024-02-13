@@ -261,28 +261,16 @@
                             }
                         },
                         {
-                            "className": "org.joget.apps.form.lib.DatePicker",
+                            "className": "org.joget.apps.form.lib.HiddenField",
                             "properties": {
-                                "yearRange": "c-10:c+10",
-                                "dataFormat": "yyyy-MM-dd",
-                                "startDateFieldId": "",
+                                "useDefaultWhenEmpty": "",
                                 "validator": {
                                     "className": "",
                                     "properties": {}
                                 },
-                                "format": "",
-                                "label": "Deadline Date",
-                                "datePickerType": "",
-                                "currentDateAs": "",
-                                "endDateFieldId": "",
-                                "readonly": "",
-                                "allowManual": "",
                                 "workflowVariable": "",
                                 "id": "deadline_date",
-                                "placeholder": "",
-                                "disableWeekends": "",
-                                "value": "",
-                                "readonlyLabel": ""
+                                "value": ""
                             }
                         }
                     ],
