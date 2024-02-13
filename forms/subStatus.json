@@ -6,11 +6,11 @@
                     "className": "org.joget.apps.form.lib.IdGeneratorField",
                     "properties": {
                         "hidden": "",
-                        "format": "LTS-???",
+                        "format": "SS-???",
                         "workflowVariable": "",
-                        "envVariable": "counter_lts",
+                        "envVariable": "counter_ss",
                         "isDistributedGeneration": "",
-                        "label": "Sub Letter Type ID",
+                        "label": "Sub Status ID",
                         "id": "id"
                     }
                 },
