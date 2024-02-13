@@ -6,7 +6,7 @@
                     "className": "org.joget.apps.form.lib.IdGeneratorField",
                     "properties": {
                         "hidden": "",
-                        "format": "SS-???",
+                        "format": "SS-??????",
                         "workflowVariable": "",
                         "envVariable": "counter_ss",
                         "isDistributedGeneration": "",
