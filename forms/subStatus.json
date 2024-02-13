@@ -113,10 +113,10 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Sub Status",
+            "label": "Sub Last Status",
             "reverse": "",
             "storeBinder": {
-                "className": null,
+                "className": "",
                 "properties": {}
             },
             "visibilityValue": "",
@@ -127,7 +127,7 @@
                 "properties": {}
             },
             "comment": "",
-            "id": "sub_status",
+            "id": "sub_last_status",
             "join": "",
             "readonlyLabel": ""
         }
