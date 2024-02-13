@@ -78,7 +78,7 @@
             "properties": {
                 "deleteFiles": "",
                 "deleteGridData": "",
-                "formDefId": "lastStatus",
+                "formDefId": "subStatus",
                 "deleteSubformData": "",
                 "label": "Delete",
                 "confirmation": "",
