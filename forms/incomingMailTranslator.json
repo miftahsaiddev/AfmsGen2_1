@@ -43,10 +43,10 @@
                                         "groupingColumn": "",
                                         "formDefId": "letterFrom",
                                         "labelColumn": "letter_from",
-                                        "extraCondition": "c_code_from like '4'",
+                                        "extraCondition": "id='LF-004'",
                                         "cacheInterval": "",
                                         "emptyLabel": "Pilih Letter From",
-                                        "idColumn": "code_from"
+                                        "idColumn": ""
                                     }
                                 },
                                 "multiple": "",
@@ -161,13 +161,13 @@
                                     "className": "org.joget.apps.form.lib.FormOptionsBinder",
                                     "properties": {
                                         "addEmptyOption": "",
-                                        "groupingColumn": "code_type",
+                                        "groupingColumn": "",
                                         "formDefId": "letterType",
                                         "labelColumn": "letter_type",
                                         "extraCondition": "",
                                         "cacheInterval": "",
                                         "emptyLabel": "",
-                                        "idColumn": "code_type"
+                                        "idColumn": ""
                                     }
                                 },
                                 "multiple": "",
@@ -186,20 +186,17 @@
                         {
                             "className": "org.joget.apps.form.lib.SelectBox",
                             "properties": {
-                                "controlField": "",
+                                "controlField": "letter_type",
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
-                                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                                    "className": "org.joget.tutorial.JdbcOptionsBinder",
                                     "properties": {
-                                        "addEmptyOption": "true",
-                                        "groupingColumn": "letter_type",
-                                        "formDefId": "subLetterType",
-                                        "labelColumn": "sub_letter_type",
-                                        "extraCondition": "",
-                                        "cacheInterval": "",
+                                        "useAjax": "true",
+                                        "addEmpty": "true",
+                                        "jdbcDatasource": "default",
                                         "emptyLabel": "",
-                                        "idColumn": "code_type"
+                                        "sql": "select id,c_sub_letter_type,c_letter_type from\r\napp_fd_afms_sublettertype;"
                                     }
                                 },
                                 "multiple": "",
@@ -213,48 +210,6 @@
                                 "id": "sub_letter_type",
                                 "value": "",
                                 "readonlyLabel": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.SelectBox",
-                            "properties": {
-                                "controlField": "",
-                                "readonly": "",
-                                "size": "",
-                                "optionsBinder": {
-                                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                                    "properties": {
-                                        "addEmptyOption": "true",
-                                        "groupingColumn": "",
-                                        "formDefId": "subSubLetterType",
-                                        "labelColumn": "id",
-                                        "extraCondition": "",
-                                        "cacheInterval": "",
-                                        "emptyLabel": "",
-                                        "idColumn": "id"
-                                    }
-                                },
-                                "multiple": "",
-                                "options": [],
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "workflowVariable": "",
-                                "label": "Sub Sub Letter Type",
-                                "id": "sub_sub_letter_type",
-                                "value": "",
-                                "readonlyLabel": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.CustomHTML",
-                            "properties": {
-                                "requiredSanitize": "true",
-                                "autoPopulate": "",
-                                "label": "",
-                                "id": "helper",
-                                "value": "<select id=\"sltb\" hidden><\/select>\n<script>\n    $(\"#sltb\").html($(\"[name='sub_letter_type']\").html().replaceAll(\"\\\" grouping=\\\"\", \"_\"))\n    $(\"[name='letter_type']\").change(function(){\n        $(\"[name='sub_letter_type']\").empty()\n        for(i=0;i<$(\"#sltb option\").length;i++){\n            attr_val = $(\"#sltb option\").get(i).value.split(\"_\")\n            if (this.value == attr_val[1])\n                $(\"[name='sub_letter_type']\").append(\"<option value=\"+attr_val[0]+\">\"+$(\"#sltb option\").get(i).text+\"<\/option>\")\n        }\n    })\n    \n    $(\"[name='letter_from']\").change(function(){\n      $nilai=this.value;\n      alert($nilai);\n      $(\"[name='government']\").style.visibility ='hidden';\n      \n    });\n    $(\"[name='government']\").style.visibility ='hidden';\n<\/script>"
                             }
                         },
                         {

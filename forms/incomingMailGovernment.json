@@ -50,10 +50,10 @@
                                         "groupingColumn": "",
                                         "formDefId": "letterFrom",
                                         "labelColumn": "letter_from",
-                                        "extraCondition": "c_code_from like '2'",
+                                        "extraCondition": "id='LF-002'",
                                         "cacheInterval": "",
                                         "emptyLabel": "",
-                                        "idColumn": "code_from"
+                                        "idColumn": ""
                                     }
                                 },
                                 "options": [],
@@ -159,8 +159,17 @@
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
+                                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                                    "properties": {
+                                        "addEmptyOption": "true",
+                                        "groupingColumn": "",
+                                        "formDefId": "letterType",
+                                        "labelColumn": "letter_type",
+                                        "extraCondition": "",
+                                        "cacheInterval": "",
+                                        "emptyLabel": "",
+                                        "idColumn": "id"
+                                    }
                                 },
                                 "multiple": "",
                                 "options": [],
@@ -178,12 +187,18 @@
                         {
                             "className": "org.joget.apps.form.lib.SelectBox",
                             "properties": {
-                                "controlField": "",
+                                "controlField": "letter_type",
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
+                                    "className": "org.joget.tutorial.JdbcOptionsBinder",
+                                    "properties": {
+                                        "useAjax": "true",
+                                        "addEmpty": "true",
+                                        "jdbcDatasource": "default",
+                                        "emptyLabel": "",
+                                        "sql": "select id,c_sub_letter_type,c_letter_type from\r\napp_fd_afms_sublettertype;"
+                                    }
                                 },
                                 "multiple": "",
                                 "options": [],
@@ -194,29 +209,6 @@
                                 "workflowVariable": "",
                                 "label": "Sub Letter Type",
                                 "id": "sub_letter_type",
-                                "value": "",
-                                "readonlyLabel": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.SelectBox",
-                            "properties": {
-                                "controlField": "",
-                                "readonly": "",
-                                "size": "",
-                                "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "multiple": "",
-                                "options": [],
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "workflowVariable": "",
-                                "label": "Sub Sub Letter Type",
-                                "id": "sub_sub_letter_type",
                                 "value": "",
                                 "readonlyLabel": ""
                             }
