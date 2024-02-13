@@ -1,7 +1,39 @@
 {
     "elements": [{
         "elements": [{
-            "elements": [],
+            "elements": [{
+                "className": "org.joget.apps.form.lib.Grid",
+                "properties": {
+                    "validateMaxRow": "",
+                    "readonly": "",
+                    "loadBinder": {
+                        "className": "",
+                        "properties": {}
+                    },
+                    "validateMinRow": "",
+                    "errorMessage": "Invalid number of rows",
+                    "options": [
+                        {
+                            "label": "id",
+                            "value": "id"
+                        },
+                        {
+                            "label": "file",
+                            "value": "file"
+                        }
+                    ],
+                    "validator": {
+                        "className": "",
+                        "properties": {}
+                    },
+                    "label": "Grid",
+                    "id": "field1",
+                    "storeBinder": {
+                        "className": "",
+                        "properties": {}
+                    }
+                }
+            }],
             "className": "org.joget.apps.form.model.Column",
             "properties": {"width": "100%"}
         }],
