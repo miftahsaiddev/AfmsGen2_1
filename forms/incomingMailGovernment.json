@@ -198,18 +198,6 @@
                                 "value": "",
                                 "readonlyLabel": ""
                             }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.IdGeneratorField",
-                            "properties": {
-                                "hidden": "true",
-                                "format": "ID-??????-#date.MM-yy#",
-                                "workflowVariable": "",
-                                "envVariable": "counter",
-                                "isDistributedGeneration": "true",
-                                "label": "No Project",
-                                "id": "no_project"
-                            }
                         }
                     ],
                     "className": "org.joget.apps.form.model.Column",
@@ -228,7 +216,11 @@
                                     "properties": {}
                                 },
                                 "multiple": "",
-                                "options": [],
+                                "options": [{
+                                    "label": "",
+                                    "value": "",
+                                    "grouping": ""
+                                }],
                                 "validator": {
                                     "className": "",
                                     "properties": {}
