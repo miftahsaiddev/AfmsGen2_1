@@ -114,27 +114,6 @@
                         "customHeader": "",
                         "keyName": "",
                         "customFooter": "",
-                        "label": "List uji",
-                        "enableOffline": "",
-                        "customId": "list_uji",
-                        "buttonPosition": "topLeft",
-                        "datalistId": "subLetterTypeList",
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "rowCount": "true",
-                        "id": "7963CCC3A186452AF75B5DC402295ACA"
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "cacheAllLinks": "",
-                        "customHeader": "",
-                        "keyName": "",
-                        "customFooter": "",
                         "label": "List Sub Sub Letter Type",
                         "enableOffline": "",
                         "customId": "list_sub_sub_letter_type",
