@@ -27,12 +27,12 @@
                                 "mandatory": "true"
                             }
                         },
-                        "label": "Letter Type",
+                        "label": "Last Status",
                         "readonly": "",
                         "size": "",
                         "workflowVariable": "",
                         "style": "",
-                        "id": "letter_type",
+                        "id": "last_status",
                         "placeholder": "",
                         "value": "",
                         "readonlyLabel": "",
