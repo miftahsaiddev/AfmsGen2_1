@@ -77,10 +77,10 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Letter Type",
+            "label": "Last Status",
             "reverse": "",
             "storeBinder": {
-                "className": "",
+                "className": null,
                 "properties": {}
             },
             "visibilityValue": "",
