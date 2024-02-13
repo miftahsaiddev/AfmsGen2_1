@@ -23,7 +23,7 @@
                         "id": "D43386290DF14EE82D20752EAF0D88C4",
                         "redirectUrlAfterComplete": "",
                         "fieldPassover": "",
-                        "formId": "incomingMailGovernment",
+                        "formId": "incomingMail",
                         "customHeader": "",
                         "permissionHidden": "true",
                         "fieldPassoverMethod": "append",
