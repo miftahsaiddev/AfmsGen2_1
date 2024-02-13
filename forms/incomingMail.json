@@ -201,7 +201,7 @@
                                 "hidden": "",
                                 "format": "TM-??????-#date.MM-yy#",
                                 "workflowVariable": "",
-                                "envVariable": "counter",
+                                "envVariable": "counterInTm",
                                 "isDistributedGeneration": "",
                                 "label": "No Project TM",
                                 "id": "no_project"
