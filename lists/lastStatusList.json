@@ -7,14 +7,24 @@
     "useSession": "",
     "responsiveMode": "",
     "rowActions": [],
-    "columns": [{
-        "filterable": true,
-        "hidden": "false",
-        "name": "id",
-        "id": "column_0",
-        "label": "ID",
-        "sortable": "false"
-    }],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "id",
+            "id": "column_0",
+            "label": "ID",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "last_status",
+            "id": "column_1",
+            "label": "Last Status",
+            "sortable": "false"
+        }
+    ],
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
