@@ -258,6 +258,30 @@
                                 "value": "",
                                 "readonlyLabel": ""
                             }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.TextArea",
+                            "properties": {
+                                "requiredSanitize": "true",
+                                "readonly": "False",
+                                "label": "Text Area",
+                                "id": "field25",
+                                "rows": "5",
+                                "cols": "20",
+                                "readonlyLabel": "False"
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.TextField",
+                            "properties": {
+                                "requiredSanitize": "true",
+                                "readonly": "False",
+                                "style": "",
+                                "label": "Text Field",
+                                "id": "field24",
+                                "readonlyLabel": "False",
+                                "storeNumeric": "False"
+                            }
                         }
                     ],
                     "className": "org.joget.apps.form.model.Column",
