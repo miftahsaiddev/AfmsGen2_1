@@ -27,8 +27,8 @@
             "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
             "id": "rowAction_1",
             "properties": {
-                "hrefColumn": "id",
-                "hrefParam": "id",
+                "hrefColumn": "id;true",
+                "hrefParam": "id;embed",
                 "rules": [],
                 "label": "Edit",
                 "href": "form_incoming_mail_agent",
