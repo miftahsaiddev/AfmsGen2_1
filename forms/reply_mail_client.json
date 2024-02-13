@@ -17,7 +17,7 @@
                                 "autoHandleFiles": ""
                             }
                         },
-                        "noframe": "true",
+                        "noframe": "",
                         "formDefId": "incomingMail",
                         "subFormParentId": "",
                         "id": "field6",
