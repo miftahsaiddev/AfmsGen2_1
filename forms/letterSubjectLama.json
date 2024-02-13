@@ -158,15 +158,6 @@
                             "value": "",
                             "readonlyLabel": ""
                         }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.Grid",
-                        "properties": {
-                            "readonly": "False",
-                            "errorMessage": "Invalid number of rows",
-                            "label": "Grid",
-                            "id": "field24"
-                        }
                     }
                 ],
                 "className": "org.joget.apps.form.model.Column",
