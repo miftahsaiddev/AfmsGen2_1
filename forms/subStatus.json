@@ -63,12 +63,12 @@
                                 "mandatory": "true"
                             }
                         },
-                        "label": "Sub Last Status",
+                        "label": "Sub Status",
                         "readonly": "",
                         "size": "",
                         "workflowVariable": "",
                         "style": "",
-                        "id": "sub_last_status",
+                        "id": "sub_status",
                         "placeholder": "",
                         "value": "",
                         "readonlyLabel": "",
