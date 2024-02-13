@@ -63,12 +63,12 @@
                                 "mandatory": "true"
                             }
                         },
-                        "label": "Sub Letter Type",
+                        "label": "Sub Status",
                         "readonly": "",
                         "size": "",
                         "workflowVariable": "",
                         "style": "",
-                        "id": "sub_letter_type",
+                        "id": "sub_status",
                         "placeholder": "",
                         "value": "",
                         "readonlyLabel": "",
