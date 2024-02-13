@@ -171,10 +171,10 @@
                     "className": "",
                     "properties": {}
                 },
-                "label": "Mail Subject",
+                "label": "Letter Subject",
                 "reverse": "",
                 "storeBinder": {
-                    "className": "",
+                    "className": null,
                     "properties": {}
                 },
                 "visibilityValue": "",
