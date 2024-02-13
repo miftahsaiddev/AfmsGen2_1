@@ -334,7 +334,7 @@
                 "fav_icon": "",
                 "mobileViewDisabled": "",
                 "dx8navLinkIcon": "",
-                "horizontal_menu": "",
+                "horizontal_menu": "true",
                 "profile": "",
                 "homeAttractBanner": "",
                 "dx8headingBgColor": "",
