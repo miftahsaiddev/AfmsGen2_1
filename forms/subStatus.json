@@ -25,8 +25,8 @@
                             "properties": {
                                 "addEmptyOption": "true",
                                 "groupingColumn": "",
-                                "formDefId": "letterType",
-                                "labelColumn": "letter_type",
+                                "formDefId": "lastStatus",
+                                "labelColumn": "last_status",
                                 "extraCondition": "",
                                 "cacheInterval": "",
                                 "emptyLabel": "",
@@ -44,8 +44,8 @@
                             }
                         },
                         "workflowVariable": "",
-                        "label": "Letter Type",
-                        "id": "letter_type",
+                        "label": "Last Status",
+                        "id": "last_status",
                         "value": "",
                         "readonlyLabel": ""
                     }
