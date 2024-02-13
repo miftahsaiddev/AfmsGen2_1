@@ -111,7 +111,7 @@
                         "afterSavedReloadTarget": "true",
                         "customId": "",
                         "userviewCacheDuration": "20",
-                        "messageShowAfterComplete": "",
+                        "messageShowAfterComplete": "Sukses",
                         "showInPopupDialog": "",
                         "userviewCacheScope": "",
                         "actionAfterSaved": "",
