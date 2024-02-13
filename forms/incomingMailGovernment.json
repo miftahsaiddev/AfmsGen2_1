@@ -10,7 +10,7 @@
                                 "hidden": "",
                                 "format": "ID-??????",
                                 "workflowVariable": "",
-                                "envVariable": "counter",
+                                "envVariable": "counterMailNo",
                                 "isDistributedGeneration": "",
                                 "label": "Mail No",
                                 "id": "mail_no"
@@ -546,6 +546,18 @@
                                 "id": "attachment_mail",
                                 "resizeHeight": "",
                                 "fileType": ""
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.IdGeneratorField",
+                            "properties": {
+                                "hidden": "",
+                                "format": "ID-??????",
+                                "workflowVariable": "",
+                                "envVariable": "counterRefNo",
+                                "isDistributedGeneration": "",
+                                "label": "Ref No",
+                                "id": "ref_no"
                             }
                         }
                     ],
