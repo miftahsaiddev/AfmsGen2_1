@@ -5,29 +5,15 @@
                 {
                     "elements": [
                         {
-                            "className": "org.joget.apps.form.lib.TextField",
+                            "className": "org.joget.apps.form.lib.IdGeneratorField",
                             "properties": {
-                                "requiredSanitize": "true",
-                                "permissionHidden": "",
-                                "maxlength": "",
-                                "validator": {
-                                    "className": "org.joget.apps.form.lib.DefaultValidator",
-                                    "properties": {
-                                        "type": "",
-                                        "message": "",
-                                        "mandatory": "true"
-                                    }
-                                },
-                                "label": "Mail No",
-                                "readonly": "",
-                                "size": "",
+                                "hidden": "",
+                                "format": "ID-??????",
                                 "workflowVariable": "",
-                                "style": "",
-                                "id": "mail_no",
-                                "placeholder": "",
-                                "value": "",
-                                "readonlyLabel": "",
-                                "storeNumeric": ""
+                                "envVariable": "counter",
+                                "isDistributedGeneration": "",
+                                "label": "Mail No",
+                                "id": "mail_no"
                             }
                         },
                         {
