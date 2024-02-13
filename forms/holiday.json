@@ -1,0 +1,153 @@
+{
+    "elements": [{
+        "elements": [{
+            "elements": [
+                {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "readonly": "",
+                        "size": "",
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "multiple": "",
+                        "options": [
+                            {
+                                "label": "Sunday",
+                                "value": "Sunday",
+                                "grouping": ""
+                            },
+                            {
+                                "label": "Monday",
+                                "value": "Monday",
+                                "grouping": ""
+                            },
+                            {
+                                "label": "Tuesday",
+                                "value": "Tuesday",
+                                "grouping": ""
+                            },
+                            {
+                                "label": "Wednesday",
+                                "value": "Wednesday",
+                                "grouping": ""
+                            },
+                            {
+                                "label": "Thursday",
+                                "value": "Thursday",
+                                "grouping": ""
+                            },
+                            {
+                                "label": "Friday",
+                                "value": "Friday",
+                                "grouping": ""
+                            },
+                            {
+                                "label": "Saturday",
+                                "value": "Saturday",
+                                "grouping": ""
+                            }
+                        ],
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "label": "Day",
+                        "id": "holy_day",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.DatePicker",
+                    "properties": {
+                        "yearRange": "c-10:c+10",
+                        "dataFormat": "yyyy-MM-dd",
+                        "startDateFieldId": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "format": "",
+                        "label": "Date",
+                        "datePickerType": "",
+                        "currentDateAs": "",
+                        "endDateFieldId": "",
+                        "readonly": "",
+                        "allowManual": "",
+                        "workflowVariable": "",
+                        "id": "holy_date",
+                        "placeholder": "",
+                        "disableWeekends": "",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.IdGeneratorField",
+                    "properties": {
+                        "hidden": "",
+                        "format": "HD-???",
+                        "workflowVariable": "",
+                        "envVariable": "counter",
+                        "isDistributedGeneration": "",
+                        "label": "ID Generator",
+                        "id": "id"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CheckBox",
+                    "properties": {
+                        "fullWidth": "",
+                        "controlField": "",
+                        "readonly": "",
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "options": [
+                            {
+                                "label": "Yes",
+                                "value": "1",
+                                "grouping": ""
+                            },
+                            {
+                                "label": "No",
+                                "value": "0",
+                                "grouping": ""
+                            }
+                        ],
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "label": "Set Active",
+                        "id": "set_active",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
+                }
+            ],
+            "className": "org.joget.apps.form.model.Column",
+            "properties": {"width": "100%"}
+        }],
+        "className": "org.joget.apps.form.model.Section",
+        "properties": {
+            "label": "Section",
+            "id": "section1"
+        }
+    }],
+    "className": "org.joget.apps.form.model.Form",
+    "properties": {
+        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "name": "Holiday",
+        "description": "",
+        "id": "holiday",
+        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "tableName": "afms_holiday"
+    }
+}

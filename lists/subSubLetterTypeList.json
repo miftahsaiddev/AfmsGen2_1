@@ -19,16 +19,24 @@
         {
             "filterable": true,
             "hidden": "false",
+            "name": "sub_letter_type",
+            "id": "column_1",
+            "label": "Sub Letter Type",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "renderHtml": "",
             "format": {
                 "className": "",
                 "properties": {}
             },
-            "label": "Letter From",
+            "label": "Sub Sub Letter Type",
             "sortable": "false",
             "datalist_type": "column",
             "exclude_export": "",
-            "name": "letter_from",
+            "name": "sub_sub_letter_type",
             "width": "",
             "headerAlignment": "",
             "action": {
@@ -36,13 +44,13 @@
                 "properties": {
                     "hrefColumn": "id",
                     "hrefParam": "id",
-                    "href": "form_letter_from?embed=true",
+                    "href": "form_sub_sub_letter_type?embed=true",
                     "confirmation": "",
                     "target": "popup"
                 }
             },
             "style": "",
-            "id": "column_1",
+            "id": "column_2",
             "alignment": ""
         }
     ],
@@ -57,14 +65,14 @@
     "hidePageSize": "",
     "disableResponsive": "",
     "cardCollapseByDefault": "",
-    "name": "List Letter From",
+    "name": "List Sub Sub Letter Type",
     "rowActionsMode": "",
     "showhidecolumns": "",
-    "id": "letterFromList",
+    "id": "subSubLetterTypeList",
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
-            "formDefId": "letterFrom",
+            "formDefId": "subSubLetterType",
             "extraCondition": ""
         }
     },
@@ -75,7 +83,7 @@
             "properties": {
                 "deleteFiles": "",
                 "deleteGridData": "",
-                "formDefId": "letterFrom",
+                "formDefId": "subSubLetterType",
                 "deleteSubformData": "",
                 "label": "Delete",
                 "confirmation": "",
@@ -91,7 +99,7 @@
                 "hrefColumn": "",
                 "hrefParam": "",
                 "label": "Create",
-                "href": "form_letter_from?embed=true",
+                "href": "form_sub_sub_letter_type?embed=true",
                 "confirmation": "",
                 "datalist_type": "action",
                 "target": "popup"
