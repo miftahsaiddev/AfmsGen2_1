@@ -94,7 +94,7 @@
                 "hrefColumn": "",
                 "hrefParam": "",
                 "label": "Create",
-                "href": "form_last_status?embed=true",
+                "href": "form_sub_status?embed=true",
                 "confirmation": "",
                 "datalist_type": "action",
                 "target": "popup"
