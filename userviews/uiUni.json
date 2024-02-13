@@ -529,6 +529,37 @@
                         "userviewCacheScope": "",
                         "readonlyLabel": "true"
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.FormMenu",
+                    "properties": {
+                        "loadDataWithKey": "",
+                        "actionOnCancel": "closepopup",
+                        "redirectTargetOnCancel": "top",
+                        "customFooter": "",
+                        "paramName": "",
+                        "enableOffline": "",
+                        "afterSavedReloadTarget": "true",
+                        "customId": "form_last_status",
+                        "showInPopupDialog": "Yes",
+                        "readonly": "",
+                        "cancelButtonLabel": "Back",
+                        "actionAfterSaved": "",
+                        "id": "4582485BBFD549322402D972164BE3CA",
+                        "redirectUrlAfterComplete": "list_last_status",
+                        "fieldPassover": "",
+                        "formId": "lastStatus",
+                        "customHeader": "",
+                        "fieldPassoverMethod": "append",
+                        "redirectTargetOnComplete": "",
+                        "keyName": "",
+                        "label": "Form Last Status",
+                        "userviewCacheDuration": "20",
+                        "messageShowAfterComplete": "",
+                        "submitButtonLabel": "",
+                        "userviewCacheScope": "",
+                        "readonlyLabel": "true"
+                    }
                 }
             ],
             "properties": {
