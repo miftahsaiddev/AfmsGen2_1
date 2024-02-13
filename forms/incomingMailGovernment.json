@@ -50,10 +50,10 @@
                                         "groupingColumn": "",
                                         "formDefId": "letterFrom",
                                         "labelColumn": "letter_from",
-                                        "extraCondition": "c_code_from like '2'",
+                                        "extraCondition": "id='LF-002'",
                                         "cacheInterval": "",
                                         "emptyLabel": "",
-                                        "idColumn": "code_from"
+                                        "idColumn": ""
                                     }
                                 },
                                 "options": [],
