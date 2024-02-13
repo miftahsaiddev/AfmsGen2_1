@@ -156,6 +156,27 @@
                         "customHeader": "",
                         "keyName": "",
                         "customFooter": "",
+                        "label": "List Via",
+                        "enableOffline": "",
+                        "customId": "list_via",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "viaList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "38F2A67C70AB4E409DF8A0380504863F"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
                         "label": "List Agent",
                         "enableOffline": "",
                         "customId": "list_agent",
