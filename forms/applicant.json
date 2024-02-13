@@ -4,6 +4,18 @@
             "elements": [{
                 "elements": [
                     {
+                        "className": "org.joget.apps.form.lib.IdGeneratorField",
+                        "properties": {
+                            "hidden": "",
+                            "format": "APT-??????",
+                            "workflowVariable": "",
+                            "envVariable": "counter_apt",
+                            "isDistributedGeneration": "",
+                            "label": "Applicant ID",
+                            "id": "applicant_id"
+                        }
+                    },
+                    {
                         "className": "org.joget.apps.form.lib.TextField",
                         "properties": {
                             "requiredSanitize": "true",
