@@ -75,7 +75,16 @@
     "pageSize": "0",
     "orderBy": "id",
     "description": "",
-    "filters": [],
+    "filters": [{
+        "name": "c_sub_sub_letter_type",
+        "id": "filter_0",
+        "label": "c_sub_sub_letter_type",
+        "type": {
+            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+            "properties": {}
+        },
+        "filterParamName": "d-6737404-fn_c_sub_sub_letter_type"
+    }],
     "showDataWhenFilterSet": "",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
     "hidePageSize": "",
