@@ -10,7 +10,7 @@
                         "workflowVariable": "",
                         "envVariable": "counter_ss",
                         "isDistributedGeneration": "",
-                        "label": "Sub Status ID",
+                        "label": "Sub Last Status ID",
                         "id": "id"
                     }
                 },
@@ -63,12 +63,12 @@
                                 "mandatory": "true"
                             }
                         },
-                        "label": "Sub Status",
+                        "label": "Sub Last Status",
                         "readonly": "",
                         "size": "",
                         "workflowVariable": "",
                         "style": "",
-                        "id": "sub_status",
+                        "id": "sub_last_status",
                         "placeholder": "",
                         "value": "",
                         "readonlyLabel": "",
