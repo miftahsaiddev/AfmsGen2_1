@@ -217,6 +217,15 @@
                   <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
+            <entry>
+               <string>incomingMailProcess::tool1</string>
+               <packageActivityPlugin>
+                  <processDefId>incomingMailProcess</processDefId>
+                  <activityDefId>tool1</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.PushNotificationTool&quot;,&quot;properties&quot;:{&quot;toSpecific&quot;:&quot;&quot;,&quot;subject&quot;:&quot;new incoming&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;&quot;,&quot;url&quot;:&quot;http://localhost:8080/jw/web/userview/AfmsGen2/uiMiftahnew/_/welcome&quot;}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
          </packageActivityPluginMap>
          <packageParticipantMap>
             <entry>
