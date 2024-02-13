@@ -13,7 +13,7 @@
                                 "envVariable": "counter_in",
                                 "isDistributedGeneration": "",
                                 "label": "Mail No",
-                                "id": "mail_no"
+                                "id": "id"
                             }
                         },
                         {
@@ -487,6 +487,32 @@
             "elements": [
                 {
                     "elements": [
+                        {
+                            "className": "org.joget.apps.form.lib.FileUpload",
+                            "properties": {
+                                "resizeMethod": "",
+                                "permissionType": "",
+                                "padding": "",
+                                "maxSizeMsg": "File size limit exceeded",
+                                "resizeWidth": "",
+                                "multiple": "true",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "maxSize": "20000",
+                                "label": "Attachment File",
+                                "resizeQuality": "0.8",
+                                "removeFile": "",
+                                "readonly": "",
+                                "attachment": "true",
+                                "size": "",
+                                "fileTypeMsg": "Invalid file type",
+                                "id": "field17",
+                                "resizeHeight": "",
+                                "fileType": ""
+                            }
+                        },
                         {
                             "className": "org.joget.apps.form.lib.FileUpload",
                             "properties": {
