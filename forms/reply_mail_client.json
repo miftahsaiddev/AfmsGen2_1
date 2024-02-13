@@ -134,7 +134,7 @@
                                 "className": "",
                                 "properties": {}
                             },
-                            "format": "dd-MM-yyyy",
+                            "format": "dd-mm-yy",
                             "label": "Deadline Date",
                             "datePickerType": "",
                             "currentDateAs": "",
