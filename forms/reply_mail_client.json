@@ -6,7 +6,8 @@
                     "className": "org.joget.apps.form.lib.SubForm",
                     "properties": {
                         "parentSubFormId": "",
-                        "readonly": "",
+                        "permissionHidden": "",
+                        "readonly": "true",
                         "loadBinder": {
                             "className": "org.joget.tutorial.JdbcLoadBinder",
                             "properties": {
@@ -16,7 +17,7 @@
                                 "autoHandleFiles": ""
                             }
                         },
-                        "noframe": "",
+                        "noframe": "true",
                         "formDefId": "incomingMail",
                         "subFormParentId": "",
                         "id": "field6",
@@ -25,7 +26,7 @@
                             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
                             "properties": {}
                         },
-                        "readonlyLabel": ""
+                        "readonlyLabel": "true"
                     }
                 }],
                 "className": "org.joget.apps.form.model.Column",
