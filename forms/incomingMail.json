@@ -5,29 +5,15 @@
                 {
                     "elements": [
                         {
-                            "className": "org.joget.apps.form.lib.TextField",
+                            "className": "org.joget.apps.form.lib.IdGeneratorField",
                             "properties": {
-                                "requiredSanitize": "true",
-                                "permissionHidden": "",
-                                "maxlength": "",
-                                "validator": {
-                                    "className": "org.joget.apps.form.lib.DefaultValidator",
-                                    "properties": {
-                                        "type": "",
-                                        "message": "",
-                                        "mandatory": "true"
-                                    }
-                                },
-                                "label": "Mail No",
-                                "readonly": "",
-                                "size": "",
+                                "hidden": "",
+                                "format": "IN-#date.yyMMdd#????",
                                 "workflowVariable": "",
-                                "style": "",
-                                "id": "mail_no",
-                                "placeholder": "",
-                                "value": "",
-                                "readonlyLabel": "",
-                                "storeNumeric": ""
+                                "envVariable": "counter_in",
+                                "isDistributedGeneration": "",
+                                "label": "Mail No",
+                                "id": "id"
                             }
                         },
                         {
@@ -47,13 +33,13 @@
                                     "className": "org.joget.apps.form.lib.FormOptionsBinder",
                                     "properties": {
                                         "addEmptyOption": "",
-                                        "groupingColumn": "code_from",
+                                        "groupingColumn": "",
                                         "formDefId": "letterFrom",
                                         "labelColumn": "letter_from",
-                                        "extraCondition": "c_code_from like '1'",
+                                        "extraCondition": "id='LF-001'",
                                         "cacheInterval": "",
                                         "emptyLabel": "Pilih Letter From",
-                                        "idColumn": "code_from"
+                                        "idColumn": ""
                                     }
                                 },
                                 "options": [],
@@ -212,13 +198,35 @@
                         {
                             "className": "org.joget.apps.form.lib.IdGeneratorField",
                             "properties": {
-                                "hidden": "true",
-                                "format": "ID-??????-#date.MM-yy#",
+                                "hidden": "",
+                                "format": "TM-??????-#date.MM-yy#",
                                 "workflowVariable": "",
-                                "envVariable": "counter",
-                                "isDistributedGeneration": "true",
-                                "label": "No Project",
+                                "envVariable": "counterInTm",
+                                "isDistributedGeneration": "",
+                                "label": "No Project TM",
                                 "id": "no_project"
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.IdGeneratorField",
+                            "properties": {
+                                "hidden": "",
+                                "format": "PT-??????",
+                                "workflowVariable": "",
+                                "envVariable": "counterInPt",
+                                "isDistributedGeneration": "",
+                                "label": "No Project PT",
+                                "id": "field22"
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.CustomHTML",
+                            "properties": {
+                                "requiredSanitize": "true",
+                                "autoPopulate": "",
+                                "label": "",
+                                "id": "field23",
+                                "value": "\r\n<script src=\"https://code.jquery.com/jquery-3.6.4.min.js\"><\/script>\r\n<script>\r\nconst options = [\"Option 1\", \"Option 2\", \"Option 3\", \"Option 4\", \"Option 5\"];\r\n\r\nfunction initializeSearchableSelect() {\r\n    const uniqueId = \"searchableSelect_\" + new Date().getTime();\r\n    \r\n    const dropdownHtml = `<div>\r\n                             <label for=\"${uniqueId}\">Select Item:<\/label>\r\n                             <select id=\"${uniqueId}\" onchange=\"handleSelection('${uniqueId}')\">\r\n                               <!-- Options will be dynamically populated -->\r\n                             <\/select>\r\n                           <\/div>`;\r\n\r\n    $(\"#formContainer\").append(dropdownHtml);\r\n\r\n    const selectDropdown = $(\"#\" + uniqueId);\r\n    options.forEach(option => {\r\n        selectDropdown.append(`<option value=\"${option}\">${option}<\/option>`);\r\n    });\r\n}\r\n\r\nfunction handleSelection(uniqueId) {\r\n    const selectDropdown = $(\"#\" + uniqueId);\r\n    const searchTerm = selectDropdown.val().toLowerCase();\r\n\r\n    const filteredOptions = options.filter(option =>\r\n        option.toLowerCase().includes(searchTerm)\r\n    );\r\n\r\n    selectDropdown.empty();\r\n    filteredOptions.forEach(option => {\r\n        selectDropdown.append(`<option value=\"${option}\">${option}<\/option>`);\r\n    });\r\n}\r\n\r\ninitializeSearchableSelect();\r\ninitializeSearchableSelect();\r\n<\/script>"
                             }
                         }
                     ],
@@ -509,7 +517,33 @@
                                 "padding": "",
                                 "maxSizeMsg": "File size limit exceeded",
                                 "resizeWidth": "",
-                                "multiple": "",
+                                "multiple": "true",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "maxSize": "20000",
+                                "label": "Attachment File",
+                                "resizeQuality": "0.8",
+                                "removeFile": "",
+                                "readonly": "",
+                                "attachment": "true",
+                                "size": "",
+                                "fileTypeMsg": "Invalid file type",
+                                "id": "field17",
+                                "resizeHeight": "",
+                                "fileType": ""
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.FileUpload",
+                            "properties": {
+                                "resizeMethod": "",
+                                "permissionType": "",
+                                "padding": "",
+                                "maxSizeMsg": "File size limit exceeded",
+                                "resizeWidth": "",
+                                "multiple": "true",
                                 "validator": {
                                     "className": "",
                                     "properties": {}
@@ -525,39 +559,6 @@
                                 "id": "field17",
                                 "resizeHeight": "",
                                 "fileType": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.Grid",
-                            "properties": {
-                                "validateMaxRow": "",
-                                "readonly": "",
-                                "loadBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "validateMinRow": "",
-                                "errorMessage": "Invalid number of rows",
-                                "options": [
-                                    {
-                                        "label": "Ref No",
-                                        "value": "ref_no"
-                                    },
-                                    {
-                                        "label": "document",
-                                        "value": "Document"
-                                    }
-                                ],
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "label": "",
-                                "id": "field18",
-                                "storeBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                }
                             }
                         }
                     ],
@@ -704,8 +705,17 @@
             "properties": {}
         },
         "storeBinder": {
-            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
-            "properties": {}
+            "className": "org.joget.marketplace.MultiStoreBinders",
+            "properties": {
+                "autoHandleWorkflowVariable": "true",
+                "autoHandleFilesformDefId": "incomingDoc",
+                "binders": [{
+                    "className": "org.joget.apps.form.lib.DefaultFormBinder",
+                    "properties": {}
+                }],
+                "comment": "",
+                "autoHandleFiles": "true"
+            }
         },
         "tableName": "afms_incomingmail"
     }
