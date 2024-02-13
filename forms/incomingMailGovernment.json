@@ -8,10 +8,10 @@
                             "className": "org.joget.apps.form.lib.IdGeneratorField",
                             "properties": {
                                 "hidden": "",
-                                "format": "ID-??????",
+                                "format": "IM-??????",
                                 "workflowVariable": "",
                                 "envVariable": "counterMailNo",
-                                "isDistributedGeneration": "",
+                                "isDistributedGeneration": "true",
                                 "label": "Mail No",
                                 "id": "mail_no"
                             }
@@ -568,10 +568,10 @@
                             "className": "org.joget.apps.form.lib.IdGeneratorField",
                             "properties": {
                                 "hidden": "",
-                                "format": "ID-??????",
+                                "format": "PT-??????",
                                 "workflowVariable": "",
                                 "envVariable": "counterRefNo",
-                                "isDistributedGeneration": "",
+                                "isDistributedGeneration": "true",
                                 "label": "Ref No",
                                 "id": "ref_no"
                             }
