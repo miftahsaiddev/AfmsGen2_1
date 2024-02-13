@@ -15,7 +15,7 @@
                 "hrefParam": "",
                 "rules": [],
                 "label": "Create",
-                "href": "form_incoming_mail_agent",
+                "href": "form_incoming_mail_agent/embed",
                 "confirmation": "",
                 "link-css-display-type": "btn btn-sm btn-primary",
                 "datalist_type": "row_action",
