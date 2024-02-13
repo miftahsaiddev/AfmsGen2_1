@@ -194,6 +194,15 @@
                 {
                     "elements": [
                         {
+                            "className": "org.joget.apps.form.lib.CustomHTML",
+                            "properties": {
+                                "requiredSanitize": "true",
+                                "autoPopulate": "False",
+                                "label": "",
+                                "id": "field23"
+                            }
+                        },
+                        {
                             "className": "org.joget.apps.form.lib.SelectBox",
                             "properties": {
                                 "controlField": "",
