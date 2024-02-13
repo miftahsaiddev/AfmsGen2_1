@@ -113,10 +113,10 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Sub Letter Type",
+            "label": "Sub Status",
             "reverse": "",
             "storeBinder": {
-                "className": "",
+                "className": null,
                 "properties": {}
             },
             "visibilityValue": "",
@@ -127,7 +127,7 @@
                 "properties": {}
             },
             "comment": "",
-            "id": "sub_letter_type",
+            "id": "sub_status",
             "join": "",
             "readonlyLabel": ""
         }
