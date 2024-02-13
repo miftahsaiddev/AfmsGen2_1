@@ -158,30 +158,6 @@
                             "value": "",
                             "readonlyLabel": ""
                         }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.Grid",
-                        "properties": {
-                            "validateMaxRow": "",
-                            "readonly": "",
-                            "loadBinder": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "validateMinRow": "",
-                            "errorMessage": "Invalid number of rows",
-                            "options": [],
-                            "validator": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "label": "Letter Type",
-                            "id": "letter_type",
-                            "storeBinder": {
-                                "className": "",
-                                "properties": {}
-                            }
-                        }
                     }
                 ],
                 "className": "org.joget.apps.form.model.Column",
