@@ -7,14 +7,32 @@
     "useSession": "",
     "responsiveMode": "",
     "rowActions": [],
-    "columns": [{
-        "filterable": true,
-        "hidden": "false",
-        "name": "id",
-        "id": "column_0",
-        "label": "ID",
-        "sortable": "false"
-    }],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "id",
+            "id": "column_0",
+            "label": "ID",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "c_letter_type",
+            "id": "column_1",
+            "label": "c_letter_type",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "c_sub_letter_type",
+            "id": "column_2",
+            "label": "c_sub_letter_type",
+            "sortable": "false"
+        }
+    ],
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
