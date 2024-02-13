@@ -6,9 +6,9 @@
                     "className": "org.joget.apps.form.lib.IdGeneratorField",
                     "properties": {
                         "hidden": "",
-                        "format": "SS-??????",
+                        "format": "SSL-??????",
                         "workflowVariable": "",
-                        "envVariable": "counter_ss",
+                        "envVariable": "counter_ssl",
                         "isDistributedGeneration": "",
                         "label": "Sub Last Status ID",
                         "id": "id"
