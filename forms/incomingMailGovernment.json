@@ -542,8 +542,13 @@
                                 "validateMaxRow": "",
                                 "readonly": "",
                                 "loadBinder": {
-                                    "className": "",
-                                    "properties": {}
+                                    "className": "org.joget.tutorial.JdbcLoadBinder",
+                                    "properties": {
+                                        "autoHandleWorkflowVariable": "true",
+                                        "jdbcDatasource": "default",
+                                        "sql": "select mail_no,field17 from app_fd_afms_incomingmail where id=  '#form.afms_incomingmail.id#'",
+                                        "autoHandleFiles": ""
+                                    }
                                 },
                                 "validateMinRow": "",
                                 "errorMessage": "Invalid number of rows",
