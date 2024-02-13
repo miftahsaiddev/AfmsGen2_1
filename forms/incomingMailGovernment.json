@@ -518,7 +518,7 @@
                                 "padding": "",
                                 "maxSizeMsg": "File size limit exceeded",
                                 "resizeWidth": "",
-                                "multiple": "",
+                                "multiple": "true",
                                 "validator": {
                                     "className": "",
                                     "properties": {}
