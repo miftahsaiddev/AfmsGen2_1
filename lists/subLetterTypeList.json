@@ -11,10 +11,25 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "id",
-            "id": "column_0",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "ID",
-            "sortable": "false"
+            "sortable": "true",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "id",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_0",
+            "alignment": ""
         },
         {
             "filterable": true,
@@ -22,7 +37,8 @@
             "name": "c_letter_type",
             "id": "column_1",
             "label": "c_letter_type",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column"
         },
         {
             "filterable": true,
