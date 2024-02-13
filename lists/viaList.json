@@ -91,7 +91,7 @@
                 "hrefColumn": "",
                 "hrefParam": "",
                 "label": "Create",
-                "href": "form_letter_type?embed=true",
+                "href": "form_via?embed=true",
                 "confirmation": "",
                 "datalist_type": "action",
                 "target": "popup"
