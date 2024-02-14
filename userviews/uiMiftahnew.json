@@ -191,7 +191,7 @@
                 {
                     "className": "org.joget.apps.userview.lib.RunProcess",
                     "properties": {
-                        "runProcessDirectly": "",
+                        "runProcessDirectly": "Yes",
                         "fieldPassoverMethod": "append",
                         "keyName": "",
                         "label": "Create Incoming",
@@ -214,7 +214,7 @@
                 {
                     "className": "org.joget.apps.userview.lib.RunProcess",
                     "properties": {
-                        "runProcessDirectly": "",
+                        "runProcessDirectly": "Yes",
                         "fieldPassoverMethod": "append",
                         "keyName": "",
                         "label": "Create Outgoing",
