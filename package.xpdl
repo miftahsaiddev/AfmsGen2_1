@@ -719,6 +719,10 @@
                         <No/>
                     </Implementation>
                     <Performer>specialist</Performer>
+                    <Deadline Execution="ASYNCHR">
+                        <DeadlineCondition>var d = new java.text.SimpleDateFormat('yyyy-MM-dd'); d.parse("#form.afms_incomingmail.deadline_date#");</DeadlineCondition>
+                        <ExceptionName>deadline</ExceptionName>
+                    </Deadline>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="specialist"/>
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="273,85"/>
@@ -734,9 +738,25 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="343,60"/>
                     </ExtendedAttributes>
                 </Activity>
+                <Activity Id="deadline" Name="deadline">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>specialist</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="specialist"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="533,79"/>
+                    </ExtendedAttributes>
+                </Activity>
             </Activities>
             <Transitions>
                 <Transition From="tool1" Id="transition2" To="incoming_mail">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="incoming_mail" Id="transition_end_incoming_mail" To="deadline">
+                    <Condition Type="EXCEPTION">deadline</Condition>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
@@ -745,7 +765,7 @@
             <ExtendedAttributes>
                 <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="administrator;specialist"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=administrator,CONNECTING_ACTIVITY_ID=tool1,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=specialist,CONNECTING_ACTIVITY_ID=incoming_mail,X_OFFSET=706,Y_OFFSET=147,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=specialist,CONNECTING_ACTIVITY_ID=deadline,X_OFFSET=793,Y_OFFSET=111,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
         <WorkflowProcess Id="incomingMailProcess_2" Name="Incoming Mail Process Gov">
