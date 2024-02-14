@@ -720,7 +720,6 @@
             </DataFields>
             <Activities>
                 <Activity Id="incoming_mail" Name="Incoming Mail">
-                    <Limit>3</Limit>
                     <Implementation>
                         <No/>
                     </Implementation>
