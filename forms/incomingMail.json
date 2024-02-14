@@ -616,7 +616,7 @@
                                 "errorMessage": "Invalid number of rows",
                                 "options": [{
                                     "label": "",
-                                    "value": ""
+                                    "value": "#form.afms_incomingdoc.file_upload#"
                                 }],
                                 "validator": {
                                     "className": "",
