@@ -725,7 +725,7 @@
                     </Implementation>
                     <Performer>specialist</Performer>
                     <Deadline Execution="ASYNCHR">
-                        <DeadlineCondition>var D=new java.util.Date(); D.setTime(ACTIVITY_ACTIVATED_TIME.getTime()+(2*86400000)); D;</DeadlineCondition>
+                        <DeadlineCondition>var h=new java.util.Date(); h.setTime(ACTIVITY_ACTIVATED_TIME.getTime()+(2*3600000)); h;</DeadlineCondition>
                         <ExceptionName>NOTIFY</ExceptionName>
                     </Deadline>
                     <ExtendedAttributes>
