@@ -760,9 +760,9 @@
             </ExtendedAttributes>
         </WorkflowProcess>
         <WorkflowProcess Id="incomingMailProcess_2" Name="Incoming Mail Process Gov">
-            <ProcessHeader DurationUnit="h"/>
+            <ProcessHeader DurationUnit="m"/>
             <FormalParameters>
-                <FormalParameter Id="deadLine" Mode="INOUT">
+                <FormalParameter Id="deadLine" Mode="OUT">
                     <DataType>
                         <BasicType Type="STRING"/>
                     </DataType>
@@ -787,7 +787,7 @@
                     </Implementation>
                     <Performer>incomingMailProcess_2_specialist</Performer>
                     <Deadline Execution="ASYNCHR">
-                        <DeadlineCondition>var D=new java.util.Date(); D.setTime(ACTIVITY_ACTIVATED_TIME.getTime()+(3*86400000)); D;</DeadlineCondition>
+                        <DeadlineCondition>var m=new java.util.Date(); m.setTime(ACTIVITY_ACTIVATED_TIME.getTime()+(3*60000)); m;</DeadlineCondition>
                         <ExceptionName>ddline</ExceptionName>
                     </Deadline>
                     <TransitionRestrictions>
