@@ -236,8 +236,16 @@
             "properties": {}
         },
         "storeBinder": {
-            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
-            "properties": {}
+            "className": "org.joget.marketplace.MultiStoreBinders",
+            "properties": {
+                "autoHandleWorkflowVariable": "true",
+                "binders": [{
+                    "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                    "properties": {}
+                }],
+                "comment": "",
+                "autoHandleFiles": ""
+            }
         },
         "tableName": "afms_incomingmail"
     }
