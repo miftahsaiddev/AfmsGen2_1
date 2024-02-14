@@ -608,7 +608,7 @@
                                     "properties": {
                                         "autoHandleWorkflowVariable": "true",
                                         "jdbcDatasource": "default",
-                                        "sql": "select c_project_no ,c_file_upload  from app_fd_afms_incomingdoc where c_mail_id =''",
+                                        "sql": "select c_project_no ,c_file_upload  from app_fd_afms_incomingdoc where c_mail_id ='IN-2402141207173026349187072'",
                                         "autoHandleFiles": ""
                                     }
                                 },
@@ -616,7 +616,7 @@
                                 "errorMessage": "Invalid number of rows",
                                 "options": [{
                                     "label": "File Upload",
-                                    "value": "#form.afms_incomingdoc.file_upload#"
+                                    "value": "c_file_upload"
                                 }],
                                 "validator": {
                                     "className": "",
