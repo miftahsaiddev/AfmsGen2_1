@@ -1,18 +1,48 @@
 {
-    "rowActions": [],
-    "columns": [],
-    "name": "List Outgoing",
-    "pageSize": "0",
-    "orderBy": "",
-    "description": "",
-    "id": "listOutgoing",
-    "filters": [],
-    "binder": {
-        "name": "",
+    "template": {
         "className": "",
         "properties": {}
     },
-    "actions": [],
+    "rowActions": [],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "email_to",
+            "id": "column_0",
+            "label": "Email to",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "subject_mail",
+            "id": "column_1",
+            "label": "Subject Mail",
+            "sortable": "false"
+        }
+    ],
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "filters": [],
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "name": "List Outgoing",
+    "id": "listOutgoing",
+    "binder": {
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "properties": {
+            "formDefId": "outgoingMail",
+            "extraCondition": ""
+        }
+    },
+    "actions": [{
+        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+        "id": "action_0",
+        "properties": {
+            "label": "Hyperlink",
+            "target": "_self"
+        }
+    }],
     "order": ""
 }
