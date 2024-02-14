@@ -141,7 +141,7 @@
                   <activityDefId>activity2</activityDefId>
                   <formId></formId>
                   <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
+                  <autoContinue>true</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
@@ -195,7 +195,7 @@
                   <activityDefId>incoming_mail</activityDefId>
                   <formId>reply_mail_client</formId>
                   <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
+                  <autoContinue>true</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
