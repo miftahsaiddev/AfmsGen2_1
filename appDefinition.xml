@@ -234,6 +234,15 @@
          </packageActivityFormMap>
          <packageActivityPluginMap>
             <entry>
+               <string>incomingMailProcess::deadline_</string>
+               <packageActivityPlugin>
+                  <processDefId>incomingMailProcess</processDefId>
+                  <activityDefId>deadline_</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;CALL sp_hitung_deadline_incoming(&apos;#form.afms_incomingmail.id#&apos;, &apos;#date.yyyy-MM-dd#&apos;, &apos;#form.afms_incomingmail.mail_subject#&apos;);   &quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
                <string>tes_incoming_2::send_email</string>
                <packageActivityPlugin>
                   <processDefId>tes_incoming_2</processDefId>
@@ -299,15 +308,6 @@
                </packageParticipant>
             </entry>
             <entry>
-               <string>incomingMailProcess::specialist</string>
-               <packageParticipant>
-                  <processDefId>incomingMailProcess</processDefId>
-                  <participantId>specialist</participantId>
-                  <type>workflowVariable</type>
-                  <value>attention_to,user</value>
-               </packageParticipant>
-            </entry>
-            <entry>
                <string>tes_incoming_2::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>tes_incoming_2</processDefId>
@@ -323,6 +323,15 @@
                   <participantId>administrator</participantId>
                   <type>requester</type>
                   <value>runProcess</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>incomingMailProcess::specialist</string>
+               <packageParticipant>
+                  <processDefId>incomingMailProcess</processDefId>
+                  <participantId>specialist</participantId>
+                  <type>workflowVariable</type>
+                  <value>attention_to,user</value>
                </packageParticipant>
             </entry>
          </packageParticipantMap>
