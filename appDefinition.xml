@@ -290,15 +290,6 @@
                </packageParticipant>
             </entry>
             <entry>
-               <string>incomingMailProcess_2::processStartWhiteList</string>
-               <packageParticipant>
-                  <processDefId>incomingMailProcess_2</processDefId>
-                  <participantId>processStartWhiteList</participantId>
-                  <type>role</type>
-                  <value>adminUser</value>
-               </packageParticipant>
-            </entry>
-            <entry>
                <string>incomingMailProcess_2::incomingMailProcess_2_administrator</string>
                <packageParticipant>
                   <processDefId>incomingMailProcess_2</processDefId>
