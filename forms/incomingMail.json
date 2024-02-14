@@ -598,6 +598,39 @@
                             }
                         },
                         {
+                            "className": "org.joget.apps.form.lib.Grid",
+                            "properties": {
+                                "permissionHidden": "",
+                                "validateMaxRow": "",
+                                "readonly": "true",
+                                "loadBinder": {
+                                    "className": "org.joget.tutorial.JdbcLoadBinder",
+                                    "properties": {
+                                        "autoHandleWorkflowVariable": "true",
+                                        "jdbcDatasource": "default",
+                                        "sql": "select c_project_no ,c_file_upload  from app_fd_afms_incomingdoc where c_mail_id ='IN-2402141207173026349187072'",
+                                        "autoHandleFiles": ""
+                                    }
+                                },
+                                "validateMinRow": "",
+                                "errorMessage": "Invalid number of rows",
+                                "options": [{
+                                    "label": "",
+                                    "value": ""
+                                }],
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "label": "Grid",
+                                "id": "field25",
+                                "storeBinder": {
+                                    "className": "",
+                                    "properties": {}
+                                }
+                            }
+                        },
+                        {
                             "className": "org.joget.apps.form.lib.FileUpload",
                             "properties": {
                                 "resizeMethod": "",
