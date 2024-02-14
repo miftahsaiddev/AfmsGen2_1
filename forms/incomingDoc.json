@@ -23,9 +23,30 @@
                         "attachment": "true",
                         "size": "",
                         "fileTypeMsg": "Invalid file type",
-                        "id": "file_upload",
+                        "id": "attachment_file",
                         "resizeHeight": "",
                         "fileType": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "requiredSanitize": "true",
+                        "maxlength": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "label": "Project No",
+                        "readonly": "",
+                        "size": "",
+                        "workflowVariable": "",
+                        "style": "",
+                        "id": "project_no",
+                        "placeholder": "",
+                        "value": "",
+                        "readonlyLabel": "",
+                        "storeNumeric": ""
                     }
                 },
                 {
