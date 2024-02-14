@@ -40,7 +40,13 @@
         "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
         "id": "action_0",
         "properties": {
+            "visible": "true",
+            "hrefColumn": "",
+            "hrefParam": "",
             "label": "Hyperlink",
+            "href": "createOutgoing",
+            "confirmation": "",
+            "datalist_type": "action",
             "target": "_self"
         }
     }],
