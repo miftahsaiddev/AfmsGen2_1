@@ -96,8 +96,12 @@
                             "dataFormat": "yyyy-MM-dd",
                             "startDateFieldId": "",
                             "validator": {
-                                "className": "",
-                                "properties": {}
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "type": "",
+                                    "message": "",
+                                    "mandatory": "true"
+                                }
                             },
                             "format": "dd-mm-yy",
                             "label": "Replied Date",
@@ -137,8 +141,12 @@
                             "resizeWidth": "",
                             "multiple": "",
                             "validator": {
-                                "className": "",
-                                "properties": {}
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "type": "",
+                                    "message": "",
+                                    "mandatory": "true"
+                                }
                             },
                             "maxSize": "",
                             "label": "File Upload",
@@ -159,8 +167,12 @@
                             "requiredSanitize": "true",
                             "readonly": "",
                             "validator": {
-                                "className": "",
-                                "properties": {}
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "type": "",
+                                    "message": "",
+                                    "mandatory": "true"
+                                }
                             },
                             "workflowVariable": "",
                             "label": "Description",
