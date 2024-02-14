@@ -712,11 +712,6 @@
                         <BasicType Type="STRING"/>
                     </DataType>
                 </DataField>
-                <DataField Id="deadlineNotify" IsArray="FALSE">
-                    <DataType>
-                        <BasicType Type="STRING"/>
-                    </DataType>
-                </DataField>
             </DataFields>
             <Activities>
                 <Activity Id="incoming_mail" Name="Incoming Mail">
@@ -724,13 +719,13 @@
                         <No/>
                     </Implementation>
                     <Performer>specialist</Performer>
-                    <Deadline Execution="SYNCHR">
-                        <DeadlineCondition>var d = new java.text.SimpleDateFormat('yyyy-MM-dd HH:mm'); d.parse(deadlineNotify);</DeadlineCondition>
+                    <Deadline Execution="ASYNCHR">
+                        <DeadlineCondition>var d = new java.text.SimpleDateFormat('yyyy-MM-dd'); d.parse("#form.afms_incomingmail.deadline_date#");</DeadlineCondition>
                         <ExceptionName>NOTIFY</ExceptionName>
                     </Deadline>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="specialist"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="273,85"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="275,73"/>
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="deadline_" Name="deadline_">
@@ -740,7 +735,7 @@
                     <Performer>specialist</Performer>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="specialist"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="95,79"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="72,73"/>
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="call_procedure" Name="Call Procedure">
@@ -750,7 +745,7 @@
                     <Performer>administrator</Performer>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="administrator"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="262,75"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="273,26"/>
                     </ExtendedAttributes>
                 </Activity>
             </Activities>
@@ -770,8 +765,8 @@
             <ExtendedAttributes>
                 <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="administrator;specialist"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=administrator,CONNECTING_ACTIVITY_ID=call_procedure,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=specialist,CONNECTING_ACTIVITY_ID=deadline_,X_OFFSET=123,Y_OFFSET=21,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=specialist,CONNECTING_ACTIVITY_ID=incoming_mail,X_OFFSET=537.3125,Y_OFFSET=118,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=specialist,CONNECTING_ACTIVITY_ID=deadline_,X_OFFSET=107,Y_OFFSET=8,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=specialist,CONNECTING_ACTIVITY_ID=incoming_mail,X_OFFSET=530.3125,Y_OFFSET=96,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
         <WorkflowProcess Id="incomingMailProcess_2" Name="Incoming Mail Process Gov">
