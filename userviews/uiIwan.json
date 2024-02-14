@@ -301,14 +301,14 @@
                         "afterSavedReloadTarget": "true",
                         "customId": "run_process_gov",
                         "userviewCacheDuration": "20",
-                        "messageShowAfterComplete": "",
+                        "messageShowAfterComplete": "sakses",
                         "showInPopupDialog": "",
                         "userviewCacheScope": "",
                         "actionAfterSaved": "",
                         "runProcessSubmitLabel": "",
                         "id": "326FCAA008AC46EC7BE1B3EA4D8ECB1F",
                         "processDefId": "I0002IncomingMailGovernment",
-                        "redirectUrlAfterComplete": "",
+                        "redirectUrlAfterComplete": "list_incoming_mail_government",
                         "fieldPassover": ""
                     }
                 }
