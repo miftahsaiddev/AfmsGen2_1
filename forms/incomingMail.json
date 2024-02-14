@@ -350,7 +350,7 @@
                                 "style": "",
                                 "id": "agent_address",
                                 "placeholder": "",
-                                "value": "",
+                                "value": "c_address",
                                 "readonlyLabel": "",
                                 "storeNumeric": ""
                             }
