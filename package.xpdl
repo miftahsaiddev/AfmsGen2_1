@@ -712,6 +712,11 @@
                         <BasicType Type="STRING"/>
                     </DataType>
                 </DataField>
+                <DataField Id="deadlineNotify" IsArray="FALSE">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </DataField>
             </DataFields>
             <Activities>
                 <Activity Id="incoming_mail" Name="Incoming Mail">
@@ -720,7 +725,7 @@
                     </Implementation>
                     <Performer>specialist</Performer>
                     <Deadline Execution="ASYNCHR">
-                        <DeadlineCondition>var D=new java.util.Date(); D.setTime(ACTIVITY_ACTIVATED_TIME.getTime()+(2*86400000)); D;</DeadlineCondition>
+                        <DeadlineCondition>var d = new java.text.SimpleDateFormat('yyyy-MM-dd'); d.parse(deadlineNotify);</DeadlineCondition>
                         <ExceptionName>deadline</ExceptionName>
                     </Deadline>
                     <ExtendedAttributes>
