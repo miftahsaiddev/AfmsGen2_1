@@ -37,6 +37,12 @@
          <value>8</value>
          <remarks>Used for plugin: Id Generator Field</remarks>
       </environmentVariable>
+      <environmentVariable>
+         <id>templateEmail</id>
+         <appId>AfmsGen2</appId>
+         <value>bodymail</value>
+         <remarks></remarks>
+      </environmentVariable>
    </environmentVariableList>
    <messageList/>
    <resourceList/>
