@@ -35,7 +35,7 @@
                 "confirmation": "",
                 "link-css-display-type": "btn btn-sm btn-secondary",
                 "datalist_type": "row_action",
-                "target": "popup",
+                "target": "_self",
                 "header_label": ""
             }
         }
