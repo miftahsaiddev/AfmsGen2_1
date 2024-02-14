@@ -761,6 +761,13 @@
         </WorkflowProcess>
         <WorkflowProcess Id="incomingMailProcess_2" Name="Incoming Mail Process Gov">
             <ProcessHeader DurationUnit="h"/>
+            <FormalParameters>
+                <FormalParameter Id="deadLine" Mode="INOUT">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </FormalParameter>
+            </FormalParameters>
             <DataFields>
                 <DataField Id="status" IsArray="FALSE">
                     <DataType>
