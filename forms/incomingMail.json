@@ -359,19 +359,20 @@
                             "className": "org.joget.apps.form.lib.TextField",
                             "properties": {
                                 "requiredSanitize": "true",
+                                "permissionHidden": "",
                                 "maxlength": "",
                                 "validator": {
                                     "className": "",
                                     "properties": {}
                                 },
                                 "label": "Text Field",
-                                "readonly": "",
+                                "readonly": "true",
                                 "size": "",
                                 "workflowVariable": "",
                                 "style": "",
-                                "id": "c_address",
+                                "id": "address",
                                 "placeholder": "",
-                                "value": "c_address",
+                                "value": "address",
                                 "readonlyLabel": "",
                                 "storeNumeric": ""
                             }
