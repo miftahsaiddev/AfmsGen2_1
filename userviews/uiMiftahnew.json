@@ -162,7 +162,7 @@
                         "redirectTarget": "",
                         "enableOffline": "",
                         "afterSavedReloadTarget": "true",
-                        "customId": "",
+                        "customId": "createOutgoing",
                         "userviewCacheDuration": "20",
                         "messageShowAfterComplete": "",
                         "showInPopupDialog": "",
