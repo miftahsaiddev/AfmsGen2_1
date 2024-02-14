@@ -615,7 +615,7 @@
                                 "validateMinRow": "",
                                 "errorMessage": "Invalid number of rows",
                                 "options": [{
-                                    "label": "",
+                                    "label": "File Upload",
                                     "value": "#form.afms_incomingdoc.file_upload#"
                                 }],
                                 "validator": {
