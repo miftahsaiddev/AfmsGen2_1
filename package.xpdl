@@ -726,7 +726,7 @@
                     <Performer>specialist</Performer>
                     <Deadline Execution="ASYNCHR">
                         <DeadlineCondition>var D=new java.util.Date(); D.setTime(ACTIVITY_ACTIVATED_TIME.getTime()+(2*86400000)); D;</DeadlineCondition>
-                        <ExceptionName>deadline</ExceptionName>
+                        <ExceptionName>DEADLINE</ExceptionName>
                     </Deadline>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="specialist"/>
@@ -761,7 +761,7 @@
                     </ExtendedAttributes>
                 </Transition>
                 <Transition From="incoming_mail" Id="transition_end_incoming_mail" To="deadline_">
-                    <Condition Type="EXCEPTION">deadline</Condition>
+                    <Condition Type="EXCEPTION">DEADLINE</Condition>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
