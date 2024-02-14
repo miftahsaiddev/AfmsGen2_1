@@ -243,15 +243,6 @@
                </packageActivityPlugin>
             </entry>
             <entry>
-               <string>incomingMailProcess_2::tool1</string>
-               <packageActivityPlugin>
-                  <processDefId>incomingMailProcess_2</processDefId>
-                  <activityDefId>tool1</activityDefId>
-                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{}</pluginProperties>
-               </packageActivityPlugin>
-            </entry>
-            <entry>
                <string>tes_incoming_2::send_email</string>
                <packageActivityPlugin>
                   <processDefId>tes_incoming_2</processDefId>
