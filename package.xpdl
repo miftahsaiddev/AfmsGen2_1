@@ -786,7 +786,7 @@
                         <No/>
                     </Implementation>
                     <Performer>incomingMailProcess_2_specialist</Performer>
-                    <Deadline Execution="ASYNCHR">
+                    <Deadline Execution="SYNCHR">
                         <DeadlineCondition>var m=new java.util.Date(); m.setTime(ACTIVITY_ACTIVATED_TIME.getTime()+(3*60000)); m;</DeadlineCondition>
                         <ExceptionName>ddline</ExceptionName>
                     </Deadline>
