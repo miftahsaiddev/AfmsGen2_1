@@ -720,7 +720,7 @@
                     </Implementation>
                     <Performer>specialist</Performer>
                     <Deadline Execution="ASYNCHR">
-                        <DeadlineCondition>var d = new java.text.SimpleDateFormat('yyyy-MM-dd'); d.parse("#form.afms_incomingmail.deadline_date#");</DeadlineCondition>
+                        <DeadlineCondition>var D=new java.util.Date(); D.setTime(ACTIVITY_ACTIVATED_TIME.getTime()+(2*86400000)); D;</DeadlineCondition>
                         <ExceptionName>deadline</ExceptionName>
                     </Deadline>
                     <ExtendedAttributes>
