@@ -151,6 +151,29 @@
                         "rowCount": "",
                         "id": "32754728B7164EC6CF95F141E5486668"
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.RunProcess",
+                    "properties": {
+                        "runProcessDirectly": "",
+                        "fieldPassoverMethod": "append",
+                        "keyName": "",
+                        "label": "Create Outgoing",
+                        "redirectTarget": "",
+                        "enableOffline": "",
+                        "afterSavedReloadTarget": "true",
+                        "customId": "",
+                        "userviewCacheDuration": "20",
+                        "messageShowAfterComplete": "",
+                        "showInPopupDialog": "",
+                        "userviewCacheScope": "",
+                        "actionAfterSaved": "",
+                        "runProcessSubmitLabel": "",
+                        "id": "2BEBA890F1014E3FCB911B333E1F9E54",
+                        "processDefId": "sendEmailOut",
+                        "redirectUrlAfterComplete": "",
+                        "fieldPassover": ""
+                    }
                 }
             ],
             "properties": {
@@ -170,7 +193,7 @@
                 {
                     "className": "org.joget.apps.userview.lib.RunProcess",
                     "properties": {
-                        "runProcessDirectly": "Yes",
+                        "runProcessDirectly": "",
                         "fieldPassoverMethod": "append",
                         "keyName": "",
                         "label": "Create Incoming",
