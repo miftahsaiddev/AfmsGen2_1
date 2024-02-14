@@ -614,15 +614,21 @@
                                 },
                                 "validateMinRow": "",
                                 "errorMessage": "Invalid number of rows",
-                                "options": [{
-                                    "label": "File Upload",
-                                    "value": "c_file_upload"
-                                }],
+                                "options": [
+                                    {
+                                        "label": "File Upload",
+                                        "value": "c_file_upload"
+                                    },
+                                    {
+                                        "label": "Project No",
+                                        "value": "c_project_no"
+                                    }
+                                ],
                                 "validator": {
                                     "className": "",
                                     "properties": {}
                                 },
-                                "label": "Grid",
+                                "label": "",
                                 "id": "field25",
                                 "storeBinder": {
                                     "className": "",
