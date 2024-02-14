@@ -223,7 +223,7 @@
                         "afterSavedReloadTarget": "true",
                         "customId": "createOutgoing",
                         "userviewCacheDuration": "20",
-                        "messageShowAfterComplete": "",
+                        "messageShowAfterComplete": "sukses",
                         "showInPopupDialog": "",
                         "userviewCacheScope": "",
                         "actionAfterSaved": "",
