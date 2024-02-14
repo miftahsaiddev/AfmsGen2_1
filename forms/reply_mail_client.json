@@ -74,6 +74,32 @@
                                 "properties": {}
                             },
                             "format": "dd-mm-yy",
+                            "label": "Deadline Date",
+                            "datePickerType": "",
+                            "currentDateAs": "",
+                            "endDateFieldId": "",
+                            "readonly": "true",
+                            "allowManual": "",
+                            "workflowVariable": "",
+                            "id": "deadline_date",
+                            "placeholder": "",
+                            "disableWeekends": "",
+                            "value": "",
+                            "readonlyLabel": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.DatePicker",
+                        "properties": {
+                            "permissionHidden": "",
+                            "yearRange": "c-10:c+10",
+                            "dataFormat": "yyyy-MM-dd",
+                            "startDateFieldId": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "format": "dd-mm-yy",
                             "label": "Replied Date",
                             "datePickerType": "",
                             "currentDateAs": "minDate",
@@ -99,32 +125,6 @@
                             "workflowVariable": "",
                             "id": "incoming_id",
                             "value": "#form.afms_incomingmail.id#"
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.DatePicker",
-                        "properties": {
-                            "permissionHidden": "",
-                            "yearRange": "c-10:c+10",
-                            "dataFormat": "yyyy-MM-dd",
-                            "startDateFieldId": "",
-                            "validator": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "format": "dd-mm-yy",
-                            "label": "Deadline Date",
-                            "datePickerType": "",
-                            "currentDateAs": "",
-                            "endDateFieldId": "",
-                            "readonly": "true",
-                            "allowManual": "",
-                            "workflowVariable": "",
-                            "id": "deadline_date",
-                            "placeholder": "",
-                            "disableWeekends": "",
-                            "value": "",
-                            "readonlyLabel": ""
                         }
                     },
                     {
