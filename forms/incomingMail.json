@@ -371,7 +371,7 @@
                                 "style": "",
                                 "id": "address",
                                 "placeholder": "",
-                                "value": "address",
+                                "value": "c_address",
                                 "readonlyLabel": "",
                                 "storeNumeric": ""
                             }
