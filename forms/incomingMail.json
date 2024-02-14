@@ -608,7 +608,7 @@
                                     "properties": {
                                         "autoHandleWorkflowVariable": "true",
                                         "jdbcDatasource": "default",
-                                        "sql": "select c_project_no ,c_file_upload  from app_fd_afms_incomingdoc where c_mail_id ='IN-2402141207173026349187072'",
+                                        "sql": "select c_project_no ,c_file_upload  from app_fd_afms_incomingdoc where c_mail_id = '#form.afms_incomingmail.id#' ",
                                         "autoHandleFiles": ""
                                     }
                                 },
