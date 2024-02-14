@@ -371,7 +371,7 @@
                                 "style": "",
                                 "id": "address",
                                 "placeholder": "",
-                                "value": "",
+                                "value": "address",
                                 "readonlyLabel": "",
                                 "storeNumeric": ""
                             }
