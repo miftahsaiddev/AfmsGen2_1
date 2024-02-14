@@ -153,6 +153,27 @@
                         "userviewCacheScope": "",
                         "readonlyLabel": "true"
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List",
+                        "enableOffline": "",
+                        "customId": "",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "listIncomingMail",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "32754728B7164EC6CF95F141E5486668"
+                    }
                 }
             ],
             "properties": {
