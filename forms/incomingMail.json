@@ -790,8 +790,13 @@
     "properties": {
         "noPermissionMessage": "",
         "loadBinder": {
-            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
-            "properties": {}
+            "className": "org.joget.tutorial.JdbcLoadBinder",
+            "properties": {
+                "autoHandleWorkflowVariable": "true",
+                "jdbcDatasource": "default",
+                "sql": "select afai.*,afaa.c_address  from app_fd_afms_incomingmail afai left join app_fd_afms_agent afaa on afai.c_agent =afaa.id where afai.id = ?",
+                "autoHandleFiles": ""
+            }
         },
         "name": "Incoming Mail",
         "description": "",
