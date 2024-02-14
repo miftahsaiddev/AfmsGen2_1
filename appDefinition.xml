@@ -9,17 +9,6 @@
          <name>Afms Generation 2</name>
          <packageActivityFormMap>
             <entry>
-               <string>incomingMailProcess::activity2</string>
-               <packageActivityForm>
-                  <processDefId>incomingMailProcess</processDefId>
-                  <activityDefId>activity2</activityDefId>
-                  <formId>reply_mail_client</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>tes_incoming_2::patent</string>
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
@@ -252,15 +241,6 @@
                </packageActivityPlugin>
             </entry>
             <entry>
-               <string>tes_incoming_2::lettertype</string>
-               <packageActivityPlugin>
-                  <processDefId>tes_incoming_2</processDefId>
-                  <activityDefId>lettertype</activityDefId>
-                  <pluginName>org.joget.apps.app.lib.RulesDecisionPlugin</pluginName>
-                  <pluginProperties>{&quot;rules&quot;:{&quot;ifrules&quot;:[{&quot;andOr&quot;:&quot;and&quot;,&quot;revert&quot;:false,&quot;conditions&quot;:[{&quot;variable&quot;:&quot;lettertype&quot;,&quot;revert&quot;:false,&quot;operation&quot;:&quot;==&quot;,&quot;value&quot;:&quot;patent&quot;}],&quot;actions&quot;:[{&quot;name&quot;:&quot;transition3&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}],&quot;else&quot;:[{&quot;name&quot;:&quot;transition4&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}}</pluginProperties>
-               </packageActivityPlugin>
-            </entry>
-            <entry>
                <string>incomingMailProcess::call_procedure</string>
                <packageActivityPlugin>
                   <processDefId>incomingMailProcess</processDefId>
@@ -270,12 +250,12 @@
                </packageActivityPlugin>
             </entry>
             <entry>
-               <string>incomingMailProcess::deadline</string>
+               <string>tes_incoming_2::lettertype</string>
                <packageActivityPlugin>
-                  <processDefId>incomingMailProcess</processDefId>
-                  <activityDefId>deadline</activityDefId>
-                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;select * from app_fd_afms_incomingdoc&quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}}]}</pluginProperties>
+                  <processDefId>tes_incoming_2</processDefId>
+                  <activityDefId>lettertype</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.RulesDecisionPlugin</pluginName>
+                  <pluginProperties>{&quot;rules&quot;:{&quot;ifrules&quot;:[{&quot;andOr&quot;:&quot;and&quot;,&quot;revert&quot;:false,&quot;conditions&quot;:[{&quot;variable&quot;:&quot;lettertype&quot;,&quot;revert&quot;:false,&quot;operation&quot;:&quot;==&quot;,&quot;value&quot;:&quot;patent&quot;}],&quot;actions&quot;:[{&quot;name&quot;:&quot;transition3&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}],&quot;else&quot;:[{&quot;name&quot;:&quot;transition4&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}}</pluginProperties>
                </packageActivityPlugin>
             </entry>
          </packageActivityPluginMap>
@@ -287,33 +267,6 @@
                   <participantId>tes_incoming_2_entry_data</participantId>
                   <type>requester</type>
                   <value>incoming_mail</value>
-               </packageParticipant>
-            </entry>
-            <entry>
-               <string>incomingMailProcess_2::incomingMailProcess_2_specialist</string>
-               <packageParticipant>
-                  <processDefId>incomingMailProcess_2</processDefId>
-                  <participantId>incomingMailProcess_2_specialist</participantId>
-                  <type>workflowVariable</type>
-                  <value>attention_to,user</value>
-               </packageParticipant>
-            </entry>
-            <entry>
-               <string>incomingMailProcess_2::incomingMailProcess_2_administrator</string>
-               <packageParticipant>
-                  <processDefId>incomingMailProcess_2</processDefId>
-                  <participantId>incomingMailProcess_2_administrator</participantId>
-                  <type>requester</type>
-                  <value>incoming_mail</value>
-               </packageParticipant>
-            </entry>
-            <entry>
-               <string>tes_incoming_2::processStartWhiteList</string>
-               <packageParticipant>
-                  <processDefId>tes_incoming_2</processDefId>
-                  <participantId>processStartWhiteList</participantId>
-                  <type>role</type>
-                  <value>adminUser</value>
                </packageParticipant>
             </entry>
             <entry>
