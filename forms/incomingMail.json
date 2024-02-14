@@ -592,7 +592,7 @@
                                 "attachment": "true",
                                 "size": "",
                                 "fileTypeMsg": "Invalid file type",
-                                "id": "field17",
+                                "id": "attachment_file",
                                 "resizeHeight": "",
                                 "fileType": ""
                             }
