@@ -3,7 +3,22 @@
         "className": "",
         "properties": {}
     },
-    "rowActions": [],
+    "rowActions": [{
+        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+        "id": "rowAction_0",
+        "properties": {
+            "hrefColumn": "id",
+            "hrefParam": "id",
+            "rules": [],
+            "label": "View",
+            "href": "createOutgoing",
+            "confirmation": "",
+            "link-css-display-type": "btn btn-sm btn-primary",
+            "datalist_type": "row_action",
+            "target": "_self",
+            "header_label": ""
+        }
+    }],
     "columns": [
         {
             "filterable": true,
@@ -43,7 +58,7 @@
             "visible": "true",
             "hrefColumn": "",
             "hrefParam": "",
-            "label": "Hyperlink",
+            "label": "Create Email Outgoing",
             "href": "createOutgoing",
             "confirmation": "",
             "datalist_type": "action",
