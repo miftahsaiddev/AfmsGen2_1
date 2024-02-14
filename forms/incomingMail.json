@@ -11,7 +11,7 @@
                                 "format": "IN-#date.yyMMdd#????",
                                 "workflowVariable": "",
                                 "envVariable": "counter_in",
-                                "isDistributedGeneration": "",
+                                "isDistributedGeneration": "true",
                                 "label": "Mail No",
                                 "id": "id"
                             }
@@ -124,9 +124,9 @@
                                 "currentDateAs": "",
                                 "endDateFieldId": "",
                                 "readonly": "",
-                                "allowManual": "true",
+                                "allowManual": "",
                                 "workflowVariable": "",
-                                "id": "field3",
+                                "id": "mail_date",
                                 "placeholder": "",
                                 "disableWeekends": "",
                                 "value": "",
@@ -153,7 +153,7 @@
                                 "currentDateAs": "",
                                 "endDateFieldId": "",
                                 "readonly": "",
-                                "allowManual": "true",
+                                "allowManual": "",
                                 "workflowVariable": "",
                                 "id": "received_date",
                                 "placeholder": "",
@@ -307,8 +307,17 @@
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
+                                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                                    "properties": {
+                                        "addEmptyOption": "true",
+                                        "groupingColumn": "",
+                                        "formDefId": "agent",
+                                        "labelColumn": "name",
+                                        "extraCondition": "",
+                                        "cacheInterval": "",
+                                        "emptyLabel": "",
+                                        "idColumn": "id"
+                                    }
                                 },
                                 "multiple": "",
                                 "options": [],
@@ -480,8 +489,17 @@
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
+                                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                                    "properties": {
+                                        "addEmptyOption": "true",
+                                        "groupingColumn": "",
+                                        "formDefId": "letterSubject",
+                                        "labelColumn": "subject_name",
+                                        "extraCondition": "",
+                                        "cacheInterval": "",
+                                        "emptyLabel": "",
+                                        "idColumn": "id"
+                                    }
                                 },
                                 "multiple": "",
                                 "options": [],
@@ -572,9 +590,48 @@
                                 "attachment": "true",
                                 "size": "",
                                 "fileTypeMsg": "Invalid file type",
-                                "id": "field17",
+                                "id": "attachment_file",
                                 "resizeHeight": "",
                                 "fileType": ""
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.Grid",
+                            "properties": {
+                                "permissionHidden": "",
+                                "validateMaxRow": "",
+                                "readonly": "true",
+                                "loadBinder": {
+                                    "className": "org.joget.tutorial.JdbcLoadBinder",
+                                    "properties": {
+                                        "autoHandleWorkflowVariable": "true",
+                                        "jdbcDatasource": "default",
+                                        "sql": "select c_project_no ,c_file_upload  from app_fd_afms_incomingdoc where c_mail_id ='IN-2402141207173026349187072'",
+                                        "autoHandleFiles": ""
+                                    }
+                                },
+                                "validateMinRow": "",
+                                "errorMessage": "Invalid number of rows",
+                                "options": [
+                                    {
+                                        "label": "File Upload",
+                                        "value": "c_file_upload"
+                                    },
+                                    {
+                                        "label": "Project No",
+                                        "value": "c_project_no"
+                                    }
+                                ],
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "label": "",
+                                "id": "field25",
+                                "storeBinder": {
+                                    "className": "",
+                                    "properties": {}
+                                }
                             }
                         },
                         {
@@ -591,14 +648,14 @@
                                     "properties": {}
                                 },
                                 "maxSize": "20000",
-                                "label": "File Upload",
+                                "label": "Attachment Mail",
                                 "resizeQuality": "0.8",
                                 "removeFile": "",
                                 "readonly": "",
                                 "attachment": "true",
                                 "size": "",
                                 "fileTypeMsg": "Invalid file type",
-                                "id": "field17",
+                                "id": "attachment_mail",
                                 "resizeHeight": "",
                                 "fileType": ""
                             }
@@ -731,8 +788,13 @@
     "properties": {
         "noPermissionMessage": "",
         "loadBinder": {
-            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
-            "properties": {}
+            "className": "org.joget.tutorial.JdbcLoadBinder",
+            "properties": {
+                "autoHandleWorkflowVariable": "true",
+                "jdbcDatasource": "default",
+                "sql": "select afai.*,afaa.c_address  from app_fd_afms_incomingmail afai left join app_fd_afms_agent afaa on afai.c_agent =afaa.id where afai.id = ?",
+                "autoHandleFiles": ""
+            }
         },
         "name": "Incoming Mail",
         "description": "",
@@ -750,13 +812,12 @@
             "className": "org.joget.marketplace.MultiStoreBinders",
             "properties": {
                 "autoHandleWorkflowVariable": "true",
-                "autoHandleFilesformDefId": "incomingDoc",
                 "binders": [{
                     "className": "org.joget.apps.form.lib.DefaultFormBinder",
                     "properties": {}
                 }],
                 "comment": "",
-                "autoHandleFiles": "true"
+                "autoHandleFiles": ""
             }
         },
         "tableName": "afms_incomingmail"
