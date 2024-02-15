@@ -287,7 +287,7 @@
                                 "autoPopulate": "",
                                 "label": "",
                                 "id": "field23",
-                                "value": "<script>\r\ndocument.addEventListener('DOMContentLoaded', function() {\r\n    // Select the 'yourSelectElementName' select element by its name attribute\r\n    var triggerSelectElement = document.querySelector('select[name=\"letter_from\"]');\r\n    \r\n    // Assuming you want to hide this specific div containing the 'agent' select element\r\n    var divToHide = document.querySelector('.form-cell select[name=\"agent\"]'); // This selects the first '.form-cell' div, ensure it's the correct one to hide\r\n    var labelToHide = document.querySelector('label[field-tooltip=\"agent\"]');\r\n    triggerSelectElement.addEventListener('change', function() {\r\n        // Check the value of the 'yourSelectElementName' select element when it changes\r\n        if (this.value === 'LF-002') {\r\n            // Hide the div and label if the selected option value is 'LF-002'\r\n            if(divToHide) divToHide.style.display = 'none';\r\n            if(labelToHide) labelToHide.style.display = 'none';\r\n        } else {\r\n            // Show the div and label again if the selected option value changes to something else\r\n            if(divToHide) divToHide.style.display = ''; // or 'block', depending on your original layout\r\n            if(labelToHide) labelToHide.style.display = ''; // or 'inline', 'block', etc., depending on your original layout\r\n        }\r\n    });\r\n});\r\n<\/script>"
+                                "value": "<script>\r\ndocument.addEventListener('DOMContentLoaded', function() {\r\n    // Select the main select element by its specific identifier (e.g., id or name)\r\n    var mainSelectElement = document.querySelector('select[name=\"letter_from\"]');\r\n    \r\n    // Function to control the display of other select elements based on the main select's value\r\n    function controlSelectDisplays() {\r\n        // Initially set all select elements to display none\r\n        var agentSelect = document.querySelector('select[name=\"agent\"]');\r\n        var agentAddressSelect = document.querySelector('select[name=\"agent_address\"]');\r\n        var governmentSelect = document.querySelector('select[name=\"government\"]');\r\n        var selectorSelect = document.querySelector('select[name=\"selector\"]');\r\n        \r\n        if(agentSelect) agentSelect.style.display = 'none';\r\n        if(agentAddressSelect) agentAddressSelect.style.display = 'none';\r\n        if(governmentSelect) governmentSelect.style.display = 'none';\r\n        if(selectorSelect) selectorSelect.style.display = 'none';\r\n\r\n        // Check the value of the main select and adjust display properties accordingly\r\n        if (mainSelectElement.value === 'LF-001') {\r\n            if(agentSelect) agentSelect.style.display = 'block';\r\n            if(agentAddressSelect) agentAddressSelect.style.display = 'block';\r\n        } else if (mainSelectElement.value === 'LF-002') {\r\n            if(governmentSelect) governmentSelect.style.display = 'block';\r\n        } else if (mainSelectElement.value === 'LF-003') {\r\n            if(selectorSelect) selectorSelect.style.display = 'block';\r\n        }\r\n    }\r\n\r\n    // Add change event listener to the main select element\r\n    mainSelectElement.addEventListener('change', controlSelectDisplays);\r\n\r\n    // Initial call to set the correct display on page load\r\n    controlSelectDisplays();\r\n});\r\n<\/script>"
                             }
                         }
                     ],
@@ -382,6 +382,29 @@
                                 "workflowVariable": "",
                                 "label": "Government",
                                 "id": "government",
+                                "value": "",
+                                "readonlyLabel": ""
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.SelectBox",
+                            "properties": {
+                                "controlField": "",
+                                "readonly": "",
+                                "size": "",
+                                "optionsBinder": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "multiple": "",
+                                "options": [],
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "workflowVariable": "",
+                                "label": "Translator",
+                                "id": "translator",
                                 "value": "",
                                 "readonlyLabel": ""
                             }
