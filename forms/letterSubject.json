@@ -207,7 +207,7 @@
                         },
                         "workflowVariable": "",
                         "id": "letter_from_name",
-                        "value": "letter_from[1]"
+                        "value": "letter_from.column[1]"
                     }
                 }
             ],
