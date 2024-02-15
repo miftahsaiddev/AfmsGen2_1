@@ -87,12 +87,12 @@
                                 "mandatory": "true"
                             }
                         },
-                        "label": "Subject Name",
+                        "label": "Letter Subject",
                         "readonly": "",
                         "size": "",
                         "workflowVariable": "",
                         "style": "",
-                        "id": "subject_name",
+                        "id": "letter_subject",
                         "placeholder": "",
                         "value": "",
                         "readonlyLabel": "",
