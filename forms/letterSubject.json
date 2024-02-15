@@ -75,28 +75,35 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.TextField",
+                    "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
-                        "requiredSanitize": "true",
-                        "maxlength": "",
-                        "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "type": "",
-                                "message": "",
-                                "mandatory": "true"
-                            }
-                        },
-                        "label": "Letter Subject",
+                        "controlField": "",
                         "readonly": "",
                         "size": "",
+                        "optionsBinder": {
+                            "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                            "properties": {
+                                "addEmptyOption": "true",
+                                "groupingColumn": "",
+                                "formDefId": "masterLetterSubject",
+                                "labelColumn": "subject_name",
+                                "extraCondition": "",
+                                "cacheInterval": "",
+                                "emptyLabel": "",
+                                "idColumn": "id"
+                            }
+                        },
+                        "multiple": "",
+                        "options": [],
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
                         "workflowVariable": "",
-                        "style": "",
+                        "label": "Letter Subject",
                         "id": "letter_subject",
-                        "placeholder": "",
                         "value": "",
-                        "readonlyLabel": "",
-                        "storeNumeric": ""
+                        "readonlyLabel": ""
                     }
                 },
                 {
