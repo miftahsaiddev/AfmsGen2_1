@@ -668,20 +668,46 @@
                                 "padding": "",
                                 "maxSizeMsg": "File size limit exceeded",
                                 "resizeWidth": "",
-                                "multiple": "",
+                                "multiple": "true",
                                 "validator": {
                                     "className": "",
                                     "properties": {}
                                 },
                                 "maxSize": "20000",
-                                "label": "File Upload",
+                                "label": "Attachment File",
                                 "resizeQuality": "0.8",
                                 "removeFile": "",
                                 "readonly": "",
                                 "attachment": "true",
                                 "size": "",
                                 "fileTypeMsg": "Invalid file type",
-                                "id": "field17",
+                                "id": "attachment_file",
+                                "resizeHeight": "",
+                                "fileType": ""
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.FileUpload",
+                            "properties": {
+                                "resizeMethod": "",
+                                "permissionType": "",
+                                "padding": "",
+                                "maxSizeMsg": "File size limit exceeded",
+                                "resizeWidth": "",
+                                "multiple": "true",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "maxSize": "20000",
+                                "label": "Attachment Mail",
+                                "resizeQuality": "0.8",
+                                "removeFile": "",
+                                "readonly": "",
+                                "attachment": "true",
+                                "size": "",
+                                "fileTypeMsg": "Invalid file type",
+                                "id": "attachment_mail",
                                 "resizeHeight": "",
                                 "fileType": ""
                             }
