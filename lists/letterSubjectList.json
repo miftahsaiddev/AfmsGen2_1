@@ -85,10 +85,25 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "limit_day",
-            "id": "column_4",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "Limit Day",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "limit_day",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_4",
+            "alignment": "dataListAlignCenter"
         }
     ],
     "draggabletable": "",
