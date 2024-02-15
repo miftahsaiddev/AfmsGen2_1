@@ -6,7 +6,8 @@
                     "className": "org.joget.apps.form.lib.SubForm",
                     "properties": {
                         "parentSubFormId": "",
-                        "readonly": "",
+                        "permissionHidden": "",
+                        "readonly": "true",
                         "loadBinder": {
                             "className": "org.joget.tutorial.JdbcLoadBinder",
                             "properties": {
@@ -62,28 +63,6 @@
             "elements": [{
                 "elements": [
                     {
-                        "className": "org.joget.apps.form.lib.TextField",
-                        "properties": {
-                            "requiredSanitize": "true",
-                            "permissionHidden": "",
-                            "maxlength": "",
-                            "validator": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "label": "Project Number",
-                            "readonly": "true",
-                            "size": "",
-                            "workflowVariable": "",
-                            "style": "",
-                            "id": "project_number",
-                            "placeholder": "",
-                            "value": "#form.afms_incomingmail.no_project#",
-                            "readonlyLabel": "",
-                            "storeNumeric": ""
-                        }
-                    },
-                    {
                         "className": "org.joget.apps.form.lib.DatePicker",
                         "properties": {
                             "permissionHidden": "",
@@ -95,17 +74,47 @@
                                 "properties": {}
                             },
                             "format": "dd-mm-yy",
+                            "label": "Deadline Date",
+                            "datePickerType": "",
+                            "currentDateAs": "",
+                            "endDateFieldId": "",
+                            "readonly": "true",
+                            "allowManual": "",
+                            "workflowVariable": "",
+                            "id": "deadline_date",
+                            "placeholder": "",
+                            "disableWeekends": "",
+                            "value": "",
+                            "readonlyLabel": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.DatePicker",
+                        "properties": {
+                            "permissionHidden": "",
+                            "yearRange": "c-10:c+10",
+                            "dataFormat": "yyyy-MM-dd",
+                            "startDateFieldId": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "type": "",
+                                    "message": "",
+                                    "mandatory": "true"
+                                }
+                            },
+                            "format": "dd-mm-yy",
                             "label": "Replied Date",
                             "datePickerType": "",
                             "currentDateAs": "minDate",
                             "endDateFieldId": "",
-                            "readonly": "true",
+                            "readonly": "",
                             "allowManual": "",
                             "workflowVariable": "",
                             "id": "replied_date",
                             "placeholder": "",
                             "disableWeekends": "true",
-                            "value": "#date.yyyy-MM-dd#",
+                            "value": "",
                             "readonlyLabel": ""
                         }
                     },
@@ -132,8 +141,12 @@
                             "resizeWidth": "",
                             "multiple": "",
                             "validator": {
-                                "className": "",
-                                "properties": {}
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "type": "",
+                                    "message": "",
+                                    "mandatory": "true"
+                                }
                             },
                             "maxSize": "",
                             "label": "File Upload",
@@ -154,12 +167,16 @@
                             "requiredSanitize": "true",
                             "readonly": "",
                             "validator": {
-                                "className": "",
-                                "properties": {}
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "type": "",
+                                    "message": "",
+                                    "mandatory": "true"
+                                }
                             },
                             "workflowVariable": "",
                             "label": "Description",
-                            "id": "description",
+                            "id": "description_reply",
                             "placeholder": "",
                             "rows": "5",
                             "cols": "20",
@@ -219,8 +236,16 @@
             "properties": {}
         },
         "storeBinder": {
-            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
-            "properties": {}
+            "className": "org.joget.marketplace.MultiStoreBinders",
+            "properties": {
+                "autoHandleWorkflowVariable": "true",
+                "binders": [{
+                    "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                    "properties": {}
+                }],
+                "comment": "",
+                "autoHandleFiles": ""
+            }
         },
         "tableName": "afms_incomingmail"
     }

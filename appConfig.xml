@@ -8,7 +8,43 @@
    <datalistDefinitionList/>
    <builderDefinitionList/>
    <pluginDefaultPropertiesList/>
-   <environmentVariableList/>
+   <environmentVariableList>
+      <environmentVariable>
+         <id>counterMailNo</id>
+         <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
+         <value>1</value>
+         <remarks>Used for plugin: Id Generator Field</remarks>
+      </environmentVariable>
+      <environmentVariable>
+         <id>counterRefNo</id>
+         <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
+         <value>1</value>
+         <remarks>Used for plugin: Id Generator Field</remarks>
+      </environmentVariable>
+      <environmentVariable>
+         <id>counter_in</id>
+         <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
+         <value>1</value>
+         <remarks>Used for plugin: Id Generator Field</remarks>
+      </environmentVariable>
+      <environmentVariable>
+         <id>counter_via</id>
+         <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
+         <value>8</value>
+         <remarks>Used for plugin: Id Generator Field</remarks>
+      </environmentVariable>
+      <environmentVariable>
+         <id>templateEmail</id>
+         <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
+         <value>bodymail</value>
+         <remarks></remarks>
+      </environmentVariable>
+   </environmentVariableList>
    <messageList/>
    <resourceList/>
 </appDefinition>
