@@ -175,7 +175,7 @@
                <packageActivityForm>
                   <processDefId>sendEmailOut</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
+                  <formId>outgoingMail</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
