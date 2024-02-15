@@ -115,8 +115,20 @@
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>not_approved</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>incomingMailProcess_2::activity2</string>
+               <packageActivityForm>
+                  <processDefId>incomingMailProcess_2</processDefId>
+                  <activityDefId>activity2</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>true</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
@@ -147,6 +159,17 @@
                   <activityDefId>edit_and_submit_mail</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>incomingMailProcess_2::incoming_mail</string>
+               <packageActivityForm>
+                  <processDefId>incomingMailProcess_2</processDefId>
+                  <activityDefId>incoming_mail</activityDefId>
+                  <formId>reply_mail_client</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>true</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
@@ -216,6 +239,24 @@
                <packageParticipant>
                   <processDefId>tes_incoming_2</processDefId>
                   <participantId>tes_incoming_2_entry_data</participantId>
+                  <type>requester</type>
+                  <value>incoming_mail</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>incomingMailProcess_2::incomingMailProcess_2_specialist</string>
+               <packageParticipant>
+                  <processDefId>incomingMailProcess_2</processDefId>
+                  <participantId>incomingMailProcess_2_specialist</participantId>
+                  <type>workflowVariable</type>
+                  <value>attention_to,user</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>incomingMailProcess_2::incomingMailProcess_2_administrator</string>
+               <packageParticipant>
+                  <processDefId>incomingMailProcess_2</processDefId>
+                  <participantId>incomingMailProcess_2_administrator</participantId>
                   <type>requester</type>
                   <value>incoming_mail</value>
                </packageParticipant>
