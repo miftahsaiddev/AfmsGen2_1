@@ -50,11 +50,31 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "letter_subject",
-            "id": "column_3",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "Letter Subject",
             "sortable": "false",
-            "datalist_type": "column"
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "letter_subject",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+                "properties": {
+                    "hrefColumn": "id",
+                    "hrefParam": "id",
+                    "href": "form_letter_subject?embed=true",
+                    "confirmation": "",
+                    "target": "popup"
+                }
+            },
+            "style": "",
+            "id": "column_3",
+            "alignment": ""
         },
         {
             "filterable": true,
