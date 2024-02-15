@@ -867,38 +867,6 @@
                 "join": "",
                 "readonlyLabel": ""
             }
-        },
-        {
-            "elements": [{
-                "elements": [{
-                    "className": "org.joget.apps.form.lib.SubForm",
-                    "properties": {
-                        "parentSubFormId": "mail_no",
-                        "readonly": "",
-                        "loadBinder": {
-                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
-                            "properties": {}
-                        },
-                        "noframe": "",
-                        "formDefId": "incomingMailTranslator",
-                        "subFormParentId": "mail_no",
-                        "id": "field28",
-                        "label": "hahahaha",
-                        "storeBinder": {
-                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
-                            "properties": {}
-                        },
-                        "readonlyLabel": ""
-                    }
-                }],
-                "className": "org.joget.apps.form.model.Column",
-                "properties": {"width": "100%"}
-            }],
-            "className": "org.joget.apps.form.model.Section",
-            "properties": {
-                "label": "Section",
-                "id": "section5"
-            }
         }
     ],
     "className": "org.joget.apps.form.model.Form",
