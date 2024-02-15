@@ -169,8 +169,8 @@
             "visible": "true",
             "hrefColumn": "",
             "hrefParam": "",
-            "label": "Create With New Number",
-            "href": "form_incoming_mail_agent",
+            "label": "Create Incoming",
+            "href": "create_incoming",
             "confirmation": "",
             "datalist_type": "action",
             "target": "_self"

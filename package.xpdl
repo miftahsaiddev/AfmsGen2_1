@@ -55,6 +55,9 @@
         <Participant Id="incomingMailProcess_2_specialist" Name="Specialist">
             <ParticipantType Type="ROLE"/>
         </Participant>
+        <Participant Id="process7_participant17" Name="Participant">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
     </Participants>
     <Applications>
         <Application Id="default_application"/>
@@ -712,11 +715,6 @@
                         <BasicType Type="STRING"/>
                     </DataType>
                 </DataField>
-                <DataField Id="deadlineNotify" IsArray="FALSE">
-                    <DataType>
-                        <BasicType Type="STRING"/>
-                    </DataType>
-                </DataField>
             </DataFields>
             <Activities>
                 <Activity Id="incoming_mail" Name="Incoming Mail">
@@ -740,7 +738,17 @@
                     <Performer>specialist</Performer>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="specialist"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="95,79"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="72,73"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="call_procedure" Name="Call Procedure">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>administrator</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="administrator"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="273,26"/>
                     </ExtendedAttributes>
                 </Activity>
             </Activities>

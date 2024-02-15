@@ -1,0 +1,69 @@
+{
+    "template": {
+        "className": "",
+        "properties": {}
+    },
+    "rowActions": [{
+        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+        "id": "rowAction_0",
+        "properties": {
+            "hrefColumn": "id",
+            "hrefParam": "id",
+            "rules": [],
+            "label": "View",
+            "href": "createOutgoing",
+            "confirmation": "",
+            "link-css-display-type": "btn btn-sm btn-secondary",
+            "datalist_type": "row_action",
+            "target": "_self",
+            "header_label": ""
+        }
+    }],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "email_to",
+            "id": "column_0",
+            "label": "Email to",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "subject_mail",
+            "id": "column_1",
+            "label": "Subject Mail",
+            "sortable": "false"
+        }
+    ],
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "filters": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "name": "List Outgoing",
+    "id": "listOutgoing",
+    "binder": {
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "properties": {
+            "formDefId": "outgoingMail",
+            "extraCondition": ""
+        }
+    },
+    "actions": [{
+        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+        "id": "action_0",
+        "properties": {
+            "visible": "true",
+            "hrefColumn": "",
+            "hrefParam": "",
+            "label": "Create Email Outgoing",
+            "href": "createOutgoing",
+            "confirmation": "",
+            "datalist_type": "action",
+            "target": "_self"
+        }
+    }],
+    "order": ""
+}
