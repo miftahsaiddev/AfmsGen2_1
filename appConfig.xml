@@ -12,6 +12,7 @@
       <environmentVariable>
          <id>templateEmail</id>
          <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
          <value>body mail</value>
          <remarks></remarks>
       </environmentVariable>

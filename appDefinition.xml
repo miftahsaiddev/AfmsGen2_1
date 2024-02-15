@@ -203,6 +203,24 @@
                </packageActivityPlugin>
             </entry>
             <entry>
+               <string>sendEmailOut::tool2</string>
+               <packageActivityPlugin>
+                  <processDefId>sendEmailOut</processDefId>
+                  <activityDefId>tool2</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>sendEmailOut::update_status</string>
+               <packageActivityPlugin>
+                  <processDefId>sendEmailOut</processDefId>
+                  <activityDefId>update_status</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;update app_fd_afms_outgoingmail set status_sent=&apos;1&apos;&quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
                <string>tes_incoming_2::lettertype</string>
                <packageActivityPlugin>
                   <processDefId>tes_incoming_2</processDefId>

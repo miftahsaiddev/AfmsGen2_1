@@ -879,11 +879,28 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="241,62"/>
                     </ExtendedAttributes>
                 </Activity>
+                <Activity Id="update_status" Name="Update Status">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>process7_participant17</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process7_participant17"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="486,26"/>
+                    </ExtendedAttributes>
+                </Activity>
             </Activities>
+            <Transitions>
+                <Transition From="send_email" Id="transition2" To="update_status">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+            </Transitions>
             <ExtendedAttributes>
                 <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="process7_participant17"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process7_participant17,CONNECTING_ACTIVITY_ID=send_email,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process7_participant17,CONNECTING_ACTIVITY_ID=send_email,X_OFFSET=452,Y_OFFSET=106,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process7_participant17,CONNECTING_ACTIVITY_ID=update_status,X_OFFSET=660,Y_OFFSET=90,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
     </WorkflowProcesses>
