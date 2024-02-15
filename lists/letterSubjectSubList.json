@@ -3,17 +3,14 @@
         "className": "",
         "properties": {}
     },
-    "considerFilterWhenGetTotal": "",
-    "useSession": "",
-    "responsiveMode": "",
     "rowActions": [],
     "columns": [
         {
             "filterable": true,
             "hidden": "false",
-            "name": "id",
-            "id": "column_0",
-            "label": "ID",
+            "name": "sub_letter_type",
+            "id": "column_1",
+            "label": "Sub Letter Type",
             "sortable": "false"
         },
         {
@@ -24,11 +21,11 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Letter From",
+            "label": "Letter Subject",
             "sortable": "false",
             "datalist_type": "column",
             "exclude_export": "",
-            "name": "letter_from",
+            "name": "letter_subject",
             "width": "",
             "headerAlignment": "",
             "action": {
@@ -36,35 +33,27 @@
                 "properties": {
                     "hrefColumn": "id",
                     "hrefParam": "id",
-                    "href": "form_letter_from?embed=true",
+                    "href": "form_letter_subject_sub?embed=true",
                     "confirmation": "",
                     "target": "popup"
                 }
             },
             "style": "",
-            "id": "column_1",
+            "id": "column_0",
             "alignment": ""
         }
     ],
-    "draggabletable": "",
-    "cardCollapsible": "",
     "pageSize": "0",
     "orderBy": "",
     "description": "",
     "filters": [],
-    "showDataWhenFilterSet": "",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
-    "hidePageSize": "",
-    "disableResponsive": "",
-    "cardCollapseByDefault": "",
-    "name": "List Letter From",
-    "rowActionsMode": "",
-    "showhidecolumns": "",
-    "id": "letterFromList",
+    "name": "List Letter Subject Sub",
+    "id": "letterSubjectSubList",
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
-            "formDefId": "letterFrom",
+            "formDefId": "letterSubjectSub",
             "extraCondition": ""
         }
     },
@@ -75,7 +64,7 @@
             "properties": {
                 "deleteFiles": "",
                 "deleteGridData": "",
-                "formDefId": "letterFrom",
+                "formDefId": "letterSubjectSub",
                 "deleteSubformData": "",
                 "label": "Delete",
                 "confirmation": "",
@@ -91,7 +80,7 @@
                 "hrefColumn": "",
                 "hrefParam": "",
                 "label": "Create",
-                "href": "form_letter_from?embed=true",
+                "href": "form_letter_subject_sub?embed=true",
                 "confirmation": "",
                 "datalist_type": "action",
                 "target": "popup"
