@@ -359,7 +359,7 @@
         "userview_thumbnail": "",
         "userview_category": "",
         "theme": {
-            "className": "org.joget.plugin.enterprise.XadminTheme",
+            "className": "org.joget.apps.userview.lib.AjaxUniversalTheme",
             "properties": {
                 "dx8navBadge": "#1677FF",
                 "css": "",
