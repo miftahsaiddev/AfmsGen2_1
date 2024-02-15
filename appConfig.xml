@@ -8,7 +8,14 @@
    <datalistDefinitionList/>
    <builderDefinitionList/>
    <pluginDefaultPropertiesList/>
-   <environmentVariableList/>
+   <environmentVariableList>
+      <environmentVariable>
+         <id>templateEmail</id>
+         <appId>AfmsGen2</appId>
+         <value>body mail</value>
+         <remarks></remarks>
+      </environmentVariable>
+   </environmentVariableList>
    <messageList/>
    <resourceList/>
 </appDefinition>
