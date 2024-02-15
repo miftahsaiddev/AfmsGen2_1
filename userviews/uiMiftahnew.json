@@ -195,6 +195,29 @@
                         "redirectUrlAfterComplete": "0AB4C5EC414941F7AD1D3384AE3DE5D0",
                         "fieldPassover": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.RunProcess",
+                    "properties": {
+                        "runProcessDirectly": "Yes",
+                        "fieldPassoverMethod": "append",
+                        "keyName": "",
+                        "label": "Run Process",
+                        "redirectTarget": "",
+                        "enableOffline": "",
+                        "afterSavedReloadTarget": "true",
+                        "customId": "",
+                        "userviewCacheDuration": "20",
+                        "messageShowAfterComplete": "",
+                        "showInPopupDialog": "",
+                        "userviewCacheScope": "",
+                        "actionAfterSaved": "",
+                        "runProcessSubmitLabel": "",
+                        "id": "75225BCC58B54C042E715AB3847357EB",
+                        "processDefId": "incomingMailProcess",
+                        "redirectUrlAfterComplete": "",
+                        "fieldPassover": ""
+                    }
                 }
             ],
             "properties": {
