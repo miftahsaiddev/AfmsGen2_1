@@ -72,29 +72,6 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Project No",
-            "sortable": "true",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "no_project",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
-            "id": "column_1",
-            "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
             "label": "Distribution Date",
             "sortable": "true",
             "datalist_type": "column",
@@ -117,6 +94,29 @@
             "id": "column_5",
             "label": "Agent",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Due Date",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "deadline_date",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_3",
+            "alignment": ""
         }
     ],
     "draggabletable": "",
