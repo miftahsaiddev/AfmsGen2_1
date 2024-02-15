@@ -196,6 +196,19 @@
                         "value": "",
                         "readonlyLabel": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.HiddenField",
+                    "properties": {
+                        "useDefaultWhenEmpty": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "id": "letter_from_name",
+                        "value": "#form.afms_lettersubject.letter_from.column(1)#"
+                    }
                 }
             ],
             "className": "org.joget.apps.form.model.Column",
