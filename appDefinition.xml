@@ -188,7 +188,7 @@
                   <processDefId>incomingMailProcess</processDefId>
                   <activityDefId>deadline_</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{}</pluginProperties>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
             <entry>
@@ -227,6 +227,24 @@
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>incomingMailProcess::administrator</string>
+               <packageParticipant>
+                  <processDefId>incomingMailProcess</processDefId>
+                  <participantId>administrator</participantId>
+                  <type>requester</type>
+                  <value>runProcess</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>incomingMailProcess::specialist</string>
+               <packageParticipant>
+                  <processDefId>incomingMailProcess</processDefId>
+                  <participantId>specialist</participantId>
+                  <type>workflowVariable</type>
+                  <value>attention_to,user</value>
                </packageParticipant>
             </entry>
          </packageParticipantMap>
