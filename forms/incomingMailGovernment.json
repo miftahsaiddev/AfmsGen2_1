@@ -871,15 +871,24 @@
         {
             "elements": [{
                 "elements": [{
-                    "className": "org.joget.apps.form.lib.TextField",
+                    "className": "org.joget.apps.form.lib.SubForm",
                     "properties": {
-                        "requiredSanitize": "true",
-                        "readonly": "False",
-                        "style": "",
-                        "label": "Text Field",
+                        "parentSubFormId": "mail_no",
+                        "readonly": "",
+                        "loadBinder": {
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "properties": {}
+                        },
+                        "noframe": "",
+                        "formDefId": "incomingMailTranslator",
+                        "subFormParentId": "mail_no",
                         "id": "field28",
-                        "readonlyLabel": "False",
-                        "storeNumeric": "False"
+                        "label": "hahahaha",
+                        "storeBinder": {
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "properties": {}
+                        },
+                        "readonlyLabel": ""
                     }
                 }],
                 "className": "org.joget.apps.form.model.Column",
