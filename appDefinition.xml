@@ -232,6 +232,15 @@
                </packageParticipant>
             </entry>
             <entry>
+               <string>sendEmailOut::process7_participant17</string>
+               <packageParticipant>
+                  <processDefId>sendEmailOut</processDefId>
+                  <participantId>process7_participant17</participantId>
+                  <type>requester</type>
+                  <value>runProcess</value>
+               </packageParticipant>
+            </entry>
+            <entry>
                <string>tes_incoming_2::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>tes_incoming_2</processDefId>
