@@ -488,8 +488,13 @@
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
+                                    "className": "org.joget.tutorial.JdbcOptionsBinder",
+                                    "properties": {
+                                        "useAjax": "",
+                                        "addEmpty": "",
+                                        "jdbcDatasource": "default",
+                                        "sql": "select id,name from dir_department where id like 'Dep-%';"
+                                    }
                                 },
                                 "multiple": "",
                                 "options": [],
@@ -507,12 +512,18 @@
                         {
                             "className": "org.joget.apps.form.lib.SelectBox",
                             "properties": {
-                                "controlField": "",
+                                "controlField": "department",
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
+                                    "className": "org.joget.tutorial.JdbcOptionsBinder",
+                                    "properties": {
+                                        "useAjax": "true",
+                                        "addEmpty": "true",
+                                        "jdbcDatasource": "default",
+                                        "emptyLabel": "",
+                                        "sql": "select id,name,parentId from dir_department where id like 'Div-%';"
+                                    }
                                 },
                                 "multiple": "",
                                 "options": [],
@@ -522,7 +533,7 @@
                                 },
                                 "workflowVariable": "",
                                 "label": "Division",
-                                "id": "field13",
+                                "id": "division",
                                 "value": "",
                                 "readonlyLabel": ""
                             }
@@ -530,12 +541,18 @@
                         {
                             "className": "org.joget.apps.form.lib.SelectBox",
                             "properties": {
-                                "controlField": "",
+                                "controlField": "division",
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
+                                    "className": "org.joget.tutorial.JdbcOptionsBinder",
+                                    "properties": {
+                                        "useAjax": "true",
+                                        "addEmpty": "true",
+                                        "jdbcDatasource": "default",
+                                        "emptyLabel": "",
+                                        "sql": "select dir_user.id,dir_user.username, dir_employment.departmentid from dir_employment \r\nleft join dir_user on dir_employment.userid=dir_user.id  where \r\ndir_employment.employeecode like 'Amb-%';"
+                                    }
                                 },
                                 "multiple": "",
                                 "options": [],
