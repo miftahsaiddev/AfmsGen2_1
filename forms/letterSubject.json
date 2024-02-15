@@ -48,7 +48,7 @@
                             "className": "org.joget.apps.form.lib.BeanShellFormBinder",
                             "properties": {
                                 "cacheInterval": "",
-                                "script": "SELECT * from app_fd_afms_letterfrom"
+                                "script": "SELECT * from app_fd_afms_letterfrom;"
                             }
                         },
                         "multiple": "",
