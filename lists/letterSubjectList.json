@@ -40,14 +40,8 @@
             "width": "",
             "headerAlignment": "",
             "action": {
-                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-                "properties": {
-                    "hrefColumn": "",
-                    "hrefParam": "",
-                    "href": "form_letter_subject?embed=true",
-                    "confirmation": "",
-                    "target": "popup"
-                }
+                "className": "",
+                "properties": {}
             },
             "style": "",
             "id": "column_1",
