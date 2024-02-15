@@ -8,18 +8,39 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "letter_subject",
-            "id": "column_0",
-            "label": "Letter Subject",
+            "name": "sub_letter_type",
+            "id": "column_1",
+            "label": "Sub Letter Type",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "name": "sub_letter_type",
-            "id": "column_1",
-            "label": "Sub Letter Type",
-            "sortable": "false"
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Letter Subject",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "letter_subject",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+                "properties": {
+                    "hrefColumn": "id",
+                    "hrefParam": "id",
+                    "href": "form_letter_subject_sub?embed=true",
+                    "confirmation": "",
+                    "target": "popup"
+                }
+            },
+            "style": "",
+            "id": "column_0",
+            "alignment": ""
         }
     ],
     "pageSize": "0",
