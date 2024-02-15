@@ -224,6 +224,16 @@
                                 "label": "No Project",
                                 "id": "no_project"
                             }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.CustomHTML",
+                            "properties": {
+                                "requiredSanitize": "true",
+                                "autoPopulate": "",
+                                "label": "",
+                                "id": "field23",
+                                "value": "<script>\r\ndocument.getElementsByName('letter_from')[0].addEventListener('change', function() {\r\n  var textField = document.getElementsByName('agent')[0];\r\n  \r\n  // Contoh: membuat textfield menjadi readonly jika opsi yang dipilih adalah \"opsi2\"\r\n  if (this.value === 'LF-002') {\r\n    textField.readOnly = true; // membuat textfield readonly\r\n  } else {\r\n    textField.readOnly = false; // membuat textfield bisa diedit\r\n  }\r\n});\r\n<\/script>"
+                            }
                         }
                     ],
                     "className": "org.joget.apps.form.model.Column",
