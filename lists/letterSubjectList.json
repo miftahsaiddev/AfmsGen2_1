@@ -103,7 +103,7 @@
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
-    "orderBy": "id",
+    "orderBy": "letter_subject",
     "description": "",
     "filters": [],
     "showDataWhenFilterSet": "",
