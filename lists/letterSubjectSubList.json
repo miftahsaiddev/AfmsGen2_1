@@ -1,12 +1,34 @@
 {
+    "template": {
+        "className": "",
+        "properties": {}
+    },
     "rowActions": [],
-    "columns": [],
-    "name": "List Letter Subject Sub",
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "letter_subject",
+            "id": "column_0",
+            "label": "Letter Subject",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "sub_letter_type",
+            "id": "column_1",
+            "label": "Sub Letter Type",
+            "sortable": "false"
+        }
+    ],
     "pageSize": "0",
     "orderBy": "",
     "description": "",
-    "id": "letterSubjectSubList",
     "filters": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "name": "List Letter Subject Sub",
+    "id": "letterSubjectSubList",
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
@@ -14,7 +36,29 @@
             "extraCondition": ""
         }
     },
-    "actions": [],
-    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "actions": [
+        {
+            "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
+            "id": "action_0",
+            "properties": {
+                "deleteFiles": "",
+                "deleteGridData": "",
+                "formDefId": "letterSubjectSub",
+                "deleteSubformData": "",
+                "label": "Delete",
+                "confirmation": "",
+                "datalist_type": "action",
+                "abortRelatedRunningProcesses": ""
+            }
+        },
+        {
+            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+            "id": "action_1",
+            "properties": {
+                "label": "Hyperlink",
+                "target": "_self"
+            }
+        }
+    ],
     "order": ""
 }
