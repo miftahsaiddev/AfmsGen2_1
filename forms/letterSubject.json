@@ -45,16 +45,10 @@
                         "readonly": "",
                         "size": "",
                         "optionsBinder": {
-                            "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                            "className": "org.joget.apps.form.lib.BeanShellFormBinder",
                             "properties": {
-                                "addEmptyOption": "true",
-                                "groupingColumn": "",
-                                "formDefId": "letterFrom",
-                                "labelColumn": "letter_from",
-                                "extraCondition": "",
                                 "cacheInterval": "",
-                                "emptyLabel": "",
-                                "idColumn": "id"
+                                "script": "SELECT * from app_fd_afms_letterfrom"
                             }
                         },
                         "multiple": "",
