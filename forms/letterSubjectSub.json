@@ -54,14 +54,18 @@
                                 "extraCondition": "",
                                 "cacheInterval": "",
                                 "emptyLabel": "",
-                                "idColumn": ""
+                                "idColumn": "id"
                             }
                         },
                         "multiple": "",
                         "options": [],
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
                         },
                         "workflowVariable": "",
                         "label": "Letter Subject",
