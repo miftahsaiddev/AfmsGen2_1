@@ -3,18 +3,6 @@
         "elements": [{
             "elements": [
                 {
-                    "className": "org.joget.apps.form.lib.IdGeneratorField",
-                    "properties": {
-                        "hidden": "",
-                        "format": "LS-??????",
-                        "workflowVariable": "",
-                        "envVariable": "counter_ls",
-                        "isDistributedGeneration": "",
-                        "label": "Letter Subject ID",
-                        "id": "id"
-                    }
-                },
-                {
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
                         "controlField": "",
