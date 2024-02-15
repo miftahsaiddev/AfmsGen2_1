@@ -158,10 +158,10 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Letter Subject",
+            "label": "Master Letter Subject",
             "reverse": "",
             "storeBinder": {
-                "className": null,
+                "className": "",
                 "properties": {}
             },
             "visibilityValue": "",
@@ -172,7 +172,7 @@
                 "properties": {}
             },
             "comment": "",
-            "id": "mail_subject",
+            "id": "master_letter_subject",
             "join": "",
             "readonlyLabel": ""
         }
