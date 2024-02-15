@@ -200,7 +200,7 @@
                 {
                     "className": "org.joget.apps.form.lib.HiddenField",
                     "properties": {
-                        "useDefaultWhenEmpty": "",
+                        "useDefaultWhenEmpty": "true",
                         "validator": {
                             "className": "",
                             "properties": {}
