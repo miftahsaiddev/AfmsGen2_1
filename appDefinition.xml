@@ -151,6 +151,17 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>sendEmailOut::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>sendEmailOut</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId>outgoingMail</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>I0001IncomingMailCient::runProcess</string>
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
@@ -165,17 +176,6 @@
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>sendEmailOut::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>sendEmailOut</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <formId>outgoingMail</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -226,7 +226,7 @@
                   <processDefId>sendEmailOut</processDefId>
                   <activityDefId>send_email</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.marketplace.EmailToolWithTemplate&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;#form.afms_outgoingmail.email_to#&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;#form.afms_outgoingmail.subject_mail#&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;&quot;,&quot;security&quot;:&quot;SSL&quot;,&quot;password&quot;:&quot;Ismimynam3&quot;,&quot;bodyTemplate&quot;:&quot;#envVariable.templateEmail#&quot;,&quot;port&quot;:&quot;465&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;miftah.said@ambadar.co.id&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;miftah.said@ambadar.co.id&quot;}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
          </packageActivityPluginMap>
