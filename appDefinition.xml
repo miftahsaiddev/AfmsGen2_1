@@ -80,21 +80,21 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>I0001IncomingMailCient::submit_mail</string>
+               <string>incomingMailProcess::incoming_mail</string>
                <packageActivityForm>
-                  <processDefId>I0001IncomingMailCient</processDefId>
-                  <activityDefId>submit_mail</activityDefId>
+                  <processDefId>incomingMailProcess</processDefId>
+                  <activityDefId>incoming_mail</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>incomingMailProcess::incoming_mail</string>
+               <string>I0001IncomingMailCient::submit_mail</string>
                <packageActivityForm>
-                  <processDefId>incomingMailProcess</processDefId>
-                  <activityDefId>incoming_mail</activityDefId>
-                  <formId></formId>
+                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>submit_mail</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
