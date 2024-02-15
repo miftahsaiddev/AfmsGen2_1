@@ -96,7 +96,7 @@
             "exclude_export": "",
             "name": "limit_day",
             "width": "",
-            "headerAlignment": "",
+            "headerAlignment": "dataListAlignCenter",
             "action": {
                 "className": "",
                 "properties": {}
