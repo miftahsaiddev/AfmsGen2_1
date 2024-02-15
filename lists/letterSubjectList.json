@@ -11,14 +11,6 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "id",
-            "id": "column_0",
-            "label": "ID",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
             "name": "type_of_mail",
             "id": "column_2",
             "label": "Type of Mail",
