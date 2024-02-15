@@ -207,7 +207,7 @@
                         },
                         "workflowVariable": "",
                         "id": "letter_from_name",
-                        "value": "#form.afms_lettersubject.letter_from.column(1)#"
+                        "value": "#form.afms_lettersubject.letter_from.column(2)#"
                     }
                 }
             ],
