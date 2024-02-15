@@ -200,14 +200,14 @@
                 {
                     "className": "org.joget.apps.form.lib.HiddenField",
                     "properties": {
-                        "useDefaultWhenEmpty": "true",
+                        "useDefaultWhenEmpty": "valueOnly",
                         "validator": {
                             "className": "",
                             "properties": {}
                         },
                         "workflowVariable": "",
                         "id": "letter_from_name",
-                        "value": "#form.afms_lettersubject.letter_from#"
+                        "value": "#form.afms_lettersubject.letter_from[1]#"
                     }
                 }
             ],
