@@ -172,22 +172,7 @@
                         "rowCount": "",
                         "id": "E3681D82101F4090CBEB36E2D808F9D1"
                     }
-                }
-            ],
-            "properties": {
-                "hide": "",
-                "permission": {
-                    "className": "",
-                    "properties": {}
                 },
-                "comment": "",
-                "label": "Mail",
-                "id": "category-3B41847F5ACC4AD0BCCE453AAE816FDD"
-            }
-        },
-        {
-            "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [
                 {
                     "className": "org.joget.apps.userview.lib.RunProcess",
                     "properties": {
@@ -210,7 +195,22 @@
                         "redirectUrlAfterComplete": "0AB4C5EC414941F7AD1D3384AE3DE5D0",
                         "fieldPassover": ""
                     }
+                }
+            ],
+            "properties": {
+                "hide": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
                 },
+                "comment": "",
+                "label": "Mail",
+                "id": "category-3B41847F5ACC4AD0BCCE453AAE816FDD"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
                 {
                     "className": "org.joget.apps.userview.lib.RunProcess",
                     "properties": {
