@@ -158,6 +158,27 @@
                             "value": "",
                             "readonlyLabel": ""
                         }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.SubForm",
+                        "properties": {
+                            "parentSubFormId": "id",
+                            "readonly": "",
+                            "loadBinder": {
+                                "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                                "properties": {}
+                            },
+                            "noframe": "",
+                            "formDefId": "letterSubjectSub",
+                            "subFormParentId": "",
+                            "id": "sub_letter_type",
+                            "label": "Sub Letter Type",
+                            "storeBinder": {
+                                "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                                "properties": {}
+                            },
+                            "readonlyLabel": ""
+                        }
                     }
                 ],
                 "className": "org.joget.apps.form.model.Column",
