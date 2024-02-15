@@ -171,6 +171,17 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>sendEmailOut::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>sendEmailOut</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId>outgoingMail</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>tes_incoming_2::reply_email</string>
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
@@ -209,6 +220,15 @@
                   <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_hitung_deadline_incoming(#form.afms_incomingmail.id#&apos;#form.afms_incomingmail.id#&apos;,&apos;#date.yyyy-MM-dd#&apos;,&apos; #form.afms_incomingmail.mail_subject#&apos;) &quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}},{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_incoming_mail_documents(&apos;#form.afms_incomingmail.id#&apos;,&apos;#form.afms_incomingmail.letter_type#&apos;,&apos;#form.afms_incomingmail.no_project#&apos;)&quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
+            <entry>
+               <string>sendEmailOut::send_email</string>
+               <packageActivityPlugin>
+                  <processDefId>sendEmailOut</processDefId>
+                  <activityDefId>send_email</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
          </packageActivityPluginMap>
          <packageParticipantMap>
             <entry>
@@ -218,6 +238,15 @@
                   <participantId>tes_incoming_2_entry_data</participantId>
                   <type>requester</type>
                   <value>incoming_mail</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>sendEmailOut::process7_participant17</string>
+               <packageParticipant>
+                  <processDefId>sendEmailOut</processDefId>
+                  <participantId>process7_participant17</participantId>
+                  <type>requester</type>
+                  <value>runProcess</value>
                </packageParticipant>
             </entry>
             <entry>
