@@ -4,6 +4,19 @@
             "elements": [{
                 "elements": [
                     {
+                        "className": "org.joget.apps.form.lib.HiddenField",
+                        "properties": {
+                            "useDefaultWhenEmpty": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "workflowVariable": "",
+                            "id": "status_sent",
+                            "value": "0"
+                        }
+                    },
+                    {
                         "className": "org.joget.apps.form.lib.TextField",
                         "properties": {
                             "requiredSanitize": "true",
