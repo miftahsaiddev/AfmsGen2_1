@@ -50,31 +50,11 @@
         {
             "filterable": true,
             "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Subject Name",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "subject_name",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-                "properties": {
-                    "hrefColumn": "id",
-                    "hrefParam": "id",
-                    "href": "form_letter_subject?embed=true",
-                    "confirmation": "",
-                    "target": "popup"
-                }
-            },
-            "style": "",
+            "name": "letter_subject",
             "id": "column_3",
-            "alignment": ""
+            "label": "Letter Subject",
+            "sortable": "false",
+            "datalist_type": "column"
         },
         {
             "filterable": true,
@@ -105,22 +85,7 @@
     "pageSize": "0",
     "orderBy": "id",
     "description": "",
-    "filters": [{
-        "hidden": "",
-        "name": "subject_name",
-        "id": "filter_0",
-        "label": "Subject Name",
-        "type": {
-            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-            "properties": {
-                "defaultValue": "",
-                "filterSelection": "",
-                "searchFields": ""
-            }
-        },
-        "datalist_type": "filter",
-        "filterParamName": "d-1577598-fn_subject_name"
-    }],
+    "filters": [],
     "showDataWhenFilterSet": "",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
     "hidePageSize": "",
