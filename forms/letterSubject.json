@@ -160,24 +160,27 @@
                         }
                     },
                     {
-                        "className": "org.joget.apps.form.lib.SubForm",
+                        "className": "org.joget.apps.form.lib.Grid",
                         "properties": {
-                            "parentSubFormId": "id",
+                            "validateMaxRow": "",
                             "readonly": "",
                             "loadBinder": {
-                                "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                                "className": "",
                                 "properties": {}
                             },
-                            "noframe": "",
-                            "formDefId": "letterSubjectSub",
-                            "subFormParentId": "",
-                            "id": "sub_letter_type",
+                            "validateMinRow": "",
+                            "errorMessage": "Invalid number of rows",
+                            "options": [],
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
                             "label": "Sub Letter Type",
+                            "id": "sub_letter_type",
                             "storeBinder": {
-                                "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                                "className": "",
                                 "properties": {}
-                            },
-                            "readonlyLabel": ""
+                            }
                         }
                     }
                 ],
