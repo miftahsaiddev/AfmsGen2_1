@@ -80,21 +80,21 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>I0001IncomingMailCient::submit_mail</string>
+               <string>incomingMailProcess::incoming_mail</string>
                <packageActivityForm>
-                  <processDefId>I0001IncomingMailCient</processDefId>
-                  <activityDefId>submit_mail</activityDefId>
+                  <processDefId>incomingMailProcess</processDefId>
+                  <activityDefId>incoming_mail</activityDefId>
+                  <formId>reply_mail_client</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>incomingMailProcess::incoming_mail</string>
+               <string>I0001IncomingMailCient::submit_mail</string>
                <packageActivityForm>
-                  <processDefId>incomingMailProcess</processDefId>
-                  <activityDefId>incoming_mail</activityDefId>
-                  <formId>reply_mail_client</formId>
+                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>submit_mail</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -183,6 +183,15 @@
          </packageActivityFormMap>
          <packageActivityPluginMap>
             <entry>
+               <string>incomingMailProcess::deadline_</string>
+               <packageActivityPlugin>
+                  <processDefId>incomingMailProcess</processDefId>
+                  <activityDefId>deadline_</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
                <string>tes_incoming_2::lettertype</string>
                <packageActivityPlugin>
                   <processDefId>tes_incoming_2</processDefId>
@@ -197,7 +206,7 @@
                   <processDefId>incomingMailProcess</processDefId>
                   <activityDefId>call_procedure</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_hitung_deadline_incoming( &apos;#form.afms_incomingmail.id#&apos;,&apos;#date.yyyy-MM-dd#&apos;,&apos; #form.afms_incomingmail.mail_subject#&apos;) &quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
          </packageActivityPluginMap>
