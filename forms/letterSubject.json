@@ -158,6 +158,27 @@
                             "value": "",
                             "readonlyLabel": ""
                         }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.SubForm",
+                        "properties": {
+                            "parentSubFormId": "id",
+                            "readonly": "",
+                            "loadBinder": {
+                                "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                                "properties": {}
+                            },
+                            "noframe": "",
+                            "formDefId": "subLetterType",
+                            "subFormParentId": "",
+                            "id": "patent",
+                            "label": "Patent",
+                            "storeBinder": {
+                                "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                                "properties": {}
+                            },
+                            "readonlyLabel": ""
+                        }
                     }
                 ],
                 "className": "org.joget.apps.form.model.Column",
