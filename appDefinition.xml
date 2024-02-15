@@ -84,7 +84,7 @@
                <packageActivityForm>
                   <processDefId>incomingMailProcess</processDefId>
                   <activityDefId>incoming_mail</activityDefId>
-                  <formId></formId>
+                  <formId>reply_mail_client</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -182,15 +182,6 @@
             </entry>
          </packageActivityFormMap>
          <packageActivityPluginMap>
-            <entry>
-               <string>incomingMailProcess::deadline_</string>
-               <packageActivityPlugin>
-                  <processDefId>incomingMailProcess</processDefId>
-                  <activityDefId>deadline_</activityDefId>
-                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{}</pluginProperties>
-               </packageActivityPlugin>
-            </entry>
             <entry>
                <string>tes_incoming_2::lettertype</string>
                <packageActivityPlugin>
