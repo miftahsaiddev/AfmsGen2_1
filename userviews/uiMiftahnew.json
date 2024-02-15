@@ -94,32 +94,83 @@
                         "userviewCacheScope": "",
                         "processId": "incomingMailProcess",
                         "showPopup": "",
-                        "rowCount": "",
+                        "rowCount": "true",
                         "id": "01354884ABBF4A4F74E384060DB12A3B",
                         "list-customHeader": ""
                     }
                 },
                 {
-                    "className": "org.joget.apps.userview.lib.RunProcess",
+                    "className": "org.joget.apps.userview.lib.FormMenu",
                     "properties": {
-                        "runProcessDirectly": "Yes",
-                        "fieldPassoverMethod": "append",
-                        "keyName": "",
-                        "label": "Run Process",
-                        "redirectTarget": "",
+                        "loadDataWithKey": "",
+                        "redirectUrlOnCancel": "",
+                        "actionOnCancel": "",
+                        "redirectTargetOnCancel": "top",
+                        "customFooter": "",
+                        "paramName": "",
                         "enableOffline": "",
                         "afterSavedReloadTarget": "true",
                         "customId": "",
+                        "showInPopupDialog": "",
+                        "readonly": "",
+                        "cancelButtonLabel": "",
+                        "actionAfterSaved": "",
+                        "id": "B88BCCB2B81B44966541D895058757E1",
+                        "redirectUrlAfterComplete": "",
+                        "fieldPassover": "",
+                        "formId": "incomingDoc",
+                        "customHeader": "",
+                        "fieldPassoverMethod": "append",
+                        "redirectTargetOnComplete": "",
+                        "keyName": "",
+                        "label": "Form",
                         "userviewCacheDuration": "20",
                         "messageShowAfterComplete": "",
-                        "showInPopupDialog": "",
+                        "submitButtonLabel": "",
                         "userviewCacheScope": "",
-                        "actionAfterSaved": "",
-                        "runProcessSubmitLabel": "",
-                        "id": "0AB4C5EC414941F7AD1D3384AE3DE5D0",
-                        "processDefId": "incomingMailProcess",
-                        "redirectUrlAfterComplete": "",
-                        "fieldPassover": ""
+                        "readonlyLabel": "true"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "Incoming List",
+                        "enableOffline": "",
+                        "customId": "incoming_list",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "listIncomingMail",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "32754728B7164EC6CF95F141E5486668"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "Outgoing Mail",
+                        "enableOffline": "",
+                        "customId": "outgoing_mail",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "listOutgoing",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "E3681D82101F4090CBEB36E2D808F9D1"
                     }
                 }
             ],
@@ -137,6 +188,52 @@
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
             "menus": [
+                {
+                    "className": "org.joget.apps.userview.lib.RunProcess",
+                    "properties": {
+                        "runProcessDirectly": "Yes",
+                        "fieldPassoverMethod": "append",
+                        "keyName": "",
+                        "label": "Create Incoming",
+                        "redirectTarget": "",
+                        "enableOffline": "",
+                        "afterSavedReloadTarget": "true",
+                        "customId": "create_incoming",
+                        "userviewCacheDuration": "20",
+                        "messageShowAfterComplete": "Sukses",
+                        "showInPopupDialog": "",
+                        "userviewCacheScope": "",
+                        "actionAfterSaved": "",
+                        "runProcessSubmitLabel": "",
+                        "id": "0AB4C5EC414941F7AD1D3384AE3DE5D0",
+                        "processDefId": "incomingMailProcess",
+                        "redirectUrlAfterComplete": "0AB4C5EC414941F7AD1D3384AE3DE5D0",
+                        "fieldPassover": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.RunProcess",
+                    "properties": {
+                        "runProcessDirectly": "Yes",
+                        "fieldPassoverMethod": "append",
+                        "keyName": "",
+                        "label": "Create Outgoing",
+                        "redirectTarget": "",
+                        "enableOffline": "",
+                        "afterSavedReloadTarget": "true",
+                        "customId": "createOutgoing",
+                        "userviewCacheDuration": "20",
+                        "messageShowAfterComplete": "sukses",
+                        "showInPopupDialog": "",
+                        "userviewCacheScope": "",
+                        "actionAfterSaved": "",
+                        "runProcessSubmitLabel": "",
+                        "id": "2BEBA890F1014E3FCB911B333E1F9E54",
+                        "processDefId": "sendEmailOut",
+                        "redirectUrlAfterComplete": "",
+                        "fieldPassover": ""
+                    }
+                },
                 {
                     "className": "org.joget.apps.userview.lib.FormMenu",
                     "properties": {
