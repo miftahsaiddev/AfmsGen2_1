@@ -70,7 +70,7 @@
                         "workflowVariable": "",
                         "label": "Letter From",
                         "id": "letter_from",
-                        "value": "letter_from",
+                        "value": "",
                         "readonlyLabel": ""
                     }
                 },
