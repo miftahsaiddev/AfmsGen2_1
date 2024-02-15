@@ -55,8 +55,14 @@
             "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
             "id": "action_1",
             "properties": {
-                "label": "Hyperlink",
-                "target": "_self"
+                "visible": "true",
+                "hrefColumn": "",
+                "hrefParam": "",
+                "label": "Create",
+                "href": "form_letter_subject_sub?embed=true",
+                "confirmation": "",
+                "datalist_type": "action",
+                "target": "popup"
             }
         }
     ],
