@@ -60,13 +60,19 @@
     "orderBy": "id",
     "description": "",
     "filters": [{
+        "hidden": "",
         "name": "name",
         "id": "filter_0",
-        "label": "Name",
+        "label": "Agent Name",
         "type": {
             "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-            "properties": {}
+            "properties": {
+                "defaultValue": "",
+                "filterSelection": "",
+                "searchFields": ""
+            }
         },
+        "datalist_type": "filter",
         "filterParamName": "d-3569397-fn_name"
     }],
     "showDataWhenFilterSet": "",
