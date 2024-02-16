@@ -27,12 +27,12 @@
                                 "mandatory": "true"
                             }
                         },
-                        "label": "Letter Type",
+                        "label": "Patent Type",
                         "readonly": "",
                         "size": "",
                         "workflowVariable": "",
                         "style": "",
-                        "id": "letter_type",
+                        "id": "patent_type",
                         "placeholder": "",
                         "value": "",
                         "readonlyLabel": "",
