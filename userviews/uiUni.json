@@ -352,6 +352,27 @@
                         "rowCount": "true",
                         "id": "3C8B1409E4014367F4EFC8AEB1B73195"
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Patent Type PPH",
+                        "enableOffline": "",
+                        "customId": "list_patent_type_pph",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "patentTypePphList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "F90BF3CDC74E40866EB9032737B73618"
+                    }
                 }
             ],
             "properties": {
