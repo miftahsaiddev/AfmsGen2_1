@@ -76,13 +76,19 @@
     "orderBy": "id",
     "description": "",
     "filters": [{
+        "hidden": "",
         "name": "c_sub_sub_letter_type",
         "id": "filter_0",
-        "label": "c_sub_sub_letter_type",
+        "label": "Sub Sub Letter Type",
         "type": {
             "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-            "properties": {}
+            "properties": {
+                "defaultValue": "",
+                "filterSelection": "",
+                "searchFields": ""
+            }
         },
+        "datalist_type": "filter",
         "filterParamName": "d-6737404-fn_c_sub_sub_letter_type"
     }],
     "showDataWhenFilterSet": "",
