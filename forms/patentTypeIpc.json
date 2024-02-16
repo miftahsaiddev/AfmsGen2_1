@@ -6,11 +6,11 @@
                     "className": "org.joget.apps.form.lib.IdGeneratorField",
                     "properties": {
                         "hidden": "",
-                        "format": "PTO-???",
+                        "format": "IPC-???",
                         "workflowVariable": "",
-                        "envVariable": "counter_pto",
+                        "envVariable": "counter_ipc",
                         "isDistributedGeneration": "",
-                        "label": "Patent Type ID",
+                        "label": "IPC Type ID",
                         "id": "id"
                     }
                 },
