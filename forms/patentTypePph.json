@@ -27,12 +27,12 @@
                                 "mandatory": "true"
                             }
                         },
-                        "label": "Patent Type",
+                        "label": "PPH Type",
                         "readonly": "",
                         "size": "",
                         "workflowVariable": "",
                         "style": "",
-                        "id": "patent_type",
+                        "id": "pph_type",
                         "placeholder": "",
                         "value": "",
                         "readonlyLabel": "",
