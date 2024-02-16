@@ -16,10 +16,31 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "patent_type",
-            "id": "column_1",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "Patent Type",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "patent_type",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+                "properties": {
+                    "hrefColumn": "id",
+                    "hrefParam": "id",
+                    "href": "form_patent_type?embed=true",
+                    "confirmation": "",
+                    "target": "popup"
+                }
+            },
+            "style": "",
+            "id": "column_1",
+            "alignment": ""
         }
     ],
     "pageSize": "0",
