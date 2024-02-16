@@ -81,7 +81,7 @@
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
-            "formDefId": "agent",
+            "formDefId": "applicant",
             "extraCondition": ""
         }
     },
