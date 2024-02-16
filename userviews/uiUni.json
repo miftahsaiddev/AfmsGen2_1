@@ -856,6 +856,37 @@
                         "userviewCacheScope": "",
                         "readonlyLabel": "true"
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.FormMenu",
+                    "properties": {
+                        "loadDataWithKey": "",
+                        "actionOnCancel": "closepopup",
+                        "redirectTargetOnCancel": "top",
+                        "customFooter": "",
+                        "paramName": "",
+                        "enableOffline": "",
+                        "afterSavedReloadTarget": "true",
+                        "customId": "form_patent_type_pph",
+                        "showInPopupDialog": "Yes",
+                        "readonly": "",
+                        "cancelButtonLabel": "Back",
+                        "actionAfterSaved": "",
+                        "id": "1341FF5A102F42537E6C368AA10DE922",
+                        "redirectUrlAfterComplete": "list_patent_type_pph",
+                        "fieldPassover": "",
+                        "formId": "patentTypePph",
+                        "customHeader": "",
+                        "fieldPassoverMethod": "append",
+                        "redirectTargetOnComplete": "",
+                        "keyName": "",
+                        "label": "Form Patent Type PPH",
+                        "userviewCacheDuration": "20",
+                        "messageShowAfterComplete": "",
+                        "submitButtonLabel": "",
+                        "userviewCacheScope": "",
+                        "readonlyLabel": "true"
+                    }
                 }
             ],
             "properties": {
