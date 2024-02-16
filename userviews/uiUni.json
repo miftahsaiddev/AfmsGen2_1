@@ -331,6 +331,27 @@
                         "rowCount": "true",
                         "id": "1DA56CAF84E4426FB4D5239C25B180BD"
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Patent Type Order",
+                        "enableOffline": "",
+                        "customId": "list_patent_type_order",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "patentTypeOrderList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "3C8B1409E4014367F4EFC8AEB1B73195"
+                    }
                 }
             ],
             "properties": {
