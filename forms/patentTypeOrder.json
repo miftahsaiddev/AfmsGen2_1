@@ -10,7 +10,7 @@
                         "workflowVariable": "",
                         "envVariable": "counter_pto",
                         "isDistributedGeneration": "",
-                        "label": "Type Order ID",
+                        "label": "Patent Type ID",
                         "id": "id"
                     }
                 },
