@@ -194,6 +194,15 @@
                 {
                     "elements": [
                         {
+                            "className": "org.joget.apps.form.lib.CustomHTML",
+                            "properties": {
+                                "requiredSanitize": "true",
+                                "autoPopulate": "False",
+                                "label": "",
+                                "id": "field23"
+                            }
+                        },
+                        {
                             "className": "org.joget.apps.form.lib.SelectBox",
                             "properties": {
                                 "controlField": "",
@@ -251,26 +260,15 @@
                             }
                         },
                         {
-                            "className": "org.joget.apps.form.lib.CustomHTML",
+                            "className": "org.joget.apps.form.lib.TextField",
                             "properties": {
                                 "requiredSanitize": "true",
-                                "autoPopulate": "",
-                                "label": "",
-                                "id": "field23",
-                                "value": "<script>\r\ndocument.getElementsByName('status_order')[0].addEventListener('change', function() {\r\n  var textField = document.getElementsByName('no_project')[0];\r\n  \r\n  // Contoh: membuat textfield menjadi readonly jika opsi yang dipilih adalah \"opsi2\"\r\n  if (this.value === '0') {\r\n    textField.readOnly = true; // membuat textfield readonly\r\n  } else {\r\n    textField.readOnly = false; // membuat textfield bisa diedit\r\n  }\r\n});\r\n\r\n\r\ndocument.addEventListener('DOMContentLoaded', function() {\r\n  var tabs = document.querySelectorAll('li[data-step=\"2\"]');\r\n  if (tabs.length > 0) {\r\n    tabs[0].style.display = 'none';\r\n  }\r\n});\r\n<\/script>\r\n"
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.HiddenField",
-                            "properties": {
-                                "useDefaultWhenEmpty": "",
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "workflowVariable": "",
-                                "id": "deadline_date",
-                                "value": ""
+                                "readonly": "False",
+                                "style": "",
+                                "label": "Text Field",
+                                "id": "field24",
+                                "readonlyLabel": "False",
+                                "storeNumeric": "False"
                             }
                         }
                     ],

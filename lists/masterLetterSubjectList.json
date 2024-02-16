@@ -19,37 +19,16 @@
         {
             "filterable": true,
             "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Letter From",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "letter_from",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-                "properties": {
-                    "hrefColumn": "id",
-                    "hrefParam": "id",
-                    "href": "form_letter_from?embed=true",
-                    "confirmation": "",
-                    "target": "popup"
-                }
-            },
-            "style": "",
+            "name": "subject_name",
             "id": "column_1",
-            "alignment": ""
+            "label": "Subject Name",
+            "sortable": "false"
         }
     ],
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
-    "orderBy": "",
+    "orderBy": "id",
     "description": "",
     "filters": [],
     "showDataWhenFilterSet": "",
@@ -57,14 +36,14 @@
     "hidePageSize": "",
     "disableResponsive": "",
     "cardCollapseByDefault": "",
-    "name": "List Letter From",
+    "name": "List Master Letter Subject",
     "rowActionsMode": "",
     "showhidecolumns": "",
-    "id": "letterFromList",
+    "id": "masterLetterSubjectList",
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
-            "formDefId": "letterFrom",
+            "formDefId": "masterLetterSubject",
             "extraCondition": ""
         }
     },
@@ -75,7 +54,7 @@
             "properties": {
                 "deleteFiles": "",
                 "deleteGridData": "",
-                "formDefId": "letterFrom",
+                "formDefId": "masterLetterSubject",
                 "deleteSubformData": "",
                 "label": "Delete",
                 "confirmation": "",
@@ -91,7 +70,7 @@
                 "hrefColumn": "",
                 "hrefParam": "",
                 "label": "Create",
-                "href": "form_letter_from?embed=true",
+                "href": "form_master_letter_subject?embed=true",
                 "confirmation": "",
                 "datalist_type": "action",
                 "target": "popup"

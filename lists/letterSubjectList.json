@@ -11,14 +11,6 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "id",
-            "id": "column_0",
-            "label": "ID",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
             "name": "type_of_mail",
             "id": "column_2",
             "label": "Type of Mail",
@@ -40,18 +32,20 @@
             "width": "",
             "headerAlignment": "",
             "action": {
-                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-                "properties": {
-                    "hrefColumn": "",
-                    "hrefParam": "",
-                    "href": "form_letter_subject?embed=true",
-                    "confirmation": "",
-                    "target": "popup"
-                }
+                "className": "",
+                "properties": {}
             },
             "style": "",
             "id": "column_1",
             "alignment": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "sub_letter_type",
+            "id": "column_0",
+            "label": "Sub Letter Type",
+            "sortable": "false"
         },
         {
             "filterable": true,
@@ -61,11 +55,11 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Subject Name",
+            "label": "Letter Subject",
             "sortable": "false",
             "datalist_type": "column",
             "exclude_export": "",
-            "name": "subject_name",
+            "name": "letter_subject",
             "width": "",
             "headerAlignment": "",
             "action": {
@@ -85,33 +79,33 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "limit_day",
-            "id": "column_4",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "Limit Day",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "limit_day",
+            "width": "",
+            "headerAlignment": "dataListAlignCenter",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_4",
+            "alignment": "dataListAlignCenter"
         }
     ],
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
-    "orderBy": "id",
+    "orderBy": "letter_subject",
     "description": "",
-    "filters": [{
-        "hidden": "",
-        "name": "subject_name",
-        "id": "filter_0",
-        "label": "Subject Name",
-        "type": {
-            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-            "properties": {
-                "defaultValue": "",
-                "filterSelection": "",
-                "searchFields": ""
-            }
-        },
-        "datalist_type": "filter",
-        "filterParamName": "d-1577598-fn_subject_name"
-    }],
+    "filters": [],
     "showDataWhenFilterSet": "",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
     "hidePageSize": "",

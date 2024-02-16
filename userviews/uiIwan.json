@@ -288,6 +288,29 @@
                         "rowCount": "true",
                         "id": "CCA298180A6E44DB6AE98C269E75042D"
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.RunProcess",
+                    "properties": {
+                        "runProcessDirectly": "Yes",
+                        "fieldPassoverMethod": "append",
+                        "keyName": "",
+                        "label": "Run Process Gov",
+                        "redirectTarget": "",
+                        "enableOffline": "",
+                        "afterSavedReloadTarget": "true",
+                        "customId": "run_process_gov",
+                        "userviewCacheDuration": "20",
+                        "messageShowAfterComplete": "sakses",
+                        "showInPopupDialog": "",
+                        "userviewCacheScope": "",
+                        "actionAfterSaved": "",
+                        "runProcessSubmitLabel": "",
+                        "id": "326FCAA008AC46EC7BE1B3EA4D8ECB1F",
+                        "processDefId": "I0002IncomingMailGovernment",
+                        "redirectUrlAfterComplete": "list_incoming_mail_government",
+                        "fieldPassover": ""
+                    }
                 }
             ],
             "properties": {
