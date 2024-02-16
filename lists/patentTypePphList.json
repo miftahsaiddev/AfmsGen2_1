@@ -4,45 +4,14 @@
         "properties": {}
     },
     "rowActions": [],
-    "columns": [
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "id",
-            "id": "column_0",
-            "label": "ID",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Patent Type Order",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "patent_type",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-                "properties": {
-                    "hrefColumn": "id",
-                    "hrefParam": "id",
-                    "href": "form_patent_type_order?embed=true",
-                    "confirmation": "",
-                    "target": "popup"
-                }
-            },
-            "style": "",
-            "id": "column_1",
-            "alignment": ""
-        }
-    ],
+    "columns": [{
+        "filterable": true,
+        "hidden": "false",
+        "name": "id",
+        "id": "column_0",
+        "label": "ID",
+        "sortable": "false"
+    }],
     "pageSize": "0",
     "orderBy": "",
     "description": "",
@@ -53,7 +22,7 @@
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
-            "formDefId": "patentTypeOrder",
+            "formDefId": "patentTypePph",
             "extraCondition": ""
         }
     },
