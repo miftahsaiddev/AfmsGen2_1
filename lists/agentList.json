@@ -24,7 +24,7 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Name",
+            "label": "Agent Name",
             "sortable": "false",
             "datalist_type": "column",
             "exclude_export": "",
@@ -59,7 +59,16 @@
     "pageSize": "0",
     "orderBy": "id",
     "description": "",
-    "filters": [],
+    "filters": [{
+        "name": "name",
+        "id": "filter_0",
+        "label": "Name",
+        "type": {
+            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+            "properties": {}
+        },
+        "filterParamName": "d-3569397-fn_name"
+    }],
     "showDataWhenFilterSet": "",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
     "hidePageSize": "",
