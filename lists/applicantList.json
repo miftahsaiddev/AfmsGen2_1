@@ -117,7 +117,7 @@
                 "href": "form_applicant?embed=true",
                 "confirmation": "",
                 "datalist_type": "action",
-                "target": "popup"
+                "target": "_self"
             }
         }
     ],
