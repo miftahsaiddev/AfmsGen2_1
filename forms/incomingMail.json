@@ -504,7 +504,7 @@
                                     "properties": {
                                         "addEmptyOption": "true",
                                         "groupingColumn": "",
-                                        "formDefId": "letterSubject",
+                                        "formDefId": "masterLetterSubject",
                                         "labelColumn": "subject_name",
                                         "extraCondition": "",
                                         "cacheInterval": "",
