@@ -86,7 +86,7 @@
             "properties": {
                 "deleteFiles": "",
                 "deleteGridData": "",
-                "formDefId": "agent",
+                "formDefId": "applicant",
                 "deleteSubformData": "",
                 "label": "Delete",
                 "confirmation": "",
