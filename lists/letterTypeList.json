@@ -44,6 +44,14 @@
             "style": "",
             "id": "column_1",
             "alignment": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "letter_code",
+            "id": "column_2",
+            "label": "Kode Letter",
+            "sortable": "false"
         }
     ],
     "draggabletable": "",
