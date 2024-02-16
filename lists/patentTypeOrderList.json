@@ -36,6 +36,19 @@
             "extraCondition": ""
         }
     },
-    "actions": [],
+    "actions": [{
+        "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
+        "id": "action_0",
+        "properties": {
+            "deleteFiles": "",
+            "deleteGridData": "",
+            "formDefId": "patentTypeOrder",
+            "deleteSubformData": "",
+            "label": "Delete",
+            "confirmation": "",
+            "datalist_type": "action",
+            "abortRelatedRunningProcesses": ""
+        }
+    }],
     "order": ""
 }
