@@ -360,6 +360,27 @@
                         "customHeader": "",
                         "keyName": "",
                         "customFooter": "",
+                        "label": "List Patent Type IPC",
+                        "enableOffline": "",
+                        "customId": "list_patent_type_ipc",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "patentTypeIpcList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "4DAEEFD138F542EB1704D73F821B11DB"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
                         "label": "List Patent Type PPH",
                         "enableOffline": "",
                         "customId": "list_patent_type_pph",
