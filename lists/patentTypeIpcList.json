@@ -59,7 +59,7 @@
                 "hrefColumn": "",
                 "hrefParam": "",
                 "label": "Create",
-                "href": "form_patent_type_pph?embed=true",
+                "href": "form_patent_type_ipc?embed=true",
                 "confirmation": "",
                 "datalist_type": "action",
                 "target": "popup"
