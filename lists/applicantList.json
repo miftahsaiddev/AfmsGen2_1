@@ -38,7 +38,7 @@
                     "hrefParam": "id",
                     "href": "form_applicant?embed=true",
                     "confirmation": "",
-                    "target": "popup"
+                    "target": "_self"
                 }
             },
             "style": "",
