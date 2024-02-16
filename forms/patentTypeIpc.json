@@ -98,7 +98,7 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Patent Type Order",
+            "label": "Patent Type IPC",
             "reverse": "",
             "storeBinder": {
                 "className": "",
