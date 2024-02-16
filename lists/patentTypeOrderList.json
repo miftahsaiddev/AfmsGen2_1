@@ -1,12 +1,34 @@
 {
+    "template": {
+        "className": "",
+        "properties": {}
+    },
     "rowActions": [],
-    "columns": [],
-    "name": "List Patent Type Order",
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "id",
+            "id": "column_0",
+            "label": "ID",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "patent_type",
+            "id": "column_1",
+            "label": "Patent Type",
+            "sortable": "false"
+        }
+    ],
     "pageSize": "0",
     "orderBy": "",
     "description": "",
-    "id": "patentTypeOrderList",
     "filters": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "name": "List Patent Type Order",
+    "id": "patentTypeOrderList",
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
@@ -15,6 +37,5 @@
         }
     },
     "actions": [],
-    "pageSizeSelectorOptions": "10,20,30,40,50,100",
     "order": ""
 }
