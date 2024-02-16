@@ -1,0 +1,91 @@
+{
+    "template": {
+        "className": "",
+        "properties": {}
+    },
+    "rowActions": [],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "id",
+            "id": "column_0",
+            "label": "ID",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "PPH Type",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "pph_type",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+                "properties": {
+                    "hrefColumn": "id",
+                    "hrefParam": "id",
+                    "href": "form_patent_type_pph?embed=true",
+                    "confirmation": "",
+                    "target": "popup"
+                }
+            },
+            "style": "",
+            "id": "column_1",
+            "alignment": ""
+        }
+    ],
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "filters": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "name": "List Patent Type IPC",
+    "id": "patentTypeIpcList",
+    "binder": {
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "properties": {
+            "formDefId": "patentTypePph",
+            "extraCondition": ""
+        }
+    },
+    "actions": [
+        {
+            "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
+            "id": "action_0",
+            "properties": {
+                "deleteFiles": "",
+                "deleteGridData": "",
+                "formDefId": "patentTypePph",
+                "deleteSubformData": "",
+                "label": "Delete",
+                "confirmation": "",
+                "datalist_type": "action",
+                "abortRelatedRunningProcesses": ""
+            }
+        },
+        {
+            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+            "id": "action_1",
+            "properties": {
+                "visible": "true",
+                "hrefColumn": "",
+                "hrefParam": "",
+                "label": "Create",
+                "href": "form_patent_type_pph?embed=true",
+                "confirmation": "",
+                "datalist_type": "action",
+                "target": "popup"
+            }
+        }
+    ],
+    "order": ""
+}
