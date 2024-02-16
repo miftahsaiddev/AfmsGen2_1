@@ -36,19 +36,35 @@
             "extraCondition": ""
         }
     },
-    "actions": [{
-        "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
-        "id": "action_0",
-        "properties": {
-            "deleteFiles": "",
-            "deleteGridData": "",
-            "formDefId": "patentTypeOrder",
-            "deleteSubformData": "",
-            "label": "Delete",
-            "confirmation": "",
-            "datalist_type": "action",
-            "abortRelatedRunningProcesses": ""
+    "actions": [
+        {
+            "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
+            "id": "action_0",
+            "properties": {
+                "deleteFiles": "",
+                "deleteGridData": "",
+                "formDefId": "patentTypeOrder",
+                "deleteSubformData": "",
+                "label": "Delete",
+                "confirmation": "",
+                "datalist_type": "action",
+                "abortRelatedRunningProcesses": ""
+            }
+        },
+        {
+            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+            "id": "action_1",
+            "properties": {
+                "visible": "true",
+                "hrefColumn": "",
+                "hrefParam": "",
+                "label": "Create",
+                "href": "form_patent_type?embed=true",
+                "confirmation": "",
+                "datalist_type": "action",
+                "target": "popup"
+            }
         }
-    }],
+    ],
     "order": ""
 }
