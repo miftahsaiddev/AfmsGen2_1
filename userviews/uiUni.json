@@ -22,6 +22,20 @@
         },
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [],
+            "properties": {
+                "hide": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "label": "<i class=\"fas fa-database\"><\/i> Master Data Processing",
+                "id": "category-F3F63EC7102F403C99C03B9D593086EB"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
             "menus": [
                 {
                     "className": "org.joget.apps.userview.lib.DataListMenu",
