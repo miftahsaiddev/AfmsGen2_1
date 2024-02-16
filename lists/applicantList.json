@@ -24,7 +24,7 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Agent Name",
+            "label": "Applicant Name",
             "sortable": "false",
             "datalist_type": "column",
             "exclude_export": "",
@@ -32,14 +32,8 @@
             "width": "",
             "headerAlignment": "",
             "action": {
-                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-                "properties": {
-                    "hrefColumn": "id",
-                    "hrefParam": "id",
-                    "href": "form_agent?embed=true",
-                    "confirmation": "",
-                    "target": "popup"
-                }
+                "className": "",
+                "properties": {}
             },
             "style": "",
             "id": "column_1",
