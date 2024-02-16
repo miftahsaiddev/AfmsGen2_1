@@ -4,14 +4,24 @@
         "properties": {}
     },
     "rowActions": [],
-    "columns": [{
-        "filterable": true,
-        "hidden": "false",
-        "name": "id",
-        "id": "column_0",
-        "label": "ID",
-        "sortable": "false"
-    }],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "id",
+            "id": "column_0",
+            "label": "ID",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "ipc_type",
+            "id": "column_1",
+            "label": "IPC Type",
+            "sortable": "false"
+        }
+    ],
     "pageSize": "0",
     "orderBy": "",
     "description": "",
@@ -33,7 +43,7 @@
             "properties": {
                 "deleteFiles": "",
                 "deleteGridData": "",
-                "formDefId": "patentTypePph",
+                "formDefId": "patentTypeIpc",
                 "deleteSubformData": "",
                 "label": "Delete",
                 "confirmation": "",
