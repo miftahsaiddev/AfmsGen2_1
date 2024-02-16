@@ -24,7 +24,7 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Agent Name",
+            "label": "Applicant Name",
             "sortable": "false",
             "datalist_type": "column",
             "exclude_export": "",
@@ -36,7 +36,7 @@
                 "properties": {
                     "hrefColumn": "id",
                     "hrefParam": "id",
-                    "href": "form_agent?embed=true",
+                    "href": "form_applicant?embed=true",
                     "confirmation": "",
                     "target": "popup"
                 }
@@ -74,14 +74,14 @@
     "hidePageSize": "",
     "disableResponsive": "",
     "cardCollapseByDefault": "",
-    "name": "List Agent",
+    "name": "List Applicant",
     "rowActionsMode": "",
     "showhidecolumns": "",
-    "id": "agentList",
+    "id": "applicantList",
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
-            "formDefId": "agent",
+            "formDefId": "applicant",
             "extraCondition": ""
         }
     },
@@ -92,7 +92,7 @@
             "properties": {
                 "deleteFiles": "",
                 "deleteGridData": "",
-                "formDefId": "agent",
+                "formDefId": "applicant",
                 "deleteSubformData": "",
                 "label": "Delete",
                 "confirmation": "",
@@ -108,7 +108,7 @@
                 "hrefColumn": "",
                 "hrefParam": "",
                 "label": "Create",
-                "href": "form_agent?embed=true",
+                "href": "form_applicant?embed=true",
                 "confirmation": "",
                 "datalist_type": "action",
                 "target": "popup"

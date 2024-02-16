@@ -3,9 +3,6 @@
         "className": "",
         "properties": {}
     },
-    "considerFilterWhenGetTotal": "",
-    "useSession": "",
-    "responsiveMode": "",
     "rowActions": [],
     "columns": [
         {
@@ -24,11 +21,11 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Agent Name",
+            "label": "PPH Type",
             "sortable": "false",
             "datalist_type": "column",
             "exclude_export": "",
-            "name": "name",
+            "name": "pph_type",
             "width": "",
             "headerAlignment": "",
             "action": {
@@ -36,7 +33,7 @@
                 "properties": {
                     "hrefColumn": "id",
                     "hrefParam": "id",
-                    "href": "form_agent?embed=true",
+                    "href": "form_patent_type_pph?embed=true",
                     "confirmation": "",
                     "target": "popup"
                 }
@@ -44,44 +41,19 @@
             "style": "",
             "id": "column_1",
             "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "address",
-            "id": "column_2",
-            "label": "Address",
-            "sortable": "false"
         }
     ],
-    "draggabletable": "",
-    "cardCollapsible": "",
     "pageSize": "0",
-    "orderBy": "id",
+    "orderBy": "",
     "description": "",
-    "filters": [{
-        "name": "name",
-        "id": "filter_0",
-        "label": "Name",
-        "type": {
-            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-            "properties": {}
-        },
-        "filterParamName": "d-3569397-fn_name"
-    }],
-    "showDataWhenFilterSet": "",
+    "filters": [],
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
-    "hidePageSize": "",
-    "disableResponsive": "",
-    "cardCollapseByDefault": "",
-    "name": "List Agent",
-    "rowActionsMode": "",
-    "showhidecolumns": "",
-    "id": "agentList",
+    "name": "List Patent Type PPH",
+    "id": "patentTypePphList",
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
-            "formDefId": "agent",
+            "formDefId": "patentTypePph",
             "extraCondition": ""
         }
     },
@@ -92,7 +64,7 @@
             "properties": {
                 "deleteFiles": "",
                 "deleteGridData": "",
-                "formDefId": "agent",
+                "formDefId": "patentTypePph",
                 "deleteSubformData": "",
                 "label": "Delete",
                 "confirmation": "",
@@ -108,7 +80,7 @@
                 "hrefColumn": "",
                 "hrefParam": "",
                 "label": "Create",
-                "href": "form_agent?embed=true",
+                "href": "form_patent_type_pph?embed=true",
                 "confirmation": "",
                 "datalist_type": "action",
                 "target": "popup"
