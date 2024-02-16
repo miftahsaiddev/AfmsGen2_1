@@ -297,27 +297,6 @@
                         "customHeader": "",
                         "keyName": "",
                         "customFooter": "",
-                        "label": "List Agent",
-                        "enableOffline": "",
-                        "customId": "list_agent",
-                        "buttonPosition": "topLeft",
-                        "datalistId": "agentList",
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "rowCount": "true",
-                        "id": "0F46AFD72A664237FE6A6E5CCC016A33"
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "cacheAllLinks": "",
-                        "customHeader": "",
-                        "keyName": "",
-                        "customFooter": "",
                         "label": "List Applicant",
                         "enableOffline": "",
                         "customId": "list_applicant",
@@ -330,27 +309,6 @@
                         "userviewCacheScope": "",
                         "rowCount": "true",
                         "id": "7375742A33B34FD8F51923F5439D670B"
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "cacheAllLinks": "",
-                        "customHeader": "",
-                        "keyName": "",
-                        "customFooter": "",
-                        "label": "List Agent",
-                        "enableOffline": "",
-                        "customId": "list_agent",
-                        "buttonPosition": "topLeft",
-                        "datalistId": "agentList",
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "rowCount": "true",
-                        "id": "0F46AFD72A664237FE6A6E5CCC016A33"
                     }
                 },
                 {
