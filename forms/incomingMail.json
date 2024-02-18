@@ -72,39 +72,6 @@
                             }
                         },
                         {
-                            "className": "org.joget.apps.form.lib.SelectBox",
-                            "properties": {
-                                "permissionHidden": "",
-                                "controlField": "",
-                                "multiple": "",
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "label": "Letter From",
-                                "readonly": "",
-                                "size": "",
-                                "optionsBinder": {
-                                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                                    "properties": {
-                                        "addEmptyOption": "",
-                                        "groupingColumn": "",
-                                        "formDefId": "letterFrom",
-                                        "labelColumn": "letter_from",
-                                        "extraCondition": "",
-                                        "cacheInterval": "",
-                                        "emptyLabel": "Pilih Letter From",
-                                        "idColumn": ""
-                                    }
-                                },
-                                "options": [],
-                                "workflowVariable": "",
-                                "id": "letter_from",
-                                "value": "",
-                                "readonlyLabel": ""
-                            }
-                        },
-                        {
                             "className": "org.joget.apps.form.lib.DatePicker",
                             "properties": {
                                 "yearRange": "c-10:c+10",
@@ -158,6 +125,39 @@
                                 "id": "received_date",
                                 "placeholder": "",
                                 "disableWeekends": "",
+                                "value": "",
+                                "readonlyLabel": ""
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.SelectBox",
+                            "properties": {
+                                "permissionHidden": "",
+                                "controlField": "",
+                                "multiple": "",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "label": "Letter From",
+                                "readonly": "",
+                                "size": "",
+                                "optionsBinder": {
+                                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                                    "properties": {
+                                        "addEmptyOption": "",
+                                        "groupingColumn": "",
+                                        "formDefId": "letterFrom",
+                                        "labelColumn": "letter_from",
+                                        "extraCondition": "",
+                                        "cacheInterval": "",
+                                        "emptyLabel": "Pilih Letter From",
+                                        "idColumn": ""
+                                    }
+                                },
+                                "options": [],
+                                "workflowVariable": "",
+                                "id": "letter_from",
                                 "value": "",
                                 "readonlyLabel": ""
                             }
