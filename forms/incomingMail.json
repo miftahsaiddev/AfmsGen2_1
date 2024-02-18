@@ -56,8 +56,17 @@
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
+                                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                                    "properties": {
+                                        "addEmptyOption": "true",
+                                        "groupingColumn": "",
+                                        "formDefId": "patent",
+                                        "labelColumn": "id",
+                                        "extraCondition": "",
+                                        "cacheInterval": "",
+                                        "emptyLabel": "",
+                                        "idColumn": "id"
+                                    }
                                 },
                                 "options": [],
                                 "validator": {
