@@ -151,7 +151,7 @@
                                     "properties": {}
                                 },
                                 "label": "Letter From",
-                                "readonly": "true",
+                                "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
                                     "className": "org.joget.apps.form.lib.FormOptionsBinder",
