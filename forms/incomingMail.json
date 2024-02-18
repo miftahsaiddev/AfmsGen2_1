@@ -51,24 +51,26 @@
                             }
                         },
                         {
-                            "className": "org.joget.apps.form.lib.TextField",
+                            "className": "org.joget.marketplace.AutocompleteTextField",
                             "properties": {
-                                "requiredSanitize": "true",
-                                "maxlength": "",
+                                "readonly": "",
+                                "size": "",
+                                "optionsBinder": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "options": [],
                                 "validator": {
                                     "className": "",
                                     "properties": {}
                                 },
-                                "label": "No Project",
-                                "readonly": "",
-                                "size": "",
+                                "selection_id": "",
                                 "workflowVariable": "",
-                                "style": "",
+                                "fieldInput-style-width": "70%",
+                                "label": "No. Project",
                                 "id": "no_project",
-                                "placeholder": "",
                                 "value": "",
-                                "readonlyLabel": "",
-                                "storeNumeric": ""
+                                "readonlyLabel": ""
                             }
                         },
                         {
