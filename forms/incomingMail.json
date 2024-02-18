@@ -91,7 +91,7 @@
                                         "groupingColumn": "",
                                         "formDefId": "letterFrom",
                                         "labelColumn": "letter_from",
-                                        "extraCondition": "id='LF-001'",
+                                        "extraCondition": "",
                                         "cacheInterval": "",
                                         "emptyLabel": "Pilih Letter From",
                                         "idColumn": ""
