@@ -332,40 +332,26 @@
                                 "autoPopulate": "",
                                 "label": "",
                                 "id": "field23",
-                                "value": "<script>\r\ndocument.getElementsByName('status_order')[0].addEventListener('change', function() {\r\n  var textField = document.getElementsByName('no_project')[0];\r\n  \r\n  // Contoh: membuat textfield menjadi readonly jika opsi yang dipilih adalah \"opsi2\"\r\n  if (this.value === '0') {\r\n    textField.readOnly = true; // membuat textfield readonly\r\n  } else {\r\n    textField.readOnly = false; // membuat textfield bisa diedit\r\n  }\r\n});\r\n\r\n\r\ndocument.addEventListener('DOMContentLoaded', function() {\r\n  var tabs = document.querySelectorAll('li[data-step=\"2\"]');\r\n  if (tabs.length > 0) {\r\n    tabs[0].style.display = 'none';\r\n  }\r\n});\r\n<\/script>\r\n"
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.TextField",
-                            "properties": {
-                                "requiredSanitize": "true",
-                                "maxlength": "",
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "label": "Agent Address",
-                                "readonly": "",
-                                "size": "",
-                                "workflowVariable": "",
-                                "style": "",
-                                "id": "agent_address",
-                                "placeholder": "",
-                                "value": "",
-                                "readonlyLabel": "",
-                                "storeNumeric": ""
+                                "value": "<script>\r\ndocument.getElementsByName('status_order')[0].addEventListener('change', function() {\r\n  var textField = document.getElementsByName('no_project')[0];\r\n  \r\n  // Contoh: membuat textfield menjadi readonly jika opsi yang dipilih adalah \"opsi2\"\r\n  if (this.value === '0') {\r\n    textField.readOnly = true; // membuat textfield readonly\r\n  } else {\r\n    textField.readOnly = false; // membuat textfield bisa diedit\r\n  }\r\n});\r\n\r\n\r\ndocument.addEventListener('DOMContentLoaded', function() {\r\n  var tabs = document.querySelectorAll('li[data-step=\"2\"]');\r\n  if (tabs.length > 0) {\r\n    tabs[0].style.display = 'none';\r\n  }\r\n});\r\n\r\n\r\n$(\"#no_project\").blur(function(){\r\n    \r\n\r\n    var values = FormUtil.getValues(\"no_project\");\r\n    var valfield=''\r\n    for (var i = 0; i < values.length; i++) {\r\n        console.log(values[i]);\r\n        valfield =values[i];\r\n    }\r\n    ConnectionManager.get('http://localhost:8080/afms-Api/getPatentDetailById/'+valfield, callback, '', false);\r\n    \r\n    \r\n    var callback = {\r\n    success: function(response) {\r\n \r\n        var responseObject = JSON.parse(response);\r\n        var field1 = FormUtil.getField(\"field1\");\r\n        var field4 = FormUtil.getField(\"field4\");\r\n        $(field1).val(responseObject.c_name); //set value\r\n        $(field4).val(\"2\"); //set value\r\n        }\r\n    };\r\n});\r\n    \r\n<\/script>\r\n"
                             }
                         },
                         {
                             "className": "org.joget.apps.form.lib.TextArea",
                             "properties": {
                                 "requiredSanitize": "true",
-                                "readonly": "False",
-                                "label": "Text Area",
-                                "id": "field26",
+                                "readonly": "",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "workflowVariable": "",
+                                "label": "Agent Address",
+                                "id": "agent_address",
+                                "placeholder": "",
                                 "rows": "5",
                                 "cols": "20",
-                                "readonlyLabel": "False"
+                                "value": "",
+                                "readonlyLabel": ""
                             }
                         },
                         {
