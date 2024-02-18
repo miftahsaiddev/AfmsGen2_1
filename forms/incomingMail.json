@@ -342,7 +342,7 @@
                                 "rows": "5",
                                 "cols": "20",
                                 "value": "",
-                                "readonlyLabel": "true"
+                                "readonlyLabel": ""
                             }
                         },
                         {
