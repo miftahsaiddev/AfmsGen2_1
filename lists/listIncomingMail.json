@@ -34,7 +34,7 @@
                 "properties": {
                     "hrefColumn": "id",
                     "hrefParam": "id",
-                    "href": "incoming_mail_client",
+                    "href": "create_incoming",
                     "confirmation": "",
                     "target": "_self"
                 }
