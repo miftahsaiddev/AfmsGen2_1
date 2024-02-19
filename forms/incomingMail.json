@@ -8,10 +8,10 @@
                             "className": "org.joget.apps.form.lib.IdGeneratorField",
                             "properties": {
                                 "hidden": "",
-                                "format": "IN-#date.yyMMdd#????",
+                                "format": "IN-#date.yyMMdd#?????",
                                 "workflowVariable": "",
                                 "envVariable": "counter_in",
-                                "isDistributedGeneration": "true",
+                                "isDistributedGeneration": "",
                                 "label": "Mail No",
                                 "id": "id"
                             }
