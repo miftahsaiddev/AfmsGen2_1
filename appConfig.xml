@@ -10,14 +10,14 @@
    <pluginDefaultPropertiesList/>
    <environmentVariableList>
       <environmentVariable>
-         <id>counter_clt</id>
+         <id>counter_agt</id>
          <appId>AfmsGen2</appId>
          <appVersion>1</appVersion>
-         <value>8</value>
+         <value></value>
          <remarks>Used for plugin: Id Generator Field</remarks>
       </environmentVariable>
       <environmentVariable>
-         <id>counter_agt</id>
+         <id>counter_clt</id>
          <appId>AfmsGen2</appId>
          <appVersion>1</appVersion>
          <value></value>
