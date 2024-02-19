@@ -144,8 +144,13 @@
                         "parentSubFormId": "",
                         "readonly": "",
                         "loadBinder": {
-                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
-                            "properties": {}
+                            "className": "org.joget.tutorial.JdbcLoadBinder",
+                            "properties": {
+                                "autoHandleWorkflowVariable": "true",
+                                "jdbcDatasource": "default",
+                                "sql": "select * from  app_fd_afms_government where c_client_id=?",
+                                "autoHandleFiles": ""
+                            }
                         },
                         "noframe": "",
                         "formDefId": "government",
