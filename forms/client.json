@@ -7,7 +7,7 @@
                         "className": "org.joget.apps.form.lib.IdGeneratorField",
                         "properties": {
                             "hidden": "",
-                            "format": "AGT-??????",
+                            "format": "CLT-??????",
                             "workflowVariable": "",
                             "envVariable": "counter_agt",
                             "isDistributedGeneration": "",
