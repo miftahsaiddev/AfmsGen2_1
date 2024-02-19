@@ -723,7 +723,7 @@
                 </DataField>
             </DataFields>
             <Activities>
-                <Activity Id="incoming_mail" Name="Incoming Mail">
+                <Activity Id="incoming_mail" Name="#form.afms_incomingmail.id#">
                     <Implementation>
                         <No/>
                     </Implementation>
