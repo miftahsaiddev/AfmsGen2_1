@@ -158,7 +158,27 @@
         },
         {
             "elements": [{
-                "elements": [],
+                "elements": [{
+                    "className": "org.joget.apps.form.lib.SubForm",
+                    "properties": {
+                        "parentSubFormId": "",
+                        "readonly": "",
+                        "loadBinder": {
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "properties": {}
+                        },
+                        "noframe": "true",
+                        "formDefId": "government",
+                        "subFormParentId": "",
+                        "id": "field5",
+                        "label": "",
+                        "storeBinder": {
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "properties": {}
+                        },
+                        "readonlyLabel": ""
+                    }
+                }],
                 "className": "org.joget.apps.form.model.Column",
                 "properties": {"width": "100%"}
             }],
@@ -170,7 +190,7 @@
                     "className": "",
                     "properties": {}
                 },
-                "label": "Detail Government",
+                "label": "",
                 "reverse": "",
                 "storeBinder": {
                     "className": "",
