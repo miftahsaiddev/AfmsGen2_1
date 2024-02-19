@@ -442,6 +442,14 @@
    <messageList/>
    <resourceList>
       <appResource>
+         <id>miniLogo.png</id>
+         <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
+         <filesize>10332</filesize>
+         <permissionClass></permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
+      <appResource>
          <id>smart_2458321.png</id>
          <appId>AfmsGen2</appId>
          <appVersion>1</appVersion>
