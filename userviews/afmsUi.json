@@ -139,6 +139,42 @@
                 "label": "<i class=\"fas fa-mail-bulk\"><\/i> Mail Processing",
                 "id": "category-2EC1D566220748075976578D8BC1AF13"
             }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.RunProcess",
+                "properties": {
+                    "runProcessDirectly": "Yes",
+                    "fieldPassoverMethod": "append",
+                    "keyName": "",
+                    "label": "Create Incoming Client",
+                    "redirectTarget": "",
+                    "enableOffline": "",
+                    "afterSavedReloadTarget": "true",
+                    "customId": "create_incoming",
+                    "userviewCacheDuration": "20",
+                    "messageShowAfterComplete": "",
+                    "showInPopupDialog": "",
+                    "userviewCacheScope": "",
+                    "actionAfterSaved": "",
+                    "runProcessSubmitLabel": "",
+                    "id": "983AC97235154BA69FC3312EC0A10BFB",
+                    "processDefId": "incomingMailProcess",
+                    "redirectUrlAfterComplete": "",
+                    "fieldPassover": ""
+                }
+            }],
+            "properties": {
+                "hide": "yes",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "label": "HIDDEN",
+                "id": "category-AFB3F1F2F7F84187DAFC58FF815FEEE9"
+            }
         }
     ],
     "properties": {
