@@ -106,6 +106,27 @@
                         "rowCount": "true",
                         "id": "99A224DCA5A4456C0A8357FE861CAC41"
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "Outgoing Mail",
+                        "enableOffline": "",
+                        "customId": "outgoing_mail",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "outgoing_mail",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "51C158AD3F5447CED035DC11CAAF798E"
+                    }
                 }
             ],
             "properties": {
