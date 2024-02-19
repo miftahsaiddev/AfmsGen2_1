@@ -164,7 +164,7 @@
                                 },
                                 "workflowVariable": "",
                                 "label": "Agent",
-                                "id": "agent",
+                                "id": "client_id",
                                 "value": "",
                                 "readonlyLabel": ""
                             }
