@@ -136,6 +136,6 @@
             "className": "org.joget.apps.userview.lib.LoggedInUserPermission",
             "properties": {}
         },
-        "userviewName": "Afms"
+        "userviewName": "AFMS"
     }}
 }
