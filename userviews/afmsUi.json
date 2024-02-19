@@ -161,7 +161,7 @@
                     "runProcessSubmitLabel": "",
                     "id": "983AC97235154BA69FC3312EC0A10BFB",
                     "processDefId": "incomingMailProcess",
-                    "redirectUrlAfterComplete": "",
+                    "redirectUrlAfterComplete": "incoming_mail_client",
                     "fieldPassover": ""
                 }
             }],
