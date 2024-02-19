@@ -137,7 +137,7 @@
                     "className": "",
                     "properties": {}
                 },
-                "label": "",
+                "label": "a",
                 "reverse": "",
                 "storeBinder": {
                     "className": "",
@@ -211,7 +211,27 @@
         },
         {
             "elements": [{
-                "elements": [],
+                "elements": [{
+                    "className": "org.joget.apps.form.lib.SubForm",
+                    "properties": {
+                        "parentSubFormId": "",
+                        "readonly": "",
+                        "loadBinder": {
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "properties": {}
+                        },
+                        "noframe": "true",
+                        "formDefId": "translator",
+                        "subFormParentId": "",
+                        "id": "field6",
+                        "label": "",
+                        "storeBinder": {
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "properties": {}
+                        },
+                        "readonlyLabel": ""
+                    }
+                }],
                 "className": "org.joget.apps.form.model.Column",
                 "properties": {"width": "100%"}
             }],
@@ -223,7 +243,7 @@
                     "className": "",
                     "properties": {}
                 },
-                "label": "Detail Translator",
+                "label": "",
                 "reverse": "",
                 "storeBinder": {
                     "className": "",
