@@ -349,16 +349,13 @@
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
-                                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                                    "className": "org.joget.tutorial.JdbcOptionsBinder",
                                     "properties": {
-                                        "addEmptyOption": "true",
-                                        "groupingColumn": "",
-                                        "formDefId": "government",
-                                        "labelColumn": "name",
-                                        "extraCondition": "",
-                                        "cacheInterval": "",
+                                        "useAjax": "true",
+                                        "addEmpty": "true",
+                                        "jdbcDatasource": "default",
                                         "emptyLabel": "",
-                                        "idColumn": "id"
+                                        "sql": "select a.id ,b.c_name from app_fd_afms_client a left join app_fd_afms_agent b on a.id=b.c_client_id and a.c_type_client='LF-002'"
                                     }
                                 },
                                 "multiple": "",
@@ -381,16 +378,13 @@
                                 "readonly": "",
                                 "size": "",
                                 "optionsBinder": {
-                                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                                    "className": "org.joget.tutorial.JdbcOptionsBinder",
                                     "properties": {
-                                        "addEmptyOption": "true",
-                                        "groupingColumn": "",
-                                        "formDefId": "translator",
-                                        "labelColumn": "name",
-                                        "extraCondition": "",
-                                        "cacheInterval": "",
+                                        "useAjax": "true",
+                                        "addEmpty": "true",
+                                        "jdbcDatasource": "default",
                                         "emptyLabel": "",
-                                        "idColumn": "id"
+                                        "sql": "select a.id ,b.c_name from app_fd_afms_client a left join app_fd_afms_agent b on a.id=b.c_client_id and a.c_type_client='LF-0042'"
                                     }
                                 },
                                 "multiple": "",
