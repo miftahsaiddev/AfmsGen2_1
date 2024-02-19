@@ -11,7 +11,7 @@
                             "workflowVariable": "",
                             "envVariable": "counter_agt",
                             "isDistributedGeneration": "",
-                            "label": "Agent ID",
+                            "label": "Client ID",
                             "id": "id"
                         }
                     },
@@ -84,7 +84,7 @@
                     "className": "",
                     "properties": {}
                 },
-                "label": "Agent",
+                "label": "Client",
                 "reverse": "",
                 "storeBinder": {
                     "className": "",
@@ -114,7 +114,7 @@
                             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
                             "properties": {}
                         },
-                        "noframe": "true",
+                        "noframe": "",
                         "formDefId": "agent",
                         "subFormParentId": "",
                         "id": "field4",
@@ -137,7 +137,7 @@
                     "className": "",
                     "properties": {}
                 },
-                "label": "a",
+                "label": "Detail",
                 "reverse": "",
                 "storeBinder": {
                     "className": "",
