@@ -34,6 +34,14 @@
         {
             "filterable": true,
             "hidden": "false",
+            "name": "name_letter_type",
+            "id": "column_4",
+            "label": "name_letter_type",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "name": "c_name",
             "id": "column_0",
             "label": "c_name",
@@ -53,14 +61,6 @@
             "name": "c_deadline_date",
             "id": "column_3",
             "label": "c_deadline_date",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "name_letter_type",
-            "id": "column_4",
-            "label": "name_letter_type",
             "sortable": "false"
         }
     ],
