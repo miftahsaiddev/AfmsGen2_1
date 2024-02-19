@@ -46,42 +46,94 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "processid",
-            "id": "column_5",
-            "label": "processid",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Letter Type",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
             "name": "name_letter_type",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
             "id": "column_4",
-            "label": "name_letter_type",
-            "sortable": "false"
+            "alignment": ""
         },
         {
             "filterable": true,
             "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Agent",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
             "name": "c_name",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
             "id": "column_0",
-            "label": "c_name",
-            "sortable": "false"
+            "alignment": ""
         },
         {
             "filterable": true,
             "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Distribution Date",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
             "name": "distribution_date",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
             "id": "column_1",
-            "label": "distribution_date",
-            "sortable": "false"
+            "alignment": ""
         },
         {
             "filterable": true,
             "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Deadline Date",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
             "name": "c_deadline_date",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
             "id": "column_3",
-            "label": "c_deadline_date",
-            "sortable": "false"
+            "alignment": ""
         }
     ],
     "draggabletable": "",
