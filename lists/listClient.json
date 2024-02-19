@@ -1,0 +1,18 @@
+{
+    "rowActions": [],
+    "columns": [],
+    "name": "List Client",
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "id": "listClient",
+    "filters": [],
+    "binder": {
+        "name": "",
+        "className": "",
+        "properties": {}
+    },
+    "actions": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "order": ""
+}
