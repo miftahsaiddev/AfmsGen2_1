@@ -13,14 +13,7 @@
          <id>counter_agt</id>
          <appId>AfmsGen2</appId>
          <appVersion>1</appVersion>
-         <value></value>
-         <remarks>Used for plugin: Id Generator Field</remarks>
-      </environmentVariable>
-      <environmentVariable>
-         <id>counter_clt</id>
-         <appId>AfmsGen2</appId>
-         <appVersion>1</appVersion>
-         <value></value>
+         <value>2</value>
          <remarks>Used for plugin: Id Generator Field</remarks>
       </environmentVariable>
       <environmentVariable>
@@ -35,6 +28,20 @@
          <appId>AfmsGen2</appId>
          <appVersion>1</appVersion>
          <value>4</value>
+         <remarks>Used for plugin: Id Generator Field</remarks>
+      </environmentVariable>
+      <environmentVariable>
+         <id>counter_gov</id>
+         <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
+         <value>2</value>
+         <remarks>Used for plugin: Id Generator Field</remarks>
+      </environmentVariable>
+      <environmentVariable>
+         <id>counter_clt</id>
+         <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
+         <value>2</value>
          <remarks>Used for plugin: Id Generator Field</remarks>
       </environmentVariable>
       <environmentVariable>
@@ -63,13 +70,6 @@
          <appId>AfmsGen2</appId>
          <appVersion>1</appVersion>
          <value>1</value>
-         <remarks>Used for plugin: Id Generator Field</remarks>
-      </environmentVariable>
-      <environmentVariable>
-         <id>counter_gov</id>
-         <appId>AfmsGen2</appId>
-         <appVersion>1</appVersion>
-         <value></value>
          <remarks>Used for plugin: Id Generator Field</remarks>
       </environmentVariable>
       <environmentVariable>
