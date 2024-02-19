@@ -1034,6 +1034,6 @@
             "className": "org.joget.apps.userview.lib.LoggedInUserPermission",
             "properties": {}
         },
-        "userviewName": "UI UNI"
+        "userviewName": "Master AFMS"
     }}
 }
