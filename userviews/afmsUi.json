@@ -55,7 +55,7 @@
                         "enableOffline": "",
                         "customId": "incoming_mail_government",
                         "buttonPosition": "bothLeft",
-                        "datalistId": "listIncomingMail",
+                        "datalistId": "incomingMailGovernment",
                         "checkboxPosition": "left",
                         "selectionType": "multiple",
                         "userviewCacheDuration": "20",
