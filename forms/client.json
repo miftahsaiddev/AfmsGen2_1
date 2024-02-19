@@ -83,7 +83,7 @@
                 "elements": [{
                     "className": "org.joget.apps.form.lib.SubForm",
                     "properties": {
-                        "parentSubFormId": "",
+                        "parentSubFormId": "id",
                         "readonly": "",
                         "loadBinder": {
                             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
@@ -91,7 +91,7 @@
                         },
                         "noframe": "",
                         "formDefId": "agent",
-                        "subFormParentId": "",
+                        "subFormParentId": "client_id",
                         "id": "field4",
                         "label": "",
                         "storeBinder": {
