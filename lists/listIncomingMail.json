@@ -34,7 +34,7 @@
                 "properties": {
                     "hrefColumn": "",
                     "hrefParam": "",
-                    "href": "#process.activityInst.activity1.instanceId#",
+                    "href": "#performer.incoming_mail.id#",
                     "confirmation": "",
                     "target": "_self"
                 }
