@@ -4,6 +4,19 @@
             "elements": [{
                 "elements": [
                     {
+                        "className": "org.joget.apps.form.lib.HiddenField",
+                        "properties": {
+                            "useDefaultWhenEmpty": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "workflowVariable": "",
+                            "id": "client_id",
+                            "value": ""
+                        }
+                    },
+                    {
                         "className": "org.joget.apps.form.lib.IdGeneratorField",
                         "properties": {
                             "hidden": "",
@@ -83,7 +96,7 @@
                 "elements": [{
                     "className": "org.joget.apps.form.lib.SubForm",
                     "properties": {
-                        "parentSubFormId": "id",
+                        "parentSubFormId": "client_id",
                         "readonly": "",
                         "loadBinder": {
                             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
@@ -91,7 +104,7 @@
                         },
                         "noframe": "",
                         "formDefId": "agent",
-                        "subFormParentId": "client_id",
+                        "subFormParentId": "",
                         "id": "field4",
                         "label": "",
                         "storeBinder": {
