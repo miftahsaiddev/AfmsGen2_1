@@ -458,6 +458,14 @@
          <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
       </appResource>
       <appResource>
+         <id>server_164606.png</id>
+         <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
+         <filesize>22255</filesize>
+         <permissionClass></permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
+      <appResource>
          <id>smart_2458321.png</id>
          <appId>AfmsGen2</appId>
          <appVersion>1</appVersion>
