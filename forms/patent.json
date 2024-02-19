@@ -111,20 +111,17 @@
                 {
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
-                        "controlField": "",
+                        "controlField": "c_type_client",
                         "readonly": "",
                         "size": "",
                         "optionsBinder": {
-                            "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                            "className": "org.joget.tutorial.JdbcOptionsBinder",
                             "properties": {
-                                "addEmptyOption": "true",
-                                "groupingColumn": "",
-                                "formDefId": "client",
-                                "labelColumn": "name",
-                                "extraCondition": "",
-                                "cacheInterval": "",
+                                "useAjax": "true",
+                                "addEmpty": "true",
+                                "jdbcDatasource": "default",
                                 "emptyLabel": "",
-                                "idColumn": "id"
+                                "sql": "select a.id,\n    CASE \n        WHEN a.c_type_client='LF-001' then b.c_name \n        WHEN a.c_type_client='LF-002' then c.c_name\n        WHEN a.c_type_client='LF-003' then d.c_long_name\n    END as nama,\n    a.c_type_client\nfrom app_fd_afms_client a \nleft join app_fd_afms_agent b on a.id=b.c_client_id and a.c_type_client='LF-001'\nleft join app_fd_afms_government c on a.id=c.c_client_id and a.c_type_client='LF-002'\nleft join app_fd_afms_translator d on a.id=d.c_client_id and a.c_type_client='LF-004'\n"
                             }
                         },
                         "multiple": "",
