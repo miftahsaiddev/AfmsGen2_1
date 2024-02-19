@@ -64,6 +64,48 @@
                         "rowCount": "",
                         "id": "21AECA2075164D8D6F8F28C81D3FD24D"
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "Incoming Mail Translator",
+                        "enableOffline": "",
+                        "customId": "incoming_mail_translator",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "listIncomingMail",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "9EFA85B2341D46A917650F1F6C8FBD19"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "My Incoming List",
+                        "enableOffline": "",
+                        "customId": "my_incoming_list",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "listIncomingMail",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "99A224DCA5A4456C0A8357FE861CAC41"
+                    }
                 }
             ],
             "properties": {
