@@ -968,7 +968,7 @@
         "userviewDescription": "",
         "userviewId": "uiUni",
         "hideThisUserviewInAppCenter": "",
-        "userview_thumbnail": "",
+        "userview_thumbnail": "#appResource.server_164606.png#",
         "userview_category": "",
         "theme": {
             "className": "org.joget.apps.userview.lib.AjaxUniversalTheme",
