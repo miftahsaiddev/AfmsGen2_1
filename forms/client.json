@@ -12,7 +12,7 @@
                             "envVariable": "counter_clt",
                             "isDistributedGeneration": "",
                             "label": "ID Client",
-                            "id": "field7"
+                            "id": "id"
                         }
                     },
                     {
