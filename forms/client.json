@@ -9,7 +9,7 @@
                             "hidden": "",
                             "format": "CLT-??????",
                             "workflowVariable": "",
-                            "envVariable": "counter_agt",
+                            "envVariable": "counter_clt",
                             "isDistributedGeneration": "",
                             "label": "Client ID",
                             "id": "id"
