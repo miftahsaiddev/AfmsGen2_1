@@ -246,7 +246,7 @@
             "properties": {
                 "autoHandleWorkflowVariable": "true",
                 "jdbcDatasource": "default",
-                "sql": "select * from app_fd_afms_client a left join app_fd_afms_agent b on a.id=b.client_id where a.id=?",
+                "sql": "select * from app_fd_afms_client a left join app_fd_afms_agent b on a.id=b.c_client_id where a.id=?",
                 "autoHandleFiles": ""
             }
         },
