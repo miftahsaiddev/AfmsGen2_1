@@ -776,7 +776,6 @@
                     "className": "",
                     "properties": {}
                 },
-                "style-font-size": "12px",
                 "label": "Incoming Mail Agent",
                 "reverse": "",
                 "storeBinder": {
