@@ -39,21 +39,21 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>I0001IncomingMailCient::approve_reject_mail</string>
+               <string>incomingMailProcess_3::incoming_mail</string>
                <packageActivityForm>
-                  <processDefId>I0001IncomingMailCient</processDefId>
-                  <activityDefId>approve_reject_mail</activityDefId>
+                  <processDefId>incomingMailProcess_3</processDefId>
+                  <activityDefId>incoming_mail</activityDefId>
+                  <formId>reply_mail_client</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>incomingMailProcess_3::incoming_mail</string>
+               <string>I0001IncomingMailCient::approve_reject_mail</string>
                <packageActivityForm>
-                  <processDefId>incomingMailProcess_3</processDefId>
-                  <activityDefId>incoming_mail</activityDefId>
-                  <formId>reply_mail_client</formId>
+                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>approve_reject_mail</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -92,21 +92,21 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>I0001IncomingMailCient::return_rejected_mail</string>
+               <string>incomingMailGovernmentProcess::incoming_mail</string>
                <packageActivityForm>
-                  <processDefId>I0001IncomingMailCient</processDefId>
-                  <activityDefId>return_rejected_mail</activityDefId>
+                  <processDefId>incomingMailGovernmentProcess</processDefId>
+                  <activityDefId>incoming_mail</activityDefId>
+                  <formId>reply_mail_client</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>incomingMailGovernmentProcess::incoming_mail</string>
+               <string>I0001IncomingMailCient::return_rejected_mail</string>
                <packageActivityForm>
-                  <processDefId>incomingMailGovernmentProcess</processDefId>
-                  <activityDefId>incoming_mail</activityDefId>
-                  <formId>reply_mail_client</formId>
+                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>return_rejected_mail</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
