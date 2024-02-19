@@ -34,7 +34,7 @@
                 "properties": {
                     "hrefColumn": "processid",
                     "hrefParam": "activityId",
-                    "href": "_ja_inbox?_mode=assignment&",
+                    "href": "_ja_inbox?_mode=assignment",
                     "confirmation": "",
                     "target": "_self"
                 }
