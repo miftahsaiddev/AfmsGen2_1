@@ -34,7 +34,7 @@
                 "properties": {
                     "hrefColumn": "",
                     "hrefParam": "",
-                    "href": "_ja_inbox?_mode=assignment&activityId=1902_1402_AfmsGen2_incomingMailProcess_incoming_mail",
+                    "href": "#process.activityInst.activity1.instanceId#",
                     "confirmation": "",
                     "target": "_self"
                 }
