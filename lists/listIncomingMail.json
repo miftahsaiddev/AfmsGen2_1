@@ -32,9 +32,9 @@
             "action": {
                 "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
                 "properties": {
-                    "hrefColumn": "",
-                    "hrefParam": "processid",
-                    "href": "ja_inbox?_mode=assignment&activityId=",
+                    "hrefColumn": "processid",
+                    "hrefParam": "activityId",
+                    "href": "_ja_inbox?_mode=assignment&",
                     "confirmation": "",
                     "target": "_self"
                 }
