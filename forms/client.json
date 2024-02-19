@@ -17,18 +17,6 @@
                         }
                     },
                     {
-                        "className": "org.joget.apps.form.lib.IdGeneratorField",
-                        "properties": {
-                            "hidden": "",
-                            "format": "CLT-??????",
-                            "workflowVariable": "",
-                            "envVariable": "counter_clt",
-                            "isDistributedGeneration": "",
-                            "label": "Client ID",
-                            "id": "id"
-                        }
-                    },
-                    {
                         "className": "org.joget.apps.form.lib.SelectBox",
                         "properties": {
                             "controlField": "",
@@ -96,7 +84,7 @@
                 "elements": [{
                     "className": "org.joget.apps.form.lib.SubForm",
                     "properties": {
-                        "parentSubFormId": "client_id",
+                        "parentSubFormId": "",
                         "readonly": "",
                         "loadBinder": {
                             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
@@ -104,7 +92,7 @@
                         },
                         "noframe": "",
                         "formDefId": "agent",
-                        "subFormParentId": "",
+                        "subFormParentId": "client_id",
                         "id": "field4",
                         "label": "",
                         "storeBinder": {
