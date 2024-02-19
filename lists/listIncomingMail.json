@@ -34,7 +34,7 @@
                 "properties": {
                     "hrefColumn": "",
                     "hrefParam": "",
-                    "href": "ja_inbox?_mode=assignment&activityId=#assignment.activityId#",
+                    "href": "ja_inbox?_mode=assignment&activityId=#variable.attention_to#",
                     "confirmation": "",
                     "target": "_self"
                 }
