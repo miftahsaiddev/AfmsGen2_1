@@ -142,7 +142,7 @@
                             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
                             "properties": {}
                         },
-                        "noframe": "true",
+                        "noframe": "",
                         "formDefId": "government",
                         "subFormParentId": "",
                         "id": "field5",
@@ -165,7 +165,7 @@
                     "className": "",
                     "properties": {}
                 },
-                "label": "",
+                "label": "Detail",
                 "reverse": "",
                 "storeBinder": {
                     "className": "",
@@ -195,7 +195,7 @@
                             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
                             "properties": {}
                         },
-                        "noframe": "true",
+                        "noframe": "",
                         "formDefId": "translator",
                         "subFormParentId": "",
                         "id": "field6",
@@ -218,7 +218,7 @@
                     "className": "",
                     "properties": {}
                 },
-                "label": "",
+                "label": "Detail",
                 "reverse": "",
                 "storeBinder": {
                     "className": "",
