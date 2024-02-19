@@ -1,18 +1,101 @@
 {
-    "rowActions": [],
-    "columns": [],
-    "name": "List Patent",
-    "pageSize": "0",
-    "orderBy": "",
-    "description": "",
-    "id": "listPaten",
-    "filters": [],
-    "binder": {
-        "name": "",
+    "template": {
         "className": "",
         "properties": {}
     },
-    "actions": [],
+    "rowActions": [{
+        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+        "id": "rowAction_0",
+        "properties": {
+            "hrefColumn": "id",
+            "hrefParam": "id",
+            "rules": [],
+            "label": "Hyperlink",
+            "href": "patent",
+            "confirmation": "",
+            "link-css-display-type": "btn btn-sm btn-primary",
+            "datalist_type": "row_action",
+            "target": "_self",
+            "header_label": ""
+        }
+    }],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "id",
+            "id": "column_0",
+            "label": "ID",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "letter_from",
+            "id": "column_1",
+            "label": "Letter From",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "letter_type",
+            "id": "column_2",
+            "label": "Letter Type",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "receipt_via",
+            "id": "column_3",
+            "label": "Receipt Via",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "sub_letter_type",
+            "id": "column_4",
+            "label": "Sub Letter Type",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "translator",
+            "id": "column_5",
+            "label": "Translator",
+            "sortable": "false"
+        }
+    ],
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "filters": [],
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "name": "List Patent",
+    "id": "listPaten",
+    "binder": {
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "properties": {
+            "formDefId": "patent",
+            "extraCondition": ""
+        }
+    },
+    "actions": [{
+        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+        "id": "action_0",
+        "properties": {
+            "visible": "",
+            "hrefColumn": "",
+            "hrefParam": "",
+            "label": "Hyperlink",
+            "href": "patent",
+            "confirmation": "",
+            "datalist_type": "action",
+            "target": "_self"
+        }
+    }],
     "order": ""
 }
