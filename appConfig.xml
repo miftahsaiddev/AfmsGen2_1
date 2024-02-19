@@ -31,14 +31,14 @@
          <remarks>Used for plugin: Id Generator Field</remarks>
       </environmentVariable>
       <environmentVariable>
-         <id>counter_clt</id>
+         <id>counter_pto</id>
          <appId>AfmsGen2</appId>
          <appVersion>1</appVersion>
-         <value>2</value>
+         <value>4</value>
          <remarks>Used for plugin: Id Generator Field</remarks>
       </environmentVariable>
       <environmentVariable>
-         <id>counter_pto</id>
+         <id>counter_pph</id>
          <appId>AfmsGen2</appId>
          <appVersion>1</appVersion>
          <value>4</value>
@@ -48,14 +48,14 @@
          <id>counter_gov</id>
          <appId>AfmsGen2</appId>
          <appVersion>1</appVersion>
-         <value></value>
+         <value>2</value>
          <remarks>Used for plugin: Id Generator Field</remarks>
       </environmentVariable>
       <environmentVariable>
-         <id>counter_pph</id>
+         <id>counter_clt</id>
          <appId>AfmsGen2</appId>
          <appVersion>1</appVersion>
-         <value>4</value>
+         <value>2</value>
          <remarks>Used for plugin: Id Generator Field</remarks>
       </environmentVariable>
       <environmentVariable>
