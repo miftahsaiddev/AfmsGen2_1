@@ -4,16 +4,15 @@
             "elements": [{
                 "elements": [
                     {
-                        "className": "org.joget.apps.form.lib.HiddenField",
+                        "className": "org.joget.apps.form.lib.IdGeneratorField",
                         "properties": {
-                            "useDefaultWhenEmpty": "",
-                            "validator": {
-                                "className": "",
-                                "properties": {}
-                            },
+                            "hidden": "",
+                            "format": "CLT-??????",
                             "workflowVariable": "",
-                            "id": "client_id",
-                            "value": ""
+                            "envVariable": "counter_clt",
+                            "isDistributedGeneration": "",
+                            "label": "ID Client",
+                            "id": "field7"
                         }
                     },
                     {
