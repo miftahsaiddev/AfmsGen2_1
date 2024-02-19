@@ -25,7 +25,7 @@
                 "properties": {
                     "hrefColumn": "processid",
                     "hrefParam": "activityId",
-                    "href": "_ja_inbox?_mode=assignment&",
+                    "href": "_ja_inbox?_mode=assignment",
                     "confirmation": "",
                     "target": "_self"
                 }
@@ -40,7 +40,8 @@
             "name": "name_letter_type",
             "id": "column_1",
             "label": "name_letter_type",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column"
         },
         {
             "filterable": true,
