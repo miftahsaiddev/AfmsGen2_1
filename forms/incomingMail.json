@@ -8,7 +8,7 @@
                             "className": "org.joget.apps.form.lib.IdGeneratorField",
                             "properties": {
                                 "hidden": "",
-                                "format": "IN-#date.yyMMdd#?????",
+                                "format": "ID-#exp.'{date.yyMMdHHmmssss}???'.substring(0,15)#",
                                 "workflowVariable": "",
                                 "envVariable": "counter_in",
                                 "isDistributedGeneration": "",
