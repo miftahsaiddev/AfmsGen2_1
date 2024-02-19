@@ -83,64 +83,6 @@
                             }
                         },
                         {
-                            "className": "org.joget.apps.form.lib.DatePicker",
-                            "properties": {
-                                "yearRange": "c-10:c+10",
-                                "dataFormat": "yyyy-MM-dd",
-                                "startDateFieldId": "",
-                                "validator": {
-                                    "className": "org.joget.apps.form.lib.DefaultValidator",
-                                    "properties": {
-                                        "type": "",
-                                        "message": "",
-                                        "mandatory": "true"
-                                    }
-                                },
-                                "format": "",
-                                "label": "Mail Date",
-                                "datePickerType": "",
-                                "currentDateAs": "",
-                                "endDateFieldId": "",
-                                "readonly": "",
-                                "allowManual": "",
-                                "workflowVariable": "",
-                                "id": "mail_date",
-                                "placeholder": "",
-                                "disableWeekends": "",
-                                "value": "",
-                                "readonlyLabel": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.DatePicker",
-                            "properties": {
-                                "yearRange": "c-10:c+10",
-                                "dataFormat": "yyyy-MM-dd",
-                                "startDateFieldId": "",
-                                "validator": {
-                                    "className": "org.joget.apps.form.lib.DefaultValidator",
-                                    "properties": {
-                                        "type": "",
-                                        "message": "",
-                                        "mandatory": "true"
-                                    }
-                                },
-                                "format": "",
-                                "label": "Received Date",
-                                "datePickerType": "",
-                                "currentDateAs": "",
-                                "endDateFieldId": "",
-                                "readonly": "",
-                                "allowManual": "",
-                                "workflowVariable": "",
-                                "id": "received_date",
-                                "placeholder": "",
-                                "disableWeekends": "",
-                                "value": "",
-                                "readonlyLabel": ""
-                            }
-                        },
-                        {
                             "className": "org.joget.apps.form.lib.SelectBox",
                             "properties": {
                                 "permissionHidden": "",
@@ -196,101 +138,6 @@
                                 "value": "",
                                 "readonlyLabel": "",
                                 "storeNumeric": ""
-                            }
-                        }
-                    ],
-                    "className": "org.joget.apps.form.model.Column",
-                    "properties": {"width": "50%"}
-                },
-                {
-                    "elements": [
-                        {
-                            "className": "org.joget.apps.form.lib.SelectBox",
-                            "properties": {
-                                "controlField": "",
-                                "readonly": "",
-                                "size": "",
-                                "optionsBinder": {
-                                    "className": "org.joget.tutorial.JdbcOptionsBinder",
-                                    "properties": {
-                                        "useAjax": "true",
-                                        "addEmpty": "",
-                                        "jdbcDatasource": "default",
-                                        "sql": "select id,c_letter_type from app_fd_afms_lettertype;"
-                                    }
-                                },
-                                "multiple": "",
-                                "options": [],
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "workflowVariable": "",
-                                "label": "Letter Type",
-                                "id": "letter_type",
-                                "value": "",
-                                "readonlyLabel": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.SelectBox",
-                            "properties": {
-                                "controlField": "letter_type",
-                                "readonly": "",
-                                "size": "",
-                                "optionsBinder": {
-                                    "className": "org.joget.tutorial.JdbcOptionsBinder",
-                                    "properties": {
-                                        "useAjax": "true",
-                                        "addEmpty": "true",
-                                        "jdbcDatasource": "default",
-                                        "emptyLabel": "",
-                                        "sql": "select id,c_sub_letter_type,c_letter_type from\r\napp_fd_afms_sublettertype;"
-                                    }
-                                },
-                                "multiple": "",
-                                "options": [],
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "workflowVariable": "",
-                                "label": "Sub Letter Type",
-                                "id": "sub_letter_type",
-                                "value": "",
-                                "readonlyLabel": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.SelectBox",
-                            "properties": {
-                                "controlField": "",
-                                "readonly": "",
-                                "size": "",
-                                "optionsBinder": {
-                                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                                    "properties": {
-                                        "addEmptyOption": "true",
-                                        "groupingColumn": "",
-                                        "formDefId": "via",
-                                        "labelColumn": "via",
-                                        "extraCondition": "",
-                                        "cacheInterval": "",
-                                        "emptyLabel": "",
-                                        "idColumn": "id"
-                                    }
-                                },
-                                "multiple": "",
-                                "options": [],
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "workflowVariable": "",
-                                "label": "Receipt Via",
-                                "id": "receipt_via",
-                                "value": "",
-                                "readonlyLabel": ""
                             }
                         },
                         {
@@ -396,6 +243,159 @@
                                 "workflowVariable": "",
                                 "label": "Translator",
                                 "id": "translator",
+                                "value": "",
+                                "readonlyLabel": ""
+                            }
+                        }
+                    ],
+                    "className": "org.joget.apps.form.model.Column",
+                    "properties": {"width": "50%"}
+                },
+                {
+                    "elements": [
+                        {
+                            "className": "org.joget.apps.form.lib.SelectBox",
+                            "properties": {
+                                "controlField": "",
+                                "readonly": "",
+                                "size": "",
+                                "optionsBinder": {
+                                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                                    "properties": {
+                                        "addEmptyOption": "true",
+                                        "groupingColumn": "",
+                                        "formDefId": "via",
+                                        "labelColumn": "via",
+                                        "extraCondition": "",
+                                        "cacheInterval": "",
+                                        "emptyLabel": "",
+                                        "idColumn": "id"
+                                    }
+                                },
+                                "multiple": "",
+                                "options": [],
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "workflowVariable": "",
+                                "label": "Receipt Via",
+                                "id": "receipt_via",
+                                "value": "",
+                                "readonlyLabel": ""
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.DatePicker",
+                            "properties": {
+                                "yearRange": "c-10:c+10",
+                                "dataFormat": "yyyy-MM-dd",
+                                "startDateFieldId": "",
+                                "validator": {
+                                    "className": "org.joget.apps.form.lib.DefaultValidator",
+                                    "properties": {
+                                        "type": "",
+                                        "message": "",
+                                        "mandatory": "true"
+                                    }
+                                },
+                                "format": "",
+                                "label": "Mail Date",
+                                "datePickerType": "",
+                                "currentDateAs": "",
+                                "endDateFieldId": "",
+                                "readonly": "",
+                                "allowManual": "",
+                                "workflowVariable": "",
+                                "id": "mail_date",
+                                "placeholder": "",
+                                "disableWeekends": "",
+                                "value": "",
+                                "readonlyLabel": ""
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.DatePicker",
+                            "properties": {
+                                "yearRange": "c-10:c+10",
+                                "dataFormat": "yyyy-MM-dd",
+                                "startDateFieldId": "",
+                                "validator": {
+                                    "className": "org.joget.apps.form.lib.DefaultValidator",
+                                    "properties": {
+                                        "type": "",
+                                        "message": "",
+                                        "mandatory": "true"
+                                    }
+                                },
+                                "format": "",
+                                "label": "Received Date",
+                                "datePickerType": "",
+                                "currentDateAs": "",
+                                "endDateFieldId": "",
+                                "readonly": "",
+                                "allowManual": "",
+                                "workflowVariable": "",
+                                "id": "received_date",
+                                "placeholder": "",
+                                "disableWeekends": "",
+                                "value": "",
+                                "readonlyLabel": ""
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.SelectBox",
+                            "properties": {
+                                "controlField": "",
+                                "readonly": "",
+                                "size": "",
+                                "optionsBinder": {
+                                    "className": "org.joget.tutorial.JdbcOptionsBinder",
+                                    "properties": {
+                                        "useAjax": "true",
+                                        "addEmpty": "",
+                                        "jdbcDatasource": "default",
+                                        "sql": "select id,c_letter_type from app_fd_afms_lettertype;"
+                                    }
+                                },
+                                "multiple": "",
+                                "options": [],
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "workflowVariable": "",
+                                "label": "Letter Type",
+                                "id": "letter_type",
+                                "value": "",
+                                "readonlyLabel": ""
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.SelectBox",
+                            "properties": {
+                                "controlField": "letter_type",
+                                "readonly": "",
+                                "size": "",
+                                "optionsBinder": {
+                                    "className": "org.joget.tutorial.JdbcOptionsBinder",
+                                    "properties": {
+                                        "useAjax": "true",
+                                        "addEmpty": "true",
+                                        "jdbcDatasource": "default",
+                                        "emptyLabel": "",
+                                        "sql": "select id,c_sub_letter_type,c_letter_type from\r\napp_fd_afms_sublettertype;"
+                                    }
+                                },
+                                "multiple": "",
+                                "options": [],
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "workflowVariable": "",
+                                "label": "Sub Letter Type",
+                                "id": "sub_letter_type",
                                 "value": "",
                                 "readonlyLabel": ""
                             }
