@@ -13,8 +13,14 @@
             "hidden": "false",
             "renderHtml": "",
             "format": {
-                "className": "",
-                "properties": {}
+                "className": "org.joget.apps.datalist.lib.DefaultFormatter",
+                "properties": {
+                    "size": "",
+                    "color": "",
+                    "field": "",
+                    "formDefId": "",
+                    "formatting": "b"
+                }
             },
             "label": "Mail No.",
             "sortable": "false",
@@ -24,8 +30,14 @@
             "width": "",
             "headerAlignment": "",
             "action": {
-                "className": "",
-                "properties": {}
+                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+                "properties": {
+                    "hrefColumn": "id",
+                    "hrefParam": "id",
+                    "href": "incoming_mail_client",
+                    "confirmation": "",
+                    "target": "_self"
+                }
             },
             "style": "",
             "id": "column_2",
