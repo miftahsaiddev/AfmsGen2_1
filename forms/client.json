@@ -242,8 +242,13 @@
     "properties": {
         "noPermissionMessage": "",
         "loadBinder": {
-            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
-            "properties": {}
+            "className": "org.joget.tutorial.JdbcLoadBinder",
+            "properties": {
+                "autoHandleWorkflowVariable": "true",
+                "jdbcDatasource": "default",
+                "sql": "select * from app_fd_afms_client a join app_fd_afms_agent b on a.id=b.client_id where a.id=?",
+                "autoHandleFiles": ""
+            }
         },
         "name": "Client",
         "description": "",
