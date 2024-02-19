@@ -106,7 +106,7 @@
             }],
             "className": "org.joget.apps.form.model.Section",
             "properties": {
-                "visibilityControl": "",
+                "visibilityControl": "type_client",
                 "permissionReadonly": "",
                 "permission": {
                     "className": "",
@@ -118,7 +118,7 @@
                     "className": "",
                     "properties": {}
                 },
-                "visibilityValue": "",
+                "visibilityValue": "LF-001",
                 "regex": "",
                 "readonly": "",
                 "loadBinder": {
