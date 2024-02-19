@@ -46,7 +46,7 @@
                 "removeAssignmentTitle": "",
                 "shortcutLinkLabel": "Shortcut",
                 "disableHelpGuide": "",
-                "logo": "#appResource.logoambadar.png#",
+                "logo": "#appResource.miniLogo.png#",
                 "enableResponsiveSwitch": "true",
                 "dx8headerFontColor": "#20252A",
                 "fav_icon": "#appResource.miniLogo.png#",
@@ -93,7 +93,8 @@
                 "dx8primaryColor": "#67ABE9",
                 "darkMode": "",
                 "dx8navActiveLinkColor": "#FFFFFF",
-                "inbox": "current"
+                "inbox": "current",
+                "brand-name-style-width": "50%"
             }
         },
         "permission": {
