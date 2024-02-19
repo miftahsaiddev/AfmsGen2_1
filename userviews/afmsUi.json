@@ -22,7 +22,7 @@
     "properties": {
         "logoutText": "Logout",
         "welcomeMessage": "#date.EEE, d MMM yyyy#",
-        "name": "",
+        "name": "AFMS",
         "description": "",
         "footerMessage": "Powered by Joget",
         "id": "afmsUi"
@@ -93,8 +93,7 @@
                 "dx8primaryColor": "#67ABE9",
                 "darkMode": "",
                 "dx8navActiveLinkColor": "#FFFFFF",
-                "inbox": "current",
-                "brand-name-style-width": "50%"
+                "inbox": "current"
             }
         },
         "permission": {
