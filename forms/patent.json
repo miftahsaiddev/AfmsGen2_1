@@ -107,6 +107,38 @@
                         "value": "",
                         "readonlyLabel": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "readonly": "",
+                        "size": "",
+                        "optionsBinder": {
+                            "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                            "properties": {
+                                "addEmptyOption": "true",
+                                "groupingColumn": "",
+                                "formDefId": "client",
+                                "labelColumn": "name",
+                                "extraCondition": "",
+                                "cacheInterval": "",
+                                "emptyLabel": "",
+                                "idColumn": "id"
+                            }
+                        },
+                        "multiple": "",
+                        "options": [],
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "label": "Client",
+                        "id": "client",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
                 }
             ],
             "className": "org.joget.apps.form.model.Column",
