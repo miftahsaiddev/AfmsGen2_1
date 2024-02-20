@@ -732,33 +732,7 @@
                                 "workflowVariable": "",
                                 "label": "Is Urgent",
                                 "id": "is_urgent",
-                                "value": "",
-                                "readonlyLabel": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.CheckBox",
-                            "properties": {
-                                "fullWidth": "",
-                                "controlField": "",
-                                "readonly": "",
-                                "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "options": [{
-                                    "label": "Yes",
-                                    "value": "1",
-                                    "grouping": ""
-                                }],
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "workflowVariable": "",
-                                "label": "Must be replied ?",
-                                "id": "is_replied",
-                                "value": "",
+                                "value": "0",
                                 "readonlyLabel": ""
                             }
                         }
