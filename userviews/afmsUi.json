@@ -834,7 +834,10 @@
                 "permission_rules": {
                     "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
                     "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
-                    "d1945954-0468-a470-f265-1505b21ab159": {}
+                    "d1945954-0468-a470-f265-1505b21ab159": {
+                        "hide": "yes",
+                        "permissionDeny": ""
+                    }
                 },
                 "permission": {
                     "className": "",
