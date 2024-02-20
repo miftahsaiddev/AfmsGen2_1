@@ -30,6 +30,105 @@
                         "customHeader": "",
                         "keyName": "",
                         "customFooter": "",
+                        "label": "List Client",
+                        "enableOffline": "",
+                        "customId": "list_client",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "listClient",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "4C04B14A2C1F4E744D3CA6DD00E41385"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Type of Mail",
+                        "enableOffline": "",
+                        "customId": "list_type_of_mail",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "typeOfMailList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "4B3A377F5BC14EE1ECC0B0A73AA08FD6"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Letter From",
+                        "enableOffline": "",
+                        "customId": "list_letter_from",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "letterFromList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "61F9DF91F6BA43608DF4A541311233DC"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Letter Type",
+                        "enableOffline": "",
+                        "customId": "list_letter_type",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "letterTypeList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "C8C96856739544A4005C8378135D5FED"
+                    }
+                }
+            ],
+            "properties": {
+                "hide": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "label": "<i class=\"fas fa-database\"><\/i> Master Data Administrator",
+                "id": "category-F939FEBE918245659B0E374A66531C6E"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
                         "label": "Incoming Mail Client",
                         "enableOffline": "",
                         "customId": "incoming_mail_client",
@@ -229,84 +328,6 @@
                 "comment": "",
                 "label": "HIDDEN",
                 "id": "category-AFB3F1F2F7F84187DAFC58FF815FEEE9"
-            }
-        },
-        {
-            "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "cacheAllLinks": "",
-                        "customHeader": "",
-                        "keyName": "",
-                        "customFooter": "",
-                        "label": "List Client",
-                        "enableOffline": "",
-                        "customId": "list_client",
-                        "buttonPosition": "bothLeft",
-                        "datalistId": "listClient",
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "rowCount": "",
-                        "id": "4C04B14A2C1F4E744D3CA6DD00E41385"
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "cacheAllLinks": "",
-                        "customHeader": "",
-                        "keyName": "",
-                        "customFooter": "",
-                        "label": "List Type of Mail",
-                        "enableOffline": "",
-                        "customId": "list_type_of_mail",
-                        "buttonPosition": "bothLeft",
-                        "datalistId": "typeOfMailList",
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "rowCount": "",
-                        "id": "4B3A377F5BC14EE1ECC0B0A73AA08FD6"
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "cacheAllLinks": "",
-                        "customHeader": "",
-                        "keyName": "",
-                        "customFooter": "",
-                        "label": "List Letter From",
-                        "enableOffline": "",
-                        "customId": "list_letter_from",
-                        "buttonPosition": "bothLeft",
-                        "datalistId": "letterFromList",
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "rowCount": "",
-                        "id": "61F9DF91F6BA43608DF4A541311233DC"
-                    }
-                }
-            ],
-            "properties": {
-                "hide": "",
-                "permission": {
-                    "className": "",
-                    "properties": {}
-                },
-                "comment": "",
-                "label": "Master Data Administrator",
-                "id": "category-F939FEBE918245659B0E374A66531C6E"
             }
         }
     ],
