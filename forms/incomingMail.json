@@ -153,7 +153,7 @@
                                         "addEmpty": "true",
                                         "jdbcDatasource": "default",
                                         "emptyLabel": "",
-                                        "sql": "select a.id ,\r\ncase \r\n\twhen a.c_type_client='LF-001' then b.c_name\r\n\twhen a.c_type_client='LF-002' then afag.c_name\r\n\twhen a.c_type_client='LF-004' then afat.c_long_name\r\nend name_client ,a.c_type_client\r\nfrom app_fd_afms_client a \r\nleft join app_fd_afms_agent b on a.id=b.c_client_id \r\nleft join app_fd_afms_government afag on a.id=afag.c_client_id \r\nleft join app_fd_afms_translator afat on a.id=afat.c_client_id "
+                                        "sql": "select a.id ,a.c_name_client,a.c_type_client\r\nfrom app_fd_afms_client a "
                                     }
                                 },
                                 "multiple": "",
