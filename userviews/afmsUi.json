@@ -233,27 +233,50 @@
         },
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [{
-                "className": "org.joget.apps.userview.lib.DataListMenu",
-                "properties": {
-                    "cacheAllLinks": "",
-                    "customHeader": "",
-                    "keyName": "",
-                    "customFooter": "",
-                    "label": "List",
-                    "enableOffline": "",
-                    "customId": "",
-                    "buttonPosition": "bothLeft",
-                    "datalistId": "listClient",
-                    "checkboxPosition": "left",
-                    "selectionType": "multiple",
-                    "userviewCacheDuration": "20",
-                    "cacheListAction": "",
-                    "userviewCacheScope": "",
-                    "rowCount": "",
-                    "id": "4C04B14A2C1F4E744D3CA6DD00E41385"
+            "menus": [
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Client",
+                        "enableOffline": "",
+                        "customId": "list_client",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "listClient",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "4C04B14A2C1F4E744D3CA6DD00E41385"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Type of Mail",
+                        "enableOffline": "",
+                        "customId": "list_type_of_mail",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "typeOfMailList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "4B3A377F5BC14EE1ECC0B0A73AA08FD6"
+                    }
                 }
-            }],
+            ],
             "properties": {
                 "hide": "",
                 "permission": {
