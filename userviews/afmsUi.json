@@ -127,6 +127,48 @@
                         "rowCount": "",
                         "id": "860381D2760F49FBBF71E9872A03AE60"
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Sub Sub Letter Type",
+                        "enableOffline": "",
+                        "customId": "list_sub_sub_letter_type",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "subSubLetterTypeList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "C9388B5D31244AE76860936C4058A5BD"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Master Subject",
+                        "enableOffline": "",
+                        "customId": "list_master_subject",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "masterLetterSubjectList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "A6C4F37D59234F7F1AE7CB653EFE2103"
+                    }
                 }
             ],
             "properties": {
