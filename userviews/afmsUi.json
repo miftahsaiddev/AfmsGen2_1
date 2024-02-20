@@ -8,7 +8,10 @@
                 "properties": {
                     "userviewCacheDuration": "",
                     "userviewCacheScope": "",
-                    "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                    "permission_rules": {
+                        "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                        "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                    },
                     "id": "295df761-b6df-4165-9e32-2078769eb6e0",
                     "label": "Welcome",
                     "enableOffline": "",
@@ -17,7 +20,10 @@
                 }
             }],
             "properties": {
-                "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                "permission_rules": {
+                    "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                    "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                },
                 "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
                 "label": "<i class='fa fa-home'><\/i> Home"
             }
@@ -30,7 +36,10 @@
                     "properties": {
                         "cacheAllLinks": "",
                         "customHeader": "",
-                        "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                        "permission_rules": {
+                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        },
                         "keyName": "",
                         "customFooter": "",
                         "label": "List Client",
@@ -52,7 +61,10 @@
                     "properties": {
                         "cacheAllLinks": "",
                         "customHeader": "",
-                        "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                        "permission_rules": {
+                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        },
                         "keyName": "",
                         "customFooter": "",
                         "label": "List Type of Mail",
@@ -74,7 +86,10 @@
                     "properties": {
                         "cacheAllLinks": "",
                         "customHeader": "",
-                        "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                        "permission_rules": {
+                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        },
                         "keyName": "",
                         "customFooter": "",
                         "label": "List Letter From",
@@ -96,7 +111,10 @@
                     "properties": {
                         "cacheAllLinks": "",
                         "customHeader": "",
-                        "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                        "permission_rules": {
+                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        },
                         "keyName": "",
                         "customFooter": "",
                         "label": "List Letter Type",
@@ -118,7 +136,10 @@
                     "properties": {
                         "cacheAllLinks": "",
                         "customHeader": "",
-                        "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                        "permission_rules": {
+                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        },
                         "keyName": "",
                         "customFooter": "",
                         "label": "List Sub Letter Type",
@@ -140,7 +161,10 @@
                     "properties": {
                         "cacheAllLinks": "",
                         "customHeader": "",
-                        "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                        "permission_rules": {
+                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        },
                         "keyName": "",
                         "customFooter": "",
                         "label": "List Sub Sub Letter Type",
@@ -162,7 +186,10 @@
                     "properties": {
                         "cacheAllLinks": "",
                         "customHeader": "",
-                        "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                        "permission_rules": {
+                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        },
                         "keyName": "",
                         "customFooter": "",
                         "label": "List Master Subject",
@@ -184,7 +211,10 @@
                     "properties": {
                         "cacheAllLinks": "",
                         "customHeader": "",
-                        "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                        "permission_rules": {
+                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        },
                         "keyName": "",
                         "customFooter": "",
                         "label": "List Letter Subject ",
@@ -206,7 +236,10 @@
                     "properties": {
                         "cacheAllLinks": "",
                         "customHeader": "",
-                        "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                        "permission_rules": {
+                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        },
                         "keyName": "",
                         "customFooter": "",
                         "label": "List Via",
@@ -228,7 +261,10 @@
                     "properties": {
                         "cacheAllLinks": "",
                         "customHeader": "",
-                        "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                        "permission_rules": {
+                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        },
                         "keyName": "",
                         "customFooter": "",
                         "label": "List Last Status",
@@ -250,7 +286,10 @@
                     "properties": {
                         "cacheAllLinks": "",
                         "customHeader": "",
-                        "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                        "permission_rules": {
+                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        },
                         "keyName": "",
                         "customFooter": "",
                         "label": "List Sub Status",
@@ -270,10 +309,16 @@
             ],
             "properties": {
                 "hide": "",
-                "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {
-                    "hide": "",
-                    "permissionDeny": "true"
-                }},
+                "permission_rules": {
+                    "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {
+                        "hide": "",
+                        "permissionDeny": "true"
+                    },
+                    "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {
+                        "hide": "",
+                        "permissionDeny": "true"
+                    }
+                },
                 "permission": {
                     "className": "",
                     "properties": {}
@@ -292,7 +337,10 @@
                     "properties": {
                         "cacheAllLinks": "",
                         "customHeader": "",
-                        "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                        "permission_rules": {
+                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        },
                         "keyName": "",
                         "customFooter": "",
                         "label": "List Agent",
@@ -314,7 +362,10 @@
                     "properties": {
                         "cacheAllLinks": "",
                         "customHeader": "",
-                        "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                        "permission_rules": {
+                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        },
                         "keyName": "",
                         "customFooter": "",
                         "label": "List Applicant",
@@ -336,7 +387,10 @@
                     "properties": {
                         "cacheAllLinks": "",
                         "customHeader": "",
-                        "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                        "permission_rules": {
+                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        },
                         "keyName": "",
                         "customFooter": "",
                         "label": "List Patent Type Order",
@@ -358,7 +412,10 @@
                     "properties": {
                         "cacheAllLinks": "",
                         "customHeader": "",
-                        "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                        "permission_rules": {
+                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        },
                         "keyName": "",
                         "customFooter": "",
                         "label": "List Patent Type IPC",
@@ -380,7 +437,10 @@
                     "properties": {
                         "cacheAllLinks": "",
                         "customHeader": "",
-                        "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                        "permission_rules": {
+                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        },
                         "keyName": "",
                         "customFooter": "",
                         "label": "List Patent Type PPH",
@@ -400,10 +460,16 @@
             ],
             "properties": {
                 "hide": "",
-                "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {
-                    "hide": "",
-                    "permissionDeny": "true"
-                }},
+                "permission_rules": {
+                    "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {
+                        "hide": "",
+                        "permissionDeny": "true"
+                    },
+                    "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {
+                        "hide": "",
+                        "permissionDeny": "true"
+                    }
+                },
                 "permission": {
                     "className": "",
                     "properties": {}
@@ -422,7 +488,10 @@
                     "properties": {
                         "cacheAllLinks": "",
                         "customHeader": "",
-                        "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                        "permission_rules": {
+                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        },
                         "keyName": "",
                         "customFooter": "",
                         "label": "Incoming Mail Client",
@@ -444,7 +513,10 @@
                     "properties": {
                         "cacheAllLinks": "",
                         "customHeader": "",
-                        "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                        "permission_rules": {
+                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        },
                         "keyName": "",
                         "customFooter": "",
                         "label": "Incoming Mail Government",
@@ -466,7 +538,10 @@
                     "properties": {
                         "cacheAllLinks": "",
                         "customHeader": "",
-                        "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                        "permission_rules": {
+                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        },
                         "keyName": "",
                         "customFooter": "",
                         "label": "Incoming Mail Translator",
@@ -488,7 +563,10 @@
                     "properties": {
                         "cacheAllLinks": "",
                         "customHeader": "",
-                        "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                        "permission_rules": {
+                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        },
                         "keyName": "",
                         "customFooter": "",
                         "label": "My Incoming List",
@@ -511,10 +589,13 @@
                         "cacheAllLinks": "",
                         "customHeader": "",
                         "permissionHidden": "",
-                        "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {
-                            "permissionHidden": "",
-                            "permissionDeny": "true"
-                        }},
+                        "permission_rules": {
+                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {
+                                "permissionHidden": "",
+                                "permissionDeny": "true"
+                            },
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        },
                         "keyName": "",
                         "customFooter": "",
                         "label": "Incoming Mail Deadline",
@@ -537,7 +618,10 @@
                     "properties": {
                         "cacheAllLinks": "",
                         "customHeader": "",
-                        "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                        "permission_rules": {
+                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        },
                         "keyName": "",
                         "customFooter": "",
                         "label": "Outgoing Mail",
@@ -559,7 +643,10 @@
                     "properties": {
                         "runProcessDirectly": "Yes",
                         "fieldPassoverMethod": "append",
-                        "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                        "permission_rules": {
+                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        },
                         "keyName": "",
                         "label": "Dummy Trigger Email",
                         "redirectTarget": "",
@@ -581,7 +668,10 @@
             ],
             "properties": {
                 "hide": "",
-                "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                "permission_rules": {
+                    "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                    "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                },
                 "permission": {
                     "className": "",
                     "properties": {}
@@ -599,7 +689,10 @@
                     "properties": {
                         "runProcessDirectly": "Yes",
                         "fieldPassoverMethod": "append",
-                        "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                        "permission_rules": {
+                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        },
                         "keyName": "",
                         "label": "Create Incoming Client",
                         "redirectTarget": "",
@@ -625,7 +718,10 @@
                         "redirectUrlOnCancel": "",
                         "actionOnCancel": "",
                         "redirectTargetOnCancel": "top",
-                        "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                        "permission_rules": {
+                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        },
                         "customFooter": "",
                         "paramName": "",
                         "enableOffline": "",
@@ -656,7 +752,10 @@
                     "properties": {
                         "runProcessDirectly": "Yes",
                         "fieldPassoverMethod": "append",
-                        "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                        "permission_rules": {
+                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        },
                         "keyName": "",
                         "label": "Create Outgoing Mail",
                         "redirectTarget": "",
@@ -681,7 +780,10 @@
                         "fieldPassoverMethod": "append",
                         "actionOnCancel": "",
                         "redirectTargetOnCancel": "top",
-                        "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                        "permission_rules": {
+                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        },
                         "redirectTargetOnComplete": "",
                         "label": "Form",
                         "afterSavedReloadTarget": "true",
@@ -697,7 +799,10 @@
             ],
             "properties": {
                 "hide": "yes",
-                "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                "permission_rules": {
+                    "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                    "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                },
                 "permission": {
                     "className": "",
                     "properties": {}
@@ -716,7 +821,10 @@
                     "redirectUrlOnCancel": "list_type_of_mail",
                     "actionOnCancel": "",
                     "redirectTargetOnCancel": "top",
-                    "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                    "permission_rules": {
+                        "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                        "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                    },
                     "customFooter": "",
                     "paramName": "",
                     "enableOffline": "",
@@ -744,7 +852,10 @@
             }],
             "properties": {
                 "hide": "yes",
-                "permission_rules": {"88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {}},
+                "permission_rules": {
+                    "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
+                    "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                },
                 "permission": {
                     "className": "",
                     "properties": {}
@@ -769,17 +880,30 @@
         "userviewDescription": "",
         "userviewId": "afmsUi",
         "hideThisUserviewInAppCenter": "",
-        "permission_rules": [{
-            "permission_key": "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065",
-            "permission": {
-                "className": "org.joget.apps.userview.lib.GroupPermission",
-                "properties": {
-                    "orgId": "ORG-002",
-                    "allowedGroupIds": "GA-0003"
-                }
+        "permission_rules": [
+            {
+                "permission_key": "d04c2424-55cd-6cf3-ace0-78bcc15a100d",
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.GroupPermission",
+                    "properties": {
+                        "orgId": "ORG-002",
+                        "allowedGroupIds": "GA-0002"
+                    }
+                },
+                "permission_name": "Supervisor"
             },
-            "permission_name": "Spesialist"
-        }],
+            {
+                "permission_key": "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065",
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.GroupPermission",
+                    "properties": {
+                        "orgId": "ORG-002",
+                        "allowedGroupIds": "GA-0003"
+                    }
+                },
+                "permission_name": "Spesialist"
+            }
+        ],
         "userview_thumbnail": "#appResource.AmBadar-Logo_lingkaran_putih.png#",
         "userview_category": "",
         "theme": {
