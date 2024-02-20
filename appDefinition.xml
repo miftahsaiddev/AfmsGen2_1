@@ -308,7 +308,7 @@
                   <processDefId>incomingMailProcess</processDefId>
                   <activityDefId>update_status_incoming</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;update app_fd_afms_incomingmail set status_incoming=1 where id=&apos;#form.afms_incomingmail.id#&apos;&quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}}]}</pluginProperties>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;update app_fd_afms_incomingmail set c_status_incoming=1 where id=&apos;#form.afms_incomingmail.id#&apos;&quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
             <entry>
