@@ -10,7 +10,8 @@
                     "userviewCacheScope": "",
                     "permission_rules": {
                         "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                        "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                        "d1945954-0468-a470-f265-1505b21ab159": {}
                     },
                     "id": "295df761-b6df-4165-9e32-2078769eb6e0",
                     "label": "Welcome",
@@ -22,7 +23,8 @@
             "properties": {
                 "permission_rules": {
                     "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                    "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                    "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                    "d1945954-0468-a470-f265-1505b21ab159": {}
                 },
                 "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
                 "label": "<i class='fa fa-home'><\/i> Home"
@@ -38,7 +40,8 @@
                         "customHeader": "",
                         "permission_rules": {
                             "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                            "d1945954-0468-a470-f265-1505b21ab159": {}
                         },
                         "keyName": "",
                         "customFooter": "",
@@ -63,7 +66,8 @@
                         "customHeader": "",
                         "permission_rules": {
                             "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                            "d1945954-0468-a470-f265-1505b21ab159": {}
                         },
                         "keyName": "",
                         "customFooter": "",
@@ -88,7 +92,8 @@
                         "customHeader": "",
                         "permission_rules": {
                             "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                            "d1945954-0468-a470-f265-1505b21ab159": {}
                         },
                         "keyName": "",
                         "customFooter": "",
@@ -113,7 +118,8 @@
                         "customHeader": "",
                         "permission_rules": {
                             "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                            "d1945954-0468-a470-f265-1505b21ab159": {}
                         },
                         "keyName": "",
                         "customFooter": "",
@@ -138,7 +144,8 @@
                         "customHeader": "",
                         "permission_rules": {
                             "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                            "d1945954-0468-a470-f265-1505b21ab159": {}
                         },
                         "keyName": "",
                         "customFooter": "",
@@ -163,7 +170,8 @@
                         "customHeader": "",
                         "permission_rules": {
                             "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                            "d1945954-0468-a470-f265-1505b21ab159": {}
                         },
                         "keyName": "",
                         "customFooter": "",
@@ -188,7 +196,8 @@
                         "customHeader": "",
                         "permission_rules": {
                             "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                            "d1945954-0468-a470-f265-1505b21ab159": {}
                         },
                         "keyName": "",
                         "customFooter": "",
@@ -213,7 +222,8 @@
                         "customHeader": "",
                         "permission_rules": {
                             "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                            "d1945954-0468-a470-f265-1505b21ab159": {}
                         },
                         "keyName": "",
                         "customFooter": "",
@@ -238,7 +248,8 @@
                         "customHeader": "",
                         "permission_rules": {
                             "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                            "d1945954-0468-a470-f265-1505b21ab159": {}
                         },
                         "keyName": "",
                         "customFooter": "",
@@ -263,7 +274,8 @@
                         "customHeader": "",
                         "permission_rules": {
                             "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                            "d1945954-0468-a470-f265-1505b21ab159": {}
                         },
                         "keyName": "",
                         "customFooter": "",
@@ -288,7 +300,8 @@
                         "customHeader": "",
                         "permission_rules": {
                             "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                            "d1945954-0468-a470-f265-1505b21ab159": {}
                         },
                         "keyName": "",
                         "customFooter": "",
@@ -317,7 +330,8 @@
                     "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {
                         "hide": "",
                         "permissionDeny": "true"
-                    }
+                    },
+                    "d1945954-0468-a470-f265-1505b21ab159": {}
                 },
                 "permission": {
                     "className": "",
@@ -339,7 +353,8 @@
                         "customHeader": "",
                         "permission_rules": {
                             "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                            "d1945954-0468-a470-f265-1505b21ab159": {}
                         },
                         "keyName": "",
                         "customFooter": "",
@@ -364,7 +379,8 @@
                         "customHeader": "",
                         "permission_rules": {
                             "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                            "d1945954-0468-a470-f265-1505b21ab159": {}
                         },
                         "keyName": "",
                         "customFooter": "",
@@ -389,7 +405,8 @@
                         "customHeader": "",
                         "permission_rules": {
                             "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                            "d1945954-0468-a470-f265-1505b21ab159": {}
                         },
                         "keyName": "",
                         "customFooter": "",
@@ -414,7 +431,8 @@
                         "customHeader": "",
                         "permission_rules": {
                             "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                            "d1945954-0468-a470-f265-1505b21ab159": {}
                         },
                         "keyName": "",
                         "customFooter": "",
@@ -439,7 +457,8 @@
                         "customHeader": "",
                         "permission_rules": {
                             "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                            "d1945954-0468-a470-f265-1505b21ab159": {}
                         },
                         "keyName": "",
                         "customFooter": "",
@@ -468,7 +487,8 @@
                     "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {
                         "hide": "",
                         "permissionDeny": "true"
-                    }
+                    },
+                    "d1945954-0468-a470-f265-1505b21ab159": {}
                 },
                 "permission": {
                     "className": "",
@@ -490,7 +510,8 @@
                         "customHeader": "",
                         "permission_rules": {
                             "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                            "d1945954-0468-a470-f265-1505b21ab159": {}
                         },
                         "keyName": "",
                         "customFooter": "",
@@ -515,7 +536,8 @@
                         "customHeader": "",
                         "permission_rules": {
                             "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                            "d1945954-0468-a470-f265-1505b21ab159": {}
                         },
                         "keyName": "",
                         "customFooter": "",
@@ -540,7 +562,8 @@
                         "customHeader": "",
                         "permission_rules": {
                             "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                            "d1945954-0468-a470-f265-1505b21ab159": {}
                         },
                         "keyName": "",
                         "customFooter": "",
@@ -565,7 +588,8 @@
                         "customHeader": "",
                         "permission_rules": {
                             "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                            "d1945954-0468-a470-f265-1505b21ab159": {}
                         },
                         "keyName": "",
                         "customFooter": "",
@@ -594,7 +618,8 @@
                                 "permissionHidden": "",
                                 "permissionDeny": "true"
                             },
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                            "d1945954-0468-a470-f265-1505b21ab159": {}
                         },
                         "keyName": "",
                         "customFooter": "",
@@ -620,7 +645,8 @@
                         "customHeader": "",
                         "permission_rules": {
                             "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                            "d1945954-0468-a470-f265-1505b21ab159": {}
                         },
                         "keyName": "",
                         "customFooter": "",
@@ -645,7 +671,8 @@
                         "fieldPassoverMethod": "append",
                         "permission_rules": {
                             "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                            "d1945954-0468-a470-f265-1505b21ab159": {}
                         },
                         "keyName": "",
                         "label": "Dummy Trigger Email",
@@ -670,7 +697,8 @@
                 "hide": "",
                 "permission_rules": {
                     "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                    "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                    "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                    "d1945954-0468-a470-f265-1505b21ab159": {}
                 },
                 "permission": {
                     "className": "",
@@ -691,7 +719,8 @@
                         "fieldPassoverMethod": "append",
                         "permission_rules": {
                             "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                            "d1945954-0468-a470-f265-1505b21ab159": {}
                         },
                         "keyName": "",
                         "label": "Create Incoming Client",
@@ -720,7 +749,8 @@
                         "redirectTargetOnCancel": "top",
                         "permission_rules": {
                             "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                            "d1945954-0468-a470-f265-1505b21ab159": {}
                         },
                         "customFooter": "",
                         "paramName": "",
@@ -754,7 +784,8 @@
                         "fieldPassoverMethod": "append",
                         "permission_rules": {
                             "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                            "d1945954-0468-a470-f265-1505b21ab159": {}
                         },
                         "keyName": "",
                         "label": "Create Outgoing Mail",
@@ -782,7 +813,8 @@
                         "redirectTargetOnCancel": "top",
                         "permission_rules": {
                             "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                            "d1945954-0468-a470-f265-1505b21ab159": {}
                         },
                         "redirectTargetOnComplete": "",
                         "label": "Form",
@@ -801,7 +833,8 @@
                 "hide": "yes",
                 "permission_rules": {
                     "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                    "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                    "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                    "d1945954-0468-a470-f265-1505b21ab159": {}
                 },
                 "permission": {
                     "className": "",
@@ -823,7 +856,8 @@
                     "redirectTargetOnCancel": "top",
                     "permission_rules": {
                         "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                        "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                        "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                        "d1945954-0468-a470-f265-1505b21ab159": {}
                     },
                     "customFooter": "",
                     "paramName": "",
@@ -854,7 +888,8 @@
                 "hide": "yes",
                 "permission_rules": {
                     "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                    "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {}
+                    "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
+                    "d1945954-0468-a470-f265-1505b21ab159": {}
                 },
                 "permission": {
                     "className": "",
@@ -881,6 +916,14 @@
         "userviewId": "afmsUi",
         "hideThisUserviewInAppCenter": "",
         "permission_rules": [
+            {
+                "permission_key": "d1945954-0468-a470-f265-1505b21ab159",
+                "permission": {
+                    "className": "org.joget.plugin.enterprise.AdminUserviewPermission",
+                    "properties": {}
+                },
+                "permission_name": "Admin"
+            },
             {
                 "permission_key": "d04c2424-55cd-6cf3-ace0-78bcc15a100d",
                 "permission": {
