@@ -233,7 +233,27 @@
         },
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [],
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.DataListMenu",
+                "properties": {
+                    "cacheAllLinks": "",
+                    "customHeader": "",
+                    "keyName": "",
+                    "customFooter": "",
+                    "label": "List",
+                    "enableOffline": "",
+                    "customId": "",
+                    "buttonPosition": "bothLeft",
+                    "datalistId": "listClient",
+                    "checkboxPosition": "left",
+                    "selectionType": "multiple",
+                    "userviewCacheDuration": "20",
+                    "cacheListAction": "",
+                    "userviewCacheScope": "",
+                    "rowCount": "",
+                    "id": "4C04B14A2C1F4E744D3CA6DD00E41385"
+                }
+            }],
             "properties": {
                 "hide": "",
                 "permission": {
@@ -251,7 +271,7 @@
         "welcomeMessage": "#date.EEE, d MMM yyyy#",
         "name": "AFMS",
         "description": "",
-        "footerMessage": "Powered by Joget",
+        "footerMessage": "Powered by Terestrial Project",
         "id": "afmsUi"
     },
     "setting": {"properties": {
