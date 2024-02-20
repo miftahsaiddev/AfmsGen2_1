@@ -219,6 +219,32 @@
                             "value": "0",
                             "readonlyLabel": ""
                         }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CheckBox",
+                        "properties": {
+                            "fullWidth": "",
+                            "controlField": "",
+                            "readonly": "",
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "options": [{
+                                "label": "Yes",
+                                "value": "1",
+                                "grouping": ""
+                            }],
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "workflowVariable": "",
+                            "label": "Must be replied ?",
+                            "id": "is_replied",
+                            "value": "0",
+                            "readonlyLabel": ""
+                        }
                     }
                 ],
                 "className": "org.joget.apps.form.model.Column",
