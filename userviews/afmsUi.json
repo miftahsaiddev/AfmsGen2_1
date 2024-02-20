@@ -804,29 +804,6 @@
                         "redirectUrlAfterComplete": "",
                         "fieldPassover": ""
                     }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.FormMenu",
-                    "properties": {
-                        "fieldPassoverMethod": "append",
-                        "actionOnCancel": "",
-                        "redirectTargetOnCancel": "top",
-                        "permission_rules": {
-                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
-                            "d1945954-0468-a470-f265-1505b21ab159": {}
-                        },
-                        "redirectTargetOnComplete": "",
-                        "label": "Form",
-                        "afterSavedReloadTarget": "true",
-                        "userviewCacheDuration": "20",
-                        "showInPopupDialog": "No",
-                        "readonly": "No",
-                        "userviewCacheScope": "",
-                        "actionAfterSaved": "",
-                        "id": "C8E5D54E97F246D994568F06533CCDDF",
-                        "readonlyLabel": "true"
-                    }
                 }
             ],
             "properties": {
@@ -849,61 +826,6 @@
                 "comment": "",
                 "label": "HIDDEN",
                 "id": "category-AFB3F1F2F7F84187DAFC58FF815FEEE9"
-            }
-        },
-        {
-            "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [{
-                "className": "org.joget.apps.userview.lib.FormMenu",
-                "properties": {
-                    "loadDataWithKey": "",
-                    "redirectUrlOnCancel": "list_type_of_mail",
-                    "actionOnCancel": "",
-                    "redirectTargetOnCancel": "top",
-                    "permission_rules": {
-                        "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                        "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
-                        "d1945954-0468-a470-f265-1505b21ab159": {}
-                    },
-                    "customFooter": "",
-                    "paramName": "",
-                    "enableOffline": "",
-                    "afterSavedReloadTarget": "true",
-                    "customId": "type_of_mail",
-                    "showInPopupDialog": "",
-                    "readonly": "",
-                    "cancelButtonLabel": "Cancel",
-                    "actionAfterSaved": "",
-                    "id": "C05B238EBCFB4CDCD36BE5DEAABD6C7F",
-                    "redirectUrlAfterComplete": "",
-                    "fieldPassover": "",
-                    "formId": "typeOfMail",
-                    "customHeader": "",
-                    "fieldPassoverMethod": "append",
-                    "redirectTargetOnComplete": "",
-                    "keyName": "",
-                    "label": "Type of Mail",
-                    "userviewCacheDuration": "20",
-                    "messageShowAfterComplete": "",
-                    "submitButtonLabel": "",
-                    "userviewCacheScope": "",
-                    "readonlyLabel": "true"
-                }
-            }],
-            "properties": {
-                "hide": "yes",
-                "permission_rules": {
-                    "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                    "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
-                    "d1945954-0468-a470-f265-1505b21ab159": {}
-                },
-                "permission": {
-                    "className": "",
-                    "properties": {}
-                },
-                "comment": "",
-                "label": "Form Input",
-                "id": "category-CE2E192A2E954941C1ED07A19D833FB4"
             }
         }
     ],
