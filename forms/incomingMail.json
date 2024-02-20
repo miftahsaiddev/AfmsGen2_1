@@ -692,7 +692,7 @@
                                 "autoPopulate": "",
                                 "label": "",
                                 "id": "field26",
-                                "value": "<script>\nif(!window.Notification) {\n\tconsole.log('Browser does not support notifications.');\n} else {\n\tconsole.log('Browser support notifications.');\n}\n\n<\/script>"
+                                "value": "<script>\n// Fungsi untuk menampilkan notifikasi\nfunct {\n  // Cek apakah browser mendukung notifikasi\n  if (!(\"Notification\" in window)) er tidak mendukung notifikasi.\");\n  } else if (Notification.permission === \"granted\") {\n    // Jika izin notifikasi telah diberikan, tampilkan notifikasi\n    var notification = new Notification(\"Ini Notifikasi\", {\n      body: \"Ini adalah pesan notifikasi.\",\n    });\n  } else if (Notification.permission !== \"denied\") {\n    // Jika izin notifikasi belum diberikan, minta izin\n    Notification.requestPermission().then(function (permission) {\n      // Jika izin diberikan, tampilkan notifikasi\n      if (permission === \"granted\") {\n        var notification = new Notification(\"Ini Notifikasi\", {\n          body: \"Ini adalah pesan notifikasi.\",\n        });\n      }\n    });\n  }\n}\n\n// Panggil fungsi untuk menampilkan notifikasi setiap 5 detik\nsetInterval(showNotification, 5000);\n\n\n<\/script>"
                             }
                         }
                     ],
