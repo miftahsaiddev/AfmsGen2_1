@@ -72,6 +72,7 @@
                             "id": "body_mail",
                             "placeholder": "",
                             "rows": "5",
+                            "fieldInput-style-height": "50%",
                             "cols": "20",
                             "value": "",
                             "readonlyLabel": ""
