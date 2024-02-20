@@ -11,7 +11,7 @@
             "hrefParam": "id",
             "rules": [],
             "label": "View",
-            "href": "createOutgoing",
+            "href": "create_outgoing_mail",
             "confirmation": "",
             "link-css-display-type": "btn btn-sm btn-secondary",
             "datalist_type": "row_action",
@@ -82,7 +82,7 @@
             "hrefColumn": "",
             "hrefParam": "",
             "label": "Create Email Outgoing",
-            "href": "createOutgoing",
+            "href": "create_outgoing_mail",
             "confirmation": "",
             "datalist_type": "action",
             "target": "_self"
