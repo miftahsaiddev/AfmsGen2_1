@@ -71,21 +71,21 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>I0001IncomingMailCient::reply_mail</string>
+               <packageActivityForm>
+                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>reply_mail</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>reminder_process::runProcess</string>
                <packageActivityForm>
                   <processDefId>reminder_process</processDefId>
                   <activityDefId>runProcess</activityDefId>
                   <formId>processingForm</formId>
                   <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>I0001IncomingMailCient::reply_mail</string>
-               <packageActivityForm>
-                  <processDefId>I0001IncomingMailCient</processDefId>
-                  <activityDefId>reply_mail</activityDefId>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
@@ -187,21 +187,21 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>I0001IncomingMailCient::submit_mail</string>
+               <packageActivityForm>
+                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>submit_mail</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>incomingMailProcess::incoming_mail</string>
                <packageActivityForm>
                   <processDefId>incomingMailProcess</processDefId>
                   <activityDefId>incoming_mail</activityDefId>
                   <formId>reply_mail_client</formId>
                   <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>I0001IncomingMailCient::submit_mail</string>
-               <packageActivityForm>
-                  <processDefId>I0001IncomingMailCient</processDefId>
-                  <activityDefId>submit_mail</activityDefId>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
@@ -267,18 +267,18 @@
          </packageActivityFormMap>
          <packageActivityPluginMap>
             <entry>
-               <string>incomingMailProcess::deadline_</string>
+               <string>incomingMailProcess_3::deadline_</string>
                <packageActivityPlugin>
-                  <processDefId>incomingMailProcess</processDefId>
+                  <processDefId>incomingMailProcess_3</processDefId>
                   <activityDefId>deadline_</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
                   <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
             <entry>
-               <string>incomingMailProcess_3::deadline_</string>
+               <string>incomingMailProcess::deadline_</string>
                <packageActivityPlugin>
-                  <processDefId>incomingMailProcess_3</processDefId>
+                  <processDefId>incomingMailProcess</processDefId>
                   <activityDefId>deadline_</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
                   <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
@@ -294,21 +294,21 @@
                </packageActivityPlugin>
             </entry>
             <entry>
-               <string>reminder_process::tool1</string>
-               <packageActivityPlugin>
-                  <processDefId>reminder_process</processDefId>
-                  <activityDefId>tool1</activityDefId>
-                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
-               </packageActivityPlugin>
-            </entry>
-            <entry>
                <string>incomingMailProcess_3::call_procedure</string>
                <packageActivityPlugin>
                   <processDefId>incomingMailProcess_3</processDefId>
                   <activityDefId>call_procedure</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
                   <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_hitung_deadline_incoming(&apos;#form.afms_incomingmail.id#&apos;,&apos;#date.yyyy-MM-dd#&apos;,&apos; #form.afms_incomingmail.mail_subject#&apos;) &quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}},{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_incoming_mail_documents(&apos;#form.afms_incomingmail.id#&apos;,&apos;#form.afms_incomingmail.letter_type#&apos;,&apos;#form.afms_incomingmail.no_project#&apos;)&quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>reminder_process::tool1</string>
+               <packageActivityPlugin>
+                  <processDefId>reminder_process</processDefId>
+                  <activityDefId>tool1</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.marketplace.EmailToolWithTemplate&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;#form.afms_reminder.reminder_to#&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Reminder&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;Reminder&quot;,&quot;security&quot;:&quot;SSL&quot;,&quot;password&quot;:&quot;Ismimynam3&quot;,&quot;bodyTemplate&quot;:&quot;#envVariable.templateEmail#&quot;,&quot;port&quot;:&quot;465&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;miftah.said@ambadar.co.id&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;miftah.said@ambadar.co.id&quot;}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
             <entry>
@@ -339,21 +339,21 @@
                </packageActivityPlugin>
             </entry>
             <entry>
-               <string>incomingMailProcess::call_procedure</string>
-               <packageActivityPlugin>
-                  <processDefId>incomingMailProcess</processDefId>
-                  <activityDefId>call_procedure</activityDefId>
-                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_hitung_deadline_incoming(&apos;#form.afms_incomingmail.id#&apos;,&apos;#date.yyyy-MM-dd#&apos;,&apos; #form.afms_incomingmail.mail_subject#&apos;) &quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}},{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_incoming_mail_documents(&apos;#form.afms_incomingmail.id#&apos;,&apos;#form.afms_incomingmail.letter_type#&apos;,&apos;#form.afms_incomingmail.no_project#&apos;)&quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}}]}</pluginProperties>
-               </packageActivityPlugin>
-            </entry>
-            <entry>
                <string>tes_incoming_2::lettertype</string>
                <packageActivityPlugin>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>lettertype</activityDefId>
                   <pluginName>org.joget.apps.app.lib.RulesDecisionPlugin</pluginName>
                   <pluginProperties>{&quot;rules&quot;:{&quot;ifrules&quot;:[{&quot;andOr&quot;:&quot;and&quot;,&quot;revert&quot;:false,&quot;conditions&quot;:[{&quot;variable&quot;:&quot;lettertype&quot;,&quot;revert&quot;:false,&quot;operation&quot;:&quot;==&quot;,&quot;value&quot;:&quot;patent&quot;}],&quot;actions&quot;:[{&quot;name&quot;:&quot;transition3&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}],&quot;else&quot;:[{&quot;name&quot;:&quot;transition4&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>incomingMailProcess::call_procedure</string>
+               <packageActivityPlugin>
+                  <processDefId>incomingMailProcess</processDefId>
+                  <activityDefId>call_procedure</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_hitung_deadline_incoming(&apos;#form.afms_incomingmail.id#&apos;,&apos;#date.yyyy-MM-dd#&apos;,&apos; #form.afms_incomingmail.mail_subject#&apos;) &quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}},{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_incoming_mail_documents(&apos;#form.afms_incomingmail.id#&apos;,&apos;#form.afms_incomingmail.letter_type#&apos;,&apos;#form.afms_incomingmail.no_project#&apos;)&quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
             <entry>
