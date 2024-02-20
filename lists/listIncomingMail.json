@@ -46,6 +46,14 @@
         {
             "filterable": true,
             "hidden": "false",
+            "name": "processid",
+            "id": "column_5",
+            "label": "processid",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "renderHtml": "",
             "format": {
                 "className": "",
