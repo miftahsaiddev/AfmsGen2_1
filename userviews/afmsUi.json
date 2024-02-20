@@ -358,32 +358,6 @@
                         },
                         "keyName": "",
                         "customFooter": "",
-                        "label": "List Agent",
-                        "enableOffline": "",
-                        "customId": "list_agent",
-                        "buttonPosition": "topLeft",
-                        "datalistId": "agentList",
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "rowCount": "",
-                        "id": "53C67812EAD143D3655ADEA8CE871C61"
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "cacheAllLinks": "",
-                        "customHeader": "",
-                        "permission_rules": {
-                            "88ae8c3c-ce52-1a6a-03d5-cd63bd69b065": {},
-                            "d04c2424-55cd-6cf3-ace0-78bcc15a100d": {},
-                            "d1945954-0468-a470-f265-1505b21ab159": {}
-                        },
-                        "keyName": "",
-                        "customFooter": "",
                         "label": "List Applicant",
                         "enableOffline": "",
                         "customId": "list_applicant",
