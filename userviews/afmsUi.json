@@ -54,7 +54,7 @@
                         "label": "List Type of Mail",
                         "enableOffline": "",
                         "customId": "list_type_of_mail",
-                        "buttonPosition": "bothLeft",
+                        "buttonPosition": "topLeft",
                         "datalistId": "typeOfMailList",
                         "checkboxPosition": "left",
                         "selectionType": "multiple",
@@ -75,7 +75,7 @@
                         "label": "List Letter From",
                         "enableOffline": "",
                         "customId": "list_letter_from",
-                        "buttonPosition": "bothLeft",
+                        "buttonPosition": "topLeft",
                         "datalistId": "letterFromList",
                         "checkboxPosition": "left",
                         "selectionType": "multiple",
@@ -117,7 +117,7 @@
                         "label": "List Sub Letter Type",
                         "enableOffline": "",
                         "customId": "list_sub_letter_type",
-                        "buttonPosition": "bothLeft",
+                        "buttonPosition": "topLeft",
                         "datalistId": "subLetterTypeList",
                         "checkboxPosition": "left",
                         "selectionType": "multiple",
@@ -138,7 +138,7 @@
                         "label": "List Sub Sub Letter Type",
                         "enableOffline": "",
                         "customId": "list_sub_sub_letter_type",
-                        "buttonPosition": "bothLeft",
+                        "buttonPosition": "topLeft",
                         "datalistId": "subSubLetterTypeList",
                         "checkboxPosition": "left",
                         "selectionType": "multiple",
@@ -159,7 +159,7 @@
                         "label": "List Master Subject",
                         "enableOffline": "",
                         "customId": "list_master_subject",
-                        "buttonPosition": "bothLeft",
+                        "buttonPosition": "topLeft",
                         "datalistId": "masterLetterSubjectList",
                         "checkboxPosition": "left",
                         "selectionType": "multiple",
@@ -180,7 +180,7 @@
                         "label": "List Letter Subject ",
                         "enableOffline": "",
                         "customId": "list_letter_subject",
-                        "buttonPosition": "bothLeft",
+                        "buttonPosition": "topLeft",
                         "datalistId": "letterSubjectList",
                         "checkboxPosition": "left",
                         "selectionType": "multiple",
@@ -201,7 +201,7 @@
                         "label": "List Via",
                         "enableOffline": "",
                         "customId": "list_via",
-                        "buttonPosition": "bothLeft",
+                        "buttonPosition": "topLeft",
                         "datalistId": "viaList",
                         "checkboxPosition": "left",
                         "selectionType": "multiple",
@@ -210,6 +210,48 @@
                         "userviewCacheScope": "",
                         "rowCount": "",
                         "id": "3CF04505E7ED4C14C1549D13484D0C9B"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Last Status",
+                        "enableOffline": "",
+                        "customId": "list_last_status",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "lastStatusList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "3DD5D714BF024F2C2AC68DF1265EBB3A"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Sub Status",
+                        "enableOffline": "",
+                        "customId": "list_sub_status",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "subStatusList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "4C5EFE3B14FA4CF04817C210E4E733D2"
                     }
                 }
             ],
@@ -352,6 +394,29 @@
                         "rowCount": "",
                         "id": "51C158AD3F5447CED035DC11CAAF798E"
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.RunProcess",
+                    "properties": {
+                        "runProcessDirectly": "Yes",
+                        "fieldPassoverMethod": "append",
+                        "keyName": "",
+                        "label": "Dummy Trigger Email",
+                        "redirectTarget": "",
+                        "enableOffline": "",
+                        "afterSavedReloadTarget": "true",
+                        "customId": "dummy_trigger_email",
+                        "userviewCacheDuration": "20",
+                        "messageShowAfterComplete": "",
+                        "showInPopupDialog": "",
+                        "userviewCacheScope": "",
+                        "actionAfterSaved": "",
+                        "runProcessSubmitLabel": "",
+                        "id": "7A76A67561E84465F75AF55EF42E5E80",
+                        "processDefId": "reminder_process",
+                        "redirectUrlAfterComplete": "",
+                        "fieldPassover": ""
+                    }
                 }
             ],
             "properties": {
@@ -434,6 +499,171 @@
                 "label": "HIDDEN",
                 "id": "category-AFB3F1F2F7F84187DAFC58FF815FEEE9"
             }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Agent",
+                        "enableOffline": "",
+                        "customId": "list_agent",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "agentList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "53C67812EAD143D3655ADEA8CE871C61"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Applicant",
+                        "enableOffline": "",
+                        "customId": "list_applicant",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "applicantList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "6B11F266DC3748DCC59F509FB063060E"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Patent Type Order",
+                        "enableOffline": "",
+                        "customId": "list_patent_type_order",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "patentTypeOrderList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "168D3C16C99745440E4A93FABBB67444"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Patent Type IPC",
+                        "enableOffline": "",
+                        "customId": "list_patent_type_ipc",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "patentTypeIpcList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "27BD485C05DD4282F539897E8ADAFBDD"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Patent Type PPH",
+                        "enableOffline": "",
+                        "customId": "list_patent_type_pph",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "patentTypePphList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "E7AB2EB629BF46ACDBFEEBA1E2802DB2"
+                    }
+                }
+            ],
+            "properties": {
+                "hide": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "label": "Master Data Processing",
+                "id": "category-94D54106DD8C4FE0ECD97144BAA900BF"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.FormMenu",
+                "properties": {
+                    "loadDataWithKey": "",
+                    "redirectUrlOnCancel": "list_type_of_mail",
+                    "actionOnCancel": "",
+                    "redirectTargetOnCancel": "top",
+                    "customFooter": "",
+                    "paramName": "",
+                    "enableOffline": "",
+                    "afterSavedReloadTarget": "true",
+                    "customId": "type_of_mail",
+                    "showInPopupDialog": "",
+                    "readonly": "",
+                    "cancelButtonLabel": "Cancel",
+                    "actionAfterSaved": "",
+                    "id": "C05B238EBCFB4CDCD36BE5DEAABD6C7F",
+                    "redirectUrlAfterComplete": "",
+                    "fieldPassover": "",
+                    "formId": "typeOfMail",
+                    "customHeader": "",
+                    "fieldPassoverMethod": "append",
+                    "redirectTargetOnComplete": "",
+                    "keyName": "",
+                    "label": "Type of Mail",
+                    "userviewCacheDuration": "20",
+                    "messageShowAfterComplete": "",
+                    "submitButtonLabel": "",
+                    "userviewCacheScope": "",
+                    "readonlyLabel": "true"
+                }
+            }],
+            "properties": {
+                "hide": "yes",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "label": "Form Input",
+                "id": "category-CE2E192A2E954941C1ED07A19D833FB4"
+            }
         }
     ],
     "properties": {
@@ -450,7 +680,7 @@
         "userviewDescription": "",
         "userviewId": "afmsUi",
         "hideThisUserviewInAppCenter": "",
-        "userview_thumbnail": "#appResource.smart_2458321.png#",
+        "userview_thumbnail": "#appResource.AmBadar-Logo_lingkaran_putih.png#",
         "userview_category": "",
         "theme": {
             "className": "org.joget.plugin.enterprise.Dx8ColorAdminTheme",
@@ -463,9 +693,9 @@
                 "removeAssignmentTitle": "",
                 "shortcutLinkLabel": "Shortcut",
                 "disableHelpGuide": "",
-                "logo": "#appResource.AmBadar-Logo_lingkaran.png#",
+                "logo": "#appResource.AmBadar-Logo_lingkaran_putih.png#",
                 "enableResponsiveSwitch": "true",
-                "dx8headerFontColor": "#20252A",
+                "dx8headerFontColor": "#27418F",
                 "fav_icon": "#appResource.AmBadar-Logo_lingkaran_putih.png#",
                 "mobileViewDisabled": "",
                 "dx8navLinkIcon": "#FFFFFF",
@@ -476,17 +706,17 @@
                 "dx8linkColor": "#348FE2",
                 "homeUrl": "",
                 "dx8linkActiveColor": "#2A72B5",
-                "dx8footerColor": "#2D353C",
+                "dx8footerColor": "#FFFFFF",
                 "subheader": "",
                 "disablePwa": "",
                 "dx8contentbackground": "#FFFFFF",
                 "loginPageBottom": "",
-                "dx8backgroundImage": "#appResource.BG_1.JPG#",
+                "dx8backgroundImage": "#appResource.DSCF8199.JPG#",
                 "dx8navBadgeText": "#FFFFFF",
                 "dx8background": "#DEE2E6",
                 "dx8headerColor": "#FFFFFF",
                 "dx8colorScheme": "rgb(233, 233, 233);rgb(255, 255, 255);rgb(122, 181, 183);rgb(50, 75, 76);rgb(48, 63, 159);rgb(0, 25, 112)",
-                "dx8navBackground": "#2D353C",
+                "dx8navBackground": "#27418F",
                 "js": "",
                 "dx8navActiveIconColor": "#00ACAC",
                 "dx8navScrollbarThumb": "#999999",
@@ -498,14 +728,14 @@
                 "shortcut": [],
                 "fontControl": "",
                 "usingLocalFonts": "true",
-                "dx8navActiveLinkBackground": "#20252A",
+                "dx8navActiveLinkBackground": "#3D60CB",
                 "dx8fontColor": "#2D353C",
-                "dx8navLinkBackground": "#2D353C",
-                "dx8buttonBackground": "#348FE2",
+                "dx8navLinkBackground": "#27418F",
+                "dx8buttonBackground": "#27418F",
                 "dx8contentFontColor": "#2D353C",
                 "subfooter": "",
                 "mobileCacheEnabled": "",
-                "dx8footerBackground": "#FFFFFF",
+                "dx8footerBackground": "#BB4E43",
                 "dx8headingFontColor": "#FFFFFF",
                 "dx8primaryColor": "#67ABE9",
                 "darkMode": "",
