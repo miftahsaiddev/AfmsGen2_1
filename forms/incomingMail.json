@@ -708,8 +708,8 @@
                                     "properties": {}
                                 },
                                 "options": [{
-                                    "label": "urgent",
-                                    "value": "urgent",
+                                    "label": "Yes",
+                                    "value": "1",
                                     "grouping": ""
                                 }],
                                 "validator": {
@@ -717,8 +717,8 @@
                                     "properties": {}
                                 },
                                 "workflowVariable": "",
-                                "label": "",
-                                "id": "urgent",
+                                "label": "Is Urgent",
+                                "id": "is_urgent",
                                 "value": "",
                                 "readonlyLabel": ""
                             }
