@@ -267,18 +267,18 @@
          </packageActivityFormMap>
          <packageActivityPluginMap>
             <entry>
-               <string>incomingMailProcess::deadline_</string>
+               <string>incomingMailProcess_3::deadline_</string>
                <packageActivityPlugin>
-                  <processDefId>incomingMailProcess</processDefId>
+                  <processDefId>incomingMailProcess_3</processDefId>
                   <activityDefId>deadline_</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
                   <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
             <entry>
-               <string>incomingMailProcess_3::deadline_</string>
+               <string>incomingMailProcess::deadline_</string>
                <packageActivityPlugin>
-                  <processDefId>incomingMailProcess_3</processDefId>
+                  <processDefId>incomingMailProcess</processDefId>
                   <activityDefId>deadline_</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
                   <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
@@ -300,6 +300,15 @@
                   <activityDefId>call_procedure</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
                   <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_hitung_deadline_incoming(&apos;#form.afms_incomingmail.id#&apos;,&apos;#date.yyyy-MM-dd#&apos;,&apos; #form.afms_incomingmail.mail_subject#&apos;) &quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}},{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_incoming_mail_documents(&apos;#form.afms_incomingmail.id#&apos;,&apos;#form.afms_incomingmail.letter_type#&apos;,&apos;#form.afms_incomingmail.no_project#&apos;)&quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>reminder_process::route1</string>
+               <packageActivityPlugin>
+                  <processDefId>reminder_process</processDefId>
+                  <activityDefId>route1</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.RulesDecisionPlugin</pluginName>
+                  <pluginProperties>{&quot;rules&quot;:{&quot;ifrules&quot;:[{&quot;andOr&quot;:&quot;and&quot;,&quot;revert&quot;:false,&quot;conditions&quot;:[],&quot;actions&quot;:[]}],&quot;else&quot;:[]}}</pluginProperties>
                </packageActivityPlugin>
             </entry>
             <entry>
