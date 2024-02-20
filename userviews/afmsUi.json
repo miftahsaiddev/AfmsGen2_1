@@ -169,6 +169,27 @@
                         "rowCount": "",
                         "id": "A6C4F37D59234F7F1AE7CB653EFE2103"
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Letter Subject ",
+                        "enableOffline": "",
+                        "customId": "list_letter_subject",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "letterSubjectList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "056B5AB827924605D4EC1D9B67C9CA87"
+                    }
                 }
             ],
             "properties": {
