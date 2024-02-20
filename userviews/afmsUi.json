@@ -230,6 +230,20 @@
                 "label": "HIDDEN",
                 "id": "category-AFB3F1F2F7F84187DAFC58FF815FEEE9"
             }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [],
+            "properties": {
+                "hide": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "label": "Master Data Administrator",
+                "id": "category-F939FEBE918245659B0E374A66531C6E"
+            }
         }
     ],
     "properties": {
@@ -277,7 +291,7 @@
                 "disablePwa": "",
                 "dx8contentbackground": "#FFFFFF",
                 "loginPageBottom": "",
-                "dx8backgroundImage": "",
+                "dx8backgroundImage": "#appResource.BG_1.JPG#",
                 "dx8navBadgeText": "#FFFFFF",
                 "dx8background": "#DEE2E6",
                 "dx8headerColor": "#FFFFFF",
