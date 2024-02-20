@@ -505,7 +505,7 @@
                         "enableOffline": "",
                         "customId": "outgoing_mail",
                         "buttonPosition": "bothLeft",
-                        "datalistId": "outgoing_mail",
+                        "datalistId": "listOutgoing",
                         "checkboxPosition": "left",
                         "selectionType": "multiple",
                         "userviewCacheDuration": "20",
