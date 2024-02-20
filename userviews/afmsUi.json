@@ -276,6 +276,126 @@
                         "customHeader": "",
                         "keyName": "",
                         "customFooter": "",
+                        "label": "List Agent",
+                        "enableOffline": "",
+                        "customId": "list_agent",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "agentList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "53C67812EAD143D3655ADEA8CE871C61"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Applicant",
+                        "enableOffline": "",
+                        "customId": "list_applicant",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "applicantList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "6B11F266DC3748DCC59F509FB063060E"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Patent Type Order",
+                        "enableOffline": "",
+                        "customId": "list_patent_type_order",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "patentTypeOrderList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "168D3C16C99745440E4A93FABBB67444"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Patent Type IPC",
+                        "enableOffline": "",
+                        "customId": "list_patent_type_ipc",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "patentTypeIpcList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "27BD485C05DD4282F539897E8ADAFBDD"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List Patent Type PPH",
+                        "enableOffline": "",
+                        "customId": "list_patent_type_pph",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "patentTypePphList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "E7AB2EB629BF46ACDBFEEBA1E2802DB2"
+                    }
+                }
+            ],
+            "properties": {
+                "hide": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "label": "<i class=\"fas fa-coins\"><\/i> Master Data Processing",
+                "id": "category-94D54106DD8C4FE0ECD97144BAA900BF"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
                         "label": "Incoming Mail Client",
                         "enableOffline": "",
                         "customId": "incoming_mail_client",
@@ -498,126 +618,6 @@
                 "comment": "",
                 "label": "HIDDEN",
                 "id": "category-AFB3F1F2F7F84187DAFC58FF815FEEE9"
-            }
-        },
-        {
-            "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "cacheAllLinks": "",
-                        "customHeader": "",
-                        "keyName": "",
-                        "customFooter": "",
-                        "label": "List Agent",
-                        "enableOffline": "",
-                        "customId": "list_agent",
-                        "buttonPosition": "topLeft",
-                        "datalistId": "agentList",
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "rowCount": "",
-                        "id": "53C67812EAD143D3655ADEA8CE871C61"
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "cacheAllLinks": "",
-                        "customHeader": "",
-                        "keyName": "",
-                        "customFooter": "",
-                        "label": "List Applicant",
-                        "enableOffline": "",
-                        "customId": "list_applicant",
-                        "buttonPosition": "topLeft",
-                        "datalistId": "applicantList",
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "rowCount": "",
-                        "id": "6B11F266DC3748DCC59F509FB063060E"
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "cacheAllLinks": "",
-                        "customHeader": "",
-                        "keyName": "",
-                        "customFooter": "",
-                        "label": "List Patent Type Order",
-                        "enableOffline": "",
-                        "customId": "list_patent_type_order",
-                        "buttonPosition": "topLeft",
-                        "datalistId": "patentTypeOrderList",
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "rowCount": "",
-                        "id": "168D3C16C99745440E4A93FABBB67444"
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "cacheAllLinks": "",
-                        "customHeader": "",
-                        "keyName": "",
-                        "customFooter": "",
-                        "label": "List Patent Type IPC",
-                        "enableOffline": "",
-                        "customId": "list_patent_type_ipc",
-                        "buttonPosition": "topLeft",
-                        "datalistId": "patentTypeIpcList",
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "rowCount": "",
-                        "id": "27BD485C05DD4282F539897E8ADAFBDD"
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "cacheAllLinks": "",
-                        "customHeader": "",
-                        "keyName": "",
-                        "customFooter": "",
-                        "label": "List Patent Type PPH",
-                        "enableOffline": "",
-                        "customId": "list_patent_type_pph",
-                        "buttonPosition": "topLeft",
-                        "datalistId": "patentTypePphList",
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "rowCount": "",
-                        "id": "E7AB2EB629BF46ACDBFEEBA1E2802DB2"
-                    }
-                }
-            ],
-            "properties": {
-                "hide": "",
-                "permission": {
-                    "className": "",
-                    "properties": {}
-                },
-                "comment": "",
-                "label": "Master Data Processing",
-                "id": "category-94D54106DD8C4FE0ECD97144BAA900BF"
             }
         },
         {
