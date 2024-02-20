@@ -754,46 +754,6 @@
                 "join": "",
                 "readonlyLabel": ""
             }
-        },
-        {
-            "elements": [{
-                "elements": [{
-                    "className": "org.joget.plugin.SectionTabs",
-                    "properties": {
-                        "id": "field21",
-                        "sections": "main_data,another_data,upload_file",
-                        "load_all": ""
-                    }
-                }],
-                "className": "org.joget.apps.form.model.Column",
-                "properties": {"width": "100%"}
-            }],
-            "className": "org.joget.apps.form.model.Section",
-            "properties": {
-                "visibilityControl": "",
-                "permissionReadonly": "",
-                "permission": {
-                    "className": "",
-                    "properties": {}
-                },
-                "label": "Incoming Mail Agent",
-                "reverse": "",
-                "storeBinder": {
-                    "className": "",
-                    "properties": {}
-                },
-                "visibilityValue": "",
-                "regex": "",
-                "readonly": "",
-                "loadBinder": {
-                    "className": "",
-                    "properties": {}
-                },
-                "comment": "",
-                "id": "incoming_mail_agent",
-                "join": "",
-                "readonlyLabel": ""
-            }
         }
     ],
     "className": "org.joget.apps.form.model.Form",
