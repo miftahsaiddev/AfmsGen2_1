@@ -94,6 +94,19 @@
             "primaryKey": "id"
         }
     },
-    "actions": [],
+    "actions": [{
+        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+        "id": "action_0",
+        "properties": {
+            "visible": "true",
+            "hrefColumn": "",
+            "hrefParam": "",
+            "label": "Create Incoming",
+            "href": "create_incoming",
+            "confirmation": "",
+            "datalist_type": "action",
+            "target": "_self"
+        }
+    }],
     "order": ""
 }
