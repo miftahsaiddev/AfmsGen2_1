@@ -18,6 +18,106 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>incomingMailProcess_3::incoming_mail</string>
+               <packageActivityForm>
+                  <processDefId>incomingMailProcess_3</processDefId>
+                  <activityDefId>incoming_mail</activityDefId>
+                  <formId>reply_mail_client</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>incomingMailProcess_3::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>incomingMailProcess_3</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId>incomingMail</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>I0001IncomingMailCient::return_rejected_mail</string>
+               <packageActivityForm>
+                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>return_rejected_mail</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>incomingMailGovernmentProcess::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>incomingMailGovernmentProcess</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId>incomingMailGovernment</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>incomingMailGovernmentProcess::incoming_mail_government</string>
+               <packageActivityForm>
+                  <processDefId>incomingMailGovernmentProcess</processDefId>
+                  <activityDefId>incoming_mail_government</activityDefId>
+                  <formId>form_reply_government</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>reminder_process::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>reminder_process</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId>processingForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>I0001IncomingMailCient::reply_mail</string>
+               <packageActivityForm>
+                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>reply_mail</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>I0001IncomingMailCient::edit_and_submit_mail</string>
+               <packageActivityForm>
+                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>edit_and_submit_mail</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>I0001IncomingMailCient::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>tes_incoming_2::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>tes_incoming_2</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>tes_incoming_2::incoming_mail</string>
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
@@ -45,32 +145,10 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>incomingMailProcess_3::incoming_mail</string>
-               <packageActivityForm>
-                  <processDefId>incomingMailProcess_3</processDefId>
-                  <activityDefId>incoming_mail</activityDefId>
-                  <formId>reply_mail_client</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>I0001IncomingMailCient::approval_reply_mail</string>
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
                   <activityDefId>approval_reply_mail</activityDefId>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>incomingMailProcess_3::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>incomingMailProcess_3</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <formId>incomingMail</formId>
-                  <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
@@ -87,31 +165,11 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>I0001IncomingMailCient::return_rejected_mail</string>
-               <packageActivityForm>
-                  <processDefId>I0001IncomingMailCient</processDefId>
-                  <activityDefId>return_rejected_mail</activityDefId>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>incomingMailGovernmentProcess::incoming_mail</string>
                <packageActivityForm>
                   <processDefId>incomingMailGovernmentProcess</processDefId>
                   <activityDefId>incoming_mail</activityDefId>
                   <formId>reply_mail_client</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>incomingMailGovernmentProcess::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>incomingMailGovernmentProcess</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <formId>incomingMailGovernment</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -129,41 +187,10 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>incomingMailGovernmentProcess::incoming_mail_government</string>
-               <packageActivityForm>
-                  <processDefId>incomingMailGovernmentProcess</processDefId>
-                  <activityDefId>incoming_mail_government</activityDefId>
-                  <formId>form_reply_government</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>I0001IncomingMailCient::submit_mail</string>
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
                   <activityDefId>submit_mail</activityDefId>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>I0001IncomingMailCient::reply_mail</string>
-               <packageActivityForm>
-                  <processDefId>I0001IncomingMailCient</processDefId>
-                  <activityDefId>reply_mail</activityDefId>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>reminder_process::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>reminder_process</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
-                  <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
@@ -182,15 +209,6 @@
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>merek</activityDefId>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>I0001IncomingMailCient::edit_and_submit_mail</string>
-               <packageActivityForm>
-                  <processDefId>I0001IncomingMailCient</processDefId>
-                  <activityDefId>edit_and_submit_mail</activityDefId>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
@@ -216,19 +234,12 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>I0001IncomingMailCient::runProcess</string>
+               <string>reminder_process::activity1</string>
                <packageActivityForm>
-                  <processDefId>I0001IncomingMailCient</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>tes_incoming_2::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>tes_incoming_2</processDefId>
-                  <activityDefId>runProcess</activityDefId>
+                  <processDefId>reminder_process</processDefId>
+                  <activityDefId>activity1</activityDefId>
+                  <formId>processingForm</formId>
+                  <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
@@ -245,18 +256,18 @@
          </packageActivityFormMap>
          <packageActivityPluginMap>
             <entry>
-               <string>incomingMailProcess_3::deadline_</string>
+               <string>incomingMailProcess::deadline_</string>
                <packageActivityPlugin>
-                  <processDefId>incomingMailProcess_3</processDefId>
+                  <processDefId>incomingMailProcess</processDefId>
                   <activityDefId>deadline_</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
                   <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
             <entry>
-               <string>incomingMailProcess::deadline_</string>
+               <string>incomingMailProcess_3::deadline_</string>
                <packageActivityPlugin>
-                  <processDefId>incomingMailProcess</processDefId>
+                  <processDefId>incomingMailProcess_3</processDefId>
                   <activityDefId>deadline_</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
                   <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
@@ -272,21 +283,21 @@
                </packageActivityPlugin>
             </entry>
             <entry>
-               <string>incomingMailProcess_3::call_procedure</string>
-               <packageActivityPlugin>
-                  <processDefId>incomingMailProcess_3</processDefId>
-                  <activityDefId>call_procedure</activityDefId>
-                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_hitung_deadline_incoming(&apos;#form.afms_incomingmail.id#&apos;,&apos;#date.yyyy-MM-dd#&apos;,&apos; #form.afms_incomingmail.mail_subject#&apos;) &quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}},{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_incoming_mail_documents(&apos;#form.afms_incomingmail.id#&apos;,&apos;#form.afms_incomingmail.letter_type#&apos;,&apos;#form.afms_incomingmail.no_project#&apos;)&quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}}]}</pluginProperties>
-               </packageActivityPlugin>
-            </entry>
-            <entry>
                <string>reminder_process::tool1</string>
                <packageActivityPlugin>
                   <processDefId>reminder_process</processDefId>
                   <activityDefId>tool1</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
                   <pluginProperties>{}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>incomingMailProcess_3::call_procedure</string>
+               <packageActivityPlugin>
+                  <processDefId>incomingMailProcess_3</processDefId>
+                  <activityDefId>call_procedure</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_hitung_deadline_incoming(&apos;#form.afms_incomingmail.id#&apos;,&apos;#date.yyyy-MM-dd#&apos;,&apos; #form.afms_incomingmail.mail_subject#&apos;) &quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}},{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_incoming_mail_documents(&apos;#form.afms_incomingmail.id#&apos;,&apos;#form.afms_incomingmail.letter_type#&apos;,&apos;#form.afms_incomingmail.no_project#&apos;)&quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
             <entry>
