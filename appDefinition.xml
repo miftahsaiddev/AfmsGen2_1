@@ -158,6 +158,17 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>reminder_process::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>reminder_process</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>tes_incoming_2::not_approved</string>
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
@@ -270,21 +281,21 @@
                </packageActivityPlugin>
             </entry>
             <entry>
-               <string>incomingMailGovernmentProcess::call_procedure_government</string>
-               <packageActivityPlugin>
-                  <processDefId>incomingMailGovernmentProcess</processDefId>
-                  <activityDefId>call_procedure_government</activityDefId>
-                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_hitung_deadline_incoming(&apos;#form.afms_incomingmail.id#&apos;,&apos;#date.yyyy-MM-dd#&apos;,&apos; #form.afms_incomingmail.mail_subject#&apos;) &quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}},{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_incoming_mail_documents(&apos;#form.afms_incomingmail.id#&apos;,&apos;#form.afms_incomingmail.letter_type#&apos;,&apos;#form.afms_incomingmail.no_project#&apos;)&quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}}]}</pluginProperties>
-               </packageActivityPlugin>
-            </entry>
-            <entry>
                <string>sendEmailOut::update_status</string>
                <packageActivityPlugin>
                   <processDefId>sendEmailOut</processDefId>
                   <activityDefId>update_status</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
                   <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;update app_fd_afms_outgoingmail set c_status_sent=&apos;1&apos; where id= &apos;#form.afms_outgoingmail.id#&apos;&quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>incomingMailGovernmentProcess::call_procedure_government</string>
+               <packageActivityPlugin>
+                  <processDefId>incomingMailGovernmentProcess</processDefId>
+                  <activityDefId>call_procedure_government</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_hitung_deadline_incoming(&apos;#form.afms_incomingmail.id#&apos;,&apos;#date.yyyy-MM-dd#&apos;,&apos; #form.afms_incomingmail.mail_subject#&apos;) &quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}},{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_incoming_mail_documents(&apos;#form.afms_incomingmail.id#&apos;,&apos;#form.afms_incomingmail.letter_type#&apos;,&apos;#form.afms_incomingmail.no_project#&apos;)&quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
             <entry>
@@ -344,6 +355,15 @@
                </packageParticipant>
             </entry>
             <entry>
+               <string>reminder_process::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>reminder_process</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
                <string>incomingMailGovernmentProcess::incomingMailGovernmentProcess_administrator</string>
                <packageParticipant>
                   <processDefId>incomingMailGovernmentProcess</processDefId>
@@ -365,6 +385,15 @@
                <string>incomingMailProcess_3::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>incomingMailProcess_3</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process4::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>process4</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
