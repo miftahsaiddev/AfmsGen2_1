@@ -193,6 +193,32 @@
                             "id": "field8",
                             "value": "<script src=\"https://cdn.tiny.cloud/1/idzi9l3r8fsam7zctx1zb3y48is2zzo7uiy9v71vzp9xaz2s/tinymce/5/tinymce.min.js\" referrerpolicy=\"origin\"><\/script>\n<script>\n$(document).ready(function() {\n    tinymce.init({\n        selector: '#description_reply'\n    });\n});\n<\/script>"
                         }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CheckBox",
+                        "properties": {
+                            "fullWidth": "",
+                            "controlField": "",
+                            "readonly": "",
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "options": [{
+                                "label": "Yes",
+                                "value": "1",
+                                "grouping": ""
+                            }],
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "workflowVariable": "",
+                            "label": "Is Acknowledge ?",
+                            "id": "field9",
+                            "value": "0",
+                            "readonlyLabel": ""
+                        }
                     }
                 ],
                 "className": "org.joget.apps.form.model.Column",
