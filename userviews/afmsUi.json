@@ -114,6 +114,27 @@
                         "customHeader": "",
                         "keyName": "",
                         "customFooter": "",
+                        "label": "Incoming Mail Deadline",
+                        "enableOffline": "",
+                        "customId": "incoming_mail_deadline",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "incomingMailDeadline",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "FEA3AB44F0FE43B6AEF34CD70ABD8744"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
                         "label": "Outgoing Mail",
                         "enableOffline": "",
                         "customId": "outgoing_mail",
