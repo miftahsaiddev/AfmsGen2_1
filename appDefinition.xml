@@ -247,6 +247,17 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>sendEmailOut::activity1</string>
+               <packageActivityForm>
+                  <processDefId>sendEmailOut</processDefId>
+                  <activityDefId>activity1</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>tes_incoming_2::disitrbute_email</string>
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
@@ -421,6 +432,15 @@
                   <activityDefId>routeApproval</activityDefId>
                   <pluginName>org.joget.apps.app.lib.RulesDecisionPlugin</pluginName>
                   <pluginProperties>{&quot;rules&quot;:{&quot;ifrules&quot;:[{&quot;andOr&quot;:&quot;and&quot;,&quot;revert&quot;:false,&quot;conditions&quot;:[{&quot;variable&quot;:&quot;#form.afms_incomingmail.is_approval#&quot;,&quot;revert&quot;:false,&quot;operation&quot;:&quot;==&quot;,&quot;value&quot;:&quot;0&quot;}],&quot;actions&quot;:[{&quot;name&quot;:&quot;transition6&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]},{&quot;andOr&quot;:&quot;and&quot;,&quot;revert&quot;:false,&quot;conditions&quot;:[{&quot;variable&quot;:&quot;#form.afms_incomingmail.is_approval#&quot;,&quot;revert&quot;:false,&quot;operation&quot;:&quot;==&quot;,&quot;value&quot;:&quot;1&quot;}],&quot;actions&quot;:[{&quot;name&quot;:&quot;transition7&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}],&quot;else&quot;:[]}}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>sendEmailOut::route1</string>
+               <packageActivityPlugin>
+                  <processDefId>sendEmailOut</processDefId>
+                  <activityDefId>route1</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.RulesDecisionPlugin</pluginName>
+                  <pluginProperties>{&quot;rules&quot;:{&quot;ifrules&quot;:[{&quot;andOr&quot;:&quot;and&quot;,&quot;revert&quot;:false,&quot;conditions&quot;:[{&quot;variable&quot;:&quot;#form.afms_outgoingmail.is_approval#&quot;,&quot;revert&quot;:false,&quot;operation&quot;:&quot;==&quot;,&quot;value&quot;:&quot;0&quot;}],&quot;actions&quot;:[{&quot;name&quot;:&quot;transition4&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]},{&quot;andOr&quot;:&quot;and&quot;,&quot;revert&quot;:false,&quot;conditions&quot;:[{&quot;variable&quot;:&quot;#form.afms_outgoingmail.is_approval#&quot;,&quot;revert&quot;:false,&quot;operation&quot;:&quot;==&quot;,&quot;value&quot;:&quot;1&quot;}],&quot;actions&quot;:[{&quot;name&quot;:&quot;transition5&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}],&quot;else&quot;:[]}}</pluginProperties>
                </packageActivityPlugin>
             </entry>
             <entry>

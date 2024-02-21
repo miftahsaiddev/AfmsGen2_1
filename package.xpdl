@@ -28,6 +28,9 @@
         <Participant Id="supervisor" Name="Supervisor">
             <ParticipantType Type="ROLE"/>
         </Participant>
+        <Participant Id="sendEmailOut_participant2" Name="Participant 2">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
     </Participants>
     <Applications>
         <Application Id="default_application"/>
@@ -187,9 +190,14 @@
                         <Tool Id="default_application"/>
                     </Implementation>
                     <Performer>process7_participant17</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process7_participant17"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="258,49"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="670,46"/>
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="update_status" Name="Update Status">
@@ -199,7 +207,35 @@
                     <Performer>process7_participant17</Performer>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process7_participant17"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="482,50"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="911,48"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="route1">
+                    <Route/>
+                    <Performer>process7_participant17</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Split Type="XOR">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition4"/>
+                                    <TransitionRef Id="transition5"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process7_participant17"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="308,85"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="activity1" Name="Activity 1">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>sendEmailOut_participant2</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="sendEmailOut_participant2"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="326,73"/>
                     </ExtendedAttributes>
                 </Activity>
             </Activities>
@@ -209,11 +245,26 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
                 </Transition>
+                <Transition From="route1" Id="transition4" To="send_email">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route1" Id="transition5" To="activity1">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="activity1" Id="transition6" To="send_email">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
             </Transitions>
             <ExtendedAttributes>
-                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="process7_participant17"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process7_participant17,CONNECTING_ACTIVITY_ID=send_email,X_OFFSET=74,Y_OFFSET=69,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process7_participant17,CONNECTING_ACTIVITY_ID=update_status,X_OFFSET=665,Y_OFFSET=73,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="process7_participant17;sendEmailOut_participant2"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process7_participant17,CONNECTING_ACTIVITY_ID=route1,X_OFFSET=74,Y_OFFSET=69,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process7_participant17,CONNECTING_ACTIVITY_ID=update_status,X_OFFSET=1343,Y_OFFSET=72,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
         <WorkflowProcess Id="incomingMailGovernmentProcess" Name="Incoming Mail Government Process">

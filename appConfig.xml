@@ -41,7 +41,7 @@
          <id>counter_in</id>
          <appId>AfmsGen2</appId>
          <appVersion>1</appVersion>
-         <value>6</value>
+         <value>7</value>
          <remarks>Used for plugin: Id Generator Field</remarks>
       </environmentVariable>
       <environmentVariable>
