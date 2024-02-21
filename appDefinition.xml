@@ -473,6 +473,15 @@
          </packageActivityPluginMap>
          <packageParticipantMap>
             <entry>
+               <string>sendEmailOut::sendEmailOut_participant2</string>
+               <packageParticipant>
+                  <processDefId>sendEmailOut</processDefId>
+                  <participantId>sendEmailOut_participant2</participantId>
+                  <type>group</type>
+                  <value>GA-0002</value>
+               </packageParticipant>
+            </entry>
+            <entry>
                <string>incomingMailGovernmentProcess::incomingMailGovernmentProcess_specialist</string>
                <packageParticipant>
                   <processDefId>incomingMailGovernmentProcess</processDefId>
