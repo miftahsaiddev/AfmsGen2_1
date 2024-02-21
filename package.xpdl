@@ -128,7 +128,7 @@
                     <Performer>supervisor</Performer>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="supervisor"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="544,59"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="297,74"/>
                     </ExtendedAttributes>
                 </Activity>
             </Activities>
