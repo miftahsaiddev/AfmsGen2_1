@@ -381,7 +381,7 @@
                         "customHeader": "",
                         "keyName": "",
                         "customFooter": "",
-                        "label": "List Patent Type IPC",
+                        "label": "Patent Type IPC",
                         "enableOffline": "",
                         "customId": "list_patent_type_ipc",
                         "buttonPosition": "topLeft",
