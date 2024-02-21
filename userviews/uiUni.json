@@ -198,6 +198,48 @@
                         "customHeader": "",
                         "keyName": "",
                         "customFooter": "",
+                        "label": "Agent",
+                        "enableOffline": "",
+                        "customId": "list_agent",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "agentList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "0F46AFD72A664237FE6A6E5CCC016A33"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "Applicant",
+                        "enableOffline": "",
+                        "customId": "list_applicant",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "applicantList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "1DA56CAF84E4426FB4D5239C25B180BD"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
                         "label": "Government",
                         "enableOffline": "",
                         "customId": "list_government",
@@ -295,63 +337,6 @@
                         "rowCount": "true",
                         "id": "EA1DB12B613D43D01D4E6EA1E0493C40"
                     }
-                }
-            ],
-            "properties": {
-                "hide": "",
-                "permission": {
-                    "className": "",
-                    "properties": {}
-                },
-                "comment": "",
-                "label": "<i class=\"fas fa-database\"><\/i> Master Data Administrator",
-                "id": "category-A1486521BF64461D5B8C2506717BF798"
-            }
-        },
-        {
-            "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "cacheAllLinks": "",
-                        "customHeader": "",
-                        "keyName": "",
-                        "customFooter": "",
-                        "label": "Agent",
-                        "enableOffline": "",
-                        "customId": "list_agent",
-                        "buttonPosition": "topLeft",
-                        "datalistId": "agentList",
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "rowCount": "true",
-                        "id": "0F46AFD72A664237FE6A6E5CCC016A33"
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "cacheAllLinks": "",
-                        "customHeader": "",
-                        "keyName": "",
-                        "customFooter": "",
-                        "label": "Applicant",
-                        "enableOffline": "",
-                        "customId": "list_applicant",
-                        "buttonPosition": "topLeft",
-                        "datalistId": "applicantList",
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "rowCount": "true",
-                        "id": "1DA56CAF84E4426FB4D5239C25B180BD"
-                    }
                 },
                 {
                     "className": "org.joget.apps.userview.lib.DataListMenu",
@@ -424,8 +409,8 @@
                     "properties": {}
                 },
                 "comment": "",
-                "label": "<i class=\"fas fa-coins\"><\/i> Master Data Processing",
-                "id": "category-F3F63EC7102F403C99C03B9D593086EB"
+                "label": "<i class=\"fas fa-database\"><\/i> Master Data Administrator",
+                "id": "category-A1486521BF64461D5B8C2506717BF798"
             }
         },
         {
