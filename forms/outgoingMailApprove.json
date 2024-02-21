@@ -232,7 +232,7 @@
                             "properties": {}
                         },
                         "label": "Is Approve ?",
-                        "readonly": "true",
+                        "readonly": "",
                         "size": "",
                         "optionsBinder": {
                             "className": "",
@@ -253,7 +253,7 @@
                         "workflowVariable": "",
                         "id": "is_approve",
                         "value": "",
-                        "readonlyLabel": "true"
+                        "readonlyLabel": ""
                     }
                 }],
                 "className": "org.joget.apps.form.model.Column",
