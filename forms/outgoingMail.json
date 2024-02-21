@@ -145,7 +145,7 @@
                             "autoPopulate": "",
                             "label": "",
                             "id": "field6",
-                            "value": "<script src=\"https://cdn.ckeditor.com/ckeditor5/34.0.0/classic/ckeditor.js\"><\/script>\n<script>\n$(document).ready(function() {\n     ClassicEditor\n        .create( document.querySelector( '#editor' ) )\n        .then( editor => {\n            console.log( editor );\n        } )\n        .catch( error => {\n            console.error( error );\n        } );\n});\n\n<\/script>"
+                            "value": "<script src=\"https://cdn.ckeditor.com/ckeditor5/34.0.0/classic/ckeditor.js\"><\/script>\n<script>\n$(document).ready(function() {\n     ClassicEditor\n        .create( document.querySelector( '#body_mail' ) )\n        .then( editor => {\n            console.log( editor );\n        } )\n        .catch( error => {\n            console.error( error );\n        } );\n});\n\n<\/script>"
                         }
                     }
                 ],
