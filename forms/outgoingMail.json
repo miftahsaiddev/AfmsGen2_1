@@ -4,6 +4,19 @@
             "elements": [{
                 "elements": [
                     {
+                        "className": "org.joget.apps.form.lib.HiddenField",
+                        "properties": {
+                            "useDefaultWhenEmpty": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "workflowVariable": "",
+                            "id": "status_sent",
+                            "value": "0"
+                        }
+                    },
+                    {
                         "className": "org.joget.apps.form.lib.TextField",
                         "properties": {
                             "requiredSanitize": "true",
@@ -59,6 +72,7 @@
                             "id": "body_mail",
                             "placeholder": "",
                             "rows": "5",
+                            "fieldInput-style-height": "50%",
                             "cols": "20",
                             "value": "",
                             "readonlyLabel": ""
@@ -88,6 +102,16 @@
                             "id": "attachment_file",
                             "resizeHeight": "",
                             "fileType": ""
+                        }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.CustomHTML",
+                        "properties": {
+                            "requiredSanitize": "true",
+                            "autoPopulate": "",
+                            "label": "",
+                            "id": "field6",
+                            "value": "<script src=\"https://cdn.tiny.cloud/1/idzi9l3r8fsam7zctx1zb3y48is2zzo7uiy9v71vzp9xaz2s/tinymce/5/tinymce.min.js\" referrerpolicy=\"origin\"><\/script>\n<script>\n$(document).ready(function() {\n    tinymce.init({\n        selector: '#body_mail'\n    });\n});\n\n<\/script>"
                         }
                     }
                 ],

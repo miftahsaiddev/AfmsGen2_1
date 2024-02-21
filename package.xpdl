@@ -7,55 +7,22 @@
     </PackageHeader>
     <Script Type="text/javascript"/>
     <Participants>
-        <Participant Id="I0001IncomingMailClient_applicant" Name="Applicant">
-            <ParticipantType Type="ROLE"/>
-        </Participant>
-        <Participant Id="I0001IncomingMailClient_approver" Name="Approver">
-            <ParticipantType Type="ROLE"/>
-        </Participant>
-        <Participant Id="I0001IncomingMailClient_hod_manajer" Name="HOD/Manajer">
-            <ParticipantType Type="ROLE"/>
-        </Participant>
-        <Participant Id="I0002IncomingMailGovernment_applicant" Name="Applicant">
-            <ParticipantType Type="ROLE"/>
-        </Participant>
-        <Participant Id="I0002IncomingMailGovernment_approver" Name="Approver">
-            <ParticipantType Type="ROLE"/>
-        </Participant>
-        <Participant Id="I0002IncomingMailGovernment_hod_manajer" Name="HOD/Manajer">
-            <ParticipantType Type="ROLE"/>
-        </Participant>
-        <Participant Id="I0003IncomingMailTranslator_applicant" Name="Applicant">
-            <ParticipantType Type="ROLE"/>
-        </Participant>
-        <Participant Id="I0003IncomingMailTranslator_approver" Name="Approver">
-            <ParticipantType Type="ROLE"/>
-        </Participant>
-        <Participant Id="I0003IncomingMailTranslator_hod_manajer" Name="HOD/Manajer">
-            <ParticipantType Type="ROLE"/>
-        </Participant>
-        <Participant Id="I0001IncomingMailClient_system" Name="System">
-            <ParticipantType Type="ROLE"/>
-        </Participant>
-        <Participant Id="tes_incoming_2_entry_data" Name="Admin">
-            <ParticipantType Type="ROLE"/>
-        </Participant>
-        <Participant Id="email_recipient" Name="Email Recipient">
-            <ParticipantType Type="ROLE"/>
-        </Participant>
         <Participant Id="administrator" Name="Administrator">
             <ParticipantType Type="ROLE"/>
         </Participant>
         <Participant Id="specialist" Name="Specialist">
             <ParticipantType Type="ROLE"/>
         </Participant>
-        <Participant Id="incomingMailProcess_2_administrator" Name="Administrator">
-            <ParticipantType Type="ROLE"/>
-        </Participant>
-        <Participant Id="incomingMailProcess_2_specialist" Name="Specialist">
-            <ParticipantType Type="ROLE"/>
-        </Participant>
         <Participant Id="process7_participant17" Name="Participant">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
+        <Participant Id="incomingMailGovernmentProcess_administrator" Name="Administrator">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
+        <Participant Id="incomingMailGovernmentProcess_specialist" Name="Specialist">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
+        <Participant Id="process4_participant6" Name="Participant">
             <ParticipantType Type="ROLE"/>
         </Participant>
     </Participants>
@@ -63,645 +30,6 @@
         <Application Id="default_application"/>
     </Applications>
     <WorkflowProcesses>
-        <WorkflowProcess Id="I0001IncomingMailCient" Name="I0001. Incoming Mail Client">
-            <ProcessHeader DurationUnit="h"/>
-            <DataFields>
-                <DataField Id="status" IsArray="FALSE">
-                    <DataType>
-                        <BasicType Type="STRING"/>
-                    </DataType>
-                </DataField>
-            </DataFields>
-            <Activities>
-                <Activity Id="submit_mail" Name="Submit Mail">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>I0001IncomingMailClient_applicant</Performer>
-                    <TransitionRestrictions>
-                        <TransitionRestriction>
-                            <Split Type="XOR">
-                                <TransitionRefs>
-                                    <TransitionRef Id="transition2"/>
-                                    <TransitionRef Id="transition10"/>
-                                </TransitionRefs>
-                            </Split>
-                        </TransitionRestriction>
-                    </TransitionRestrictions>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="I0001IncomingMailClient_applicant"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="221,45"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="approve_reject_mail" Name="Approve/Reject Mail">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>I0001IncomingMailClient_approver</Performer>
-                    <TransitionRestrictions>
-                        <TransitionRestriction>
-                            <Join Type="XOR"/>
-                        </TransitionRestriction>
-                    </TransitionRestrictions>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="I0001IncomingMailClient_approver"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="258,138"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="route1" Name="Approved?">
-                    <Route/>
-                    <Performer>I0001IncomingMailClient_approver</Performer>
-                    <TransitionRestrictions>
-                        <TransitionRestriction>
-                            <Split Type="XOR">
-                                <TransitionRefs>
-                                    <TransitionRef Id="transition4"/>
-                                    <TransitionRef Id="transition7"/>
-                                </TransitionRefs>
-                            </Split>
-                        </TransitionRestriction>
-                    </TransitionRestrictions>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="I0001IncomingMailClient_approver"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="482.9375,156"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="reply_mail" Name="Reply Mail">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>I0001IncomingMailClient_approver</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="I0001IncomingMailClient_approver"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="647.0625,148"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="approval_reply_mail" Name="Approval Reply Mail">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>I0001IncomingMailClient_hod_manajer</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="I0001IncomingMailClient_hod_manajer"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="638.9375,54"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="return_rejected_mail" Name="Return Rejected Mail">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>I0001IncomingMailClient_approver</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="I0001IncomingMailClient_approver"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="451.0625,50"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="edit_and_submit_mail" Name="Edit &amp; Submit Mail">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>I0001IncomingMailClient_applicant</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="I0001IncomingMailClient_applicant"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="450.9375,40"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="route2" Name="Order Baru?">
-                    <Route/>
-                    <Performer>I0001IncomingMailClient_system</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="I0001IncomingMailClient_system"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="112,74"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="make_order_number" Name="Make Order Number">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>I0001IncomingMailClient_system</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="I0001IncomingMailClient_system"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="297,65"/>
-                    </ExtendedAttributes>
-                </Activity>
-            </Activities>
-            <Transitions>
-                <Transition From="submit_mail" Id="transition2" To="approve_reject_mail">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="approve_reject_mail" Id="transition3" To="route1">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="route1" Id="transition4" To="reply_mail">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="reply_mail" Id="transition6" To="approval_reply_mail">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="route1" Id="transition7" To="return_rejected_mail">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="return_rejected_mail" Id="transition8" To="edit_and_submit_mail">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="edit_and_submit_mail" Id="transition9" To="approve_reject_mail">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="submit_mail" Id="transition10" To="route2">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="route2" Id="transition11" To="make_order_number">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-            </Transitions>
-            <ExtendedAttributes>
-                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="I0001IncomingMailClient_applicant;I0001IncomingMailClient_approver;I0001IncomingMailClient_hod_manajer;I0001IncomingMailClient_system"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=I0001IncomingMailClient_applicant,CONNECTING_ACTIVITY_ID=submit_mail,X_OFFSET=97,Y_OFFSET=66,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=I0001IncomingMailClient_hod_manajer,CONNECTING_ACTIVITY_ID=approval_reply_mail,X_OFFSET=831.0625,Y_OFFSET=74,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=I0001IncomingMailClient_system,CONNECTING_ACTIVITY_ID=make_order_number,X_OFFSET=472,Y_OFFSET=104,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
-            </ExtendedAttributes>
-        </WorkflowProcess>
-        <WorkflowProcess Id="I0002IncomingMailGovernment" Name="I0002. Incoming Mail Government">
-            <ProcessHeader DurationUnit="h"/>
-            <DataFields>
-                <DataField Id="status" IsArray="FALSE">
-                    <DataType>
-                        <BasicType Type="STRING"/>
-                    </DataType>
-                </DataField>
-            </DataFields>
-            <Activities>
-                <Activity Id="submit_mail" Name="Submit Mail">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>I0002IncomingMailGovernment_applicant</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="I0002IncomingMailGovernment_applicant"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="221,45"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="approve_reject_mail" Name="Approve/Reject Mail">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>I0002IncomingMailGovernment_approver</Performer>
-                    <TransitionRestrictions>
-                        <TransitionRestriction>
-                            <Join Type="XOR"/>
-                        </TransitionRestriction>
-                    </TransitionRestrictions>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="I0002IncomingMailGovernment_approver"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="208,146"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="route1" Name="Approved?">
-                    <Route/>
-                    <Performer>I0002IncomingMailGovernment_approver</Performer>
-                    <TransitionRestrictions>
-                        <TransitionRestriction>
-                            <Split Type="XOR">
-                                <TransitionRefs>
-                                    <TransitionRef Id="transition4"/>
-                                    <TransitionRef Id="transition7"/>
-                                </TransitionRefs>
-                            </Split>
-                        </TransitionRestriction>
-                    </TransitionRestrictions>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="I0002IncomingMailGovernment_approver"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="482.9375,156"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="reply_mail" Name="Reply Mail">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>I0002IncomingMailGovernment_approver</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="I0002IncomingMailGovernment_approver"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="647.0625,148"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="approval_reply_mail" Name="Approval Reply Mail">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>I0002IncomingMailGovernment_hod_manajer</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="I0002IncomingMailGovernment_hod_manajer"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="638.9375,54"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="return_rejected_mail" Name="Return Rejected Mail">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>I0002IncomingMailGovernment_approver</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="I0002IncomingMailGovernment_approver"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="451.0625,50"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="edit_and_submit_mail" Name="Edit &amp; Submit Mail">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>I0002IncomingMailGovernment_applicant</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="I0002IncomingMailGovernment_applicant"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="450.9375,40"/>
-                    </ExtendedAttributes>
-                </Activity>
-            </Activities>
-            <Transitions>
-                <Transition From="submit_mail" Id="transition2" To="approve_reject_mail">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="approve_reject_mail" Id="transition3" To="route1">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="route1" Id="transition4" To="reply_mail">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="reply_mail" Id="transition6" To="approval_reply_mail">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="route1" Id="transition7" To="return_rejected_mail">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="return_rejected_mail" Id="transition8" To="edit_and_submit_mail">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="edit_and_submit_mail" Id="transition9" To="approve_reject_mail">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-            </Transitions>
-            <ExtendedAttributes>
-                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="I0002IncomingMailGovernment_applicant;I0002IncomingMailGovernment_approver;I0002IncomingMailGovernment_hod_manajer"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=I0002IncomingMailGovernment_applicant,CONNECTING_ACTIVITY_ID=submit_mail,X_OFFSET=97,Y_OFFSET=66,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=I0002IncomingMailGovernment_hod_manajer,CONNECTING_ACTIVITY_ID=approval_reply_mail,X_OFFSET=831.0625,Y_OFFSET=74,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
-            </ExtendedAttributes>
-        </WorkflowProcess>
-        <WorkflowProcess Id="I0003IncomingMailTranslator" Name="I0003. Incoming Mail Translator">
-            <ProcessHeader DurationUnit="h"/>
-            <DataFields>
-                <DataField Id="status" IsArray="FALSE">
-                    <DataType>
-                        <BasicType Type="STRING"/>
-                    </DataType>
-                </DataField>
-            </DataFields>
-            <Activities>
-                <Activity Id="submit_mail" Name="Submit Mail">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>I0003IncomingMailTranslator_applicant</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="I0003IncomingMailTranslator_applicant"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="221,45"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="approve_reject_mail" Name="Approve/Reject Mail">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>I0003IncomingMailTranslator_approver</Performer>
-                    <TransitionRestrictions>
-                        <TransitionRestriction>
-                            <Join Type="XOR"/>
-                        </TransitionRestriction>
-                    </TransitionRestrictions>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="I0003IncomingMailTranslator_approver"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="208,146"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="route1" Name="Approved?">
-                    <Route/>
-                    <Performer>I0003IncomingMailTranslator_approver</Performer>
-                    <TransitionRestrictions>
-                        <TransitionRestriction>
-                            <Split Type="XOR">
-                                <TransitionRefs>
-                                    <TransitionRef Id="transition4"/>
-                                    <TransitionRef Id="transition7"/>
-                                </TransitionRefs>
-                            </Split>
-                        </TransitionRestriction>
-                    </TransitionRestrictions>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="I0003IncomingMailTranslator_approver"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="482.9375,156"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="reply_mail" Name="Reply Mail">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>I0003IncomingMailTranslator_approver</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="I0003IncomingMailTranslator_approver"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="647.0625,148"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="approval_reply_mail" Name="Approval Reply Mail">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>I0003IncomingMailTranslator_hod_manajer</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="I0003IncomingMailTranslator_hod_manajer"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="638.9375,54"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="return_rejected_mail" Name="Return Rejected Mail">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>I0003IncomingMailTranslator_approver</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="I0003IncomingMailTranslator_approver"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="451.0625,50"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="edit_and_submit_mail" Name="Edit &amp; Submit Mail">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>I0003IncomingMailTranslator_applicant</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="I0003IncomingMailTranslator_applicant"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="450.9375,40"/>
-                    </ExtendedAttributes>
-                </Activity>
-            </Activities>
-            <Transitions>
-                <Transition From="submit_mail" Id="transition2" To="approve_reject_mail">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="approve_reject_mail" Id="transition3" To="route1">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="route1" Id="transition4" To="reply_mail">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="reply_mail" Id="transition6" To="approval_reply_mail">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="route1" Id="transition7" To="return_rejected_mail">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="return_rejected_mail" Id="transition8" To="edit_and_submit_mail">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="edit_and_submit_mail" Id="transition9" To="approve_reject_mail">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-            </Transitions>
-            <ExtendedAttributes>
-                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="I0003IncomingMailTranslator_applicant;I0003IncomingMailTranslator_approver;I0003IncomingMailTranslator_hod_manajer"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=I0003IncomingMailTranslator_applicant,CONNECTING_ACTIVITY_ID=submit_mail,X_OFFSET=97,Y_OFFSET=66,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=I0003IncomingMailTranslator_hod_manajer,CONNECTING_ACTIVITY_ID=approval_reply_mail,X_OFFSET=831.0625,Y_OFFSET=74,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
-            </ExtendedAttributes>
-        </WorkflowProcess>
-        <WorkflowProcess Id="tes_incoming_2" Name="Tes Incoming Mail">
-            <ProcessHeader DurationUnit="D">
-                <Limit>2</Limit>
-            </ProcessHeader>
-            <DataFields>
-                <DataField Id="status" IsArray="FALSE">
-                    <DataType>
-                        <BasicType Type="STRING"/>
-                    </DataType>
-                </DataField>
-                <DataField Id="lettertype" IsArray="FALSE">
-                    <DataType>
-                        <BasicType Type="STRING"/>
-                    </DataType>
-                </DataField>
-            </DataFields>
-            <Activities>
-                <Activity Id="incoming_mail" Name="Incoming Mail">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>tes_incoming_2_entry_data</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="tes_incoming_2_entry_data"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="157,29"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="lettertype" Name="Letter type">
-                    <Route/>
-                    <Performer>tes_incoming_2_entry_data</Performer>
-                    <TransitionRestrictions>
-                        <TransitionRestriction>
-                            <Split Type="XOR">
-                                <TransitionRefs>
-                                    <TransitionRef Id="transition3"/>
-                                    <TransitionRef Id="transition4"/>
-                                </TransitionRefs>
-                            </Split>
-                        </TransitionRestriction>
-                    </TransitionRestrictions>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="tes_incoming_2_entry_data"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="655.328125,34"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="patent" Name="Surat Patent">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>email_recipient</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="email_recipient"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="1121.671875,44"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="merek" Name="Surat Merek">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>email_recipient</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="email_recipient"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="634.671875,35"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="rejectapproved" Name="Reject or Approved">
-                    <Route/>
-                    <Performer>email_recipient</Performer>
-                    <TransitionRestrictions>
-                        <TransitionRestriction>
-                            <Join Type="XOR"/>
-                            <Split Type="XOR">
-                                <TransitionRefs>
-                                    <TransitionRef Id="transition8"/>
-                                    <TransitionRef Id="transition12"/>
-                                </TransitionRefs>
-                            </Split>
-                        </TransitionRestriction>
-                    </TransitionRestrictions>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="email_recipient"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="801.328125,165"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="reply_email" Name="Reply Email">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>email_recipient</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="email_recipient"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="777.671875,306"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="not_approved" Name="Not Approved">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>email_recipient</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="email_recipient"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="350.671875,149"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="disitrbute_email" Name="Disitrbute Email">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>tes_incoming_2_entry_data</Performer>
-                    <TransitionRestrictions>
-                        <TransitionRestriction>
-                            <Join Type="XOR"/>
-                        </TransitionRestriction>
-                    </TransitionRestrictions>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="tes_incoming_2_entry_data"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="347.09375,26"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="send_email" Name="Send Email">
-                    <Implementation>
-                        <Tool Id="default_application"/>
-                    </Implementation>
-                    <Performer>email_recipient</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="email_recipient"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="973.328125,308"/>
-                    </ExtendedAttributes>
-                </Activity>
-            </Activities>
-            <Transitions>
-                <Transition From="lettertype" Id="transition3" To="patent">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="lettertype" Id="transition4" To="merek">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="merek" Id="transition5" To="rejectapproved">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="patent" Id="transition6" To="rejectapproved">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="rejectapproved" Id="transition8" To="not_approved">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="disitrbute_email" Id="transition10" To="lettertype">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="not_approved" Id="transition11" To="disitrbute_email">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="rejectapproved" Id="transition12" To="reply_email">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="reply_email" Id="transition13" To="send_email">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="incoming_mail" Id="transition14" To="disitrbute_email">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-            </Transitions>
-            <ExtendedAttributes>
-                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="tes_incoming_2_entry_data;email_recipient"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=tes_incoming_2_entry_data,CONNECTING_ACTIVITY_ID=incoming_mail,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=email_recipient,CONNECTING_ACTIVITY_ID=send_email,X_OFFSET=1137.671875,Y_OFFSET=332,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
-            </ExtendedAttributes>
-        </WorkflowProcess>
         <WorkflowProcess Id="incomingMailProcess" Name="Incoming Mail Process">
             <ProcessHeader DurationUnit="h"/>
             <DataFields>
@@ -717,18 +45,28 @@
                 </DataField>
             </DataFields>
             <Activities>
-                <Activity Id="incoming_mail" Name="Incoming Mail">
+                <Activity Id="incoming_mail" Name="#form.afms_incomingmail.id#">
                     <Implementation>
                         <No/>
                     </Implementation>
                     <Performer>specialist</Performer>
-                    <Deadline Execution="SYNCHR">
-                        <DeadlineCondition>var d = new java.text.SimpleDateFormat('yyyy-MM-dd HH:mm'); d.parse(deadlineNotify);</DeadlineCondition>
+                    <Deadline Execution="ASYNCHR">
+                        <DeadlineCondition>var d = new java.text.SimpleDateFormat('yyyy-MM-dd'); d.parse("#form.afms_incomingmail.deadline_date#");</DeadlineCondition>
                         <ExceptionName>NOTIFY</ExceptionName>
                     </Deadline>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Split Type="XOR">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition_end_incoming_mail"/>
+                                    <TransitionRef Id="transition4"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="specialist"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="273,85"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="275,73"/>
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="deadline_" Name="deadline_">
@@ -751,6 +89,16 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="273,26"/>
                     </ExtendedAttributes>
                 </Activity>
+                <Activity Id="update_status_incoming" Name="Update Status Incoming">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>specialist</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="specialist"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="591.421875,81"/>
+                    </ExtendedAttributes>
+                </Activity>
             </Activities>
             <Transitions>
                 <Transition From="incoming_mail" Id="transition_end_incoming_mail" To="deadline_">
@@ -759,23 +107,70 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
                 </Transition>
+                <Transition From="call_procedure" Id="transition3" To="incoming_mail">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="incoming_mail" Id="transition4" To="update_status_incoming">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
             </Transitions>
             <ExtendedAttributes>
                 <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="administrator;specialist"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=administrator,CONNECTING_ACTIVITY_ID=incoming_mail,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=specialist,CONNECTING_ACTIVITY_ID=deadline_,X_OFFSET=123,Y_OFFSET=21,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=specialist,CONNECTING_ACTIVITY_ID=incoming_mail,X_OFFSET=537.3125,Y_OFFSET=118,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=administrator,CONNECTING_ACTIVITY_ID=call_procedure,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=specialist,CONNECTING_ACTIVITY_ID=deadline_,X_OFFSET=107,Y_OFFSET=8,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=specialist,CONNECTING_ACTIVITY_ID=update_status_incoming,X_OFFSET=820.578125,Y_OFFSET=107,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
-        <WorkflowProcess Id="incomingMailProcess_2" Name="Incoming Mail Process Gov">
-            <ProcessHeader DurationUnit="m"/>
-            <FormalParameters>
-                <FormalParameter Id="deadLine" Mode="OUT">
+        <WorkflowProcess Id="sendEmailOut" Name="Send Email Outgoing">
+            <ProcessHeader DurationUnit="h"/>
+            <DataFields>
+                <DataField Id="status" IsArray="FALSE">
                     <DataType>
                         <BasicType Type="STRING"/>
                     </DataType>
-                </FormalParameter>
-            </FormalParameters>
+                </DataField>
+            </DataFields>
+            <Activities>
+                <Activity Id="send_email" Name="Send Email">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>process7_participant17</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process7_participant17"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="238,62"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="update_status" Name="Update Status">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>process7_participant17</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process7_participant17"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="482,50"/>
+                    </ExtendedAttributes>
+                </Activity>
+            </Activities>
+            <Transitions>
+                <Transition From="send_email" Id="transition2" To="update_status">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+            </Transitions>
+            <ExtendedAttributes>
+                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="process7_participant17"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process7_participant17,CONNECTING_ACTIVITY_ID=send_email,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process7_participant17,CONNECTING_ACTIVITY_ID=update_status,X_OFFSET=660,Y_OFFSET=90,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+            </ExtendedAttributes>
+        </WorkflowProcess>
+        <WorkflowProcess Id="incomingMailGovernmentProcess" Name="Incoming Mail Government Process">
+            <ProcessHeader DurationUnit="h"/>
             <DataFields>
                 <DataField Id="status" IsArray="FALSE">
                     <DataType>
@@ -789,69 +184,109 @@
                 </DataField>
             </DataFields>
             <Activities>
-                <Activity Id="incoming_mail" Name="Incoming Mail">
+                <Activity Id="incoming_mail_government" Name="Incoming Mail Government">
                     <Implementation>
                         <No/>
                     </Implementation>
-                    <Performer>incomingMailProcess_2_specialist</Performer>
-                    <Deadline Execution="SYNCHR">
-                        <DeadlineCondition>var m=new java.util.Date(); m.setTime(ACTIVITY_ACTIVATED_TIME.getTime()+(3*60000)); m;</DeadlineCondition>
-                        <ExceptionName>ddline</ExceptionName>
+                    <Performer>incomingMailGovernmentProcess_specialist</Performer>
+                    <Deadline Execution="ASYNCHR">
+                        <DeadlineCondition>var d = new java.text.SimpleDateFormat('yyyy-MM-dd'); d.parse("#form.afms_incomingmail.deadline_date#");</DeadlineCondition>
+                        <ExceptionName>NOTIFY_GOVERNMENT</ExceptionName>
                     </Deadline>
-                    <TransitionRestrictions>
-                        <TransitionRestriction>
-                            <Split Type="XOR">
-                                <TransitionRefs>
-                                    <TransitionRef Id="transition_end_incoming_mail"/>
-                                    <TransitionRef Id="transition3"/>
-                                </TransitionRefs>
-                            </Split>
-                        </TransitionRestriction>
-                    </TransitionRestrictions>
                     <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="incomingMailProcess_2_specialist"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="273,85"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="incomingMailGovernmentProcess_specialist"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="275,73"/>
                     </ExtendedAttributes>
                 </Activity>
-                <Activity Id="tool1" Name="Tool 1">
+                <Activity Id="deadline_" Name="deadline_">
                     <Implementation>
                         <Tool Id="default_application"/>
                     </Implementation>
-                    <Performer>incomingMailProcess_2_specialist</Performer>
+                    <Performer>incomingMailGovernmentProcess_specialist</Performer>
                     <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="incomingMailProcess_2_specialist"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="564,24.1875030517578"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="incomingMailGovernmentProcess_specialist"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="72,73"/>
                     </ExtendedAttributes>
                 </Activity>
-                <Activity Id="activity2" Name="Activity 2">
+                <Activity Id="call_procedure_government" Name="Call Procedure Government">
                     <Implementation>
-                        <No/>
+                        <Tool Id="default_application"/>
                     </Implementation>
-                    <Performer>incomingMailProcess_2_administrator</Performer>
+                    <Performer>incomingMailGovernmentProcess_administrator</Performer>
                     <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="incomingMailProcess_2_administrator"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="269,44.2"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="incomingMailGovernmentProcess_administrator"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="273,26"/>
                     </ExtendedAttributes>
                 </Activity>
             </Activities>
             <Transitions>
-                <Transition From="incoming_mail" Id="transition_end_incoming_mail" To="activity2">
-                    <Condition Type="EXCEPTION">ddline</Condition>
+                <Transition From="incoming_mail_government" Id="transition_end_incoming_mail" To="deadline_">
+                    <Condition Type="EXCEPTION">NOTIFY_GOVERNMENT</Condition>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
                 </Transition>
-                <Transition From="incoming_mail" Id="transition3" To="tool1">
+                <Transition From="call_procedure_government" Id="transition3" To="incoming_mail_government">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
                 </Transition>
             </Transitions>
             <ExtendedAttributes>
-                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="incomingMailProcess_2_administrator;incomingMailProcess_2_specialist"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=incomingMailProcess_2_administrator,CONNECTING_ACTIVITY_ID=incoming_mail,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=incomingMailProcess_2_specialist,CONNECTING_ACTIVITY_ID=tool1,X_OFFSET=531.328125,Y_OFFSET=137,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=incomingMailProcess_2_administrator,CONNECTING_ACTIVITY_ID=activity2,X_OFFSET=483,Y_OFFSET=80.8624984741211,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="incomingMailGovernmentProcess_administrator;incomingMailGovernmentProcess_specialist"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=incomingMailGovernmentProcess_administrator,CONNECTING_ACTIVITY_ID=call_procedure_government,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=incomingMailGovernmentProcess_specialist,CONNECTING_ACTIVITY_ID=deadline_,X_OFFSET=107,Y_OFFSET=8,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=incomingMailGovernmentProcess_specialist,CONNECTING_ACTIVITY_ID=incoming_mail_government,X_OFFSET=530.3125,Y_OFFSET=96,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+            </ExtendedAttributes>
+        </WorkflowProcess>
+        <WorkflowProcess Id="reminder_process" Name="Reminder Process">
+            <ProcessHeader DurationUnit="h"/>
+            <DataFields>
+                <DataField Id="status" IsArray="FALSE">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </DataField>
+            </DataFields>
+            <Activities>
+                <Activity Id="reminder" Name="Reminder">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>process4_participant6</Performer>
+                    <Deadline Execution="ASYNCHR">
+                        <DeadlineCondition>var m=new java.util.Date(); m.setTime(ACTIVITY_ACTIVATED_TIME.getTime()+(2*60000)); m;</DeadlineCondition>
+                        <ExceptionName>REMINDER</ExceptionName>
+                    </Deadline>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_participant6"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="274,60"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="tool1" Name="Tool 1">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>process4_participant6</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_participant6"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="467,66"/>
+                    </ExtendedAttributes>
+                </Activity>
+            </Activities>
+            <Transitions>
+                <Transition From="reminder" Id="transition2" To="tool1">
+                    <Condition Type="EXCEPTION">REMINDER</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+            </Transitions>
+            <ExtendedAttributes>
+                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="process4_participant6"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process4_participant6,CONNECTING_ACTIVITY_ID=reminder,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process4_participant6,CONNECTING_ACTIVITY_ID=tool1,X_OFFSET=650,Y_OFFSET=120,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process4_participant6,CONNECTING_ACTIVITY_ID=reminder,X_OFFSET=311,Y_OFFSET=190,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
     </WorkflowProcesses>

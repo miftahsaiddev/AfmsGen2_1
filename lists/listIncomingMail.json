@@ -6,41 +6,51 @@
     "considerFilterWhenGetTotal": "",
     "useSession": "",
     "responsiveMode": "",
-    "rowActions": [
+    "rowActions": [],
+    "columns": [
         {
-            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-            "id": "rowAction_0",
-            "properties": {
-                "hrefColumn": "true",
-                "hrefParam": "embed",
-                "rules": [],
-                "label": "Create",
-                "href": "form_incoming_mail_agent",
-                "confirmation": "",
-                "link-css-display-type": "btn btn-sm btn-primary",
-                "datalist_type": "row_action",
-                "target": "popup",
-                "header_label": ""
-            }
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "org.joget.apps.datalist.lib.DefaultFormatter",
+                "properties": {
+                    "size": "",
+                    "color": "",
+                    "field": "",
+                    "formDefId": "",
+                    "formatting": "b"
+                }
+            },
+            "label": "Mail No.",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "id",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+                "properties": {
+                    "hrefColumn": "id",
+                    "hrefParam": "id",
+                    "href": "update_incoming_client",
+                    "confirmation": "",
+                    "target": "_self"
+                }
+            },
+            "style": "",
+            "id": "column_2",
+            "alignment": ""
         },
         {
-            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-            "id": "rowAction_1",
-            "properties": {
-                "hrefColumn": "id;true",
-                "hrefParam": "id;embed",
-                "rules": [],
-                "label": "Edit",
-                "href": "0AB4C5EC414941F7AD1D3384AE3DE5D0",
-                "confirmation": "",
-                "link-css-display-type": "btn btn-sm btn-secondary",
-                "datalist_type": "row_action",
-                "target": "_self",
-                "header_label": ""
-            }
-        }
-    ],
-    "columns": [
+            "filterable": true,
+            "hidden": "false",
+            "name": "processid",
+            "id": "column_5",
+            "label": "processid",
+            "sortable": "false"
+        },
         {
             "filterable": true,
             "hidden": "false",
@@ -49,22 +59,16 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Mail No",
+            "label": "Letter Type",
             "sortable": "false",
             "datalist_type": "column",
             "exclude_export": "",
-            "name": "mail_no",
+            "name": "name_letter_type",
             "width": "",
             "headerAlignment": "",
             "action": {
-                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-                "properties": {
-                    "hrefColumn": "id",
-                    "hrefParam": "id",
-                    "href": "form_reply",
-                    "confirmation": "",
-                    "target": "_self"
-                }
+                "className": "",
+                "properties": {}
             },
             "style": "",
             "id": "column_4",
@@ -78,11 +82,34 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Project No",
-            "sortable": "true",
+            "label": "Agent",
+            "sortable": "false",
             "datalist_type": "column",
             "exclude_export": "",
-            "name": "no_project",
+            "name": "c_name",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_0",
+            "alignment": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Distribution Date",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "distribution_date",
             "width": "",
             "headerAlignment": "",
             "action": {
@@ -101,11 +128,11 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Distribution Date",
-            "sortable": "true",
+            "label": "Deadline Date",
+            "sortable": "false",
             "datalist_type": "column",
             "exclude_export": "",
-            "name": "dateCreated",
+            "name": "c_deadline_date",
             "width": "",
             "headerAlignment": "",
             "action": {
@@ -113,16 +140,8 @@
                 "properties": {}
             },
             "style": "",
-            "id": "column_0",
+            "id": "column_3",
             "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "agent",
-            "id": "column_5",
-            "label": "Agent",
-            "sortable": "false"
         }
     ],
     "draggabletable": "",
@@ -130,22 +149,7 @@
     "pageSize": "0",
     "orderBy": "",
     "description": "",
-    "filters": [{
-        "hidden": "",
-        "name": "mail_no",
-        "id": "filter_0",
-        "label": "Mail No",
-        "type": {
-            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-            "properties": {
-                "defaultValue": "",
-                "filterSelection": "Number;String",
-                "searchFields": ""
-            }
-        },
-        "datalist_type": "filter",
-        "filterParamName": "d-7575193-fn_mail_no"
-    }],
+    "filters": [],
     "showDataWhenFilterSet": "",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
     "hidePageSize": "",
@@ -156,10 +160,12 @@
     "showhidecolumns": "",
     "id": "listIncomingMail",
     "binder": {
-        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "className": "org.joget.apps.datalist.lib.BeanShellDatalistBinder",
         "properties": {
-            "formDefId": "incomingMail",
-            "extraCondition": ""
+            "getDataScript": "import org.joget.apps.datalist.model.DataListCollection;\r\nimport org.joget.apps.form.model.FormRow;\r\nimport org.joget.apps.form.model.FormRowSet;\r\nimport org.joget.apps.datalist.model.DataListFilterQueryObject;\r\nimport java.util.regex.Pattern;\r\n \r\nimport java.sql.Connection;\r\nimport java.sql.PreparedStatement;\r\nimport java.sql.ResultSet;\r\nimport java.sql.SQLException;\r\nimport javax.sql.DataSource;\r\nimport org.joget.apps.app.service.AppUtil;\r\nimport org.joget.apps.form.model.Element;\r\nimport org.joget.apps.form.model.FormData;\r\nimport org.joget.commons.util.LogUtil;\r\n\r\nFormRowSet rows = new FormRowSet();\r\nDataListCollection resultList = new DataListCollection();\r\n\r\n\r\n    Connection con = null;\r\n    try {\r\n        // retrieve connection from the default datasource\r\n        DataSource ds = (DataSource)AppUtil.getApplicationContext().getBean(\"setupDataSource\");\r\n        con = ds.getConnection();\r\n        \r\n        // execute SQL query\r\n        if(!con.isClosed()) {\r\n             PreparedStatement stmt = con.prepareStatement(\"select s.id processid,afai.id, afai.id, afai.c_client_id, afai.c_deadline_date ,afai.c_letter_type ,TO_CHAR(afai.datecreated ::timestamp, 'yyyy-mm-dd') AS distribution_date, afaa.c_name, \"\r\n            + \"afal.c_letter_type name_letter_type \"\r\n            + \"from app_fd_afms_incomingmail afai \"\r\n            + \"left join app_fd_afms_client afac on afai.c_client_id =afac.id \"\r\n            + \"left join app_fd_afms_agent afaa on afac.id=afaa.c_client_id \"\r\n            + \"left join app_fd_afms_government afag on afac.id=afag.c_client_id \"\r\n            + \"left join app_fd_afms_translator afat on afac.id=afat.c_client_id \"\r\n            + \"left join app_fd_afms_lettertype afal on afai.c_letter_type = afal.id \"\r\n            + \"left join shkactivities s on afai.id =s.name and s.activitydefinitionid='incoming_mail' \"\r\n            +\"where afai.c_letter_from ='LF-001' \");\r\n            ResultSet rs = stmt.executeQuery();\r\n            while (rs.next()) {\r\n                FormRow row = new FormRow();\r\n                row.setProperty(\"id\", (rs.getObject(\"id\") != null)?rs.getObject(\"id\").toString():\"\");\r\n                row.setProperty(\"processid\", (rs.getObject(\"processid\") != null)?rs.getObject(\"processid\").toString():\"\");\r\n                row.setProperty(\"c_client_id\", (rs.getObject(\"c_client_id\") != null)?rs.getObject(\"c_client_id\").toString():\"\");\r\n                row.setProperty(\"c_deadline_date\", (rs.getObject(\"c_deadline_date\") != null)?rs.getObject(\"c_deadline_date\").toString():\"\");\r\n                row.setProperty(\"c_letter_type\", (rs.getObject(\"c_letter_type\") != null)?rs.getObject(\"c_letter_type\").toString():\"\");\r\n                row.setProperty(\"distribution_date\", (rs.getObject(\"distribution_date\") != null)?rs.getObject(\"distribution_date\").toString():\"q\");\r\n                row.setProperty(\"c_name\", (rs.getObject(\"c_name\") != null)?rs.getObject(\"c_name\").toString():\"\");\r\n                row.setProperty(\"c_letter_type\", (rs.getObject(\"c_letter_type\") != null)?rs.getObject(\"c_letter_type\").toString():\"\");\r\n                row.setProperty(\"name_letter_type\", (rs.getObject(\"name_letter_type\") != null)?rs.getObject(\"name_letter_type\").toString():\"\");\r\n                rows.add(row);\r\n                \r\n            }\r\n            resultList.addAll(rows);    \r\n        }\r\n    } catch(Exception e) {\r\n        LogUtil.error(\"Sample app - Form 1\", e, \"Error loading user data in load binder\");\r\n    } finally {\r\n        //always close the connection after used\r\n        try {\r\n            if(con != null) {\r\n                con.close();\r\n            }\r\n        } catch(SQLException e) {/* ignored */}\r\n    }\r\n\r\n\r\n \r\n \r\nDataListFilterQueryObject obj = new DataListFilterQueryObject();\r\nboolean isFiltered = false;\r\nCollection values = new ArrayList();\r\nDataListCollection filteredResultList = new DataListCollection();\r\n \r\n        for (int i = 0; i < filterQueryObjects.length; i++) {\r\n            if (filterQueryObjects[i].getValues() != null && filterQueryObjects[i].getValues().length > 0) {\r\n                values.addAll(Arrays.asList(filterQueryObjects[i].getValues()));\r\n            }\r\n             \r\n            for (s: resultList) {\r\n                String targetColumn = s.getProperty(\"username\");\r\n                for (String searchWord : values) {\r\n                    String searchWordReplaced = searchWord.replaceAll(\"%\", \"\");\r\n                    if (targetColumn.contains(searchWordReplaced)) {\r\n                        rowSet = new FormRowSet();\r\n                        rowSet.add(s);\r\n                        filteredResultList.addAll(rowSet);\r\n                        isFiltered = true;\r\n                   }\r\n                }\r\n            }\r\n            if(isFiltered){\r\n                return filteredResultList;\r\n            }\r\n        }\r\n        if (values.size() > 0){\r\n            obj.setValues((String[]) values.toArray(new String[0]));\r\n        }\r\n \r\n \r\n \r\nreturn resultList;",
+            "getTotalScript": "import org.joget.apps.datalist.model.DataListCollection;\r\nimport org.joget.apps.form.model.FormRow;\r\nimport org.joget.apps.form.model.FormRowSet;\r\nimport org.joget.apps.datalist.model.DataListFilterQueryObject;\r\nimport java.util.regex.Pattern;\r\n \r\nimport java.sql.Connection;\r\nimport java.sql.PreparedStatement;\r\nimport java.sql.ResultSet;\r\nimport java.sql.SQLException;\r\nimport javax.sql.DataSource;\r\nimport org.joget.apps.app.service.AppUtil;\r\nimport org.joget.apps.form.model.Element;\r\nimport org.joget.apps.form.model.FormData;\r\nimport org.joget.commons.util.LogUtil;\r\n\r\nFormRowSet rows = new FormRowSet();\r\nDataListCollection resultList = new DataListCollection();\r\n\r\n\r\n    Connection con = null;\r\n    try {\r\n        // retrieve connection from the default datasource\r\n        DataSource ds = (DataSource)AppUtil.getApplicationContext().getBean(\"setupDataSource\");\r\n        con = ds.getConnection();\r\n        \r\n        // execute SQL query\r\n        if(!con.isClosed()) {\r\n             PreparedStatement stmt = con.prepareStatement(\"select s.id processid,afai.id, afai.id, afai.c_client_id, afai.c_deadline_date ,afai.c_letter_type ,TO_CHAR(afai.datecreated ::timestamp, 'yyyy-mm-dd') AS distribution_date, afaa.c_name, \"\r\n            + \"afal.c_letter_type name_letter_type \"\r\n            + \"from app_fd_afms_incomingmail afai \"\r\n            + \"left join app_fd_afms_client afac on afai.c_client_id =afac.id \"\r\n            + \"left join app_fd_afms_agent afaa on afac.id=afaa.c_client_id \"\r\n            + \"left join app_fd_afms_government afag on afac.id=afag.c_client_id \"\r\n            + \"left join app_fd_afms_translator afat on afac.id=afat.c_client_id \"\r\n            + \"left join app_fd_afms_lettertype afal on afai.c_letter_type = afal.id \"\r\n            + \"left join shkactivities s on afai.id =s.name and s.activitydefinitionid='incoming_mail' \"\r\n            +\"where afai.c_letter_from ='LF-001' \");\r\n            ResultSet rs = stmt.executeQuery();\r\n            while (rs.next()) {\r\n                FormRow row = new FormRow();\r\n                row.setProperty(\"id\", (rs.getObject(\"id\") != null)?rs.getObject(\"id\").toString():\"\");\r\n                row.setProperty(\"processid\", (rs.getObject(\"processid\") != null)?rs.getObject(\"processid\").toString():\"\");\r\n                row.setProperty(\"c_client_id\", (rs.getObject(\"c_client_id\") != null)?rs.getObject(\"c_client_id\").toString():\"\");\r\n                row.setProperty(\"c_deadline_date\", (rs.getObject(\"c_deadline_date\") != null)?rs.getObject(\"c_deadline_date\").toString():\"\");\r\n                row.setProperty(\"c_letter_type\", (rs.getObject(\"c_letter_type\") != null)?rs.getObject(\"c_letter_type\").toString():\"\");\r\n                row.setProperty(\"distribution_date\", (rs.getObject(\"distribution_date\") != null)?rs.getObject(\"distribution_date\").toString():\"q\");\r\n                row.setProperty(\"c_name\", (rs.getObject(\"c_name\") != null)?rs.getObject(\"c_name\").toString():\"\");\r\n                row.setProperty(\"c_letter_type\", (rs.getObject(\"c_letter_type\") != null)?rs.getObject(\"c_letter_type\").toString():\"\");\r\n                row.setProperty(\"name_letter_type\", (rs.getObject(\"name_letter_type\") != null)?rs.getObject(\"name_letter_type\").toString():\"\");\r\n                rows.add(row);\r\n                \r\n            }\r\n            resultList.addAll(rows);    \r\n        }\r\n    } catch(Exception e) {\r\n        LogUtil.error(\"Sample app - Form 1\", e, \"Error loading user data in load binder\");\r\n    } finally {\r\n        //always close the connection after used\r\n        try {\r\n            if(con != null) {\r\n                con.close();\r\n            }\r\n        } catch(SQLException e) {/* ignored */}\r\n    }\r\n\r\n\r\n\r\n\r\n\r\n \r\n \r\nDataListFilterQueryObject obj = new DataListFilterQueryObject();\r\nboolean isFiltered = false;\r\nCollection values = new ArrayList();\r\nDataListCollection filteredResultList = new DataListCollection();\r\n \r\nfor (int i = 0; i < filterQueryObjects.length; i++) {\r\n    if (filterQueryObjects[i].getValues() != null && filterQueryObjects[i].getValues().length > 0) {\r\n        values.addAll(Arrays.asList(filterQueryObjects[i].getValues()));\r\n    }\r\n     \r\n    for (s: resultList) {\r\n        String targetColumn = s.getProperty(\"username\");\r\n        for (String searchWord : values) {\r\n            String searchWordReplaced = searchWord.replaceAll(\"%\", \"\");\r\n            Pattern pattern = Pattern.compile(searchWord);\r\n            if (targetColumn.contains(searchWordReplaced)) {\r\n                rowSet = new FormRowSet();\r\n                rowSet.add(s);\r\n                filteredResultList.addAll(rowSet);\r\n                isFiltered = true;\r\n           }\r\n        }\r\n    }\r\n    if(isFiltered){\r\n        return filteredResultList.size();\r\n    }\r\n}\r\nif (values.size() > 0){\r\n    obj.setValues((String[]) values.toArray(new String[0]));\r\n}\r\n\r\nreturn resultList.size();",
+            "getColumnScript": "import java.util.ArrayList;\r\nimport java.util.List;\r\nimport org.joget.apps.datalist.model.DataListColumn;\r\n \r\n \r\nList columns = new ArrayList();\r\n// add default metadata fields\r\ncolumns.add(0, new DataListColumn(\"id\", \"id\", true));\r\ncolumns.add(0, new DataListColumn(\"c_client_id\", \"c_client_id\", true));\r\ncolumns.add(0, new DataListColumn(\"c_deadline_date\", \"c_deadline_date\", true));\r\ncolumns.add(0, new DataListColumn(\"c_letter_type\", \"c_letter_type\", true));\r\ncolumns.add(0, new DataListColumn(\"distribution_date\", \"distribution_date\", true));\r\ncolumns.add(0, new DataListColumn(\"c_name\", \"c_name\", true));\r\ncolumns.add(0, new DataListColumn(\"c_letter_type\", \"c_letter_type\", true));\r\ncolumns.add(0, new DataListColumn(\"name_letter_type\", \"name_letter_type\", true));\r\ncolumns.add(0, new DataListColumn(\"processid\", \"processid\", true));\r\nreturn columns.toArray(new DataListColumn[0]);",
+            "primaryKey": "id"
         }
     },
     "actions": [{

@@ -8,7 +8,86 @@
    <datalistDefinitionList/>
    <builderDefinitionList/>
    <pluginDefaultPropertiesList/>
-   <environmentVariableList/>
+   <environmentVariableList>
+      <environmentVariable>
+         <id>counter_agt</id>
+         <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
+         <value>2</value>
+         <remarks>Used for plugin: Id Generator Field</remarks>
+      </environmentVariable>
+      <environmentVariable>
+         <id>templateEmail</id>
+         <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
+         <value>body mail</value>
+         <remarks></remarks>
+      </environmentVariable>
+      <environmentVariable>
+         <id>counter_in</id>
+         <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
+         <value>3</value>
+         <remarks>Used for plugin: Id Generator Field</remarks>
+      </environmentVariable>
+      <environmentVariable>
+         <id>counter_ls</id>
+         <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
+         <value>4</value>
+         <remarks>Used for plugin: Id Generator Field</remarks>
+      </environmentVariable>
+      <environmentVariable>
+         <id>counter_pto</id>
+         <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
+         <value>4</value>
+         <remarks>Used for plugin: Id Generator Field</remarks>
+      </environmentVariable>
+      <environmentVariable>
+         <id>counter_pph</id>
+         <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
+         <value>4</value>
+         <remarks>Used for plugin: Id Generator Field</remarks>
+      </environmentVariable>
+      <environmentVariable>
+         <id>counter_ipc</id>
+         <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
+         <value>5</value>
+         <remarks>Used for plugin: Id Generator Field</remarks>
+      </environmentVariable>
+      <environmentVariable>
+         <id>counter_apt</id>
+         <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
+         <value>1</value>
+         <remarks>Used for plugin: Id Generator Field</remarks>
+      </environmentVariable>
+      <environmentVariable>
+         <id>counter_clt</id>
+         <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
+         <value>4</value>
+         <remarks>Used for plugin: Id Generator Field</remarks>
+      </environmentVariable>
+      <environmentVariable>
+         <id>counter_gov</id>
+         <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
+         <value>2</value>
+         <remarks>Used for plugin: Id Generator Field</remarks>
+      </environmentVariable>
+      <environmentVariable>
+         <id>counter_trl</id>
+         <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
+         <value></value>
+         <remarks>Used for plugin: Id Generator Field</remarks>
+      </environmentVariable>
+   </environmentVariableList>
    <messageList/>
    <resourceList/>
+   <license>WmFf5Tusw6gJ0BaYYpy4bvlcKPqkgjZuzN0EQsWMWbrHEAfjgJXhwQ==</license>
 </appDefinition>

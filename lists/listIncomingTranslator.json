@@ -23,9 +23,9 @@
             "action": {
                 "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
                 "properties": {
-                    "hrefColumn": "processid",
-                    "hrefParam": "activityId",
-                    "href": "_ja_inbox?_mode=assignment",
+                    "hrefColumn": "id",
+                    "hrefParam": "id",
+                    "href": "update_incoming_client",
                     "confirmation": "",
                     "target": "_self"
                 }
@@ -72,8 +72,8 @@
     "description": "",
     "filters": [],
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
-    "name": "History Mail Translator",
-    "id": "history_mail_translator",
+    "name": "Incoming Mail Translator",
+    "id": "listIncomingTranslator",
     "binder": {
         "className": "org.joget.apps.datalist.lib.BeanShellDatalistBinder",
         "properties": {
@@ -83,6 +83,19 @@
             "primaryKey": "id"
         }
     },
-    "actions": [],
+    "actions": [{
+        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+        "id": "action_0",
+        "properties": {
+            "visible": "",
+            "hrefColumn": "",
+            "hrefParam": "",
+            "label": "Create Incoming",
+            "href": "create_incoming",
+            "confirmation": "",
+            "datalist_type": "action",
+            "target": "_self"
+        }
+    }],
     "order": ""
 }

@@ -1,9 +1,9 @@
 {
     "className": "org.joget.apps.userview.model.Userview",
-    "categories": [{
-        "className": "org.joget.apps.userview.model.UserviewCategory",
-        "menus": [
-            {
+    "categories": [
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
                 "className": "org.joget.apps.userview.lib.HtmlPage",
                 "properties": {
                     "userviewCacheDuration": "",
@@ -14,83 +14,264 @@
                     "customId": "welcome",
                     "content": "<div class=\"ui-welcome\">\n<h1>Apps and Workflow Made Simple<\/h1>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"/jw/images/icon_idea.png\" alt=\"Build apps\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Build apps, not just processes!<\/h3>\n<p>Create full-fledged apps with support for data records management.<\/p>\n<\/div>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"/jw/images/icon_rocket.png\" alt=\"Increased efficiency\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Increased Efficiency and Productivity<\/h3>\n<p>Faster and more consistent completion of manual processes, and with minimal errors.<\/p>\n<\/div>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"/jw/images/icon_cost.png\" alt=\"Lowered cost\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Lowered Cost<\/h3>\n<p>Employees can be guided through complex procedures, hence reducing the cost of training.<\/p>\n<\/div>\n<\/div>"
                 }
-            },
-            {
-                "className": "org.joget.apps.userview.lib.FormMenu",
-                "properties": {
-                    "loadDataWithKey": "",
-                    "redirectUrlOnCancel": "",
-                    "actionOnCancel": "",
-                    "redirectTargetOnCancel": "top",
-                    "customFooter": "",
-                    "paramName": "",
-                    "enableOffline": "",
-                    "afterSavedReloadTarget": "true",
-                    "customId": "",
-                    "showInPopupDialog": "",
-                    "readonly": "",
-                    "cancelButtonLabel": "",
-                    "actionAfterSaved": "",
-                    "id": "F5019AA97FBE45DB17A43AAD2C37DBCA",
-                    "redirectUrlAfterComplete": "",
-                    "fieldPassover": "",
-                    "formId": "agent",
-                    "customHeader": "",
-                    "fieldPassoverMethod": "append",
-                    "redirectTargetOnComplete": "",
-                    "keyName": "",
-                    "label": "Form",
-                    "userviewCacheDuration": "20",
-                    "messageShowAfterComplete": "",
-                    "submitButtonLabel": "",
-                    "userviewCacheScope": "",
-                    "readonlyLabel": "true"
-                }
-            },
-            {
-                "className": "org.joget.apps.userview.lib.FormMenu",
-                "properties": {
-                    "loadDataWithKey": "",
-                    "redirectUrlOnCancel": "",
-                    "actionOnCancel": "",
-                    "redirectTargetOnCancel": "top",
-                    "customFooter": "",
-                    "paramName": "",
-                    "enableOffline": "",
-                    "afterSavedReloadTarget": "true",
-                    "customId": "",
-                    "showInPopupDialog": "",
-                    "readonly": "",
-                    "cancelButtonLabel": "",
-                    "actionAfterSaved": "",
-                    "id": "F4E76A4C85264164FC62F4D3DBF83F2C",
-                    "redirectUrlAfterComplete": "",
-                    "fieldPassover": "",
-                    "formId": "applicant",
-                    "customHeader": "",
-                    "fieldPassoverMethod": "append",
-                    "redirectTargetOnComplete": "",
-                    "keyName": "",
-                    "label": "Appl",
-                    "userviewCacheDuration": "20",
-                    "messageShowAfterComplete": "",
-                    "submitButtonLabel": "",
-                    "userviewCacheScope": "",
-                    "readonlyLabel": "true"
-                }
+            }],
+            "properties": {
+                "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
+                "label": "<i class='fa fa-home'><\/i> Home"
             }
-        ],
-        "properties": {
-            "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
-            "label": "<i class='fa fa-home'><\/i> Home"
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "Incoming Mail Client",
+                        "enableOffline": "",
+                        "customId": "incoming_mail_client",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "listIncomingMail",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "30913AAF1E17418EF5A97DFCE2B6C604"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "Incoming Mail Government",
+                        "enableOffline": "",
+                        "customId": "incoming_mail_government",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "incomingMailGovernment",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "21AECA2075164D8D6F8F28C81D3FD24D"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "Incoming Mail Translator",
+                        "enableOffline": "",
+                        "customId": "incoming_mail_translator",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "listIncomingTranslator",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "9EFA85B2341D46A917650F1F6C8FBD19"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "My Incoming List",
+                        "enableOffline": "",
+                        "customId": "my_incoming_list",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "myIncomingList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "99A224DCA5A4456C0A8357FE861CAC41"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "Incoming Mail Deadline",
+                        "enableOffline": "",
+                        "customId": "incoming_mail_deadline",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "incomingMailDeadline",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "FEA3AB44F0FE43B6AEF34CD70ABD8744"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "Outgoing Mail",
+                        "enableOffline": "",
+                        "customId": "outgoing_mail",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "outgoing_mail",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "51C158AD3F5447CED035DC11CAAF798E"
+                    }
+                }
+            ],
+            "properties": {
+                "hide": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "label": "<i class=\"fas fa-mail-bulk\"><\/i> Mail Processing",
+                "id": "category-2EC1D566220748075976578D8BC1AF13"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
+                {
+                    "className": "org.joget.apps.userview.lib.RunProcess",
+                    "properties": {
+                        "runProcessDirectly": "Yes",
+                        "fieldPassoverMethod": "append",
+                        "keyName": "",
+                        "label": "Create Incoming Client",
+                        "redirectTarget": "",
+                        "enableOffline": "",
+                        "afterSavedReloadTarget": "true",
+                        "customId": "create_incoming",
+                        "userviewCacheDuration": "20",
+                        "messageShowAfterComplete": "",
+                        "showInPopupDialog": "",
+                        "userviewCacheScope": "",
+                        "actionAfterSaved": "",
+                        "runProcessSubmitLabel": "",
+                        "id": "983AC97235154BA69FC3312EC0A10BFB",
+                        "processDefId": "incomingMailProcess",
+                        "redirectUrlAfterComplete": "incoming_mail_client",
+                        "fieldPassover": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.FormMenu",
+                    "properties": {
+                        "loadDataWithKey": "",
+                        "redirectUrlOnCancel": "",
+                        "actionOnCancel": "",
+                        "redirectTargetOnCancel": "top",
+                        "customFooter": "",
+                        "paramName": "",
+                        "enableOffline": "",
+                        "afterSavedReloadTarget": "true",
+                        "customId": "update_incoming_client",
+                        "showInPopupDialog": "",
+                        "readonly": "",
+                        "cancelButtonLabel": "",
+                        "actionAfterSaved": "",
+                        "id": "24F68C9C21084A01863A8A661E555BBE",
+                        "redirectUrlAfterComplete": "",
+                        "fieldPassover": "",
+                        "formId": "incomingMail",
+                        "customHeader": "",
+                        "fieldPassoverMethod": "append",
+                        "redirectTargetOnComplete": "",
+                        "keyName": "",
+                        "label": "Update Incoming Client",
+                        "userviewCacheDuration": "20",
+                        "messageShowAfterComplete": "",
+                        "submitButtonLabel": "",
+                        "userviewCacheScope": "",
+                        "readonlyLabel": "true"
+                    }
+                }
+            ],
+            "properties": {
+                "hide": "yes",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "label": "HIDDEN",
+                "id": "category-AFB3F1F2F7F84187DAFC58FF815FEEE9"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.DataListMenu",
+                "properties": {
+                    "cacheAllLinks": "",
+                    "customHeader": "",
+                    "keyName": "",
+                    "customFooter": "",
+                    "label": "List",
+                    "enableOffline": "",
+                    "customId": "",
+                    "buttonPosition": "bothLeft",
+                    "datalistId": "listClient",
+                    "checkboxPosition": "left",
+                    "selectionType": "multiple",
+                    "userviewCacheDuration": "20",
+                    "cacheListAction": "",
+                    "userviewCacheScope": "",
+                    "rowCount": "",
+                    "id": "4C04B14A2C1F4E744D3CA6DD00E41385"
+                }
+            }],
+            "properties": {
+                "hide": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "label": "Master Data Administrator",
+                "id": "category-F939FEBE918245659B0E374A66531C6E"
+            }
         }
-    }],
+    ],
     "properties": {
         "logoutText": "Logout",
         "welcomeMessage": "#date.EEE, d MMM yyyy#",
-        "name": "Afms UI",
+        "name": "AFMS",
         "description": "",
-        "footerMessage": "Powered by Joget",
+        "footerMessage": "Powered by Terestrial Project",
         "id": "afmsUi"
     },
     "setting": {"properties": {
@@ -99,7 +280,7 @@
         "userviewDescription": "",
         "userviewId": "afmsUi",
         "hideThisUserviewInAppCenter": "",
-        "userview_thumbnail": "#appResource.AmBadar-Logo_lingkaran.png#",
+        "userview_thumbnail": "#appResource.smart_2458321.png#",
         "userview_category": "",
         "theme": {
             "className": "org.joget.plugin.enterprise.Dx8ColorAdminTheme",
@@ -112,9 +293,9 @@
                 "removeAssignmentTitle": "",
                 "shortcutLinkLabel": "Shortcut",
                 "disableHelpGuide": "",
-                "logo": "#appResource.AmBadar-Logo_lingkaran_putih.png#",
+                "logo": "#appResource.AmBadar-Logo_lingkaran.png#",
                 "enableResponsiveSwitch": "true",
-                "dx8headerFontColor": "#FFFFFF",
+                "dx8headerFontColor": "#20252A",
                 "fav_icon": "#appResource.AmBadar-Logo_lingkaran_putih.png#",
                 "mobileViewDisabled": "",
                 "dx8navLinkIcon": "#FFFFFF",
@@ -133,8 +314,8 @@
                 "dx8backgroundImage": "#appResource.BG_1.JPG#",
                 "dx8navBadgeText": "#FFFFFF",
                 "dx8background": "#DEE2E6",
-                "dx8headerColor": "#2D353C",
-                "dx8colorScheme": "rgb(233, 233, 233);rgb(255, 255, 255);rgb(164, 190, 184);rgb(0, 102, 81);rgb(84, 110, 122);rgb(41, 67, 78)",
+                "dx8headerColor": "#FFFFFF",
+                "dx8colorScheme": "rgb(233, 233, 233);rgb(255, 255, 255);rgb(122, 181, 183);rgb(50, 75, 76);rgb(48, 63, 159);rgb(0, 25, 112)",
                 "dx8navBackground": "#2D353C",
                 "js": "",
                 "dx8navActiveIconColor": "#00ACAC",
@@ -166,6 +347,6 @@
             "className": "org.joget.apps.userview.lib.LoggedInUserPermission",
             "properties": {}
         },
-        "userviewName": "Afms"
+        "userviewName": "AFMS"
     }}
 }

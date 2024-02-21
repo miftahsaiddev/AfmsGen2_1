@@ -13,57 +13,27 @@
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>patent</activityDefId>
-                  <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>tes_incoming_2::incoming_mail</string>
+               <string>incomingMailProcess_3::incoming_mail</string>
                <packageActivityForm>
-                  <processDefId>tes_incoming_2</processDefId>
+                  <processDefId>incomingMailProcess_3</processDefId>
                   <activityDefId>incoming_mail</activityDefId>
+                  <formId>reply_mail_client</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>I0001IncomingMailCient::make_order_number</string>
+               <string>incomingMailProcess_3::runProcess</string>
                <packageActivityForm>
-                  <processDefId>I0001IncomingMailCient</processDefId>
-                  <activityDefId>make_order_number</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>I0001IncomingMailCient::approve_reject_mail</string>
-               <packageActivityForm>
-                  <processDefId>I0001IncomingMailCient</processDefId>
-                  <activityDefId>approve_reject_mail</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>I0001IncomingMailCient::approval_reply_mail</string>
-               <packageActivityForm>
-                  <processDefId>I0001IncomingMailCient</processDefId>
-                  <activityDefId>approval_reply_mail</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>incomingMailProcess::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>incomingMailProcess</processDefId>
+                  <processDefId>incomingMailProcess_3</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
+                  <formId>incomingMail</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -74,6 +44,143 @@
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
                   <activityDefId>return_rejected_mail</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>incomingMailGovernmentProcess::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>incomingMailGovernmentProcess</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId>incomingMailGovernment</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>incomingMailGovernmentProcess::incoming_mail_government</string>
+               <packageActivityForm>
+                  <processDefId>incomingMailGovernmentProcess</processDefId>
+                  <activityDefId>incoming_mail_government</activityDefId>
+                  <formId>form_reply_government</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>reminder_process::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>reminder_process</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId>processingForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>I0001IncomingMailCient::reply_mail</string>
+               <packageActivityForm>
+                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>reply_mail</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>reminder_process::reminder</string>
+               <packageActivityForm>
+                  <processDefId>reminder_process</processDefId>
+                  <activityDefId>reminder</activityDefId>
+                  <formId>processingForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>I0001IncomingMailCient::edit_and_submit_mail</string>
+               <packageActivityForm>
+                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>edit_and_submit_mail</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>I0001IncomingMailCient::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>tes_incoming_2::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>tes_incoming_2</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>tes_incoming_2::incoming_mail</string>
+               <packageActivityForm>
+                  <processDefId>tes_incoming_2</processDefId>
+                  <activityDefId>incoming_mail</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>I0001IncomingMailCient::make_order_number</string>
+               <packageActivityForm>
+                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>make_order_number</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>I0001IncomingMailCient::approve_reject_mail</string>
+               <packageActivityForm>
+                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>approve_reject_mail</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>I0001IncomingMailCient::approval_reply_mail</string>
+               <packageActivityForm>
+                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <activityDefId>approval_reply_mail</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>incomingMailProcess::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>incomingMailProcess</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId>incomingMail</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>incomingMailGovernmentProcess::incoming_mail</string>
+               <packageActivityForm>
+                  <processDefId>incomingMailGovernmentProcess</processDefId>
+                  <activityDefId>incoming_mail</activityDefId>
+                  <formId>reply_mail_client</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -95,17 +202,6 @@
                <packageActivityForm>
                   <processDefId>I0001IncomingMailCient</processDefId>
                   <activityDefId>submit_mail</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>I0001IncomingMailCient::reply_mail</string>
-               <packageActivityForm>
-                  <processDefId>I0001IncomingMailCient</processDefId>
-                  <activityDefId>reply_mail</activityDefId>
-                  <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
@@ -115,20 +211,7 @@
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>not_approved</activityDefId>
-                  <formId></formId>
-                  <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>incomingMailProcess_2::activity2</string>
-               <packageActivityForm>
-                  <processDefId>incomingMailProcess_2</processDefId>
-                  <activityDefId>activity2</activityDefId>
-                  <formId></formId>
-                  <type>SINGLE</type>
-                  <autoContinue>true</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
@@ -137,7 +220,6 @@
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>merek</activityDefId>
-                  <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
@@ -147,47 +229,27 @@
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>disitrbute_email</activityDefId>
-                  <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>I0001IncomingMailCient::edit_and_submit_mail</string>
+               <string>sendEmailOut::runProcess</string>
                <packageActivityForm>
-                  <processDefId>I0001IncomingMailCient</processDefId>
-                  <activityDefId>edit_and_submit_mail</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>incomingMailProcess_2::incoming_mail</string>
-               <packageActivityForm>
-                  <processDefId>incomingMailProcess_2</processDefId>
-                  <activityDefId>incoming_mail</activityDefId>
-                  <formId>reply_mail_client</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>true</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>I0001IncomingMailCient::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>I0001IncomingMailCient</processDefId>
+                  <processDefId>sendEmailOut</processDefId>
                   <activityDefId>runProcess</activityDefId>
+                  <formId>outgoingMail</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>tes_incoming_2::runProcess</string>
+               <string>reminder_process::activity1</string>
                <packageActivityForm>
-                  <processDefId>tes_incoming_2</processDefId>
-                  <activityDefId>runProcess</activityDefId>
+                  <processDefId>reminder_process</processDefId>
+                  <activityDefId>activity1</activityDefId>
+                  <formId>processingForm</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -198,7 +260,6 @@
                <packageActivityForm>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>reply_email</activityDefId>
-                  <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
@@ -211,7 +272,106 @@
                   <processDefId>incomingMailProcess</processDefId>
                   <activityDefId>deadline_</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>incomingMailProcess_3::deadline_</string>
+               <packageActivityPlugin>
+                  <processDefId>incomingMailProcess_3</processDefId>
+                  <activityDefId>deadline_</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>incomingMailGovernmentProcess::call_procedure</string>
+               <packageActivityPlugin>
+                  <processDefId>incomingMailGovernmentProcess</processDefId>
+                  <activityDefId>call_procedure</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_hitung_deadline_incoming(&apos;#form.afms_incomingmail.id#&apos;,&apos;#date.yyyy-MM-dd#&apos;,&apos; #form.afms_incomingmail.mail_subject#&apos;) &quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}},{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_incoming_mail_documents(&apos;#form.afms_incomingmail.id#&apos;,&apos;#form.afms_incomingmail.letter_type#&apos;,&apos;#form.afms_incomingmail.no_project#&apos;)&quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>incomingMailProcess::call_procedure</string>
+               <packageActivityPlugin>
+                  <processDefId>incomingMailProcess</processDefId>
+                  <activityDefId>call_procedure</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_hitung_deadline_incoming(&apos;#form.afms_incomingmail.id#&apos;,&apos;#date.yyyy-MM-dd#&apos;,&apos; #form.afms_incomingmail.mail_subject#&apos;) &quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}},{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_incoming_mail_documents(&apos;#form.afms_incomingmail.id#&apos;,&apos;#form.afms_incomingmail.letter_type#&apos;,&apos;#form.afms_incomingmail.no_project#&apos;)&quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>incomingMailProcess::update_status_incoming</string>
+               <packageActivityPlugin>
+                  <processDefId>incomingMailProcess</processDefId>
+                  <activityDefId>update_status_incoming</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;update app_fd_afms_incomingmail set c_status_incoming=1 where id=&apos;#form.afms_incomingmail.id#&apos;&quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>sendEmailOut::send_email</string>
+               <packageActivityPlugin>
+                  <processDefId>sendEmailOut</processDefId>
+                  <activityDefId>send_email</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.marketplace.EmailToolWithTemplate&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;#form.afms_outgoingmail.email_to#&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;#form.afms_outgoingmail.subject_mail#&quot;,&quot;formDefId&quot;:&quot;outgoingMail&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;&quot;,&quot;security&quot;:&quot;SSL&quot;,&quot;password&quot;:&quot;Ismimynam3&quot;,&quot;bodyTemplate&quot;:&quot;#envVariable.templateEmail#&quot;,&quot;port&quot;:&quot;465&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;miftah.said@ambadar.co.id&quot;,&quot;fields&quot;:[{&quot;field&quot;:&quot;attachment_file&quot;,&quot;embed&quot;:&quot;true&quot;}],&quot;username&quot;:&quot;miftah.said@ambadar.co.id&quot;}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>sendEmailOut::tool2</string>
+               <packageActivityPlugin>
+                  <processDefId>sendEmailOut</processDefId>
+                  <activityDefId>tool2</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
                   <pluginProperties>{}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>reminder_process::tool1</string>
+               <packageActivityPlugin>
+                  <processDefId>reminder_process</processDefId>
+                  <activityDefId>tool1</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.marketplace.EmailToolWithTemplate&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;#form.afms_reminder.reminder_to#&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Reminder&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;Reminder&quot;,&quot;security&quot;:&quot;SSL&quot;,&quot;password&quot;:&quot;Ismimynam3&quot;,&quot;bodyTemplate&quot;:&quot;#envVariable.templateEmail#&quot;,&quot;port&quot;:&quot;465&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;miftah.said@ambadar.co.id&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;miftah.said@ambadar.co.id&quot;}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>incomingMailProcess_3::call_procedure</string>
+               <packageActivityPlugin>
+                  <processDefId>incomingMailProcess_3</processDefId>
+                  <activityDefId>call_procedure</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_hitung_deadline_incoming(&apos;#form.afms_incomingmail.id#&apos;,&apos;#date.yyyy-MM-dd#&apos;,&apos; #form.afms_incomingmail.mail_subject#&apos;) &quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}},{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_incoming_mail_documents(&apos;#form.afms_incomingmail.id#&apos;,&apos;#form.afms_incomingmail.letter_type#&apos;,&apos;#form.afms_incomingmail.no_project#&apos;)&quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>incomingMailGovernmentProcess::call_procedure_government</string>
+               <packageActivityPlugin>
+                  <processDefId>incomingMailGovernmentProcess</processDefId>
+                  <activityDefId>call_procedure_government</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_hitung_deadline_incoming(&apos;#form.afms_incomingmail.id#&apos;,&apos;#date.yyyy-MM-dd#&apos;,&apos; #form.afms_incomingmail.mail_subject#&apos;) &quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}},{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_incoming_mail_documents(&apos;#form.afms_incomingmail.id#&apos;,&apos;#form.afms_incomingmail.letter_type#&apos;,&apos;#form.afms_incomingmail.no_project#&apos;)&quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>sendEmailOut::update_status</string>
+               <packageActivityPlugin>
+                  <processDefId>sendEmailOut</processDefId>
+                  <activityDefId>update_status</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;update app_fd_afms_outgoingmail set c_status_sent=&apos;1&apos; where id= &apos;#form.afms_outgoingmail.id#&apos;&quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>incomingMailProcess::tool2</string>
+               <packageActivityPlugin>
+                  <processDefId>incomingMailProcess</processDefId>
+                  <activityDefId>tool2</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;update app_fd_afms_incomingmail set status_incoming=1 where id=&apos;#form.afms_incomingmail.id#&apos;&quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
             <entry>
@@ -224,41 +384,95 @@
                </packageActivityPlugin>
             </entry>
             <entry>
-               <string>incomingMailProcess::call_procedure</string>
+               <string>incomingMailGovernmentProcess::deadline_</string>
                <packageActivityPlugin>
-                  <processDefId>incomingMailProcess</processDefId>
-                  <activityDefId>call_procedure</activityDefId>
+                  <processDefId>incomingMailGovernmentProcess</processDefId>
+                  <activityDefId>deadline_</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.DatabaseUpdateTool&quot;,&quot;properties&quot;:{&quot;query&quot;:&quot;call sp_hitung_deadline_incoming( &apos;#form.afms_incomingmail.id#&apos;,&apos;#date.yyyy-MM-dd#&apos;,&apos; #form.afms_incomingmail.mail_subject#&apos;) &quot;,&quot;jdbcDatasource&quot;:&quot;default&quot;}}]}</pluginProperties>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
          </packageActivityPluginMap>
          <packageParticipantMap>
             <entry>
-               <string>tes_incoming_2::tes_incoming_2_entry_data</string>
+               <string>incomingMailGovernmentProcess::incomingMailGovernmentProcess_specialist</string>
                <packageParticipant>
-                  <processDefId>tes_incoming_2</processDefId>
-                  <participantId>tes_incoming_2_entry_data</participantId>
-                  <type>requester</type>
-                  <value>incoming_mail</value>
-               </packageParticipant>
-            </entry>
-            <entry>
-               <string>incomingMailProcess_2::incomingMailProcess_2_specialist</string>
-               <packageParticipant>
-                  <processDefId>incomingMailProcess_2</processDefId>
-                  <participantId>incomingMailProcess_2_specialist</participantId>
+                  <processDefId>incomingMailGovernmentProcess</processDefId>
+                  <participantId>incomingMailGovernmentProcess_specialist</participantId>
                   <type>workflowVariable</type>
                   <value>attention_to,user</value>
                </packageParticipant>
             </entry>
             <entry>
-               <string>incomingMailProcess_2::incomingMailProcess_2_administrator</string>
+               <string>reminder_process::processStartWhiteList</string>
                <packageParticipant>
-                  <processDefId>incomingMailProcess_2</processDefId>
-                  <participantId>incomingMailProcess_2_administrator</participantId>
+                  <processDefId>reminder_process</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>incomingMailGovernmentProcess::incomingMailGovernmentProcess_administrator</string>
+               <packageParticipant>
+                  <processDefId>incomingMailGovernmentProcess</processDefId>
+                  <participantId>incomingMailGovernmentProcess_administrator</participantId>
                   <type>requester</type>
-                  <value>incoming_mail</value>
+                  <value>runProcess</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>sendEmailOut::process7_participant17</string>
+               <packageParticipant>
+                  <processDefId>sendEmailOut</processDefId>
+                  <participantId>process7_participant17</participantId>
+                  <type>requester</type>
+                  <value>runProcess</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>incomingMailProcess_3::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>incomingMailProcess_3</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process4::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>process4</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>incomingMailProcess::administrator</string>
+               <packageParticipant>
+                  <processDefId>incomingMailProcess</processDefId>
+                  <participantId>administrator</participantId>
+                  <type>requester</type>
+                  <value>runProcess</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>incomingMailProcess::specialist</string>
+               <packageParticipant>
+                  <processDefId>incomingMailProcess</processDefId>
+                  <participantId>specialist</participantId>
+                  <type>workflowVariable</type>
+                  <value>attention_to,user</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>incomingMailGovernmentProcess::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>incomingMailGovernmentProcess</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
                </packageParticipant>
             </entry>
             <entry>
@@ -280,5 +494,39 @@
    <pluginDefaultPropertiesList/>
    <environmentVariableList/>
    <messageList/>
-   <resourceList/>
+   <resourceList>
+      <appResource>
+         <id>logoambadar.png</id>
+         <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
+         <filesize>31137</filesize>
+         <permissionClass></permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
+      <appResource>
+         <id>miniLogo.png</id>
+         <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
+         <filesize>10332</filesize>
+         <permissionClass></permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
+      <appResource>
+         <id>server_164606.png</id>
+         <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
+         <filesize>22255</filesize>
+         <permissionClass></permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
+      <appResource>
+         <id>smart_2458321.png</id>
+         <appId>AfmsGen2</appId>
+         <appVersion>1</appVersion>
+         <filesize>35275</filesize>
+         <permissionClass></permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
+   </resourceList>
+   <license>WmFf5Tusw6gJ0BaYYpy4bvlcKPqkgjZuzN0EQsWMWbrHEAfjgJXhwQ==</license>
 </appDefinition>

@@ -72,6 +72,42 @@
                         "value": "",
                         "readonlyLabel": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CheckBox",
+                    "properties": {
+                        "fullWidth": "",
+                        "controlField": "",
+                        "readonly": "",
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "options": [{
+                            "label": "Yes",
+                            "value": "1",
+                            "grouping": ""
+                        }],
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "label": "Still in process or not",
+                        "id": "is_process",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CustomHTML",
+                    "properties": {
+                        "requiredSanitize": "true",
+                        "autoPopulate": "",
+                        "label": "",
+                        "id": "field5",
+                        "value": "<script src=\"https://cdn.tiny.cloud/1/idzi9l3r8fsam7zctx1zb3y48is2zzo7uiy9v71vzp9xaz2s/tinymce/5/tinymce.min.js\" referrerpolicy=\"origin\"><\/script>\n<script>\n$(document).ready(function() {\n    tinymce.init({\n        selector: '#description'\n    });\n});\n<\/script>"
+                    }
                 }
             ],
             "className": "org.joget.apps.form.model.Column",

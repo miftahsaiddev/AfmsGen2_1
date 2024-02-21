@@ -1,0 +1,16 @@
+{
+    "elements": [{
+        "className": "org.joget.api.lib.AppFormAPI",
+        "properties": {
+            "formDefId": "agent",
+            "ignorePermission": "",
+            "id": "3C9C74C2-9D0F-4546-42E2-E9227A951E69",
+            "label": ""
+        }
+    }],
+    "properties": {
+        "name": "apiCrm",
+        "description": "",
+        "id": "API-5045dfe1-a582-4024-a7ba-66be79cc400c"
+    }
+}
