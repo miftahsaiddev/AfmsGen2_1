@@ -318,7 +318,7 @@
                         "customHeader": "",
                         "keyName": "",
                         "customFooter": "",
-                        "label": "List Agent",
+                        "label": "Agent",
                         "enableOffline": "",
                         "customId": "list_agent",
                         "buttonPosition": "topLeft",
