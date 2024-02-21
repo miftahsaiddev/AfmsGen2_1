@@ -62,17 +62,18 @@
                         "className": "org.joget.apps.form.lib.TextArea",
                         "properties": {
                             "requiredSanitize": "true",
-                            "readonly": "",
                             "validator": {
                                 "className": "",
                                 "properties": {}
                             },
-                            "workflowVariable": "",
+                            "fieldInput-style-width": "50%",
                             "label": "Body Mail",
-                            "id": "body_mail",
-                            "placeholder": "",
                             "rows": "5",
                             "fieldInput-style-height": "50%",
+                            "readonly": "",
+                            "workflowVariable": "",
+                            "id": "body_mail",
+                            "placeholder": "",
                             "cols": "20",
                             "value": "",
                             "readonlyLabel": ""
