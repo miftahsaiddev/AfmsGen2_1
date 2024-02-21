@@ -245,6 +245,40 @@
                             "value": "0",
                             "readonlyLabel": ""
                         }
+                    },
+                    {
+                        "className": "org.joget.apps.form.lib.SelectBox",
+                        "properties": {
+                            "controlField": "",
+                            "readonly": "",
+                            "size": "",
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "multiple": "",
+                            "options": [
+                                {
+                                    "label": "No",
+                                    "value": "0",
+                                    "grouping": ""
+                                },
+                                {
+                                    "label": "Yes",
+                                    "value": "1",
+                                    "grouping": ""
+                                }
+                            ],
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "workflowVariable": "",
+                            "label": "Need Approval",
+                            "id": "is_approval",
+                            "value": "",
+                            "readonlyLabel": ""
+                        }
                     }
                 ],
                 "className": "org.joget.apps.form.model.Column",
@@ -273,6 +307,67 @@
                 },
                 "comment": "",
                 "id": "section1",
+                "join": "",
+                "readonlyLabel": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "readonly": "",
+                        "size": "",
+                        "optionsBinder": {
+                            "className": "org.joget.tutorial.JdbcOptionsBinder",
+                            "properties": {
+                                "useAjax": "true",
+                                "addEmpty": "true",
+                                "jdbcDatasource": "default",
+                                "emptyLabel": "",
+                                "sql": "select userid,userid from dir_user_group where groupid ='GA-0002'"
+                            }
+                        },
+                        "multiple": "",
+                        "options": [],
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "label": "Approval User",
+                        "id": "approval_user",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
+                }],
+                "className": "org.joget.apps.form.model.Column",
+                "properties": {"width": "100%"}
+            }],
+            "className": "org.joget.apps.form.model.Section",
+            "properties": {
+                "visibilityControl": "is_approval",
+                "permissionReadonly": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "label": "Approval",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityValue": "1",
+                "regex": "",
+                "readonly": "",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "id": "approval",
                 "join": "",
                 "readonlyLabel": ""
             }
