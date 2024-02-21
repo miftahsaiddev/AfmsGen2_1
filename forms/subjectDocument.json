@@ -95,10 +95,10 @@
             "visibilityControl": "",
             "permissionReadonly": "",
             "permission": {
-                "className": "",
+                "className": null,
                 "properties": {}
             },
-            "label": "Letter Type",
+            "label": "Subject Document",
             "reverse": "",
             "storeBinder": {
                 "className": "",
