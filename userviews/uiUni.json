@@ -360,7 +360,7 @@
                         "customHeader": "",
                         "keyName": "",
                         "customFooter": "",
-                        "label": "List Patent Type Order",
+                        "label": "Patent Type Order",
                         "enableOffline": "",
                         "customId": "list_patent_type_order",
                         "buttonPosition": "topLeft",
