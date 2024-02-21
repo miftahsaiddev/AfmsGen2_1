@@ -424,21 +424,21 @@
                </packageActivityPlugin>
             </entry>
             <entry>
-               <string>reminder_process::tool2</string>
-               <packageActivityPlugin>
-                  <processDefId>reminder_process</processDefId>
-                  <activityDefId>tool2</activityDefId>
-                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.marketplace.EmailToolWithTemplate&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;#form.afms_reminder.reminder_to#&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;#form.afms_outgoingmail.subject_mail#&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;klik langsung&quot;,&quot;security&quot;:&quot;SSL&quot;,&quot;password&quot;:&quot;Ismimynam3&quot;,&quot;bodyTemplate&quot;:&quot;#envVariable.templateEmail#&quot;,&quot;port&quot;:&quot;465&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;miftah.said@ambadar.co.id&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;miftah.said@ambadar.co.id&quot;}}]}</pluginProperties>
-               </packageActivityPlugin>
-            </entry>
-            <entry>
                <string>tes_incoming_2::lettertype</string>
                <packageActivityPlugin>
                   <processDefId>tes_incoming_2</processDefId>
                   <activityDefId>lettertype</activityDefId>
                   <pluginName>org.joget.apps.app.lib.RulesDecisionPlugin</pluginName>
                   <pluginProperties>{&quot;rules&quot;:{&quot;ifrules&quot;:[{&quot;andOr&quot;:&quot;and&quot;,&quot;revert&quot;:false,&quot;conditions&quot;:[{&quot;variable&quot;:&quot;lettertype&quot;,&quot;revert&quot;:false,&quot;operation&quot;:&quot;==&quot;,&quot;value&quot;:&quot;patent&quot;}],&quot;actions&quot;:[{&quot;name&quot;:&quot;transition3&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}],&quot;else&quot;:[{&quot;name&quot;:&quot;transition4&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>reminder_process::tool2</string>
+               <packageActivityPlugin>
+                  <processDefId>reminder_process</processDefId>
+                  <activityDefId>tool2</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.marketplace.EmailToolWithTemplate&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;#form.afms_reminder.reminder_to#&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;#form.afms_outgoingmail.subject_mail#&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;klik langsung&quot;,&quot;security&quot;:&quot;SSL&quot;,&quot;password&quot;:&quot;Ismimynam3&quot;,&quot;bodyTemplate&quot;:&quot;#envVariable.templateEmail#&quot;,&quot;port&quot;:&quot;465&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;miftah.said@ambadar.co.id&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;miftah.said@ambadar.co.id&quot;}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
             <entry>
@@ -534,18 +534,18 @@
                </packageParticipant>
             </entry>
             <entry>
-               <string>incomingMailGovernmentProcess::processStartWhiteList</string>
+               <string>tes_incoming_2::processStartWhiteList</string>
                <packageParticipant>
-                  <processDefId>incomingMailGovernmentProcess</processDefId>
+                  <processDefId>tes_incoming_2</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
                </packageParticipant>
             </entry>
             <entry>
-               <string>tes_incoming_2::processStartWhiteList</string>
+               <string>incomingMailGovernmentProcess::processStartWhiteList</string>
                <packageParticipant>
-                  <processDefId>tes_incoming_2</processDefId>
+                  <processDefId>incomingMailGovernmentProcess</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
