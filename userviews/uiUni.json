@@ -261,7 +261,7 @@
                         "customHeader": "",
                         "keyName": "",
                         "customFooter": "",
-                        "label": "List Sub Status",
+                        "label": "Sub Status",
                         "enableOffline": "",
                         "customId": "list_sub_status",
                         "buttonPosition": "topLeft",
