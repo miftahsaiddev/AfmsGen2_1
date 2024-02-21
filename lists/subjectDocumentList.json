@@ -7,14 +7,24 @@
     "useSession": "",
     "responsiveMode": "",
     "rowActions": [],
-    "columns": [{
-        "filterable": true,
-        "hidden": "false",
-        "name": "id",
-        "id": "column_0",
-        "label": "ID",
-        "sortable": "false"
-    }],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "id",
+            "id": "column_0",
+            "label": "ID",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "subject_document",
+            "id": "column_1",
+            "label": "Subject Document",
+            "sortable": "false"
+        }
+    ],
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
@@ -44,7 +54,7 @@
             "properties": {
                 "deleteFiles": "",
                 "deleteGridData": "",
-                "formDefId": "letterType",
+                "formDefId": "subjectDocument",
                 "deleteSubformData": "",
                 "label": "Delete",
                 "confirmation": "",
