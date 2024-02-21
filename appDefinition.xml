@@ -507,6 +507,15 @@
                </packageParticipant>
             </entry>
             <entry>
+               <string>incomingMailProcess::supervisor</string>
+               <packageParticipant>
+                  <processDefId>incomingMailProcess</processDefId>
+                  <participantId>supervisor</participantId>
+                  <type>group</type>
+                  <value>GA-0002</value>
+               </packageParticipant>
+            </entry>
+            <entry>
                <string>incomingMailProcess::administrator</string>
                <packageParticipant>
                   <processDefId>incomingMailProcess</processDefId>

@@ -90,7 +90,7 @@
                     <Performer>administrator</Performer>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="administrator"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="273,26"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="336,23"/>
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="update_status_incoming" Name="Update Status Incoming">
