@@ -27,12 +27,12 @@
                                 "mandatory": "true"
                             }
                         },
-                        "label": "Letter Type",
+                        "label": "Subject Document",
                         "readonly": "",
                         "size": "",
                         "workflowVariable": "",
                         "style": "",
-                        "id": "letter_type",
+                        "id": "subject_document",
                         "placeholder": "",
                         "value": "",
                         "readonlyLabel": "",
