@@ -103,7 +103,7 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="1149.421875,78"/>
                     </ExtendedAttributes>
                 </Activity>
-                <Activity Id="route1">
+                <Activity Id="routeApproval" Name="approval">
                     <Route/>
                     <Performer>specialist</Performer>
                     <TransitionRestrictions>
@@ -144,17 +144,17 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
                 </Transition>
-                <Transition From="incoming_mail" Id="transition4" To="route1">
+                <Transition From="incoming_mail" Id="transition4" To="routeApproval">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
                 </Transition>
-                <Transition From="route1" Id="transition6" To="update_status_incoming">
+                <Transition From="routeApproval" Id="transition6" To="update_status_incoming">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
                 </Transition>
-                <Transition From="route1" Id="transition7" To="incoming_mail_supervisor">
+                <Transition From="routeApproval" Id="transition7" To="incoming_mail_supervisor">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
