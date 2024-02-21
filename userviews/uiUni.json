@@ -240,7 +240,7 @@
                         "customHeader": "",
                         "keyName": "",
                         "customFooter": "",
-                        "label": "List Last Status",
+                        "label": "Status",
                         "enableOffline": "",
                         "customId": "list_last_status",
                         "buttonPosition": "topLeft",
