@@ -274,6 +274,27 @@
                         "rowCount": "true",
                         "id": "859F3403DF324AADBCE5AE4338706449"
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "Subject Document",
+                        "enableOffline": "",
+                        "customId": "list_subject_document",
+                        "buttonPosition": "topLeft",
+                        "datalistId": "subjectDocumentList",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "EA1DB12B613D43D01D4E6EA1E0493C40"
+                    }
                 }
             ],
             "properties": {
