@@ -25,6 +25,9 @@
         <Participant Id="process4_participant6" Name="Participant">
             <ParticipantType Type="ROLE"/>
         </Participant>
+        <Participant Id="supervisor" Name="Supervisor">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
     </Participants>
     <Applications>
         <Application Id="default_application"/>
@@ -56,6 +59,7 @@
                     </Deadline>
                     <TransitionRestrictions>
                         <TransitionRestriction>
+                            <Join Type="XOR"/>
                             <Split Type="XOR">
                                 <TransitionRefs>
                                     <TransitionRef Id="transition_end_incoming_mail"/>
@@ -66,7 +70,7 @@
                     </TransitionRestrictions>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="specialist"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="275,73"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="239,89"/>
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="deadline_" Name="deadline_">
@@ -76,7 +80,7 @@
                     <Performer>specialist</Performer>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="specialist"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="72,73"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="103,90"/>
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="call_procedure" Name="Call Procedure">
@@ -96,7 +100,35 @@
                     <Performer>specialist</Performer>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="specialist"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="591.421875,81"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="1149.421875,78"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="route1">
+                    <Route/>
+                    <Performer>specialist</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Split Type="XOR">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition6"/>
+                                    <TransitionRef Id="transition7"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="specialist"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="615,95"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="incoming_mail_supervisor" Name="#form.afms_incomingmail.id#">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>supervisor</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="supervisor"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="550,63"/>
                     </ExtendedAttributes>
                 </Activity>
             </Activities>
@@ -112,17 +144,32 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
                 </Transition>
-                <Transition From="incoming_mail" Id="transition4" To="update_status_incoming">
+                <Transition From="incoming_mail" Id="transition4" To="route1">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route1" Id="transition6" To="update_status_incoming">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route1" Id="transition7" To="incoming_mail_supervisor">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="incoming_mail_supervisor" Id="transition8" To="incoming_mail">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
                 </Transition>
             </Transitions>
             <ExtendedAttributes>
-                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="administrator;specialist"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="administrator;specialist;supervisor"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=administrator,CONNECTING_ACTIVITY_ID=call_procedure,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=specialist,CONNECTING_ACTIVITY_ID=deadline_,X_OFFSET=107,Y_OFFSET=8,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=specialist,CONNECTING_ACTIVITY_ID=update_status_incoming,X_OFFSET=820.578125,Y_OFFSET=107,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=specialist,CONNECTING_ACTIVITY_ID=deadline_,X_OFFSET=41,Y_OFFSET=111,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=specialist,CONNECTING_ACTIVITY_ID=update_status_incoming,X_OFFSET=1442.578125,Y_OFFSET=101,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
         <WorkflowProcess Id="sendEmailOut" Name="Send Email Outgoing">
