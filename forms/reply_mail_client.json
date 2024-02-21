@@ -132,6 +132,29 @@
                         }
                     },
                     {
+                        "className": "org.joget.apps.form.lib.TextArea",
+                        "properties": {
+                            "requiredSanitize": "true",
+                            "readonly": "",
+                            "validator": {
+                                "className": "org.joget.apps.form.lib.DefaultValidator",
+                                "properties": {
+                                    "type": "",
+                                    "message": "",
+                                    "mandatory": "true"
+                                }
+                            },
+                            "workflowVariable": "",
+                            "label": "Body Message",
+                            "id": "body_message",
+                            "placeholder": "",
+                            "rows": "5",
+                            "cols": "20",
+                            "value": "",
+                            "readonlyLabel": ""
+                        }
+                    },
+                    {
                         "className": "org.joget.apps.form.lib.FileUpload",
                         "properties": {
                             "resizeMethod": "",
@@ -162,36 +185,13 @@
                         }
                     },
                     {
-                        "className": "org.joget.apps.form.lib.TextArea",
-                        "properties": {
-                            "requiredSanitize": "true",
-                            "readonly": "",
-                            "validator": {
-                                "className": "org.joget.apps.form.lib.DefaultValidator",
-                                "properties": {
-                                    "type": "",
-                                    "message": "",
-                                    "mandatory": "true"
-                                }
-                            },
-                            "workflowVariable": "",
-                            "label": "Description",
-                            "id": "description_reply",
-                            "placeholder": "",
-                            "rows": "5",
-                            "cols": "20",
-                            "value": "",
-                            "readonlyLabel": ""
-                        }
-                    },
-                    {
                         "className": "org.joget.apps.form.lib.CustomHTML",
                         "properties": {
                             "requiredSanitize": "true",
                             "autoPopulate": "",
                             "label": "",
                             "id": "field8",
-                            "value": ""
+                            "value": "<script src=\"https://cdn.tiny.cloud/1/idzi9l3r8fsam7zctx1zb3y48is2zzo7uiy9v71vzp9xaz2s/tinymce/6/tinymce.min.js\" referrerpolicy=\"origin\"><\/script>\n<script>\n$(document).ready(function() {\n     tinymce.init({\n        selector: '#body_message'\n    });\n});\n\n<\/script>"
                         }
                     },
                     {
