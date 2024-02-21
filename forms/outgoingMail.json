@@ -221,7 +221,41 @@
         },
         {
             "elements": [{
-                "elements": [],
+                "elements": [{
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "permissionHidden": "",
+                        "controlField": "",
+                        "multiple": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "label": "Is Approve ?",
+                        "readonly": "true",
+                        "size": "",
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "options": [
+                            {
+                                "label": "No",
+                                "value": "0",
+                                "grouping": ""
+                            },
+                            {
+                                "label": "Yes",
+                                "value": "1",
+                                "grouping": ""
+                            }
+                        ],
+                        "workflowVariable": "",
+                        "id": "is_approve",
+                        "value": "",
+                        "readonlyLabel": "true"
+                    }
+                }],
                 "className": "org.joget.apps.form.model.Column",
                 "properties": {"width": "100%"}
             }],
@@ -233,7 +267,7 @@
                     "className": "",
                     "properties": {}
                 },
-                "label": "Section",
+                "label": "Status Approval",
                 "reverse": "",
                 "storeBinder": {
                     "className": "",
@@ -243,16 +277,11 @@
                 "regex": "",
                 "readonly": "",
                 "loadBinder": {
-                    "className": "org.joget.apps.form.lib.BeanShellFormBinder",
-                    "properties": {
-                        "autoHandleWorkflowVariable": "true",
-                        "cacheInterval": "",
-                        "script": "import org.joget.apps.form.lib.SubmitButton;\r\nimport org.joget.apps.form.lib.CustomHTML;\r\nimport org.joget.apps.form.model.Column;\r\nimport org.joget.apps.form.model.Element;\r\nimport org.joget.apps.form.model.FormAction;\r\nimport org.joget.apps.form.model.FormData;\r\nimport org.joget.apps.form.model.Section;\r\nimport org.joget.apps.form.service.FormUtil;\r\nimport java.util.ArrayList;\r\nimport java.util.Collection;\r\n \r\nCollection formActions = new ArrayList();\r\nString saveButtonLabel = \"Save As Draft\";\r\nElement saveButton = new SubmitButton();\r\nsaveButton.setProperty(FormUtil.PROPERTY_ID, \"customSaveAsDraft\");\r\nsaveButton.setProperty(\"label\", saveButtonLabel);\r\nformActions.add(saveButton);\r\n \r\n \r\nSection section = element;\r\nArrayList columns = (ArrayList) section.getChildren();\r\n \r\n \r\nColumn column = columns.get(0);\r\ncolumn.setProperty(\"horizontal\", \"true\");\r\ncolumn.setChildren(formActions);\r\n \r\n \r\n//add a custom html to fix the layout issue\r\nElement html = new CustomHTML();\r\nString script = \"<script>$(document).ready(function(){\";\r\nscript += \"$(\\\"#\"+section.getPropertyString(\"id\")+\"\\\").find(\\\".form-cell\\\").prependTo(\\\"#section-actions .form-column\\\");\";\r\nscript += \"$(\\\"#\"+section.getPropertyString(\"id\")+\"\\\").remove();\";\r\nscript += \"});<\/script>\";\r\nhtml.setProperty(\"id\", \"button_layout_fixes\");\r\nhtml.setProperty(\"label\", \"\");\r\nhtml.setProperty(\"value\", script);\r\nformActions.add(html);\r\n \r\n \r\nreturn null;",
-                        "autoHandleFiles": ""
-                    }
+                    "className": "",
+                    "properties": {}
                 },
                 "comment": "",
-                "id": "section2",
+                "id": "section_status_approval",
                 "join": "",
                 "readonlyLabel": ""
             }
