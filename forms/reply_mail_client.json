@@ -191,7 +191,7 @@
                             "autoPopulate": "",
                             "label": "",
                             "id": "field8",
-                            "value": "<script src=\"https://cdn.tiny.cloud/1/idzi9l3r8fsam7zctx1zb3y48is2zzo7uiy9v71vzp9xaz2s/tinymce/5/tinymce.min.js\" referrerpolicy=\"origin\"><\/script>\n<script>\n$(document).ready(function() {\n    tinymce.init({\n        selector: '#description_reply'\n    });\n});\n<\/script>"
+                            "value": ""
                         }
                     },
                     {
