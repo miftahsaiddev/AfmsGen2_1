@@ -105,6 +105,40 @@
                         }
                     },
                     {
+                        "className": "org.joget.apps.form.lib.SelectBox",
+                        "properties": {
+                            "controlField": "",
+                            "readonly": "",
+                            "size": "",
+                            "optionsBinder": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "multiple": "",
+                            "options": [
+                                {
+                                    "label": "No",
+                                    "value": "0",
+                                    "grouping": ""
+                                },
+                                {
+                                    "label": "Yes",
+                                    "value": "1",
+                                    "grouping": ""
+                                }
+                            ],
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "workflowVariable": "",
+                            "label": "Need Approval",
+                            "id": "is_approval",
+                            "value": "",
+                            "readonlyLabel": ""
+                        }
+                    },
+                    {
                         "className": "org.joget.apps.form.lib.CustomHTML",
                         "properties": {
                             "requiredSanitize": "true",
@@ -122,6 +156,67 @@
             "properties": {
                 "label": "Section",
                 "id": "section1"
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "readonly": "",
+                        "size": "",
+                        "optionsBinder": {
+                            "className": "org.joget.tutorial.JdbcOptionsBinder",
+                            "properties": {
+                                "useAjax": "true",
+                                "addEmpty": "true",
+                                "jdbcDatasource": "default",
+                                "emptyLabel": "",
+                                "sql": "select userid,userid from dir_user_group where groupid ='GA-0002'"
+                            }
+                        },
+                        "multiple": "",
+                        "options": [],
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "label": "Approval User",
+                        "id": "approval_user",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
+                }],
+                "className": "org.joget.apps.form.model.Column",
+                "properties": {"width": "100%"}
+            }],
+            "className": "org.joget.apps.form.model.Section",
+            "properties": {
+                "visibilityControl": "",
+                "permissionReadonly": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "label": "Approval",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityValue": "",
+                "regex": "",
+                "readonly": "",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "id": "approval",
+                "join": "",
+                "readonlyLabel": ""
             }
         },
         {
