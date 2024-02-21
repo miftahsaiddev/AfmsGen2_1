@@ -30,7 +30,7 @@
                         "customHeader": "",
                         "keyName": "",
                         "customFooter": "",
-                        "label": "List Type of Mail",
+                        "label": "Type of Mail",
                         "enableOffline": "",
                         "customId": "list_type_of_mail",
                         "buttonPosition": "topLeft",
@@ -958,7 +958,7 @@
     "properties": {
         "logoutText": "Logout",
         "welcomeMessage": "#date.EEE, d MMM yyyy#",
-        "name": "UI UNI",
+        "name": "Master AFMS",
         "description": "",
         "footerMessage": "Powered by Joget",
         "id": "uiUni"
@@ -968,7 +968,7 @@
         "userviewDescription": "",
         "userviewId": "uiUni",
         "hideThisUserviewInAppCenter": "",
-        "userview_thumbnail": "",
+        "userview_thumbnail": "#appResource.server_164606.png#",
         "userview_category": "",
         "theme": {
             "className": "org.joget.apps.userview.lib.AjaxUniversalTheme",
@@ -1034,6 +1034,6 @@
             "className": "org.joget.apps.userview.lib.LoggedInUserPermission",
             "properties": {}
         },
-        "userviewName": "UI UNI"
+        "userviewName": "Master AFMS"
     }}
 }
