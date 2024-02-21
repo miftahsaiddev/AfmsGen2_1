@@ -238,21 +238,21 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>tes_incoming_2::merek</string>
-               <packageActivityForm>
-                  <processDefId>tes_incoming_2</processDefId>
-                  <activityDefId>merek</activityDefId>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>sendEmailOut::activity1</string>
                <packageActivityForm>
                   <processDefId>sendEmailOut</processDefId>
                   <activityDefId>activity1</activityDefId>
                   <formId>outgoingMailApprove</formId>
                   <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>tes_incoming_2::merek</string>
+               <packageActivityForm>
+                  <processDefId>tes_incoming_2</processDefId>
+                  <activityDefId>merek</activityDefId>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
