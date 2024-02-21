@@ -371,6 +371,73 @@
                 "join": "",
                 "readonlyLabel": ""
             }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "permissionHidden": "",
+                        "controlField": "",
+                        "multiple": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "label": "Is Approve ?",
+                        "readonly": "true",
+                        "size": "",
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "options": [
+                            {
+                                "label": "No",
+                                "value": "o",
+                                "grouping": ""
+                            },
+                            {
+                                "label": "Yes",
+                                "value": "1",
+                                "grouping": ""
+                            }
+                        ],
+                        "workflowVariable": "",
+                        "id": "status_approval",
+                        "value": "",
+                        "readonlyLabel": "true"
+                    }
+                }],
+                "className": "org.joget.apps.form.model.Column",
+                "properties": {"width": "100%"}
+            }],
+            "className": "org.joget.apps.form.model.Section",
+            "properties": {
+                "visibilityControl": "",
+                "permissionReadonly": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "label": "Status Approval",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityValue": "",
+                "regex": "",
+                "readonly": "",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "id": "section_status_approval",
+                "join": "",
+                "readonlyLabel": ""
+            }
         }
     ],
     "className": "org.joget.apps.form.model.Form",
