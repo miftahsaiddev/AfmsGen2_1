@@ -231,7 +231,7 @@
                <packageActivityForm>
                   <processDefId>incomingMailProcess</processDefId>
                   <activityDefId>incoming_mail_supervisor</activityDefId>
-                  <formId>reply_mail_client</formId>
+                  <formId>formReplyClientApproval</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
