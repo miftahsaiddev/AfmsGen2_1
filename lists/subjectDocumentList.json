@@ -24,11 +24,11 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Agent Name",
+            "label": "Subject Document",
             "sortable": "false",
             "datalist_type": "column",
             "exclude_export": "",
-            "name": "name",
+            "name": "subject_document",
             "width": "",
             "headerAlignment": "",
             "action": {
@@ -36,22 +36,14 @@
                 "properties": {
                     "hrefColumn": "id",
                     "hrefParam": "id",
-                    "href": "form_agent?embed=true",
+                    "href": "form_subject_document?embed=true",
                     "confirmation": "",
-                    "target": "_self"
+                    "target": "popup"
                 }
             },
             "style": "",
             "id": "column_1",
             "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "address",
-            "id": "column_2",
-            "label": "Address",
-            "sortable": "false"
         }
     ],
     "draggabletable": "",
@@ -59,35 +51,20 @@
     "pageSize": "0",
     "orderBy": "id",
     "description": "",
-    "filters": [{
-        "hidden": "",
-        "name": "name",
-        "id": "filter_0",
-        "label": "Agent Name",
-        "type": {
-            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-            "properties": {
-                "defaultValue": "",
-                "filterSelection": "",
-                "searchFields": ""
-            }
-        },
-        "datalist_type": "filter",
-        "filterParamName": "d-3569397-fn_name"
-    }],
+    "filters": [],
     "showDataWhenFilterSet": "",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
     "hidePageSize": "",
     "disableResponsive": "",
     "cardCollapseByDefault": "",
-    "name": "List Agent",
+    "name": "List Subject Document",
     "rowActionsMode": "",
     "showhidecolumns": "",
-    "id": "agentList",
+    "id": "subjectDocumentList",
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
-            "formDefId": "agent",
+            "formDefId": "subjectDocument",
             "extraCondition": ""
         }
     },
@@ -98,7 +75,7 @@
             "properties": {
                 "deleteFiles": "",
                 "deleteGridData": "",
-                "formDefId": "agent",
+                "formDefId": "subjectDocument",
                 "deleteSubformData": "",
                 "label": "Delete",
                 "confirmation": "",
@@ -114,10 +91,10 @@
                 "hrefColumn": "",
                 "hrefParam": "",
                 "label": "Create",
-                "href": "form_agent?embed=true",
+                "href": "form_subject_document?embed=true",
                 "confirmation": "",
                 "datalist_type": "action",
-                "target": "_self"
+                "target": "popup"
             }
         }
     ],

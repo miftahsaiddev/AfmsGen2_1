@@ -38,7 +38,7 @@
                     "hrefParam": "id",
                     "href": "form_applicant?embed=true",
                     "confirmation": "",
-                    "target": "popup"
+                    "target": "_self"
                 }
             },
             "style": "",
@@ -60,13 +60,19 @@
     "orderBy": "id",
     "description": "",
     "filters": [{
+        "hidden": "",
         "name": "name",
         "id": "filter_0",
-        "label": "Name",
+        "label": "Applicant Name",
         "type": {
             "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-            "properties": {}
+            "properties": {
+                "defaultValue": "",
+                "filterSelection": "",
+                "searchFields": ""
+            }
         },
+        "datalist_type": "filter",
         "filterParamName": "d-3569397-fn_name"
     }],
     "showDataWhenFilterSet": "",
@@ -111,7 +117,7 @@
                 "href": "form_applicant?embed=true",
                 "confirmation": "",
                 "datalist_type": "action",
-                "target": "popup"
+                "target": "_self"
             }
         }
     ],
