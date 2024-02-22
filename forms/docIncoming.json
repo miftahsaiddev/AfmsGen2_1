@@ -9,7 +9,6 @@
                         "permissionType": "",
                         "padding": "",
                         "maxSizeMsg": "File size limit exceeded",
-                        "style-custom": "\n.dz-message.needsclick {\n   content: \"Upload Here\";\n}\n\n",
                         "resizeWidth": "",
                         "multiple": "",
                         "validator": {
