@@ -9,7 +9,7 @@
                         "permissionType": "",
                         "padding": "",
                         "maxSizeMsg": "File size limit exceeded",
-                        "style-custom": "<script>\nvar dropzoneLabel = document.querySelector('.dz-message.needsclick');\nif (dropzoneLabel) {\n    dropzoneLabel.textContent = 'Click to upload';\n}\n\n<\/script>",
+                        "style-custom": "\n.dz-message.needsclick {\n   content: \"Upload Here\";\n}\n\n",
                         "resizeWidth": "",
                         "multiple": "",
                         "validator": {
