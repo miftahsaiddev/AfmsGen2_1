@@ -25,7 +25,7 @@
                     }
                 }],
                 "className": "org.joget.apps.form.model.Column",
-                "properties": {"width": "calc((100% - 60%)/1)"}
+                "properties": {"width": "calc((100% - 70%)/1)"}
             },
             {
                 "elements": [{
@@ -64,8 +64,8 @@
                 "className": "org.joget.apps.form.model.Column",
                 "properties": {
                     "horizontal": "",
-                    "customWidth": "60%",
-                    "width": "60%",
+                    "customWidth": "70%",
+                    "width": "70%",
                     "label": ""
                 }
             }
