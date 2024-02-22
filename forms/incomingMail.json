@@ -343,6 +343,38 @@
                             }
                         },
                         {
+                            "className": "org.joget.apps.form.lib.SelectBox",
+                            "properties": {
+                                "controlField": "",
+                                "readonly": "",
+                                "size": "",
+                                "optionsBinder": {
+                                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                                    "properties": {
+                                        "addEmptyOption": "true",
+                                        "groupingColumn": "",
+                                        "formDefId": "masterLetterSubject",
+                                        "labelColumn": "subject_name",
+                                        "extraCondition": "",
+                                        "cacheInterval": "",
+                                        "emptyLabel": "",
+                                        "idColumn": "id"
+                                    }
+                                },
+                                "multiple": "",
+                                "options": [],
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "workflowVariable": "",
+                                "label": "Mail Subject",
+                                "id": "mail_subject",
+                                "value": "",
+                                "readonlyLabel": ""
+                            }
+                        },
+                        {
                             "className": "org.joget.apps.form.lib.HiddenField",
                             "properties": {
                                 "useDefaultWhenEmpty": "",
@@ -500,6 +532,58 @@
                                 "value": "",
                                 "readonlyLabel": ""
                             }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.FileUpload",
+                            "properties": {
+                                "resizeMethod": "",
+                                "permissionType": "",
+                                "padding": "",
+                                "maxSizeMsg": "File size limit exceeded",
+                                "resizeWidth": "",
+                                "multiple": "true",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "maxSize": "20000",
+                                "label": "Attachment Mail",
+                                "resizeQuality": "0.8",
+                                "removeFile": "",
+                                "readonly": "",
+                                "attachment": "true",
+                                "size": "",
+                                "fileTypeMsg": "Invalid file type",
+                                "id": "attachment_mail",
+                                "resizeHeight": "",
+                                "fileType": ""
+                            }
+                        },
+                        {
+                            "className": "org.joget.apps.form.lib.CheckBox",
+                            "properties": {
+                                "fullWidth": "",
+                                "controlField": "",
+                                "readonly": "",
+                                "optionsBinder": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "options": [{
+                                    "label": "Yes",
+                                    "value": "1",
+                                    "grouping": ""
+                                }],
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "workflowVariable": "",
+                                "label": "Is Urgent",
+                                "id": "is_urgent",
+                                "value": "0",
+                                "readonlyLabel": ""
+                            }
                         }
                     ],
                     "className": "org.joget.apps.form.model.Column",
@@ -508,33 +592,20 @@
                 {
                     "elements": [
                         {
-                            "className": "org.joget.apps.form.lib.SelectBox",
+                            "className": "org.joget.apps.form.lib.TextArea",
                             "properties": {
-                                "controlField": "",
+                                "requiredSanitize": "true",
                                 "readonly": "",
-                                "size": "",
-                                "optionsBinder": {
-                                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                                    "properties": {
-                                        "addEmptyOption": "true",
-                                        "groupingColumn": "",
-                                        "formDefId": "masterLetterSubject",
-                                        "labelColumn": "subject_name",
-                                        "extraCondition": "",
-                                        "cacheInterval": "",
-                                        "emptyLabel": "",
-                                        "idColumn": "id"
-                                    }
-                                },
-                                "multiple": "",
-                                "options": [],
                                 "validator": {
                                     "className": "",
                                     "properties": {}
                                 },
                                 "workflowVariable": "",
-                                "label": "Mail Subject",
-                                "id": "mail_subject",
+                                "label": "Description",
+                                "id": "description",
+                                "placeholder": "",
+                                "rows": "5",
+                                "cols": "20",
                                 "value": "",
                                 "readonlyLabel": ""
                             }
@@ -549,8 +620,8 @@
                                     "properties": {}
                                 },
                                 "workflowVariable": "",
-                                "label": "Description",
-                                "id": "description",
+                                "label": "Note",
+                                "id": "note",
                                 "placeholder": "",
                                 "rows": "5",
                                 "cols": "20",
@@ -593,83 +664,12 @@
         {
             "elements": [
                 {
-                    "elements": [
-                        {
-                            "className": "org.joget.apps.form.lib.CheckBox",
-                            "properties": {
-                                "fullWidth": "",
-                                "controlField": "",
-                                "readonly": "",
-                                "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "options": [{
-                                    "label": "Yes",
-                                    "value": "1",
-                                    "grouping": ""
-                                }],
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "workflowVariable": "",
-                                "label": "Is Urgent",
-                                "id": "is_urgent",
-                                "value": "0",
-                                "readonlyLabel": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.FileUpload",
-                            "properties": {
-                                "resizeMethod": "",
-                                "permissionType": "",
-                                "padding": "",
-                                "maxSizeMsg": "File size limit exceeded",
-                                "resizeWidth": "",
-                                "multiple": "true",
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "maxSize": "20000",
-                                "label": "Attachment Mail",
-                                "resizeQuality": "0.8",
-                                "removeFile": "",
-                                "readonly": "",
-                                "attachment": "true",
-                                "size": "",
-                                "fileTypeMsg": "Invalid file type",
-                                "id": "attachment_mail",
-                                "resizeHeight": "",
-                                "fileType": ""
-                            }
-                        }
-                    ],
+                    "elements": [],
                     "className": "org.joget.apps.form.model.Column",
                     "properties": {"width": "50%"}
                 },
                 {
-                    "elements": [{
-                        "className": "org.joget.apps.form.lib.TextArea",
-                        "properties": {
-                            "requiredSanitize": "true",
-                            "readonly": "",
-                            "validator": {
-                                "className": "",
-                                "properties": {}
-                            },
-                            "workflowVariable": "",
-                            "label": "Note",
-                            "id": "note",
-                            "placeholder": "",
-                            "rows": "5",
-                            "cols": "20",
-                            "value": "",
-                            "readonlyLabel": ""
-                        }
-                    }],
+                    "elements": [],
                     "className": "org.joget.apps.form.model.Column",
                     "properties": {"width": "50%"}
                 }
