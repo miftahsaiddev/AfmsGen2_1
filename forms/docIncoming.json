@@ -19,14 +19,13 @@
                         "label": "File Upload",
                         "resizeQuality": "0.8",
                         "fieldInput-style-height": "55px",
-                        "fieldInput-style-padding-bottom": "50px",
                         "removeFile": "",
                         "readonly": "",
                         "attachment": "true",
                         "size": "",
                         "fileTypeMsg": "Invalid file type",
                         "id": "doc_file",
-                        "fieldInput-style-line-height": "0em",
+                        "fieldInput-style-line-height": "auto",
                         "resizeHeight": "",
                         "fileType": ""
                     }
