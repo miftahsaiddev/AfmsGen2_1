@@ -35,28 +35,16 @@
                 "properties": {"width": "50%"}
             },
             {
-                "elements": [
-                    {
-                        "className": "org.joget.apps.form.lib.SelectBox",
-                        "properties": {
-                            "readonly": "False",
-                            "multiple": "False",
-                            "label": "Select Box",
-                            "id": "field2",
-                            "readonlyLabel": "False"
-                        }
-                    },
-                    {
-                        "className": "org.joget.apps.form.lib.CustomHTML",
-                        "properties": {
-                            "requiredSanitize": "true",
-                            "autoPopulate": "",
-                            "label": "",
-                            "id": "field3",
-                            "value": "<script>\nvar dropzoneLabel = document.querySelector('.dz-message.needsclick');\nif (dropzoneLabel) {\n    dropzoneLabel.textContent = 'Upload Here';\n}\n\n<\/script>"
-                        }
+                "elements": [{
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "readonly": "False",
+                        "multiple": "False",
+                        "label": "Select Box",
+                        "id": "field2",
+                        "readonlyLabel": "False"
                     }
-                ],
+                }],
                 "className": "org.joget.apps.form.model.Column",
                 "properties": {"width": "50%"}
             }
