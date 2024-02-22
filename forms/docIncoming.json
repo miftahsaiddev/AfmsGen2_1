@@ -9,6 +9,7 @@
                         "permissionType": "",
                         "padding": "",
                         "maxSizeMsg": "File size limit exceeded",
+                        "style-custom": "<script>\nvar dropzoneLabel = document.querySelector('.dz-message.needsclick');\nif (dropzoneLabel) {\n    dropzoneLabel.textContent = 'Click to upload';\n}\n\n<\/script>",
                         "resizeWidth": "",
                         "multiple": "",
                         "validator": {
@@ -24,7 +25,7 @@
                         "attachment": "true",
                         "size": "",
                         "fileTypeMsg": "Invalid file type",
-                        "id": "field1",
+                        "id": "doc_file",
                         "fieldInput-style-line-height": "10px",
                         "resizeHeight": "",
                         "fileType": ""
