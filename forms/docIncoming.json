@@ -37,11 +37,33 @@
                 "elements": [{
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
-                        "readonly": "False",
-                        "multiple": "False",
+                        "controlField": "",
+                        "readonly": "",
+                        "size": "",
+                        "optionsBinder": {
+                            "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                            "properties": {
+                                "addEmptyOption": "true",
+                                "groupingColumn": "",
+                                "formDefId": "subjectDocument",
+                                "labelColumn": "subject_document",
+                                "extraCondition": "",
+                                "cacheInterval": "",
+                                "emptyLabel": "",
+                                "idColumn": "id"
+                            }
+                        },
+                        "multiple": "",
+                        "options": [],
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
                         "label": "Select Box",
                         "id": "field2",
-                        "readonlyLabel": "False"
+                        "value": "",
+                        "readonlyLabel": ""
                     }
                 }],
                 "className": "org.joget.apps.form.model.Column",
