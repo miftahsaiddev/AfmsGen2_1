@@ -777,6 +777,50 @@
                 "join": "",
                 "readonlyLabel": ""
             }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.SubformRepeater",
+                    "properties": {
+                        "addMode": "enable",
+                        "validateMaxRow": "",
+                        "deleteMode": "enable",
+                        "editFormDefId": "",
+                        "validateMinRow": "",
+                        "formDefId": "formNoprojectIncoming",
+                        "uniqueKey": "",
+                        "errorMessage": "@@form.formgrid.invalidNumberOfRow@@",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "label": "Subform Repeater",
+                        "enableSorting": "",
+                        "collapsedByDefault": "",
+                        "collapsible": "true",
+                        "storeBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "loadBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "editMode": "enable",
+                        "id": "field27",
+                        "readonlyLabel": ""
+                    }
+                }],
+                "className": "org.joget.apps.form.model.Column",
+                "properties": {"width": "100%"}
+            }],
+            "className": "org.joget.apps.form.model.Section",
+            "properties": {
+                "label": "Section",
+                "id": "section4"
+            }
         }
     ],
     "className": "org.joget.apps.form.model.Form",
