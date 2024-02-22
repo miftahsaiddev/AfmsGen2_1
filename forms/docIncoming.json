@@ -53,7 +53,7 @@
                             "autoPopulate": "",
                             "label": "",
                             "id": "field3",
-                            "value": "<script>\nvar dropzoneLabel = document.querySelector('.dz-message.needsclick');\nif (dropzoneLabel) {\n    dropzoneLabel.textContent = 'Click to upload';\n}\n\n<\/script>"
+                            "value": "<script>\nvar dropzoneLabel = document.querySelector('.dz-message.needsclick');\nif (dropzoneLabel) {\n    dropzoneLabel.textContent = 'Upload Here';\n}\n\n<\/script>"
                         }
                     }
                 ],
