@@ -19,6 +19,7 @@
                         "label": "File Upload",
                         "resizeQuality": "0.8",
                         "fieldInput-style-height": "55px",
+                        "fieldInput-style-margin-bottom": "15px",
                         "removeFile": "",
                         "readonly": "",
                         "attachment": "true",
