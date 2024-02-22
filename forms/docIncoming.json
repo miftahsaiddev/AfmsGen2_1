@@ -25,7 +25,7 @@
                         "size": "",
                         "fileTypeMsg": "Invalid file type",
                         "id": "doc_file",
-                        "fieldInput-style-line-height": "10px",
+                        "fieldInput-style-line-height": "5px",
                         "resizeHeight": "",
                         "fileType": ""
                     }
