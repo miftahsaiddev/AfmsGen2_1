@@ -595,68 +595,29 @@
                 {
                     "elements": [
                         {
-                            "className": "org.joget.apps.form.lib.FileUpload",
+                            "className": "org.joget.apps.form.lib.CheckBox",
                             "properties": {
-                                "resizeMethod": "",
-                                "permissionType": "",
-                                "padding": "",
-                                "maxSizeMsg": "File size limit exceeded",
-                                "resizeWidth": "",
-                                "multiple": "true",
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "maxSize": "20000",
-                                "label": "Attachment File",
-                                "resizeQuality": "0.8",
-                                "removeFile": "",
+                                "fullWidth": "",
+                                "controlField": "",
                                 "readonly": "",
-                                "attachment": "true",
-                                "size": "",
-                                "fileTypeMsg": "Invalid file type",
-                                "id": "attachment_file",
-                                "resizeHeight": "",
-                                "fileType": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.Grid",
-                            "properties": {
-                                "permissionHidden": "",
-                                "validateMaxRow": "",
-                                "readonly": "true",
-                                "loadBinder": {
-                                    "className": "org.joget.tutorial.JdbcLoadBinder",
-                                    "properties": {
-                                        "autoHandleWorkflowVariable": "true",
-                                        "jdbcDatasource": "default",
-                                        "sql": "select c_project_no ,c_file_upload  from app_fd_afms_incomingdoc where c_mail_id = '#form.afms_incomingmail.id#' ",
-                                        "autoHandleFiles": ""
-                                    }
+                                "optionsBinder": {
+                                    "className": "",
+                                    "properties": {}
                                 },
-                                "validateMinRow": "",
-                                "errorMessage": "Invalid number of rows",
-                                "options": [
-                                    {
-                                        "label": "File Upload",
-                                        "value": "c_file_upload"
-                                    },
-                                    {
-                                        "label": "Project No",
-                                        "value": "c_project_no"
-                                    }
-                                ],
+                                "options": [{
+                                    "label": "Yes",
+                                    "value": "1",
+                                    "grouping": ""
+                                }],
                                 "validator": {
                                     "className": "",
                                     "properties": {}
                                 },
-                                "label": "",
-                                "id": "field25",
-                                "storeBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                }
+                                "workflowVariable": "",
+                                "label": "Is Urgent",
+                                "id": "is_urgent",
+                                "value": "0",
+                                "readonlyLabel": ""
                             }
                         },
                         {
@@ -684,69 +645,31 @@
                                 "resizeHeight": "",
                                 "fileType": ""
                             }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.CustomHTML",
-                            "properties": {
-                                "requiredSanitize": "true",
-                                "autoPopulate": "",
-                                "label": "",
-                                "id": "field26",
-                                "value": ""
-                            }
                         }
                     ],
                     "className": "org.joget.apps.form.model.Column",
                     "properties": {"width": "50%"}
                 },
                 {
-                    "elements": [
-                        {
-                            "className": "org.joget.apps.form.lib.TextArea",
-                            "properties": {
-                                "requiredSanitize": "true",
-                                "readonly": "",
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "workflowVariable": "",
-                                "label": "Note",
-                                "id": "note",
-                                "placeholder": "",
-                                "rows": "5",
-                                "cols": "20",
-                                "value": "",
-                                "readonlyLabel": ""
-                            }
-                        },
-                        {
-                            "className": "org.joget.apps.form.lib.CheckBox",
-                            "properties": {
-                                "fullWidth": "",
-                                "controlField": "",
-                                "readonly": "",
-                                "optionsBinder": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "options": [{
-                                    "label": "Yes",
-                                    "value": "1",
-                                    "grouping": ""
-                                }],
-                                "validator": {
-                                    "className": "",
-                                    "properties": {}
-                                },
-                                "workflowVariable": "",
-                                "label": "Is Urgent",
-                                "id": "is_urgent",
-                                "value": "0",
-                                "readonlyLabel": ""
-                            }
+                    "elements": [{
+                        "className": "org.joget.apps.form.lib.TextArea",
+                        "properties": {
+                            "requiredSanitize": "true",
+                            "readonly": "",
+                            "validator": {
+                                "className": "",
+                                "properties": {}
+                            },
+                            "workflowVariable": "",
+                            "label": "Note",
+                            "id": "note",
+                            "placeholder": "",
+                            "rows": "5",
+                            "cols": "20",
+                            "value": "",
+                            "readonlyLabel": ""
                         }
-                    ],
+                    }],
                     "className": "org.joget.apps.form.model.Column",
                     "properties": {"width": "50%"}
                 }
@@ -795,7 +718,7 @@
                             "className": "",
                             "properties": {}
                         },
-                        "label": "Subform Repeater",
+                        "label": "Document",
                         "enableSorting": "",
                         "collapsedByDefault": "",
                         "collapsible": "true",
@@ -809,7 +732,7 @@
                             "properties": {}
                         },
                         "editMode": "enable",
-                        "id": "field27",
+                        "id": "document",
                         "readonlyLabel": ""
                     }
                 }],
@@ -818,8 +741,29 @@
             }],
             "className": "org.joget.apps.form.model.Section",
             "properties": {
-                "label": "Section",
-                "id": "section4"
+                "visibilityControl": "",
+                "permissionReadonly": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "label": "Upload File",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityValue": "",
+                "regex": "",
+                "readonly": "",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "id": "upload_file",
+                "join": "",
+                "readonlyLabel": ""
             }
         }
     ],
