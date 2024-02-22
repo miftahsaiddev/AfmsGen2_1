@@ -19,10 +19,31 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "subject_document",
-            "id": "column_1",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "Subject Document",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "subject_document",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+                "properties": {
+                    "hrefColumn": "id",
+                    "hrefParam": "id",
+                    "href": "form_subject_document?embed=true",
+                    "confirmation": "",
+                    "target": "popup"
+                }
+            },
+            "style": "",
+            "id": "column_1",
+            "alignment": ""
         }
     ],
     "draggabletable": "",
